@@ -2,6 +2,8 @@ const fs = require('fs');
 
 let html = fs.readFileSync('index.html', 'utf8');
 
+const uploadEndpoint = 'https://fy-promogifts-inquiry.sira-fengyin.workers.dev/submit';
+
 const formJs = `const quoteForm = document.getElementById('quoteForm');
 const submitInquiry = document.getElementById('submitInquiry');
 const formStatus = document.getElementById('formStatus');
@@ -31,7 +33,8 @@ if (quoteForm && submitInquiry) {
       });
 
       if (!response.ok) {
-        throw new Error('Form submission failed');
+        const detail = await response.json().catch(() => ({}));
+        throw new Error(detail.error || 'Form submission failed');
       }
 
       quoteForm.reset();
@@ -39,7 +42,7 @@ if (quoteForm && submitInquiry) {
         logoUpload.dispatchEvent(new Event('change'));
       }
       if (formStatus) {
-        formStatus.textContent = 'Thanks, your inquiry has been sent. We will reply within 12 hours.';
+        formStatus.textContent = 'Thanks, your inquiry and artwork have been sent. We will reply within 12 hours.';
       }
     } catch (error) {
       if (formStatus) {
@@ -55,8 +58,10 @@ if (quoteForm && submitInquiry) {
 
 html = html.replace(
   '<form class="form-grid" data-form-status="static-html-preview">',
-  '<form class="form-grid" id="quoteForm" action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data" data-form-status="formspree-live">\n<input type="hidden" name="_subject" value="New Custom Gift Kit Inquiry - FY PromoGifts"/>'
+  `<form class="form-grid" id="quoteForm" action="${uploadEndpoint}" method="POST" enctype="multipart/form-data" data-form-status="upload-worker-live">\n<input type="hidden" name="_subject" value="New Custom Gift Kit Inquiry - FY PromoGifts"/>`
 );
+html = html.replace('action="https://formspree.io/f/xgoqqrno"', `action="${uploadEndpoint}"`);
+html = html.replace('data-form-status="formspree-live"', 'data-form-status="upload-worker-live"');
 html = html.replace('<input id="inqName" name="name" placeholder="Your name" autocomplete="name"/>', '<input id="inqName" name="name" placeholder="Your name" autocomplete="name" required/>');
 html = html.replace('<input id="inqEmail" name="email" placeholder="name@company.com" type="email" autocomplete="email"/>', '<input id="inqEmail" name="email" placeholder="name@company.com" type="email" autocomplete="email" required/>');
 html = html.replace('<input id="inqWhatsapp" name="whatsapp" placeholder="Your WhatsApp number" autocomplete="tel"/>', '<input id="inqWhatsapp" name="whatsapp" placeholder="Your WhatsApp number" autocomplete="tel" required/>');
