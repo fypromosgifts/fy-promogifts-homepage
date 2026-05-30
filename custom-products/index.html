@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Custom Promotional Products | FY PromoGifts</title>
+  <meta name="description" content="Choose single promotional products for custom logo printing, colors and bulk quote requests.">
+  <link rel="canonical" href="https://www.fypromogifts.com/custom-products/">
+  <link rel="stylesheet" href="/assets/builder.css">
+  <script src="/data/product-catalog.js"></script>
+</head>
+<body>
+  <header class="topbar"><nav class="nav"><div class="brand">FY PROMOGIFTS</div><div><a href="/kit-builder/">Kit Builder</a><a class="active" href="/custom-products/">Single Products</a><a href="/">Home</a></div></nav></header>
+  <main class="wrap">
+    <section class="hero"><div><h1>Customize single products without building a full kit.</h1><p>Pick a product, preview color directions, upload artwork and request a clean production quote. You can also send the same product into the Kit Builder later.</p></div></section>
+    <section class="layout products">
+      <aside class="filter"><h2>Categories</h2><div class="filters vertical" id="filters"></div></aside>
+      <div class="grid" id="grid"></div>
+      <form class="quote" id="quoteForm" method="POST" enctype="multipart/form-data"><h2>Product Inquiry</h2><div class="selected" id="selectedBox">Select a product to start.</div><input type="hidden" name="_subject" value="New Single Product Inquiry - FY PromoGifts"><input type="hidden" name="use_case" value="Single product customization"><input type="hidden" name="products" id="productsField"><label>Name</label><input name="name" required><label>Email</label><input name="email" type="email" required><label>WhatsApp</label><input name="whatsapp" required><label>Company</label><input name="company" required><label>Quantity</label><input name="quantity" required><label>Need-by Date</label><input name="need_by_date" placeholder="YYYY-MM-DD"><label>Logo / Artwork</label><input name="logo_artwork" type="file" accept=".jpg,.jpeg,.png,.pdf,.ai"><label>Message</label><textarea name="message" id="messageField"></textarea><button type="submit">Submit Product Inquiry</button><div class="status"></div></form>
+    </section>
+  </main>
+  <div class="modal" id="modal"><div class="modal-box"><img id="modalImage" alt=""><div class="modal-bar"><strong id="modalTitle"></strong><button class="close" id="closeModal">Close</button></div></div></div>
+  <script src="/assets/builder.js"></script><script>initProducts();</script>
+</body>
+</html>
