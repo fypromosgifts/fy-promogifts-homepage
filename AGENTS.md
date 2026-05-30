@@ -40,10 +40,10 @@ Goal: capture B2B inquiries (name, email, WhatsApp, company, quantity, products)
 
 3. **Everything is in `index.html`.** All CSS is in `<style>`, all JS is in `<script>` at the bottom. Do not create separate `.css` or `.js` files unless explicitly asked.
 
-4. **No backend.** The inquiry form submits via `mailto:`. There is no server, API, or form service currently integrated.
+4. **Form backend.** The inquiry form submits to Formspree at `https://formspree.io/f/xgoqqrno`. Keep the form as a static HTML form with vanilla JS enhancement unless explicitly asked to change providers.
 
 5. **Do not change contact info** without explicit instruction:
-   - Email: `sirazheng@gmail.com`
+   - Email: `sira@fypromogifts.com`
    - WhatsApp: `+86 158 6911 7529` -> `https://wa.me/8615869117529`
 
 6. **Deployment is automatic.** Cloudflare Pages is connected to this GitHub repo. Any push to `main` triggers a redeploy automatically.
@@ -87,7 +87,7 @@ Fonts: Georgia / Times New Roman for headings; system sans-serif for body.
 
 ## Inquiry Form
 
-Form submission opens `mailto:sirazheng@gmail.com` with pre-filled subject and body. The key input IDs are `inqName`, `inqEmail`, `inqWhatsapp`, `inqCompany`, `inqUseCase`, `inqQuantity`, `inqDate`, `inqProducts`, `inqMessage`, and `logoUpload`.
+Form submission posts to Formspree endpoint `https://formspree.io/f/xgoqqrno` with `multipart/form-data`. The key input IDs are `inqName`, `inqEmail`, `inqWhatsapp`, `inqCompany`, `inqUseCase`, `inqQuantity`, `inqDate`, `inqProducts`, `inqMessage`, and `logoUpload`.
 
 ---
 
