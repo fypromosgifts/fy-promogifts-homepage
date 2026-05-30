@@ -4,106 +4,146 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <title>Kit Studio Wireframe | FY PromoGifts</title>
-  <link rel="stylesheet" href="/assets/kit-studio-luxe.css?v=20260530-wireframe">
+  <title>Kit Studio Framework | FY PromoGifts</title>
+  <link rel="stylesheet" href="/assets/kit-studio-luxe.css?v=20260530-question-flow">
 </head>
-<body class="wireframe">
+<body class="kit-framework">
   <header class="site-bar">
     <a href="/">FY PromoGifts</a>
-    <span>Kit Studio Preview</span>
+    <span>Kit Studio Framework</span>
   </header>
 
   <main class="page-shell">
     <section class="wide-banner">
-      <p>Find a kit direction, then customize packaging, color and individual items.</p>
+      <p>Answer four quick questions. We recommend three kit directions.</p>
     </section>
 
-    <section class="layout-row">
-      <div class="kit-list">
-        <article class="kit-block">
-          <div class="kit-visual">
-            <span>Recommended Kit 1</span>
-          </div>
-          <div class="kit-meta">
-            <h2>Employee Welcome Kit</h2>
-            <button type="button" data-modal="inquiry">Inquire This Kit</button>
-          </div>
-        </article>
+    <section class="recommendations" aria-label="Recommended kits">
+      <article class="kit-row">
+        <div class="kit-image kit-image--one">
+          <span>Kit 01</span>
+          <button type="button" class="quote-chip">Direct Quote</button>
+        </div>
+        <div class="kit-actions">
+          <h2>Employee Welcome Kit</h2>
+          <a href="/custom-products/?mode=packaging">Change Packaging</a>
+          <a href="/custom-products/?mode=color">Switch Color Story</a>
+          <a href="/custom-products/?mode=swap">Swap Part of the Kit</a>
+        </div>
+      </article>
 
-        <article class="kit-block">
-          <div class="kit-visual">
-            <span>Recommended Kit 2</span>
-          </div>
-          <div class="kit-meta">
-            <h2>Client Appreciation Kit</h2>
-            <button type="button" data-modal="inquiry">Inquire This Kit</button>
-          </div>
-        </article>
+      <article class="kit-row">
+        <div class="kit-image kit-image--two">
+          <span>Kit 02</span>
+          <button type="button" class="quote-chip">Direct Quote</button>
+        </div>
+        <div class="kit-actions">
+          <h2>Client Appreciation Kit</h2>
+          <a href="/custom-products/?mode=packaging">Change Packaging</a>
+          <a href="/custom-products/?mode=color">Switch Color Story</a>
+          <a href="/custom-products/?mode=swap">Swap Part of the Kit</a>
+        </div>
+      </article>
 
-        <article class="kit-block">
-          <div class="kit-visual">
-            <span>Recommended Kit 3</span>
-          </div>
-          <div class="kit-meta">
-            <h2>Trade Show Kit</h2>
-            <button type="button" data-modal="inquiry">Inquire This Kit</button>
-          </div>
-        </article>
-      </div>
-
-      <aside class="side-panel">
-        <button type="button" data-modal="packaging">Change Packaging</button>
-        <button type="button" data-modal="color">Switch Color Story</button>
-        <button type="button" data-modal="swap">Swap One Product</button>
-        <p>For buyers who like the kit but want to replace one item inside it.</p>
-      </aside>
+      <article class="kit-row">
+        <div class="kit-image kit-image--three">
+          <span>Kit 03</span>
+          <button type="button" class="quote-chip">Direct Quote</button>
+        </div>
+        <div class="kit-actions">
+          <h2>Trade Show Kit</h2>
+          <a href="/custom-products/?mode=packaging">Change Packaging</a>
+          <a href="/custom-products/?mode=color">Switch Color Story</a>
+          <a href="/custom-products/?mode=swap">Swap Part of the Kit</a>
+        </div>
+      </article>
     </section>
 
-    <section class="bottom-actions">
-      <button type="button" data-modal="inquiry">I like this kit. Help me quote.</button>
-      <button type="button" data-modal="inquiry">Build a kit for me.</button>
+    <section class="full-strips">
+      <a href="/custom-products/?mode=free-build">None of these? Build your own kit from the product library.</a>
+      <a href="/#inquiry">Or contact us directly. We will curate the kit for you.</a>
     </section>
   </main>
 
-  <div class="modal" id="modal" aria-hidden="true">
-    <div class="modal-card">
-      <button class="modal-close" type="button" aria-label="Close">Close</button>
-      <p class="modal-kicker" id="modalKicker">Customize</p>
-      <h2 id="modalTitle">Customize this kit</h2>
-      <div class="modal-grid">
-        <div>Packaging options</div>
-        <div>Color options</div>
-        <div>Product swap options</div>
+  <div class="question-modal open" id="questionModal" aria-hidden="false">
+    <div class="question-card">
+      <div class="question-topline">
+        <span id="stepLabel">01 / 04</span>
+        <button type="button" id="skipQuestions">Skip</button>
       </div>
-      <button class="modal-primary" type="button">Inquiry form placeholder</button>
+
+      <section class="question-step active" data-step="0">
+        <p class="kicker">Use case</p>
+        <h2>Who is this kit for?</h2>
+        <div class="choice-grid">
+          <button type="button">Employees</button>
+          <button type="button">Clients</button>
+          <button type="button">Event Guests</button>
+          <button type="button">VIP Buyers</button>
+        </div>
+      </section>
+
+      <section class="question-step" data-step="1">
+        <p class="kicker">Style</p>
+        <h2>What should it feel like?</h2>
+        <div class="choice-grid">
+          <button type="button">Premium</button>
+          <button type="button">Warm</button>
+          <button type="button">Eco</button>
+          <button type="button">Bold</button>
+        </div>
+      </section>
+
+      <section class="question-step" data-step="2">
+        <p class="kicker">Budget</p>
+        <h2>Choose a price direction.</h2>
+        <div class="choice-grid">
+          <button type="button">Starter</button>
+          <button type="button">Standard</button>
+          <button type="button">Premium</button>
+          <button type="button">VIP</button>
+        </div>
+      </section>
+
+      <section class="question-step" data-step="3">
+        <p class="kicker">Color</p>
+        <h2>Pick a color mood.</h2>
+        <div class="choice-grid">
+          <button type="button">Neutral</button>
+          <button type="button">Dark</button>
+          <button type="button">Natural</button>
+          <button type="button">Match My Logo</button>
+        </div>
+      </section>
     </div>
   </div>
 
   <script>
-    const modal = document.getElementById("modal");
-    const modalTitle = document.getElementById("modalTitle");
-    const titles = {
-      packaging: "Change packaging",
-      color: "Switch color story",
-      swap: "Swap one product",
-      inquiry: "Inquiry placeholder"
-    };
-    document.querySelectorAll("[data-modal]").forEach((button) => {
+    const modal = document.getElementById("questionModal");
+    const steps = [...document.querySelectorAll(".question-step")];
+    const label = document.getElementById("stepLabel");
+    let index = 0;
+
+    function showStep(nextIndex){
+      index = nextIndex;
+      steps.forEach((step, stepIndex) => step.classList.toggle("active", stepIndex === index));
+      label.textContent = `${String(index + 1).padStart(2, "0")} / 04`;
+    }
+
+    document.querySelectorAll(".choice-grid button").forEach((button) => {
       button.addEventListener("click", () => {
-        modalTitle.textContent = titles[button.dataset.modal] || "Customize this kit";
-        modal.classList.add("open");
-        modal.setAttribute("aria-hidden", "false");
+        if (index < steps.length - 1) {
+          showStep(index + 1);
+        } else {
+          modal.classList.remove("open");
+          modal.setAttribute("aria-hidden", "true");
+        }
       });
     });
-    document.querySelector(".modal-close").addEventListener("click", () => {
+
+    document.getElementById("skipQuestions").addEventListener("click", () => {
       modal.classList.remove("open");
       modal.setAttribute("aria-hidden", "true");
-    });
-    modal.addEventListener("click", (event) => {
-      if (event.target === modal) {
-        modal.classList.remove("open");
-        modal.setAttribute("aria-hidden", "true");
-      }
     });
   </script>
 </body>
