@@ -4,60 +4,148 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <title>Luxury Kit Studio Preview | FY PromoGifts</title>
+  <title>Kit Studio Preview | FY PromoGifts</title>
   <link rel="stylesheet" href="/assets/kit-studio-luxe.css">
-  <script src="/data/product-catalog.js"></script>
 </head>
-<body class="luxe">
-  <header class="luxe-nav"><div class="luxe-nav__inner"><div class="brand">FY PromoGifts Atelier</div><nav class="nav-links"><a class="active" href="/preview-kit-builder/luxe.html">Luxe Preview</a><a href="/preview-kit-builder/v2">V2</a><a href="/kit-builder/">Current Live Page</a></nav></div></header>
-  <section class="luxe-hero">
-    <div class="luxe-hero__frame">
-      <div class="luxe-hero__copy">
-        <div><div class="kicker">Private concept</div><h1>The gift kit as a brand object.</h1><p>A restrained catalog experience for corporate buyers who want a complete, polished kit concept before the quote conversation begins.</p></div>
-        <div class="hero-actions"><a class="btn btn--dark" href="#atelier">Enter atelier</a><a class="btn" href="#quote">Request proposal</a></div>
+<body class="luxe-catalog">
+  <header class="topbar">
+    <a class="mark" href="/">FY PromoGifts</a>
+    <nav>
+      <a href="/preview-kit-builder/luxe" aria-current="page">Kit Studio</a>
+      <a href="/kit-builder/">Live Page</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner" aria-label="Kit studio">
+      <span>Kit Studio</span>
+      <h1>Choose a complete gift direction.</h1>
+    </section>
+
+    <section class="studio-grid" aria-label="Recommended gift kits">
+      <div class="kit-stack">
+        <article class="kit-card active" data-kit="Employee Welcome" data-items="Notebook, tumbler, tote, pen, pouch" data-pack="Soft mailer box">
+          <div class="kit-art kit-art--warm">
+            <span class="object box"></span><span class="object cup"></span><span class="object book"></span><span class="object pen"></span><span class="object pouch"></span>
+          </div>
+          <div class="kit-row"><h2>Employee Welcome</h2><span>5 pcs</span></div>
+        </article>
+
+        <article class="kit-card" data-kit="Client Appreciation" data-items="Mug, tumbler, notebook, pen, tech pouch" data-pack="Magnetic gift box">
+          <div class="kit-art kit-art--dark">
+            <span class="object box"></span><span class="object cup"></span><span class="object book"></span><span class="object pen"></span><span class="object pouch"></span>
+          </div>
+          <div class="kit-row"><h2>Client Appreciation</h2><span>5 pcs</span></div>
+        </article>
+
+        <article class="kit-card" data-kit="Trade Show Kit" data-items="Bottle, tote, lanyard, stickers, keychain" data-pack="Tote-as-packaging">
+          <div class="kit-art kit-art--event">
+            <span class="object box"></span><span class="object cup"></span><span class="object book"></span><span class="object pen"></span><span class="object pouch"></span>
+          </div>
+          <div class="kit-row"><h2>Trade Show Kit</h2><span>5 pcs</span></div>
+        </article>
       </div>
-      <div class="luxe-hero__image luxe-hero__image--reserved"><div class="image-placeholder"><strong>Gift kit image reserved</strong><span>Unified AI or studio photography will be placed here after direction approval.</span></div><div class="image-label"><div><strong>Editorial mockup</strong><span>No buyer-show assets. No mixed marketplace images.</span></div><a class="btn btn--gold" href="#atelier">Compose</a></div></div>
-    </div>
-    <div class="luxe-steps"><div class="step"><strong>01</strong><span>Occasion</span></div><div class="step"><strong>02</strong><span>Objects</span></div><div class="step"><strong>03</strong><span>Packaging</span></div><div class="step"><strong>04</strong><span>Proposal</span></div></div>
-  </section>
-  <main class="luxe-main" id="atelier">
-    <div class="editorial-head"><h2>Atelier composer</h2><p>Product images are intentionally reserved as clean editorial slots until we have curated supplier photography or generated a complete AI product suite. The layout is designed around premium consistency, not mixed marketplace images.</p></div>
-    <div class="atelier">
-      <aside class="panel">
-        <h3>Brief</h3>
-        <div class="field"><label>Use case</label><select id="template"></select></div>
-        <div class="field"><label>Quantity</label><input id="quantity" value="300"></div>
-        <div class="field"><label>Brand style</label><div class="style-grid"><button class="active" type="button" data-style="Clean corporate">Clean</button><button type="button" data-style="Warm natural">Natural</button><button type="button" data-style="Bold event-ready">Event</button><button type="button" data-style="Minimal premium">Premium</button></div></div>
-        <div class="field"><label>Object category</label><div class="filters vertical" id="filters"></div></div>
-      </aside>
-      <section>
-        <div class="lookbook">
-          <div class="lookbook__head"><div><h3>Proposal lookbook</h3><p>Selected items are staged as a calm, high-end kit board.</p></div><a class="btn" href="#quote">Use this edit</a></div>
-          <div class="kit-board" id="kitBoard"></div>
-          <p class="summary-text" id="summaryText"></p>
+
+      <aside class="control-panel" aria-label="Kit controls">
+        <div class="selected">
+          <span>Selected</span>
+          <strong id="selectedKit">Employee Welcome</strong>
         </div>
-        <div class="product-wall" id="productWall"></div>
-        <div class="package-zone"><h3>Packaging edit</h3><div class="pkg-strip" id="packageStrip"></div></div>
-      </section>
-      <aside class="quote-panel" id="quote">
-        <h3>Request proposal</h3>
-        <form class="quote-form" id="quoteForm" method="POST" enctype="multipart/form-data">
-          <input type="hidden" name="_subject" value="Luxury Kit Studio Preview Inquiry - FY PromoGifts">
-          <input type="hidden" name="use_case" id="hiddenUseCase">
-          <input type="hidden" name="products" id="hiddenProducts">
-          <div class="field"><label>Name</label><input name="name" required></div>
-          <div class="field"><label>Email</label><input type="email" name="email" required></div>
-          <div class="field"><label>WhatsApp</label><input name="whatsapp" required></div>
-          <div class="field"><label>Company</label><input name="company" required></div>
-          <div class="field"><label>Artwork</label><input type="file" name="logo_artwork" accept=".jpg,.jpeg,.png,.pdf,.ai"></div>
-          <div class="field"><label>Message</label><textarea name="message" id="message"></textarea></div>
-          <button class="btn btn--dark" type="submit">Submit inquiry</button>
-          <div class="status"></div>
-        </form>
+        <button type="button" id="changePack">Change packaging</button>
+        <button type="button" id="changeColor">Switch color story</button>
+        <button type="button" id="replaceItem">Replace one item</button>
+        <div class="micro-summary" id="summaryText">Notebook, tumbler, tote, pen, pouch<br>Soft mailer box</div>
       </aside>
-    </div>
+    </section>
+
+    <section class="cta-strip">
+      <a class="cta-card" href="#quote">
+        <span>Looks good</span>
+        <strong>Build this kit</strong>
+      </a>
+      <a class="cta-card" href="#quote">
+        <span>Need help</span>
+        <strong>Let us match it</strong>
+      </a>
+    </section>
+
+    <section class="quote" id="quote">
+      <form id="quoteForm" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_subject" value="Kit Studio Preview Inquiry - FY PromoGifts">
+        <input type="hidden" name="use_case" id="hiddenUseCase" value="Employee Welcome">
+        <input type="hidden" name="products" id="hiddenProducts" value="Notebook, tumbler, tote, pen, pouch / Soft mailer box">
+        <input name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input name="whatsapp" placeholder="WhatsApp" required>
+        <input name="company" placeholder="Company" required>
+        <input type="file" name="logo_artwork" accept=".jpg,.jpeg,.png,.pdf,.ai">
+        <textarea name="message" id="message" placeholder="Notes"></textarea>
+        <button type="submit">Submit inquiry</button>
+        <p class="status" aria-live="polite"></p>
+      </form>
+    </section>
   </main>
-  <div class="modal" id="modal"><div class="modal-box"><img id="modalImage" alt=""><div class="modal-bar"><strong id="modalTitle"></strong><button id="closeModal">Close</button></div></div></div>
-  <script src="/assets/studio-preview.js"></script><script>initPreviewKit();</script>
+
+  <script>
+    const endpoint = "https://fy-promogifts-inquiry.sira-fengyin.workers.dev/submit";
+    const packs = ["Soft mailer box", "Magnetic gift box", "Kraft rigid box", "Tote-as-packaging"];
+    const palettes = ["warm", "dark", "event"];
+    const replacements = ["Tumbler swapped to ceramic mug", "Notebook swapped to tech pouch", "Tote swapped to drawstring pouch"];
+    let packIndex = 0;
+    let paletteIndex = 0;
+    let replaceIndex = 0;
+    const cards = [...document.querySelectorAll(".kit-card")];
+    const selectedKit = document.getElementById("selectedKit");
+    const summaryText = document.getElementById("summaryText");
+    const hiddenUseCase = document.getElementById("hiddenUseCase");
+    const hiddenProducts = document.getElementById("hiddenProducts");
+    const message = document.getElementById("message");
+
+    function setSummary(card){
+      const summary = `${card.dataset.items} / ${card.dataset.pack}`;
+      selectedKit.textContent = card.dataset.kit;
+      summaryText.innerHTML = `${card.dataset.items}<br>${card.dataset.pack}`;
+      hiddenUseCase.value = card.dataset.kit;
+      hiddenProducts.value = summary;
+      message.value = summary;
+    }
+
+    cards.forEach((card) => card.addEventListener("click", () => {
+      cards.forEach((item) => item.classList.remove("active"));
+      card.classList.add("active");
+      setSummary(card);
+    }));
+
+    document.getElementById("changePack").addEventListener("click", () => {
+      const card = document.querySelector(".kit-card.active");
+      packIndex = (packIndex + 1) % packs.length;
+      card.dataset.pack = packs[packIndex];
+      setSummary(card);
+    });
+
+    document.getElementById("changeColor").addEventListener("click", () => {
+      const card = document.querySelector(".kit-card.active");
+      paletteIndex = (paletteIndex + 1) % palettes.length;
+      card.querySelector(".kit-art").className = `kit-art kit-art--${palettes[paletteIndex]}`;
+    });
+
+    document.getElementById("replaceItem").addEventListener("click", () => {
+      const card = document.querySelector(".kit-card.active");
+      replaceIndex = (replaceIndex + 1) % replacements.length;
+      summaryText.innerHTML = `${replacements[replaceIndex]}<br>${card.dataset.pack}`;
+      hiddenProducts.value = `${card.dataset.items} / ${replacements[replaceIndex]} / ${card.dataset.pack}`;
+      message.value = hiddenProducts.value;
+    });
+
+    document.getElementById("quoteForm").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      const status = form.querySelector(".status");
+      status.textContent = "Submitting...";
+      const response = await fetch(endpoint, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
+      status.textContent = response.ok ? "Sent." : "Please email sira@fypromogifts.com.";
+      if (response.ok) form.reset();
+    });
+  </script>
 </body>
 </html>
