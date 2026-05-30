@@ -33,4 +33,15 @@ if (!html.includes('rel="canonical"')) {
   );
 }
 
+if (!html.includes('href="/kit-builder/"')) {
+  html = html.replace(
+    '<a href="#home">Home</a><a href="#use-cases">Use Cases</a><a href="#customization">What We Do</a><a href="#products">Products</a><a href="#projects">Real Projects</a><a href="#contact">Contact</a>',
+    '<a href="#home">Home</a><a href="/kit-builder/">Kit Builder</a><a href="/custom-products/">Single Products</a><a href="#use-cases">Use Cases</a><a href="#customization">What We Do</a><a href="#products">Products</a><a href="#projects">Real Projects</a><a href="#contact">Contact</a>'
+  );
+  html = html.replace(
+    '<div class="hero-ctas"><a class="btn btn-gold" href="#contact">Start Your Gift Project</a><a class="btn btn-outline" href="https://wa.me/8615869117529" rel="noopener" target="_blank">Chat on WhatsApp</a></div>',
+    '<div class="hero-ctas"><a class="btn btn-gold" href="/kit-builder/">Build Kit Online</a><a class="btn btn-outline" href="/custom-products/">Browse Products</a><a class="btn btn-outline" href="https://wa.me/8615869117529" rel="noopener" target="_blank">Chat on WhatsApp</a></div>'
+  );
+}
+
 fs.writeFileSync('index.html', html);
