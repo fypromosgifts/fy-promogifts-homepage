@@ -4,147 +4,106 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <title>Kit Studio Preview | FY PromoGifts</title>
-  <link rel="stylesheet" href="/assets/kit-studio-luxe.css?v=20260530-catalog">
+  <title>Kit Studio Wireframe | FY PromoGifts</title>
+  <link rel="stylesheet" href="/assets/kit-studio-luxe.css?v=20260530-wireframe">
 </head>
-<body class="luxe-catalog">
-  <header class="topbar">
-    <a class="mark" href="/">FY PromoGifts</a>
-    <nav>
-      <a href="/preview-kit-builder/luxe" aria-current="page">Kit Studio</a>
-      <a href="/kit-builder/">Live Page</a>
-    </nav>
+<body class="wireframe">
+  <header class="site-bar">
+    <a href="/">FY PromoGifts</a>
+    <span>Kit Studio Preview</span>
   </header>
 
-  <main>
-    <section class="banner" aria-label="Kit studio">
-      <span>Kit Studio</span>
-      <h1>Choose a complete gift direction.</h1>
+  <main class="page-shell">
+    <section class="wide-banner">
+      <p>Find a kit direction, then customize packaging, color and individual items.</p>
     </section>
 
-    <section class="studio-grid" aria-label="Recommended gift kits">
-      <div class="kit-stack">
-        <article class="kit-card active" data-kit="Employee Welcome" data-items="Notebook, tumbler, tote, pen, pouch" data-pack="Soft mailer box">
-          <div class="kit-art kit-art--warm">
-            <span class="object box"></span><span class="object cup"></span><span class="object book"></span><span class="object pen"></span><span class="object pouch"></span>
+    <section class="layout-row">
+      <div class="kit-list">
+        <article class="kit-block">
+          <div class="kit-visual">
+            <span>Recommended Kit 1</span>
           </div>
-          <div class="kit-row"><h2>Employee Welcome</h2><span>5 pcs</span></div>
+          <div class="kit-meta">
+            <h2>Employee Welcome Kit</h2>
+            <button type="button" data-modal="inquiry">Inquire This Kit</button>
+          </div>
         </article>
 
-        <article class="kit-card" data-kit="Client Appreciation" data-items="Mug, tumbler, notebook, pen, tech pouch" data-pack="Magnetic gift box">
-          <div class="kit-art kit-art--dark">
-            <span class="object box"></span><span class="object cup"></span><span class="object book"></span><span class="object pen"></span><span class="object pouch"></span>
+        <article class="kit-block">
+          <div class="kit-visual">
+            <span>Recommended Kit 2</span>
           </div>
-          <div class="kit-row"><h2>Client Appreciation</h2><span>5 pcs</span></div>
+          <div class="kit-meta">
+            <h2>Client Appreciation Kit</h2>
+            <button type="button" data-modal="inquiry">Inquire This Kit</button>
+          </div>
         </article>
 
-        <article class="kit-card" data-kit="Trade Show Kit" data-items="Bottle, tote, lanyard, stickers, keychain" data-pack="Tote-as-packaging">
-          <div class="kit-art kit-art--event">
-            <span class="object box"></span><span class="object cup"></span><span class="object book"></span><span class="object pen"></span><span class="object pouch"></span>
+        <article class="kit-block">
+          <div class="kit-visual">
+            <span>Recommended Kit 3</span>
           </div>
-          <div class="kit-row"><h2>Trade Show Kit</h2><span>5 pcs</span></div>
+          <div class="kit-meta">
+            <h2>Trade Show Kit</h2>
+            <button type="button" data-modal="inquiry">Inquire This Kit</button>
+          </div>
         </article>
       </div>
 
-      <aside class="control-panel" aria-label="Kit controls">
-        <div class="selected">
-          <span>Selected</span>
-          <strong id="selectedKit">Employee Welcome</strong>
-        </div>
-        <button type="button" id="changePack">Change packaging</button>
-        <button type="button" id="changeColor">Switch color story</button>
-        <button type="button" id="replaceItem">Replace one item</button>
-        <div class="micro-summary" id="summaryText">Notebook, tumbler, tote, pen, pouch<br>Soft mailer box</div>
+      <aside class="side-panel">
+        <button type="button" data-modal="packaging">Change Packaging</button>
+        <button type="button" data-modal="color">Switch Color Story</button>
+        <button type="button" data-modal="swap">Swap One Product</button>
+        <p>For buyers who like the kit but want to replace one item inside it.</p>
       </aside>
     </section>
 
-    <section class="cta-strip">
-      <a class="cta-card" href="#quote">
-        <span>Looks good</span>
-        <strong>Build this kit</strong>
-      </a>
-      <a class="cta-card" href="#quote">
-        <span>Need help</span>
-        <strong>Let us match it</strong>
-      </a>
-    </section>
-
-    <section class="quote" id="quote">
-      <form id="quoteForm" method="POST" enctype="multipart/form-data">
-        <input type="hidden" name="_subject" value="Kit Studio Preview Inquiry - FY PromoGifts">
-        <input type="hidden" name="use_case" id="hiddenUseCase" value="Employee Welcome">
-        <input type="hidden" name="products" id="hiddenProducts" value="Notebook, tumbler, tote, pen, pouch / Soft mailer box">
-        <input name="name" placeholder="Name" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <input name="whatsapp" placeholder="WhatsApp" required>
-        <input name="company" placeholder="Company" required>
-        <input type="file" name="logo_artwork" accept=".jpg,.jpeg,.png,.pdf,.ai">
-        <textarea name="message" id="message" placeholder="Notes"></textarea>
-        <button type="submit">Submit inquiry</button>
-        <p class="status" aria-live="polite"></p>
-      </form>
+    <section class="bottom-actions">
+      <button type="button" data-modal="inquiry">I like this kit. Help me quote.</button>
+      <button type="button" data-modal="inquiry">Build a kit for me.</button>
     </section>
   </main>
 
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" aria-label="Close">Close</button>
+      <p class="modal-kicker" id="modalKicker">Customize</p>
+      <h2 id="modalTitle">Customize this kit</h2>
+      <div class="modal-grid">
+        <div>Packaging options</div>
+        <div>Color options</div>
+        <div>Product swap options</div>
+      </div>
+      <button class="modal-primary" type="button">Inquiry form placeholder</button>
+    </div>
+  </div>
+
   <script>
-    const endpoint = "https://fy-promogifts-inquiry.sira-fengyin.workers.dev/submit";
-    const packs = ["Soft mailer box", "Magnetic gift box", "Kraft rigid box", "Tote-as-packaging"];
-    const palettes = ["warm", "dark", "event"];
-    const replacements = ["Tumbler swapped to ceramic mug", "Notebook swapped to tech pouch", "Tote swapped to drawstring pouch"];
-    let packIndex = 0;
-    let paletteIndex = 0;
-    let replaceIndex = 0;
-    const cards = [...document.querySelectorAll(".kit-card")];
-    const selectedKit = document.getElementById("selectedKit");
-    const summaryText = document.getElementById("summaryText");
-    const hiddenUseCase = document.getElementById("hiddenUseCase");
-    const hiddenProducts = document.getElementById("hiddenProducts");
-    const message = document.getElementById("message");
-
-    function setSummary(card){
-      const summary = `${card.dataset.items} / ${card.dataset.pack}`;
-      selectedKit.textContent = card.dataset.kit;
-      summaryText.innerHTML = `${card.dataset.items}<br>${card.dataset.pack}`;
-      hiddenUseCase.value = card.dataset.kit;
-      hiddenProducts.value = summary;
-      message.value = summary;
-    }
-
-    cards.forEach((card) => card.addEventListener("click", () => {
-      cards.forEach((item) => item.classList.remove("active"));
-      card.classList.add("active");
-      setSummary(card);
-    }));
-
-    document.getElementById("changePack").addEventListener("click", () => {
-      const card = document.querySelector(".kit-card.active");
-      packIndex = (packIndex + 1) % packs.length;
-      card.dataset.pack = packs[packIndex];
-      setSummary(card);
+    const modal = document.getElementById("modal");
+    const modalTitle = document.getElementById("modalTitle");
+    const titles = {
+      packaging: "Change packaging",
+      color: "Switch color story",
+      swap: "Swap one product",
+      inquiry: "Inquiry placeholder"
+    };
+    document.querySelectorAll("[data-modal]").forEach((button) => {
+      button.addEventListener("click", () => {
+        modalTitle.textContent = titles[button.dataset.modal] || "Customize this kit";
+        modal.classList.add("open");
+        modal.setAttribute("aria-hidden", "false");
+      });
     });
-
-    document.getElementById("changeColor").addEventListener("click", () => {
-      const card = document.querySelector(".kit-card.active");
-      paletteIndex = (paletteIndex + 1) % palettes.length;
-      card.querySelector(".kit-art").className = `kit-art kit-art--${palettes[paletteIndex]}`;
+    document.querySelector(".modal-close").addEventListener("click", () => {
+      modal.classList.remove("open");
+      modal.setAttribute("aria-hidden", "true");
     });
-
-    document.getElementById("replaceItem").addEventListener("click", () => {
-      const card = document.querySelector(".kit-card.active");
-      replaceIndex = (replaceIndex + 1) % replacements.length;
-      summaryText.innerHTML = `${replacements[replaceIndex]}<br>${card.dataset.pack}`;
-      hiddenProducts.value = `${card.dataset.items} / ${replacements[replaceIndex]} / ${card.dataset.pack}`;
-      message.value = hiddenProducts.value;
-    });
-
-    document.getElementById("quoteForm").addEventListener("submit", async (event) => {
-      event.preventDefault();
-      const form = event.currentTarget;
-      const status = form.querySelector(".status");
-      status.textContent = "Submitting...";
-      const response = await fetch(endpoint, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
-      status.textContent = response.ok ? "Sent." : "Please email sira@fypromogifts.com.";
-      if (response.ok) form.reset();
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        modal.classList.remove("open");
+        modal.setAttribute("aria-hidden", "true");
+      }
     });
   </script>
 </body>
