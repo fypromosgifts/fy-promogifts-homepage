@@ -95,4 +95,4 @@ Form submission posts to Formspree endpoint `https://formspree.io/f/xgoqqrno` wi
 
 - The homepage layout was restored from commit `00c9a75`.
 - The `assets/` folder was repopulated by pointing to the existing image blobs.
-- Cloudflare Pages should use no build command for this static site.
+- Cloudflare Pages currently runs a build-time patch that upgrades the inquiry form to Formspree and updates the contact email.
