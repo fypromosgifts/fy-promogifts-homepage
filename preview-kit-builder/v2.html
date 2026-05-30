@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Preview Gift Kit Studio V2 | FY PromoGifts</title>
+  <link rel="stylesheet" href="/assets/kit-studio-v2.css">
+  <script src="/data/product-catalog.js"></script>
+</head>
+<body class="kit-v2">
+  <header class="studio-nav">
+    <div class="studio-nav__inner">
+      <div class="brand">FY PROMOGIFTS / KIT STUDIO</div>
+      <nav class="nav-links"><a class="active" href="/preview-kit-builder/v2.html">V2 Preview</a><a href="/preview-kit-builder/">Old Preview</a><a href="/kit-builder/">Current Live Page</a></nav>
+    </div>
+  </header>
+  <section class="v2-hero">
+    <div class="v2-hero__grid">
+      <div class="v2-hero__copy">
+        <div>
+          <div class="eyebrow">Private preview</div>
+          <h1>Build a gift program that looks ready for the client deck.</h1>
+          <p>Start with the business moment, curate the product mix, choose packaging, and send a complete production brief without making buyers dig through a catalog.</p>
+        </div>
+        <div>
+          <div class="hero-actions"><a class="btn btn--dark" href="#studio">Open the studio</a><a class="btn" href="#quote">Send inquiry</a></div>
+        </div>
+      </div>
+      <div class="v2-hero__image">
+        <img src="/assets/image-01.png" alt="Premium custom gift kit">
+        <div class="image-note"><div><strong>Curated first.</strong><span>Products become a branded proposal, not a shopping grid.</span></div><a class="btn btn--gold" href="#studio">Compose</a></div>
+      </div>
+    </div>
+    <div class="stats-row"><div class="stat"><strong>01</strong><span>Pick use case</span></div><div class="stat"><strong>02</strong><span>Select products</span></div><div class="stat"><strong>03</strong><span>Choose packaging</span></div><div class="stat"><strong>04</strong><span>Send brief</span></div></div>
+  </section>
+  <section class="studio-section" id="studio">
+    <div class="section-kicker"><h2>The kit composer</h2><p>A high-touch layout for North American B2B buyers: large images, concise sourcing details, visible color directions, and a live proposal board.</p></div>
+    <div class="composer">
+      <aside class="control-slab">
+        <h3>Client brief</h3>
+        <div class="field"><label>Use case</label><select id="template"></select></div>
+        <div class="field"><label>Quantity</label><input id="quantity" value="300"></div>
+        <div class="field"><label>Brand style</label><div class="segmented"><button class="active" type="button" data-style="Clean corporate">Clean</button><button type="button" data-style="Warm natural">Natural</button><button type="button" data-style="Bold event-ready">Event</button><button type="button" data-style="Minimal premium">Premium</button></div></div>
+        <div class="field"><label>Product type</label><div class="filters vertical" id="filters"></div></div>
+      </aside>
+      <div>
+        <div class="proposal-board">
+          <div class="proposal-board__head"><div><h3>Proposal board</h3><p>The selected products are staged as a kit before the quote form.</p></div><a class="btn" href="#quote">Use this mix</a></div>
+          <div class="kit-board" id="kitBoard"></div>
+          <p class="summary-text" id="summaryText"></p>
+        </div>
+        <div class="product-wall" id="productWall"></div>
+        <div class="package-zone"><h3>Packaging direction</h3><div class="pkg-strip" id="packageStrip"></div></div>
+      </div>
+      <aside class="summary-slab" id="quote">
+        <h3>Send the brief</h3>
+        <form class="quote-form" id="quoteForm" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Preview Kit Studio V2 Inquiry - FY PromoGifts">
+          <input type="hidden" name="use_case" id="hiddenUseCase">
+          <input type="hidden" name="products" id="hiddenProducts">
+          <div class="field"><label>Name</label><input name="name" required></div>
+          <div class="field"><label>Email</label><input type="email" name="email" required></div>
+          <div class="field"><label>WhatsApp</label><input name="whatsapp" required></div>
+          <div class="field"><label>Company</label><input name="company" required></div>
+          <div class="field"><label>Artwork</label><input type="file" name="logo_artwork" accept=".jpg,.jpeg,.png,.pdf,.ai"></div>
+          <div class="field"><label>Message</label><textarea name="message" id="message"></textarea></div>
+          <button class="btn btn--dark" type="submit">Submit kit inquiry</button>
+          <div class="status"></div>
+        </form>
+      </aside>
+    </div>
+  </section>
+  <div class="modal" id="modal"><div class="modal-box"><img id="modalImage" alt=""><div class="modal-bar"><strong id="modalTitle"></strong><button id="closeModal">Close</button></div></div></div>
+  <script src="/assets/studio-preview.js"></script><script>initPreviewKit();</script>
+</body>
+</html>
