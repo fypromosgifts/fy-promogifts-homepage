@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <title>Kit Studio Framework | FY PromoGifts</title>
-  <link rel="stylesheet" href="/assets/kit-studio-luxe.css?v=20260531-v3">
+  <link rel="stylesheet" href="/assets/kit-studio-luxe.css?v=20260531-v4">
   <script src="/data/kit-data.js"></script>
 </head>
 <body class="kit-framework">
@@ -21,8 +21,8 @@
 
     <section class="result-head">
       <div>
-        <span>Recommended for you</span>
-        <h1>Three starting points, ready to customize.</h1>
+        <span>Recommended from your answers</span>
+        <h1>Three kit directions, ready to refine.</h1>
       </div>
       <button type="button" id="retakeQuiz">Retake quiz</button>
     </section>
@@ -111,15 +111,15 @@
             <button type="button" class="quote-chip">Direct Quote</button>
           </div>
           <div class="kit-actions">
+            <div class="kit-label">Recommendation 0${kitIndex + 1}</div>
             <h2>${kit.name}</h2>
             <p>${kit.reason}</p>
-            <div class="kit-tags">
-              ${kit.items.slice(0, 3).map((item) => `<span>${item}</span>`).join("")}
-              <span>${kit.packaging}</span>
+            <div class="kit-includes"><span>Includes</span>${kit.items.slice(0, 4).join(", ")} / ${kit.packaging}</div>
+            <div class="action-list">
+              <a href="/custom-products/?mode=packaging&kit=${kit.id}">Change Packaging</a>
+              <a href="/custom-products/?mode=color&kit=${kit.id}">Switch Color Story</a>
+              <a href="/custom-products/?mode=swap&kit=${kit.id}">Swap an Item</a>
             </div>
-            <a href="/custom-products/?mode=packaging&kit=${kit.id}">Change Packaging</a>
-            <a href="/custom-products/?mode=color&kit=${kit.id}">Switch Color Story</a>
-            <a href="/custom-products/?mode=swap&kit=${kit.id}">Swap an Item</a>
           </div>
         </article>
       `).join("");
