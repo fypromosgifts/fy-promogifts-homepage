@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <title>Kit Studio Framework | FY PromoGifts</title>
-  <link rel="stylesheet" href="/assets/kit-studio-luxe.css?v=20260530-question-flow">
+  <link rel="stylesheet" href="/assets/kit-studio-luxe.css?v=20260531-v2">
+  <script src="/data/kit-data.js"></script>
 </head>
 <body class="kit-framework">
   <header class="site-bar">
     <a href="/">FY PromoGifts</a>
-    <span>Kit Studio Framework</span>
+    <span>Kit Studio Framework v2</span>
   </header>
 
   <main class="page-shell">
@@ -18,46 +19,15 @@
       <p>Answer four quick questions. We recommend three kit directions.</p>
     </section>
 
-    <section class="recommendations" aria-label="Recommended kits">
-      <article class="kit-row">
-        <div class="kit-image kit-image--one">
-          <span>Kit 01</span>
-          <button type="button" class="quote-chip">Direct Quote</button>
-        </div>
-        <div class="kit-actions">
-          <h2>Employee Welcome Kit</h2>
-          <a href="/custom-products/?mode=packaging">Change Packaging</a>
-          <a href="/custom-products/?mode=color">Switch Color Story</a>
-          <a href="/custom-products/?mode=swap">Swap Part of the Kit</a>
-        </div>
-      </article>
-
-      <article class="kit-row">
-        <div class="kit-image kit-image--two">
-          <span>Kit 02</span>
-          <button type="button" class="quote-chip">Direct Quote</button>
-        </div>
-        <div class="kit-actions">
-          <h2>Client Appreciation Kit</h2>
-          <a href="/custom-products/?mode=packaging">Change Packaging</a>
-          <a href="/custom-products/?mode=color">Switch Color Story</a>
-          <a href="/custom-products/?mode=swap">Swap Part of the Kit</a>
-        </div>
-      </article>
-
-      <article class="kit-row">
-        <div class="kit-image kit-image--three">
-          <span>Kit 03</span>
-          <button type="button" class="quote-chip">Direct Quote</button>
-        </div>
-        <div class="kit-actions">
-          <h2>Trade Show Kit</h2>
-          <a href="/custom-products/?mode=packaging">Change Packaging</a>
-          <a href="/custom-products/?mode=color">Switch Color Story</a>
-          <a href="/custom-products/?mode=swap">Swap Part of the Kit</a>
-        </div>
-      </article>
+    <section class="result-head">
+      <div>
+        <span>Recommended for you</span>
+        <h1>Three starting points, ready to customize.</h1>
+      </div>
+      <button type="button" id="retakeQuiz">Retake quiz</button>
     </section>
+
+    <section class="recommendations" id="recommendations" aria-label="Recommended kits"></section>
 
     <section class="full-strips">
       <a href="/custom-products/?mode=free-build">None of these? Build your own kit from the product library.</a>
@@ -69,82 +39,119 @@
     <div class="question-card">
       <div class="question-topline">
         <span id="stepLabel">01 / 04</span>
-        <button type="button" id="skipQuestions">Skip</button>
+        <div class="question-nav">
+          <button type="button" id="backQuestion">Back</button>
+          <button type="button" id="skipQuestions">Skip</button>
+        </div>
       </div>
-
-      <section class="question-step active" data-step="0">
-        <p class="kicker">Use case</p>
-        <h2>Who is this kit for?</h2>
-        <div class="choice-grid">
-          <button type="button">Employees</button>
-          <button type="button">Clients</button>
-          <button type="button">Event Guests</button>
-          <button type="button">VIP Buyers</button>
-        </div>
-      </section>
-
-      <section class="question-step" data-step="1">
-        <p class="kicker">Style</p>
-        <h2>What should it feel like?</h2>
-        <div class="choice-grid">
-          <button type="button">Premium</button>
-          <button type="button">Warm</button>
-          <button type="button">Eco</button>
-          <button type="button">Bold</button>
-        </div>
-      </section>
-
-      <section class="question-step" data-step="2">
-        <p class="kicker">Budget</p>
-        <h2>Choose a price direction.</h2>
-        <div class="choice-grid">
-          <button type="button">Starter</button>
-          <button type="button">Standard</button>
-          <button type="button">Premium</button>
-          <button type="button">VIP</button>
-        </div>
-      </section>
-
-      <section class="question-step" data-step="3">
-        <p class="kicker">Color</p>
-        <h2>Pick a color mood.</h2>
-        <div class="choice-grid">
-          <button type="button">Neutral</button>
-          <button type="button">Dark</button>
-          <button type="button">Natural</button>
-          <button type="button">Match My Logo</button>
-        </div>
-      </section>
+      <section class="question-step active" id="questionStep"></section>
     </div>
   </div>
 
   <script>
+    const data = window.FY_KIT_DATA;
     const modal = document.getElementById("questionModal");
-    const steps = [...document.querySelectorAll(".question-step")];
-    const label = document.getElementById("stepLabel");
+    const stepLabel = document.getElementById("stepLabel");
+    const questionStep = document.getElementById("questionStep");
+    const backButton = document.getElementById("backQuestion");
+    const recommendations = document.getElementById("recommendations");
+    const answers = {};
     let index = 0;
 
-    function showStep(nextIndex){
-      index = nextIndex;
-      steps.forEach((step, stepIndex) => step.classList.toggle("active", stepIndex === index));
-      label.textContent = `${String(index + 1).padStart(2, "0")} / 04`;
+    function renderQuestion(){
+      const question = data.questions[index];
+      stepLabel.textContent = `${String(index + 1).padStart(2, "0")} / ${String(data.questions.length).padStart(2, "0")}`;
+      backButton.disabled = index === 0;
+      questionStep.innerHTML = `
+        <p class="kicker">${question.kicker}</p>
+        <h2>${question.title}</h2>
+        <div class="choice-grid">
+          ${question.options.map((option) => `
+            <button type="button" data-value="${option.value}">
+              <strong>${option.label}</strong>
+              <span>${option.note}</span>
+            </button>
+          `).join("")}
+        </div>
+      `;
+      questionStep.querySelectorAll("button").forEach((button) => {
+        button.addEventListener("click", () => {
+          answers[question.id] = button.dataset.value;
+          if (index < data.questions.length - 1) {
+            index += 1;
+            renderQuestion();
+          } else {
+            closeQuiz();
+            renderRecommendations();
+          }
+        });
+      });
     }
 
-    document.querySelectorAll(".choice-grid button").forEach((button) => {
-      button.addEventListener("click", () => {
-        if (index < steps.length - 1) {
-          showStep(index + 1);
-        } else {
-          modal.classList.remove("open");
-          modal.setAttribute("aria-hidden", "true");
-        }
-      });
-    });
+    function scoreKit(kit){
+      return Object.values(answers).reduce((score, value) => {
+        if (value === "no-preference") return score;
+        return score + (kit.tags.includes(value) ? 1 : 0);
+      }, 0);
+    }
 
-    document.getElementById("skipQuestions").addEventListener("click", () => {
+    function topKits(){
+      return [...data.kits]
+        .map((kit) => ({ kit, score: scoreKit(kit) }))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 3)
+        .map((entry) => entry.kit);
+    }
+
+    function renderRecommendations(){
+      recommendations.innerHTML = topKits().map((kit, kitIndex) => `
+        <article class="kit-row">
+          <div class="kit-image kit-image--${kit.visual}">
+            <span>Kit 0${kitIndex + 1}</span>
+            <button type="button" class="quote-chip">Direct Quote</button>
+          </div>
+          <div class="kit-actions">
+            <h2>${kit.name}</h2>
+            <p>${kit.reason}</p>
+            <div class="kit-tags">
+              ${kit.items.slice(0, 3).map((item) => `<span>${item}</span>`).join("")}
+              <span>${kit.packaging}</span>
+            </div>
+            <a href="/custom-products/?mode=packaging&kit=${kit.id}">Change Packaging</a>
+            <a href="/custom-products/?mode=color&kit=${kit.id}">Switch Color Story</a>
+            <a href="/custom-products/?mode=swap&kit=${kit.id}">Swap an Item</a>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function openQuiz(){
+      index = 0;
+      Object.keys(answers).forEach((key) => delete answers[key]);
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+      renderQuestion();
+    }
+
+    function closeQuiz(){
       modal.classList.remove("open");
       modal.setAttribute("aria-hidden", "true");
+    }
+
+    backButton.addEventListener("click", () => {
+      if (index > 0) {
+        index -= 1;
+        renderQuestion();
+      }
     });
+    document.getElementById("skipQuestions").addEventListener("click", () => {
+      closeQuiz();
+      renderRecommendations();
+    });
+    document.getElementById("retakeQuiz").addEventListener("click", openQuiz);
+
+    renderQuestion();
+    renderRecommendations();
   </script>
 </body>
 </html>
