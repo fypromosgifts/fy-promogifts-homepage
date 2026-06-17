@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Kit Studio | Build Branded Gift Kits | FY PromoGifts</title>
+  <meta name="description" content="Use FY PromoGifts Kit Studio to choose a branded gift kit by occasion, color direction, budget and quantity, then request a custom quote.">
+  <link rel="canonical" href="https://www.fypromogifts.com/kit-studio/">
+  <link rel="stylesheet" href="../assets/kit-studio-luxe.css?v=20260531-v5">
+  <script src="../data/kit-data.js"></script>
+</head>
+<body class="kit-framework">
+  <header class="site-bar">
+    <a href="../index.html">FY PromoGifts</a>
+    <span>Kit Studio</span>
+  </header>
+
+  <main class="page-shell">
+    <section class="wide-banner">
+      <span>Kit Studio</span>
+      <p>Answer four questions. Review configurable gift kit concepts with real product options.</p>
+    </section>
+
+    <section class="result-head">
+      <div>
+        <span>Recommended from your answers</span>
+        <h1>Three logo-free kit concepts, ready to quote and refine.</h1>
+      </div>
+      <button type="button" id="retakeQuiz">Retake quiz</button>
+    </section>
+
+    <section class="recommendations" id="recommendations" aria-label="Recommended kits"></section>
+
+    <section class="full-strips">
+      <a href="../custom-products/?mode=free-build">None of these? Build your own kit from the product library.</a>
+      <a href="../index.html#contact">Or contact us directly. We will curate the kit for you.</a>
+    </section>
+  </main>
+
+  <div class="question-modal open" id="questionModal" aria-hidden="false">
+    <div class="question-card">
+      <div class="question-topline">
+        <span id="stepLabel">01 / 04</span>
+        <div class="question-nav">
+          <button type="button" id="backQuestion">Back</button>
+          <button type="button" id="skipQuestions">Skip</button>
+        </div>
+      </div>
+      <section class="question-step active" id="questionStep"></section>
+    </div>
+  </div>
+
+  <div class="quote-modal" id="quoteModal" aria-hidden="true">
+    <form class="quote-card" id="quoteForm" action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data">
+      <div class="quote-card__head">
+        <div>
+          <p class="kicker">Send kit idea</p>
+          <h2 id="quoteTitle">Kit inquiry</h2>
+        </div>
+        <button type="button" id="closeQuote">Close</button>
+      </div>
+      <input type="hidden" name="_subject" value="New Kit Studio Inquiry - FY PromoGifts">
+      <input type="hidden" name="use_case" id="quoteUseCase">
+      <input type="hidden" name="products" id="quoteProducts">
+      <div class="quote-grid">
+        <label>Name<input name="name" required></label>
+        <label>Email<input name="email" type="email" required></label>
+        <label>WhatsApp<input name="whatsapp"></label>
+        <label>Company<input name="company"></label>
+        <label>Estimated quantity<input name="quantity" placeholder="e.g. 300 sets"></label>
+        <label>Need-by date<input name="need_by_date" placeholder="YYYY-MM-DD"></label>
+        <label class="quote-wide">Logo / artwork<input name="logoUpload" type="file" accept=".jpg,.jpeg,.png,.pdf,.ai,.eps"></label>
+        <label class="quote-wide">Message<textarea name="message" id="quoteMessage"></textarea></label>
+      </div>
+      <button class="quote-submit" type="submit">Submit kit inquiry</button>
+      <p class="quote-status" id="quoteStatus"></p>
+    </form>
+  </div>
+
+  <script>
+    const data = window.FY_KIT_DATA;
+    const modal = document.getElementById("questionModal");
+    const stepLabel = document.getElementById("stepLabel");
+    const questionStep = document.getElementById("questionStep");
+    const backButton = document.getElementById("backQuestion");
+    const recommendations = document.getElementById("recommendations");
+    const quoteModal = document.getElementById("quoteModal");
+    const quoteForm = document.getElementById("quoteForm");
+    const quoteTitle = document.getElementById("quoteTitle");
+    const quoteUseCase = document.getElementById("quoteUseCase");
+    const quoteProducts = document.getElementById("quoteProducts");
+    const quoteMessage = document.getElementById("quoteMessage");
+    const quoteStatus = document.getElementById("quoteStatus");
+    const answers = {};
+    let index = 0;
+
+    function renderQuestion(){
+      const question = data.questions[index];
+      stepLabel.textContent = `${String(index + 1).padStart(2, "0")} / ${String(data.questions.length).padStart(2, "0")}`;
+      backButton.disabled = index === 0;
+      questionStep.innerHTML = `
+        <p class="kicker">${question.kicker}</p>
+        <h2>${question.title}</h2>
+        <div class="choice-grid">
+          ${question.options.map((option) => `
+            <button type="button" data-value="${option.value}">
+              <strong>${option.label}</strong>
+              <span>${option.note}</span>
+            </button>
+          `).join("")}
+        </div>
+      `;
+      questionStep.querySelectorAll("button").forEach((button) => {
+        button.addEventListener("click", () => {
+          answers[question.id] = button.dataset.value;
+          if (index < data.questions.length - 1) {
+            index += 1;
+            renderQuestion();
+          } else {
+            closeQuiz();
+            renderRecommendations();
+          }
+        });
+      });
+    }
+
+    function scoreKit(kit){
+      let score = 0;
+      if (answers.useCase && kit.tags.includes(answers.useCase)) score += 100;
+      if (answers.color && answers.color !== "match-scene" && kit.tags.includes(answers.color)) score += 12;
+      if (answers.budget && kit.tags.includes(answers.budget)) score += 6;
+      if (answers.quantity && kit.tags.includes(answers.quantity)) score += 4;
+      return score;
+    }
+
+    function topKits(){
+      return [...data.kits]
+        .map((kit) => ({ kit, score: scoreKit(kit) }))
+        .sort((a, b) => b.score - a.score || data.kits.indexOf(a.kit) - data.kits.indexOf(b.kit))
+        .slice(0, 3)
+        .map((entry) => entry.kit);
+    }
+
+    function kitVisual(kit){
+      const color = answers.color;
+      if (kit.visuals && color && kit.visuals[color]) return kit.visuals[color];
+      if (kit.visuals && kit.visuals.default) return kit.visuals.default;
+      return kit.heroImage;
+    }
+
+    function visualLabel(kit){
+      const color = answers.color;
+      if (kit.visuals && color && kit.visuals[color]) return color.replace("-", " ");
+      return "suggested";
+    }
+
+    function renderRecommendations(){
+      recommendations.innerHTML = topKits().map((kit, kitIndex) => `
+        <article class="kit-row">
+          <div class="kit-image kit-image--${kit.visual}">
+            <img src="${kitVisual(kit)}" alt="${kit.imageAlt}">
+            <span>Kit 0${kitIndex + 1}</span>
+            <em>${visualLabel(kit)} visual</em>
+            <button type="button" class="quote-chip" data-kit="${kit.id}">Send This Kit Idea</button>
+          </div>
+          <div class="kit-actions">
+            <div class="kit-label">Recommendation 0${kitIndex + 1}</div>
+            <h2>${kit.name}</h2>
+            <p>${kit.reason}</p>
+            <div class="product-strip">
+              ${kit.products.map((product) => `
+                <figure>
+                  <img src="${product.image}" alt="${product.name}">
+                  <figcaption>${product.name}</figcaption>
+                </figure>
+              `).join("")}
+            </div>
+            <div class="kit-includes"><span>Suggested mix</span>${kit.items.join(" / ")}</div>
+            <details class="kit-details">
+              <summary>Customization details</summary>
+              <div class="detail-block">
+                <span>Printable logo areas</span>
+                <p>${kit.logoAreas.join(", ")}</p>
+              </div>
+              <div class="detail-block">
+                <span>Logo methods</span>
+                <p>${kit.logoMethods}</p>
+              </div>
+              <div class="detail-block">
+                <span>Packaging options</span>
+                <p>${kit.packaging}</p>
+              </div>
+            </details>
+            <p class="kit-note">${kit.note} Final products, colors and packaging can be adjusted before quote.</p>
+            <div class="kit-cta-row">
+              <button type="button" data-kit="${kit.id}">Send this kit idea</button>
+              <a href="../custom-products/?mode=swap&kit=${kit.id}">Customize products</a>
+            </div>
+          </div>
+        </article>
+      `).join("");
+      recommendations.querySelectorAll("[data-kit]").forEach((button) => {
+        button.addEventListener("click", () => openQuote(button.dataset.kit));
+      });
+    }
+
+    function kitSummary(kit){
+      return [
+        `${kit.name}`,
+        `Products: ${kit.items.join(", ")}`,
+        `MOQ: ${kit.moq}`,
+        `Budget: ${kit.budget}`,
+        `Logo methods: ${kit.logoMethods}`,
+        `Packaging: ${kit.packaging}`,
+        `Sample time: ${kit.sampleTime}`,
+        `Production time: ${kit.productionTime}`
+      ].join("\n");
+    }
+
+    function openQuote(kitId){
+      const kit = data.kits.find((entry) => entry.id === kitId);
+      if (!kit) return;
+      quoteTitle.textContent = kit.name;
+      quoteUseCase.value = kit.name;
+      quoteProducts.value = kit.items.join(", ");
+      quoteMessage.value = `Please quote this Kit Studio idea:\n\n${kitSummary(kit)}\n\nMy notes:`;
+      quoteStatus.textContent = "";
+      quoteModal.classList.add("open");
+      quoteModal.setAttribute("aria-hidden", "false");
+      quoteForm.querySelector("input[name='name']").focus();
+    }
+
+    function closeQuote(){
+      quoteModal.classList.remove("open");
+      quoteModal.setAttribute("aria-hidden", "true");
+    }
+
+    function openQuiz(){
+      index = 0;
+      Object.keys(answers).forEach((key) => delete answers[key]);
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+      renderQuestion();
+    }
+
+    function closeQuiz(){
+      modal.classList.remove("open");
+      modal.setAttribute("aria-hidden", "true");
+    }
+
+    backButton.addEventListener("click", () => {
+      if (index > 0) {
+        index -= 1;
+        renderQuestion();
+      }
+    });
+    document.getElementById("skipQuestions").addEventListener("click", () => {
+      closeQuiz();
+      renderRecommendations();
+    });
+    document.getElementById("retakeQuiz").addEventListener("click", openQuiz);
+    document.getElementById("closeQuote").addEventListener("click", closeQuote);
+    quoteModal.addEventListener("click", (event) => {
+      if (event.target === quoteModal) closeQuote();
+    });
+    quoteForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      quoteStatus.textContent = "Submitting...";
+      try {
+        const response = await fetch(quoteForm.action, {
+          method: "POST",
+          body: new FormData(quoteForm),
+          headers: { Accept: "application/json" }
+        });
+        quoteStatus.textContent = response.ok
+          ? "Thanks. Your kit idea has been sent."
+          : "Submission failed. Please email sira@fypromogifts.com.";
+        if (response.ok) quoteForm.reset();
+      } catch (error) {
+        quoteStatus.textContent = "Submission failed. Please email sira@fypromogifts.com.";
+      }
+    });
+
+    renderQuestion();
+    renderRecommendations();
+  </script>
+</body>
+</html>
