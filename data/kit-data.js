@@ -1,4 +1,4 @@
-window.FY_KIT_DATA = {
+﻿window.FY_KIT_DATA = {
   questions: [
     {
       id: "useCase",
@@ -67,10 +67,10 @@ window.FY_KIT_DATA = {
       imageAlt: "Employee onboarding kit with backpack tote tumbler notebook cap and welcome card",
       logoAreas: ["Backpack front", "Tote panel", "Tumbler body", "Notebook cover", "Welcome card"],
       products: [
-        { name: "PU Leather Notebook", image: "../assets/curated-products/D5-pu-leather-notebook.png" },
-        { name: "Stainless Coffee Tumbler", image: "../assets/curated-products/A15-stainless-coffee-tumbler.png" },
-        { name: "Metal Pen", image: "../assets/curated-products/B24-metal-pen.png" },
-        { name: "MagSafe Card Wallet", image: "../assets/curated-products/D32-magsafe-card-wallet.png" }
+        { name: "PU Leather Notebook", image: "../assets/curated-products/thumbs/D5-pu-leather-notebook-thumb.jpg" },
+        { name: "Stainless Coffee Tumbler", image: "../assets/curated-products/thumbs/A15-stainless-coffee-tumbler-thumb.jpg" },
+        { name: "Metal Pen", image: "../assets/curated-products/thumbs/B24-metal-pen-thumb.jpg" },
+        { name: "MagSafe Card Wallet", image: "../assets/curated-products/thumbs/D32-magsafe-card-wallet-thumb.jpg" }
       ],
       items: ["Backpack or tote", "Reusable tumbler", "Notebook", "Metal pen", "Welcome card"],
       moq: "100-500 sets",
@@ -99,10 +99,10 @@ window.FY_KIT_DATA = {
       imageAlt: "Black and gold client appreciation gift set with tumbler mug glass notebook umbrella and keychain",
       logoAreas: ["Tumbler body", "Mug print area", "Notebook cover", "Keychain plate", "Gift card"],
       products: [
-        { name: "Thank You Corporate Gift Kit", image: "../assets/curated-products/A6-thank-you-corporate-gift-kit.png" },
-        { name: "Ceramic Mug Gift Set", image: "../assets/curated-products/A16-ceramic-mug-gift-set.png" },
-        { name: "Whiskey Glass Gift Box", image: "../assets/curated-products/A19-whiskey-glass-gift-box.png" },
-        { name: "Metal Leather Keychain", image: "../assets/curated-products/D4-metal-leather-keychain.png" }
+        { name: "Thank You Corporate Gift Kit", image: "../assets/curated-products/thumbs/A6-thank-you-corporate-gift-kit-thumb.jpg" },
+        { name: "Ceramic Mug Gift Set", image: "../assets/curated-products/thumbs/A16-ceramic-mug-gift-set-thumb.jpg" },
+        { name: "Whiskey Glass Gift Box", image: "../assets/curated-products/thumbs/A19-whiskey-glass-gift-box-thumb.jpg" },
+        { name: "Metal Leather Keychain", image: "../assets/curated-products/thumbs/D4-metal-leather-keychain-thumb.jpg" }
       ],
       items: ["Tumbler", "Mug or glass", "Notebook", "Business accessory", "Rigid gift box"],
       moq: "100-300 sets depending on product mix",
@@ -131,10 +131,10 @@ window.FY_KIT_DATA = {
       imageAlt: "Trade show event kit with tote drawstring bag bottle wristbands pen and event card",
       logoAreas: ["Tote panel", "Bottle body", "Drawstring bag", "Wristband surface", "Event card"],
       products: [
-        { name: "Flight Tag Keychains", image: "../assets/curated-products/C34-flight-tag-keychains.png" },
-        { name: "Silicone Wristbands", image: "../assets/curated-products/C19-silicone-wristbands.png" },
-        { name: "Event Wristbands", image: "../assets/curated-products/D17-event-wristbands.png" },
-        { name: "Metal Pen", image: "../assets/curated-products/B24-metal-pen.png" }
+        { name: "Flight Tag Keychains", image: "../assets/curated-products/thumbs/C34-flight-tag-keychains-thumb.jpg" },
+        { name: "Silicone Wristbands", image: "../assets/curated-products/thumbs/C19-silicone-wristbands-thumb.jpg" },
+        { name: "Event Wristbands", image: "../assets/curated-products/thumbs/D17-event-wristbands-thumb.jpg" },
+        { name: "Metal Pen", image: "../assets/curated-products/thumbs/B24-metal-pen-thumb.jpg" }
       ],
       items: ["Tote bag", "Drawstring bag", "Bottle", "Wristbands", "Pen", "Event card"],
       moq: "500-2,000 pcs depending on item",
@@ -163,10 +163,10 @@ window.FY_KIT_DATA = {
       imageAlt: "Brand campaign giveaway kit with apparel tote bottle mug cap and color cards",
       logoAreas: ["Apparel chest", "Cap front", "Tote panel", "Bottle body", "Mug print area"],
       products: [
-        { name: "Sports Water Bottle", image: "../assets/curated-products/A17-sports-water-bottle.png" },
-        { name: "Sublimation Mugs", image: "../assets/curated-products/D11-sublimation-mugs.png" },
-        { name: "Metal Luggage Tags", image: "../assets/curated-products/C37-metal-luggage-tags.png" },
-        { name: "Marble Metal Pen", image: "../assets/curated-products/C23-marble-metal-pen.png" }
+        { name: "Sports Water Bottle", image: "../assets/curated-products/thumbs/A17-sports-water-bottle-thumb.jpg" },
+        { name: "Sublimation Mugs", image: "../assets/curated-products/thumbs/D11-sublimation-mugs-thumb.jpg" },
+        { name: "Metal Luggage Tags", image: "../assets/curated-products/thumbs/C37-metal-luggage-tags-thumb.jpg" },
+        { name: "Marble Metal Pen", image: "../assets/curated-products/thumbs/C23-marble-metal-pen-thumb.jpg" }
       ],
       items: ["Apparel or cap", "Tote bag", "Bottle", "Mug", "Keychain or tag", "Color card"],
       moq: "300-1,000 pcs depending on product and print method",
@@ -195,10 +195,10 @@ window.FY_KIT_DATA = {
       imageAlt: "Holiday corporate gift set with blanket mug tumbler candle socks gift bag and card",
       logoAreas: ["Mug print area", "Tumbler body", "Gift bag", "Greeting card", "Box sleeve"],
       products: [
-        { name: "Silk Sleep Care Set", image: "../assets/curated-products/A3-silk-sleep-care-set.png" },
-        { name: "Colored Sleep Mask", image: "../assets/curated-products/D29-colored-sleep-mask.png" },
-        { name: "Cork Base Ceramic Mug", image: "../assets/curated-products/B20-cork-base-ceramic-mug.png" },
-        { name: "Transparent Gift Bag Packaging", image: "../assets/curated-products/A12-transparent-gift-bag-packaging.png" }
+        { name: "Silk Sleep Care Set", image: "../assets/curated-products/thumbs/A3-silk-sleep-care-set-thumb.jpg" },
+        { name: "Colored Sleep Mask", image: "../assets/curated-products/thumbs/D29-colored-sleep-mask-thumb.jpg" },
+        { name: "Cork Base Ceramic Mug", image: "../assets/curated-products/thumbs/B20-cork-base-ceramic-mug-thumb.jpg" },
+        { name: "Transparent Gift Bag Packaging", image: "../assets/curated-products/thumbs/A12-transparent-gift-bag-packaging-thumb.jpg" }
       ],
       items: ["Blanket or textile", "Mug", "Tumbler", "Candle or seasonal item", "Gift bag", "Greeting card"],
       moq: "100-300 sets",
@@ -227,10 +227,10 @@ window.FY_KIT_DATA = {
       imageAlt: "Wedding party favor gift box with mug glass candle towel thank-you card and small soap box",
       logoAreas: ["Mug print area", "Glass cup", "Candle label", "Thank-you card", "Gift box lid"],
       products: [
-        { name: "Glass Jar Mug", image: "../assets/curated-products/C44-glass-jar-mug.png" },
-        { name: "Floral Ceramic Mugs", image: "../assets/curated-products/C4-floral-ceramic-mugs.png" },
-        { name: "Transparent Gift Bag Packaging", image: "../assets/curated-products/A12-transparent-gift-bag-packaging.png" },
-        { name: "Acrylic Bookmark", image: "../assets/curated-products/D33-acrylic-bookmark.png" }
+        { name: "Glass Jar Mug", image: "../assets/curated-products/thumbs/C44-glass-jar-mug-thumb.jpg" },
+        { name: "Floral Ceramic Mugs", image: "../assets/curated-products/thumbs/C4-floral-ceramic-mugs-thumb.jpg" },
+        { name: "Transparent Gift Bag Packaging", image: "../assets/curated-products/thumbs/A12-transparent-gift-bag-packaging-thumb.jpg" },
+        { name: "Acrylic Bookmark", image: "../assets/curated-products/thumbs/D33-acrylic-bookmark-thumb.jpg" }
       ],
       items: ["Small mug", "Glass cup", "Candle", "Soft towel", "Thank-you card", "Gift box"],
       moq: "100-500 sets depending on favor type",
