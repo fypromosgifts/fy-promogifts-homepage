@@ -8,6 +8,9 @@
   <meta name="description" content="Use FY PromoGifts Kit Studio to choose a branded gift kit by occasion, color direction, budget and quantity, then request a custom quote.">
   <link rel="canonical" href="https://www.fypromogifts.com/kit-studio/">
   <link rel="stylesheet" href="../assets/kit-studio-luxe.css?v=20260531-v5">
+  <link rel="preload" as="image" href="../assets/kit-studio-final/employee-onboarding-kits-confirmed.jpg">
+  <link rel="preload" as="image" href="../assets/kit-studio-final/client-appreciation-gifts-confirmed.jpg">
+  <link rel="preload" as="image" href="../assets/kit-studio-final/trade-show-event-kits-confirmed.jpg">
   <script src="../data/kit-data.js"></script>
 </head>
 <body class="kit-framework">
@@ -95,6 +98,20 @@
     const answers = {};
     let index = 0;
 
+    function preloadKitImages(){
+      const urls = new Set();
+      data.kits.forEach((kit) => {
+        if (kit.heroImage) urls.add(kit.heroImage);
+        if (kit.visuals) Object.values(kit.visuals).forEach((url) => urls.add(url));
+        kit.products.forEach((product) => urls.add(product.image));
+      });
+      urls.forEach((url) => {
+        const image = new Image();
+        image.decoding = "async";
+        image.src = url;
+      });
+    }
+
     function renderQuestion(){
       const question = data.questions[index];
       stepLabel.textContent = `${String(index + 1).padStart(2, "0")} / ${String(data.questions.length).padStart(2, "0")}`;
@@ -159,7 +176,7 @@
       recommendations.innerHTML = topKits().map((kit, kitIndex) => `
         <article class="kit-row">
           <div class="kit-image kit-image--${kit.visual}">
-            <img src="${kitVisual(kit)}" alt="${kit.imageAlt}">
+            <img src="${kitVisual(kit)}" alt="${kit.imageAlt}" loading="eager" decoding="async" fetchpriority="${kitIndex === 0 ? "high" : "auto"}">
             <span>Kit 0${kitIndex + 1}</span>
             <em>${visualLabel(kit)} visual</em>
             <button type="button" class="quote-chip" data-kit="${kit.id}">Send This Kit Idea</button>
@@ -171,7 +188,7 @@
             <div class="product-strip">
               ${kit.products.map((product) => `
                 <figure>
-                  <img src="${product.image}" alt="${product.name}">
+                  <img src="${product.image}" alt="${product.name}" loading="lazy" decoding="async">
                   <figcaption>${product.name}</figcaption>
                 </figure>
               `).join("")}
@@ -284,6 +301,7 @@
 
     renderQuestion();
     renderRecommendations();
+    preloadKitImages();
   </script>
 </body>
 </html>
