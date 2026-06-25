@@ -29,7 +29,7 @@
 (function(){
   function svgQuote(){return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="width:18px;height:18px;flex:0 0 auto"><path d="M20 7.5 16.5 4 5 15.5V19h3.5L20 7.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path><path d="m14.8 5.7 3.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>'}
   function svgWhatsApp(){return '<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" style="width:37px;height:37px;display:block"><path fill="#fff" d="M32.2 13.6a18.5 18.5 0 0 0-16 27.8l-2.1 7.7 7.9-2.1a18.5 18.5 0 1 0 10.2-33.4Zm0 33.8a15.2 15.2 0 0 1-7.8-2.1l-.6-.3-4.7 1.2 1.3-4.6-.3-.6a15.3 15.3 0 1 1 12.1 6.4Zm8.4-11.4c-.5-.2-2.7-1.3-3.1-1.5-.4-.1-.8-.2-1.1.2-.3.5-1.2 1.5-1.5 1.8-.3.3-.6.3-1.1.1a12.6 12.6 0 0 1-3.7-2.3 13.9 13.9 0 0 1-2.6-3.2c-.3-.5 0-.7.2-1 .2-.2.5-.6.8-.9.2-.3.3-.5.5-.8.2-.3.1-.6 0-.9-.1-.2-1.1-2.6-1.5-3.6-.4-1-.8-.8-1.1-.8h-1c-.3 0-.9.1-1.4.6-.5.5-1.8 1.8-1.8 4.3s1.9 5 2.1 5.3c.2.3 3.7 5.6 8.9 7.9 1.2.5 2.2.8 3 .9 1.3.4 2.4.3 3.3.2 1-.1 2.7-1.1 3.1-2.2.4-1 .4-2 .3-2.2-.1-.3-.5-.4-1-.7Z"></path></svg>'}
-  function setStyle(el, styles){Object.keys(styles).forEach(function(key){el.style.setProperty(key, styles[key], 'important')})}
+  function setStyle(el, styles){Object.keys(styles).forEach(function(key){var cssKey=key.replace(/[A-Z]/g,function(m){return '-' + m.toLowerCase()});el.style.setProperty(cssKey, styles[key], 'important')})}
   function mount(){
     document.querySelectorAll('.floating-whatsapp,.floating-inquiry,.sticky-contact-wa,.sticky-contact-quote,#fyStickyWa,#fyStickyQuote').forEach(function(el){el.remove()});
     var isMobile = window.matchMedia && window.matchMedia('(max-width:720px)').matches;
