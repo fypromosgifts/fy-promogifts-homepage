@@ -1,0 +1,152 @@
+[
+  {
+    "category_name": "Drinkware",
+    "category_slug": "drinkware",
+    "parent_slug": "",
+    "category_description": "Custom drinkware for corporate gifts, events, campaigns, and daily brand exposure.",
+    "category_image": "",
+    "sort_order": 1,
+    "status": "available",
+    "product_count": 22
+  },
+  {
+    "category_name": "Bags",
+    "category_slug": "bags",
+    "parent_slug": "",
+    "category_description": "Tote bags, drawstring bags, backpacks, reusable shopping bags, and travel bags.",
+    "category_image": "",
+    "sort_order": 2,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Stationery & Office",
+    "category_slug": "stationery-office",
+    "parent_slug": "",
+    "category_description": "Notebooks, pens, desk accessories, and office promotional gifts.",
+    "category_image": "",
+    "sort_order": 3,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Keychains & Accessories",
+    "category_slug": "keychains-accessories",
+    "parent_slug": "",
+    "category_description": "Keychains, lanyards, badge holders, luggage tags, and small branded accessories.",
+    "category_image": "",
+    "sort_order": 4,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_slug": "",
+    "category_description": "Caps, T-shirts, wristbands, socks, and wearable promotional items.",
+    "category_image": "",
+    "sort_order": 5,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Tech Gifts",
+    "category_slug": "tech-gifts",
+    "parent_slug": "",
+    "category_description": "Practical tech accessories for corporate gifting and promotional campaigns.",
+    "category_image": "",
+    "sort_order": 6,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Home & Lifestyle",
+    "category_slug": "home-lifestyle",
+    "parent_slug": "",
+    "category_description": "Lifestyle gifts for home, wellness, daily use, and brand campaigns.",
+    "category_image": "",
+    "sort_order": 7,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Outdoor & Travel",
+    "category_slug": "outdoor-travel",
+    "parent_slug": "",
+    "category_description": "Travel, camping, outdoor, and on-the-go promotional products.",
+    "category_image": "",
+    "sort_order": 8,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Event & Party Supplies",
+    "category_slug": "event-party-supplies",
+    "parent_slug": "",
+    "category_description": "Promotional items for events, trade shows, parties, celebrations, and campaigns.",
+    "category_image": "",
+    "sort_order": 9,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Gift Sets",
+    "category_slug": "gift-sets",
+    "parent_slug": "",
+    "category_description": "Curated gift sets for employees, clients, events, holidays, and special projects.",
+    "category_image": "",
+    "sort_order": 10,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Packaging & Gift Boxes",
+    "category_slug": "packaging-gift-boxes",
+    "parent_slug": "",
+    "category_description": "Custom gift boxes, paper bags, packaging sleeves, and presentation options.",
+    "category_image": "",
+    "sort_order": 11,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Mugs",
+    "category_slug": "mugs",
+    "parent_slug": "drinkware",
+    "category_description": "Ceramic mugs, coffee mugs, travel mugs, and custom cups for gifts and events.",
+    "category_image": "",
+    "sort_order": 12,
+    "status": "available",
+    "product_count": 22
+  },
+  {
+    "category_name": "Tumblers",
+    "category_slug": "tumblers",
+    "parent_slug": "drinkware",
+    "category_description": "Stainless steel tumblers, insulated cups, and reusable promotional drinkware.",
+    "category_image": "",
+    "sort_order": 13,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Water Bottles",
+    "category_slug": "water-bottles",
+    "parent_slug": "drinkware",
+    "category_description": "Reusable water bottles for office, sports, outdoor, travel, and promotional campaigns.",
+    "category_image": "",
+    "sort_order": 14,
+    "status": "available",
+    "product_count": 0
+  },
+  {
+    "category_name": "Glassware",
+    "category_slug": "glassware",
+    "parent_slug": "drinkware",
+    "category_description": "Glass cups, glass bottles, and drinkware items for custom gift projects.",
+    "category_image": "",
+    "sort_order": 15,
+    "status": "available",
+    "product_count": 0
+  }
+]

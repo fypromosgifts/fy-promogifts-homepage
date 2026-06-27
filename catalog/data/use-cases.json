@@ -1,0 +1,50 @@
+[
+  {
+    "use_case_name": "Corporate Gifts",
+    "use_case_slug": "corporate-gifts",
+    "description": "Custom products for company gifting, conferences, and brand campaigns.",
+    "sort_order": 1
+  },
+  {
+    "use_case_name": "Employee Gifts",
+    "use_case_slug": "employee-gifts",
+    "description": "Practical gifts for staff appreciation, onboarding, and team events.",
+    "sort_order": 2
+  },
+  {
+    "use_case_name": "Client Appreciation Gifts",
+    "use_case_slug": "client-appreciation-gifts",
+    "description": "Selected promotional gifts for customer relationships and VIP programs.",
+    "sort_order": 3
+  },
+  {
+    "use_case_name": "Trade Show & Event Gifts",
+    "use_case_slug": "trade-show-event-gifts",
+    "description": "Giveaways and event merchandise for trade shows, expos, and campaigns.",
+    "sort_order": 4
+  },
+  {
+    "use_case_name": "Wedding & Party Favors",
+    "use_case_slug": "wedding-party-favors",
+    "description": "Customizable favors for weddings, parties, and celebrations.",
+    "sort_order": 5
+  },
+  {
+    "use_case_name": "Holiday & Seasonal Gifts",
+    "use_case_slug": "holiday-seasonal-gifts",
+    "description": "Seasonal promotional products and holiday gifting ideas.",
+    "sort_order": 6
+  },
+  {
+    "use_case_name": "Brand Campaign Giveaways",
+    "use_case_slug": "brand-campaign-giveaways",
+    "description": "Branded giveaways for launches, campaigns, and marketing programs.",
+    "sort_order": 7
+  },
+  {
+    "use_case_name": "Onboarding Gift Kits",
+    "use_case_slug": "onboarding-gift-kits",
+    "description": "Curated kits for employee onboarding and welcome packs.",
+    "sort_order": 8
+  }
+]
