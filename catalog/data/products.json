@@ -17,7 +17,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU022.png",
+    "image_main": "/catalog/images/products-optimized/MU022.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -40,7 +40,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU021.png",
+    "image_main": "/catalog/images/products-optimized/MU021.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -63,7 +63,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU020.png",
+    "image_main": "/catalog/images/products-optimized/MU020.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -86,7 +86,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU019.png",
+    "image_main": "/catalog/images/products-optimized/MU019.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -109,7 +109,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU018.png",
+    "image_main": "/catalog/images/products-optimized/MU018.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -132,7 +132,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU017.png",
+    "image_main": "/catalog/images/products-optimized/MU017.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -155,7 +155,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU016.png",
+    "image_main": "/catalog/images/products-optimized/MU016.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -178,7 +178,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU015.png",
+    "image_main": "/catalog/images/products-optimized/MU015.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -201,7 +201,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU014.png",
+    "image_main": "/catalog/images/products-optimized/MU014.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -224,7 +224,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU013.png",
+    "image_main": "/catalog/images/products-optimized/MU013.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -247,7 +247,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU012.png",
+    "image_main": "/catalog/images/products-optimized/MU012.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -270,7 +270,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU011.png",
+    "image_main": "/catalog/images/products-optimized/MU011.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -293,7 +293,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU010.png",
+    "image_main": "/catalog/images/products-optimized/MU010.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -316,7 +316,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU009.png",
+    "image_main": "/catalog/images/products-optimized/MU009.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -339,7 +339,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU008.png",
+    "image_main": "/catalog/images/products-optimized/MU008.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -362,7 +362,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU007.png",
+    "image_main": "/catalog/images/products-optimized/MU007.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -385,7 +385,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU006.png",
+    "image_main": "/catalog/images/products-optimized/MU006.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -408,9 +408,9 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU005.png",
+    "image_main": "/catalog/images/products-optimized/MU005.jpg",
     "image_gallery": [
-      "/catalog/images/products/MU005-02.png"
+      "/catalog/images/products-optimized/MU005-02.jpg"
     ],
     "tags": [],
     "publish_to_catalog": true
@@ -433,7 +433,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU004.png",
+    "image_main": "/catalog/images/products-optimized/MU004.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -456,7 +456,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU003.png",
+    "image_main": "/catalog/images/products-optimized/MU003.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -479,7 +479,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU002.png",
+    "image_main": "/catalog/images/products-optimized/MU002.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true
@@ -502,7 +502,7 @@
     "customization": [
       "Logo Printing"
     ],
-    "image_main": "/catalog/images/products/MU001.png",
+    "image_main": "/catalog/images/products-optimized/MU001.jpg",
     "image_gallery": [],
     "tags": [],
     "publish_to_catalog": true

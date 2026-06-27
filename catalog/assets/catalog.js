@@ -506,7 +506,7 @@
           >
             ${selected ? "&#10003;" : "+"}
           </button>
-          <img src="${escapeHtml(productImage)}" alt="${escapeHtml(productTitle)}">
+          <img src="${escapeHtml(productImage)}" alt="${escapeHtml(productTitle)}" loading="lazy" decoding="async">
         </div>
         <div class="product-body">
           <h3 class="product-title">${escapeHtml(productTitle)}</h3>
@@ -551,7 +551,7 @@
   function renderInquiry() {
     inquiryItems.innerHTML = inquiry.map((item) => `
       <div class="inquiry-item">
-        <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}">
+        <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" decoding="async">
         <div>
           <strong>${escapeHtml(item.id)}</strong>
           <span>${escapeHtml(item.title)}</span>
