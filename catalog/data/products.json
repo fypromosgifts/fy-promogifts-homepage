@@ -1,5 +1,32 @@
 [
   {
+    "product_id": "MU023",
+    "category": "Ceramic Mug Gift Sets",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Ceramic Mug Gift Sets",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [],
+    "image_main": "/catalog/images/products-optimized/MU023.jpg",
+    "image_gallery": [
+      "/catalog/images/products-optimized/MU023-02.jpg"
+    ],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU023.png",
+      "medium": "/catalog/images/products/MU023.png"
+    },
+    "tags": [],
+    "publish_to_catalog": true
+  },
+  {
     "product_id": "MU022",
     "category": "Mugs",
     "category_slug": "mugs",
@@ -14,11 +41,38 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [
+      "Employee Gift Kits",
+      "Client Appreciation Gifts",
+      "Trade Show & Event Giveaways",
+      "Brand Campaign Giveaways",
+      "Nonprofit & Fundraising Events"
+    ],
+    "can_be_paired_with": [
+      "Tote Bag",
+      "Gift Box",
+      "Gift Bag",
+      "Thank You Card",
+      "Sticker",
+      "Keychain",
+      "Towel",
+      "Umbrella",
+      "Cap",
+      "T-shirt",
+      "Drawstring Bag",
+      "Socks",
+      "Calendar"
+    ],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU022.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU022.png",
+      "medium": "/catalog/images/products/MU022.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -37,11 +91,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU021.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU021.png",
+      "medium": "/catalog/images/products/MU021.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -60,11 +121,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU020.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU020.png",
+      "medium": "/catalog/images/products/MU020.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -83,11 +151,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU019.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU019.png",
+      "medium": "/catalog/images/products/MU019.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -106,11 +181,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU018.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU018.png",
+      "medium": "/catalog/images/products/MU018.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -129,11 +211,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU017.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU017.png",
+      "medium": "/catalog/images/products/MU017.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -152,11 +241,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU016.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU016.png",
+      "medium": "/catalog/images/products/MU016.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -175,11 +271,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU015.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU015.png",
+      "medium": "/catalog/images/products/MU015.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -198,11 +301,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU014.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU014.png",
+      "medium": "/catalog/images/products/MU014.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -221,11 +331,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU013.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU013.png",
+      "medium": "/catalog/images/products/MU013.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -244,11 +361,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU012.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU012.png",
+      "medium": "/catalog/images/products/MU012.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -267,11 +391,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU011.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU011.png",
+      "medium": "/catalog/images/products/MU011.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -290,11 +421,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU010.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU010.png",
+      "medium": "/catalog/images/products/MU010.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -313,11 +451,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU009.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU009.png",
+      "medium": "/catalog/images/products/MU009.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -336,11 +481,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU008.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU008.png",
+      "medium": "/catalog/images/products/MU008.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -359,11 +511,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU007.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU007.png",
+      "medium": "/catalog/images/products/MU007.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -382,11 +541,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU006.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU006.png",
+      "medium": "/catalog/images/products/MU006.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -405,6 +571,8 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
@@ -412,6 +580,11 @@
     "image_gallery": [
       "/catalog/images/products-optimized/MU005-02.jpg"
     ],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU005.png",
+      "medium": "/catalog/images/products/MU005.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -430,11 +603,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU004.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU004.png",
+      "medium": "/catalog/images/products/MU004.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -453,11 +633,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU003.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU003.png",
+      "medium": "/catalog/images/products/MU003.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -476,11 +663,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU002.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU002.png",
+      "medium": "/catalog/images/products/MU002.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   },
@@ -499,11 +693,18 @@
       "Corporate Gifts",
       "Trade Show & Event Gifts"
     ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
     "customization": [
       "Logo Printing"
     ],
     "image_main": "/catalog/images/products-optimized/MU001.jpg",
     "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU001.png",
+      "medium": "/catalog/images/products/MU001.png"
+    },
     "tags": [],
     "publish_to_catalog": true
   }
