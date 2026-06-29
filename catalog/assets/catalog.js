@@ -190,7 +190,9 @@
           product.material,
           product.capacity,
           product.size,
-          getColors(product)
+          getColors(product),
+          getArray(product.suitable_for).join(" "),
+          getArray(product.can_be_paired_with).join(" ")
         ].some((value) => normalize(value).includes(query))
       );
     }
