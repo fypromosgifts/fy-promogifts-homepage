@@ -1,60 +1,106 @@
 <!doctype html>
+<!-- Official Catalog Alias: /custom-products/ temporarily serves /catalog/ because old browsers may cache a retired 301. Official Catalog Route: /catalog/ | Official Product Data: /catalog/data/products.json?v=20260701-23 | Deprecated 22-product catalog must not be deployed. -->
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <title>Custom Promotional Products | FY PromoGifts</title>
-  <meta name="description" content="Choose single promotional products for custom logo printing, colors and bulk quote requests.">
-  <link rel="canonical" href="https://www.fypromogifts.com/custom-products/">
-  <script src="/data/product-catalog.js"></script>
-  <style>
-    :root{--ink:#092036;--muted:#5d6b79;--line:#dbe4e8;--paper:#f7f5ef;--panel:#fff;--gold:#d89b2d;--blue:#0f3558;--green:#166534}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,sans-serif}.topbar{position:sticky;top:0;background:rgba(247,245,239,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);z-index:5}.nav{max-width:1240px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{font-weight:900;letter-spacing:.04em}.nav a{padding:9px 12px;border-radius:6px;text-decoration:none;font-weight:850;color:var(--muted)}.nav a.active{background:var(--blue);color:white}.wrap{max-width:1240px;margin:auto;padding:28px 22px 50px}.intro h1{font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 12px}.intro p{color:var(--muted);font-size:18px;line-height:1.55;max-width:760px}.layout{display:grid;grid-template-columns:270px 1fr 340px;gap:18px;margin-top:24px}.filter,.quote{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;align-self:start;position:sticky;top:76px}.filter h2,.quote h2{margin:0 0 14px}.filter button{display:block;width:100%;text-align:left;border:1px solid var(--line);background:white;border-radius:6px;padding:11px;margin:8px 0;font-weight:850;cursor:pointer}.filter button.active{background:var(--blue);color:white}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:white;border:1px solid var(--line);border-radius:8px;overflow:hidden;position:relative}.image{aspect-ratio:1.05;background:#eef2f5;overflow:hidden;cursor:pointer}.image img{width:100%;height:100%;object-fit:cover;transition:transform .25s}.card:hover img{transform:scale(1.04)}.hover{position:absolute;inset:0 0 auto 0;min-height:48%;padding:13px;background:linear-gradient(180deg,rgba(9,32,54,.92),rgba(9,32,54,.62),transparent);color:white;opacity:0;transition:opacity .18s}.card:hover .hover{opacity:1}.body{padding:13px}.body h3{margin:0 0 6px}.meta{font-size:13px;line-height:1.45;color:var(--muted)}.swatches{display:flex;gap:7px;margin:11px 0}.swatch{width:24px;height:24px;border-radius:999px;border:2px solid white;outline:1px solid #cbd5e1}.card button.choose{width:100%;border:0;background:var(--gold);border-radius:6px;padding:11px;font-weight:950;cursor:pointer}.quote label{display:block;font-size:12px;font-weight:950;margin:10px 0 6px}.quote input,.quote textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px 11px;font:inherit}.quote textarea{min-height:76px}.quote .submit{width:100%;border:0;background:var(--blue);color:white;border-radius:6px;padding:12px;margin-top:12px;font-weight:950;cursor:pointer}.selected{background:#f8fafc;border:1px solid var(--line);border-radius:6px;padding:10px;margin-bottom:10px}.status{font-size:13px;color:var(--green);font-weight:850;min-height:18px;margin-top:8px}.modal{position:fixed;inset:0;background:rgba(9,32,54,.72);display:none;align-items:center;justify-content:center;padding:20px;z-index:20}.modal.open{display:flex}.modal-box{max-width:860px;width:100%;background:white;border-radius:8px;overflow:hidden}.modal-box img{width:100%;max-height:72vh;object-fit:contain;background:#f8fafc}.modal-bar{display:flex;justify-content:space-between;padding:12px 14px}.close{border:1px solid var(--line);background:white;border-radius:6px;padding:8px 12px;cursor:pointer}@media(max-width:1080px){.layout{grid-template-columns:220px 1fr}.quote{position:static;grid-column:1/-1}.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:720px){.layout{grid-template-columns:1fr}.filter{position:static}.grid{grid-template-columns:1fr}.nav{align-items:flex-start;gap:12px;flex-wrap:wrap}}
-  .fy-contact-wa-link,.fy-contact-quote-link{position:fixed!important;z-index:2147483000!important;text-decoration:none!important}.fy-contact-wa-link{left:28px!important;bottom:28px!important;width:64px!important;height:64px!important;border-radius:50%!important;display:grid!important;place-items:center!important;background:#25D366!important;box-shadow:0 14px 30px rgba(37,211,102,.34),0 0 0 8px rgba(37,211,102,.12)!important;transition:transform .2s ease,box-shadow .2s ease!important}.fy-contact-wa-link:hover,.fy-contact-quote-link:hover{transform:translateY(-2px)!important}.fy-contact-wa-link svg{width:40px!important;height:40px!important;display:block!important}.fy-contact-quote-link{right:28px!important;bottom:28px!important;min-height:52px!important;padding:0 24px!important;border-radius:999px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:9px!important;background:linear-gradient(180deg,#f0bf68,#d99b38)!important;color:#1b1307!important;font-weight:950!important;font-size:15px!important;letter-spacing:.01em!important;box-shadow:0 16px 32px rgba(217,155,56,.32),0 0 0 8px rgba(217,155,56,.10)!important}.fy-contact-quote-link svg{width:18px!important;height:18px!important;flex:0 0 auto!important}@media(max-width:720px){.fy-contact-wa-link{left:14px!important;bottom:14px!important;width:56px!important;height:56px!important}.fy-contact-wa-link svg{width:35px!important;height:35px!important}.fy-contact-quote-link{right:14px!important;bottom:14px!important;min-height:46px!important;padding:0 16px!important;font-size:13px!important}}</style>
-</head>
-<body>
-  <header class="topbar"><nav class="nav"><div class="brand">FY PROMOGIFTS</div><div><a class="active" href="/custom-products/">Single Products</a><a href="/">Home</a></div></nav></header>
-  <main class="wrap"><section class="intro"><h1>Customize single products without building a full kit.</h1><p>Pick a product, preview color directions, upload artwork and request a clean production quote. You can also send the same product into the Kit Builder later.</p></section><section class="layout"><aside class="filter"><h2>Categories</h2><div id="filters"></div></aside><div class="grid" id="grid"></div><form class="quote" id="quoteForm" action="https://fy-promogifts-inquiry.sira-fengyin.workers.dev/submit" method="POST" enctype="multipart/form-data"><h2>Product Inquiry</h2><div class="selected" id="selectedBox">Select a product to start.</div><input type="hidden" name="_subject" value="New Single Product Inquiry - FY PromoGifts"><input type="hidden" name="use_case" value="Single product customization"><input type="hidden" name="products" id="productsField"><label>Name</label><input name="name" required><label>Email</label><input name="email" type="email" required><label>WhatsApp</label><input name="whatsapp" required><label>Company</label><input name="company" required><label>Quantity</label><input name="quantity" required><label>Need-by Date</label><input name="need_by_date" placeholder="YYYY-MM-DD"><label>Logo / Artwork</label><input name="logo_artwork" type="file" accept=".jpg,.jpeg,.png,.pdf,.ai"><label>Message</label><textarea name="message" id="messageField"></textarea><button class="submit" type="submit">Submit Product Inquiry</button><div class="status" id="status"></div></form></section></main>
-  <div class="modal" id="modal"><div class="modal-box"><img id="modalImage" alt=""><div class="modal-bar"><strong id="modalTitle"></strong><button class="close" id="closeModal">Close</button></div></div></div>
-  <script>
-    const catalog=window.FY_CATALOG.products;let active="All",selected=null;const $=(id)=>document.getElementById(id);function renderFilters(){const cats=["All",...new Set(catalog.map((p)=>p.category))];$("filters").innerHTML=cats.map((cat)=>`<button class="${cat===active?"active":""}" data-cat="${cat}">${cat}</button>`).join("");$("filters").querySelectorAll("button").forEach((button)=>button.addEventListener("click",()=>{active=button.dataset.cat;render()}))}function render(){renderFilters();const products=catalog.filter((p)=>active==="All"||p.category===active);$("grid").innerHTML=products.map((p)=>`<article class="card"><div class="image" data-preview="${p.id}"><img src="${p.image}" alt="${p.name}"></div><div class="hover"><strong>${p.methods}</strong><p>${p.fit}</p></div><div class="body"><h3>${p.name}</h3><div class="meta">${p.category} · MOQ ${p.moq}</div><div class="swatches">${p.colors.map((c)=>`<span class="swatch" style="background:${c}"></span>`).join("")}</div><button class="choose" data-id="${p.id}">Choose Product</button></div></article>`).join("");$("grid").querySelectorAll(".choose").forEach((button)=>button.addEventListener("click",()=>choose(button.dataset.id)));$("grid").querySelectorAll("[data-preview]").forEach((node)=>node.addEventListener("click",()=>preview(catalog.find((p)=>p.id===node.dataset.preview))))}function choose(id){selected=catalog.find((p)=>p.id===id);const text=`${selected.name} / ${selected.category} / MOQ ${selected.moq} / Branding: ${selected.methods}`;$("selectedBox").textContent=text;$("productsField").value=text;$("messageField").value=`Please quote ${selected.name}. Preferred branding: ${selected.methods}.`}function preview(item){$("modalImage").src=item.image;$("modalTitle").textContent=item.name;$("modal").classList.add("open")}$("closeModal").addEventListener("click",()=>$("modal").classList.remove("open"));$("modal").addEventListener("click",(event)=>{if(event.target.id==="modal")$("modal").classList.remove("open")});$("quoteForm").addEventListener("submit",async(event)=>{event.preventDefault();$("status").textContent="Submitting...";const response=await fetch(event.currentTarget.action,{method:"POST",body:new FormData(event.currentTarget),headers:{Accept:"application/json"}});$("status").textContent=response.ok?"Thanks. Your product inquiry has been sent.":"Submission failed. Please email sira@fypromogifts.com.";if(response.ok)event.currentTarget.reset()});render();
-  </script>
-<script id="fy-contact-buttons-v4">
-(function(){
-  function svgQuote(){return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="width:18px;height:18px;flex:0 0 auto"><path d="M20 7.5 16.5 4 5 15.5V19h3.5L20 7.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path><path d="m14.8 5.7 3.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>'}
-  function svgWhatsApp(){return '<img src="/assets/whatsapp-delivery-icon.jpg" alt="" aria-hidden="true" style="width:64px;height:64px;display:block;object-fit:contain;border-radius:50%">'}
-  function setStyle(el, styles){Object.keys(styles).forEach(function(key){var cssKey=key.replace(/[A-Z]/g,function(m){return '-' + m.toLowerCase()});el.style.setProperty(cssKey, styles[key], 'important')})}
-  function mount(){
-    document.querySelectorAll('#fyStickyWa,#fyStickyQuote').forEach(function(el){el.remove()});
-    var isMobile = window.matchMedia && window.matchMedia('(max-width:720px)').matches;
-    var wa = document.createElement('a');
-    wa.id = 'fyStickyWa';
-    wa.href = 'https://wa.me/8615869117529';
-    wa.target = '_blank';
-    wa.rel = 'noopener';
-    wa.setAttribute('aria-label','Chat on WhatsApp');
-    wa.innerHTML = svgWhatsApp();
-    setStyle(wa, {
-      position:'fixed', left:isMobile?'14px':'28px', bottom:isMobile?'14px':'28px', width:isMobile?'64px':'72px', height:isMobile?'64px':'72px',
-      zIndex:'2147483647', display:'grid', placeItems:'center', borderRadius:'999px', background:'transparent', textDecoration:'none',
-      boxShadow:'0 16px 34px rgba(37,211,102,.24)', transform:'translateZ(0)', pointerEvents:'auto'
-    });
-    var quote = document.createElement('a');
-    quote.id = 'fyStickyQuote';
-    quote.href = '/#contact';
-    quote.setAttribute('aria-label','Get a free quote');
-    quote.innerHTML = '<span>Get a Free Quote</span>' + svgQuote();
-    setStyle(quote, {
-      position:'fixed', right:isMobile?'14px':'28px', bottom:isMobile?'14px':'28px', minHeight:isMobile?'46px':'52px', padding:isMobile?'0 16px':'0 24px',
-      zIndex:'2147483647', display:'inline-flex', alignItems:'center', justifyContent:'center', gap:'9px', borderRadius:'999px',
-      background:'linear-gradient(180deg,#f0bf68,#d99b38)', color:'#1b1307', fontWeight:'950', fontSize:isMobile?'13px':'15px',
-      letterSpacing:'.01em', textDecoration:'none', boxShadow:'0 16px 32px rgba(217,155,56,.32),0 0 0 8px rgba(217,155,56,.10)', pointerEvents:'auto'
-    });
-    document.body.appendChild(wa);
-    document.body.appendChild(quote);
-  }
-  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount); else mount();
-  window.addEventListener('pageshow', mount);
-})();
-</script></body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Custom Promotional Gifts Catalog | FY PromoGifts</title>
+    <meta name="description" content="Browse customizable promotional gifts, mugs, bags, stationery, event giveaways, gift sets, and packaging options. Add products to your inquiry bag and request a quote from FY PromoGifts.">
+    <link rel="stylesheet" href="/catalog/assets/catalog.css">
+  </head>
+  <body
+    data-page-type="index"
+    data-products-url="/catalog/data/products.json?v=20260701-23"
+    data-categories-url="/catalog/data/categories.json"
+    data-use-cases-url="/catalog/data/use-cases.json"
+    data-whatsapp-number="+86 15869117529"
+    data-email-address="sira@fypromogifts.com"
+  >
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="/catalog/" aria-label="FY PromoGifts catalog home">
+          <span class="brand-logo" aria-hidden="true">
+            <span class="brand-fy">FY</span>
+            <span class="brand-promogifts">PromoGifts</span>
+          </span>
+        </a>
+
+        <nav class="catalog-nav" aria-label="Main navigation">
+          <a href="/catalog/">Shop All</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-button" type="button" aria-expanded="false">
+              Categories
+            </button>
+            <div class="category-menu" aria-label="Categories menu"></div>
+          </div>
+          <a href="/catalog/">Custom Gifts</a>
+          <a href="/catalog/">Lookbook</a>
+          <a href="mailto:info@fypromogifts.com">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="pill-button secondary pdf-button" type="button" data-pdf-placeholder>
+            Download PDF Catalog
+          </button>
+          <button id="heroRequestQuote" class="pill-button primary" type="button">Request Quote</button>
+          <button id="inquiryBagButton" class="pill-button bag-button" type="button" aria-expanded="false">
+            Inquiry Bag <span id="inquiryCount">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="catalog-page">
+      <section class="catalog-hero" aria-labelledby="catalog-title">
+        <div>
+          <p class="catalog-kicker">Online B2B Catalog</p>
+          <h1 id="catalog-title">Promotional Gifts Catalog</h1>
+          <p id="catalogSummary" class="catalog-summary" hidden></p>
+        </div>
+        <div class="hero-actions">
+          <button class="pill-button secondary pdf-button" type="button" data-pdf-placeholder>
+            Download PDF
+          </button>
+        </div>
+      </section>
+
+      <section id="filterBar" class="filter-bar filter-bar-index" aria-label="Catalog filters"></section>
+
+      <section class="catalog-results" aria-label="Product results">
+        <div class="results-line" aria-live="polite">
+          <span id="resultCount">Loading products...</span>
+        </div>
+        <div id="productGrid" class="product-grid" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden></div>
+      </section>
+    </main>
+
+    <div id="drawerOverlay" class="drawer-overlay" hidden></div>
+    <aside id="inquiryDrawer" class="inquiry-drawer" aria-labelledby="inquiry-title" aria-hidden="true">
+      <div class="drawer-head">
+        <div>
+          <p class="drawer-kicker">Selected products</p>
+          <h2 id="inquiry-title">Inquiry Bag</h2>
+        </div>
+        <button id="closeDrawer" class="icon-button" type="button" aria-label="Close inquiry bag">&times;</button>
+      </div>
+
+      <div id="inquiryItems" class="inquiry-items" aria-live="polite"></div>
+      <p id="inquiryEmpty" class="inquiry-empty">
+        No products selected yet. Add products to request details, mockup, and quotation.
+      </p>
+
+      <div class="inquiry-actions">
+        <a id="whatsappLink" class="action-button whatsapp disabled" href="#" aria-disabled="true">
+          Send WhatsApp Inquiry
+        </a>
+        <a id="emailLink" class="action-button email disabled" href="#" aria-disabled="true">
+          Send Email Inquiry
+        </a>
+        <button id="clearInquiry" class="clear-button" type="button">Clear All</button>
+      </div>
+    </aside>
+
+    <script src="/catalog/assets/catalog.js?v=20260701-23"></script>
+  </body>
 </html>
