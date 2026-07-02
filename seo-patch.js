@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 
 let html = fs.readFileSync('index.html', 'utf8');
 
@@ -20,7 +20,7 @@ const meta = `
   "@type": "Organization",
   "name": "FY PromoGifts",
   "url": "https://www.fypromogifts.com/",
-  "email": "sira@fypromogifts.com",
+  "email": "info@fypromogifts.com",
   "description": "${description}",
   "sameAs": ["https://wa.me/8615869117529"]
 }
@@ -33,14 +33,14 @@ if (!html.includes('rel="canonical"')) {
   );
 }
 
-if (!html.includes('href="/kit-builder/"')) {
+if (!html.includes('href="/catalog/"')) {
   html = html.replace(
     '<a href="#home">Home</a><a href="#use-cases">Use Cases</a><a href="#customization">What We Do</a><a href="#products">Products</a><a href="#projects">Real Projects</a><a href="#contact">Contact</a>',
-    '<a href="#home">Home</a><a href="/kit-builder/">Kit Builder</a><a href="/custom-products/">Single Products</a><a href="#use-cases">Use Cases</a><a href="#customization">What We Do</a><a href="#products">Products</a><a href="#projects">Real Projects</a><a href="#contact">Contact</a>'
+    '<a href="#home">Home</a><a href="/catalog/">Catalog</a><a href="#use-cases">Use Cases</a><a href="#customization">What We Do</a><a href="#products">Products</a><a href="#projects">Real Projects</a><a href="#contact">Contact</a>'
   );
   html = html.replace(
     '<div class="hero-ctas"><a class="btn btn-gold" href="#contact">Start Your Gift Project</a><a class="btn btn-outline" href="https://wa.me/8615869117529" rel="noopener" target="_blank">Chat on WhatsApp</a></div>',
-    '<div class="hero-ctas"><a class="btn btn-gold" href="/kit-builder/">Build Kit Online</a><a class="btn btn-outline" href="/custom-products/">Browse Products</a><a class="btn btn-outline" href="https://wa.me/8615869117529" rel="noopener" target="_blank">Chat on WhatsApp</a></div>'
+    '<div class="hero-ctas"><a class="btn btn-gold" href="#contact">Start Your Gift Project</a><a class="btn btn-outline" href="/catalog/">Browse Products</a><a class="btn btn-outline" href="https://wa.me/8615869117529" rel="noopener" target="_blank">Chat on WhatsApp</a></div>'
   );
 }
 

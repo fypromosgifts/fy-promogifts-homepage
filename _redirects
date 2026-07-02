@@ -1,7 +1,15 @@
-http://fypromogifts.com/* https://www.fypromogifts.com/:splat 301
+﻿http://fypromogifts.com/* https://www.fypromogifts.com/:splat 301
 https://fypromogifts.com/* https://www.fypromogifts.com/:splat 301
 http://www.fypromogifts.com/* https://www.fypromogifts.com/:splat 301
-/kit-builder/ /kit-studio/ 301
-/kit-builder/* /kit-studio/ 301
+/kit-builder/ /catalog/ 301
+/kit-builder/* /catalog/ 301
 /trade-show-giveaways/ /blog/trade-show-giveaway-ideas/ 301
 /contact/ /#contact 301
+
+/preview-custom-products/ /catalog/ 301
+/preview-custom-products/* /catalog/ 301
+/preview-kit-builder/ /catalog/ 301
+/preview-kit-builder/* /catalog/ 301
+
+/kit-studio/ /catalog/ 301
+/kit-studio/* /catalog/ 301
