@@ -43,7 +43,7 @@ Goal: capture B2B inquiries (name, email, WhatsApp, company, quantity, products)
 4. **Form backend.** The inquiry form submits to Formspree at `https://formspree.io/f/xgoqqrno`. Keep the form as a static HTML form with vanilla JS enhancement unless explicitly asked to change providers.
 
 5. **Do not change contact info** without explicit instruction:
-   - Email: `sira@fypromogifts.com`
+   - Email: `info@fypromogifts.com`
    - WhatsApp: `+86 158 6911 7529` -> `https://wa.me/8615869117529`
 
 6. **Deployment is automatic.** Cloudflare Pages is connected to this GitHub repo. Any push to `main` triggers a redeploy automatically.
@@ -82,6 +82,14 @@ Fonts: Georgia / Times New Roman for headings; system sans-serif for body.
 | Reviews | `#reviews` | Review cards with expandable proof screenshots |
 | Contact | `#contact` | Inquiry form and WhatsApp button |
 | Footer | `.footer` | Brand info and contact links |
+
+---
+
+## Blog Detail Layout Rule
+
+For Blog detail pages, the hero must use a split layout: left side text (`.hero-copy` with kicker, H1, description, meta) and right side image (`.visual`). Do not place the hero image below the title on desktop. On mobile, the hero can stack with text first and image second.
+
+Bottom CTA blocks must not use a narrow text column beside buttons. Keep CTA copy full-width with buttons underneath or in a roomy row so paragraphs do not wrap into single-word columns.
 
 ---
 
