@@ -21,3 +21,7 @@
 - LinkedIn: pending_manual_publish
 - Pinterest: pending_manual_publish
 - Note: Codex did not publish social posts and did not create fake social links.
+
+## Asset Delivery Note
+- Blog page references the hero image with cache-busting query: assets/blog/blog-quality-first-corporate-gift-kits-hero.webp?v=20260703-asset2
+- Source targetPath remains: assets/blog/blog-quality-first-corporate-gift-kits-hero.webp
