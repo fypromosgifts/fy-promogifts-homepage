@@ -9,6 +9,20 @@
     return path === "/" || path === "";
   }
 
+  function normalizeInquiryFields() {
+    ["inqWhatsapp", "inqCompany"].forEach(function (id) {
+      var field = document.getElementById(id);
+      if (!field) return;
+      field.required = false;
+      field.removeAttribute("required");
+      var label = field.closest(".field");
+      label = label ? label.querySelector("label") : null;
+      if (label) {
+        label.textContent = label.textContent.replace(/\s*\*+\s*$/, "");
+      }
+    });
+  }
+
   function injectStyle() {
     if (document.getElementById(STYLE_ID)) return;
     var style = document.createElement("style");
@@ -46,6 +60,7 @@
 
   function mount() {
     if (!document.body) return;
+    normalizeInquiryFields();
     injectStyle();
     var existing = document.getElementById(ROOT_ID);
     if (existing) existing.remove();
