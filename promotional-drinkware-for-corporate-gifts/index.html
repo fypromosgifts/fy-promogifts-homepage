@@ -32,16 +32,19 @@
     .links{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:13px;font-weight:850}
     .links a{text-decoration:none}
     .links a.active{color:var(--ink)}
-    .hero{padding:46px 0 34px;border-bottom:1px solid var(--line)}
+    .hero{padding:46px 0 38px;border-bottom:1px solid var(--line)}
+    .hero .wrap{width:min(1280px,calc(100% - 42px))}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(420px,520px);gap:38px;align-items:center}
+    .hero-copy{min-width:0}
     .crumb{font-size:13px;color:var(--muted);font-weight:800;margin-bottom:18px}
     .crumb a{text-decoration:none;color:var(--ink)}
     .kicker{font-size:12px;font-weight:900;letter-spacing:.18em;text-transform:uppercase;color:#b98228}
     h1,h2{font-family:var(--serif);letter-spacing:-.035em}
-    h1{font-size:clamp(38px,5vw,66px);line-height:1.02;margin:12px 0 16px}
+    h1{font-size:clamp(38px,4.6vw,64px);line-height:1.02;margin:12px 0 16px;max-width:820px}
     .dek{max-width:820px;color:var(--muted);font-size:18px;line-height:1.62;margin:0 0 12px}
     .meta{font-size:13px;color:var(--muted);font-weight:850}
-    .hero-visual{margin-top:26px;border:1px solid var(--line);background:#efe6d8;overflow:hidden}
-    .hero-visual img{width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}
+    .visual{border:1px solid var(--line);background:#efe6d8;overflow:hidden;aspect-ratio:4/3}
+    .visual img{width:100%;height:100%;object-fit:cover}
     .content{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:44px;padding:42px 0 72px}
     .post{font-size:17px;line-height:1.76;min-width:0}
     .post p,.post li{color:#263d53}
@@ -66,7 +69,7 @@
     .aside a{display:block;text-decoration:none;color:var(--muted);font-weight:850;margin:9px 0;font-size:14px}
     .footer{border-top:1px solid var(--line);padding:28px 0 42px;color:var(--muted);font-size:14px}
     .footer a{font-weight:850;color:var(--ink)}
-    @media(max-width:860px){.content{grid-template-columns:1fr}.aside{position:static}.nav{align-items:flex-start;flex-direction:column;padding:12px 0}.hero{padding-top:34px}.cta-row{display:grid}.btn{width:100%;text-align:center}.post{font-size:16px}.post h2{font-size:30px}.post h3{font-size:20px}}
+    @media(max-width:860px){.hero-grid{grid-template-columns:1fr;gap:24px}.hero .wrap{width:min(1080px,calc(100% - 42px))}.visual{aspect-ratio:16/9}.content{grid-template-columns:1fr}.aside{position:static}.nav{align-items:flex-start;flex-direction:column;padding:12px 0}.hero{padding-top:34px}.cta-row{display:grid}.btn{width:100%;text-align:center}.post{font-size:16px}.post h2{font-size:30px}.post h3{font-size:20px}}
     @media(max-width:560px){.wrap{width:min(100% - 36px,100%)}h1{font-size:34px}.dek{font-size:16px}h1,.post h2,.post h3,.dek,.post p,.post li{overflow-wrap:anywhere}}
   </style>
   <script type="application/ld+json">
@@ -89,13 +92,17 @@
   <main>
     <section class="hero">
       <div class="wrap">
-        <div class="crumb"><a href="/blog/">Blog</a> / Buyer Guide</div>
-        <div class="kicker">Buyer Guide / Promotional Drinkware</div>
-        <h1>Promotional Drinkware for Corporate Gifts: 4 Practical Options for Different Campaigns</h1>
-        <p class="dek">Choosing promotional drinkware is not only about selecting the most popular cup. The right option should match the audience, daily use, campaign purpose, packaging plan and quotation requirements.</p>
-        <p class="meta">Published July 8, 2026 by FY PromoGifts</p>
-        <div class="hero-visual">
-          <img src="/assets/blog/promotional-drinkware/promotional-drinkware-corporate-gifts-hero.webp" alt="Promotional drinkware options for corporate gifts and branded campaigns" width="1200" height="630">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="crumb"><a href="/blog/">Blog</a> / Buyer Guide</div>
+            <div class="kicker">Buyer Guide / Promotional Drinkware</div>
+            <h1>Promotional Drinkware for Corporate Gifts: 4 Practical Options for Different Campaigns</h1>
+            <p class="dek">Choosing promotional drinkware is not only about selecting the most popular cup. The right option should match the audience, daily use, campaign purpose, packaging plan and quotation requirements.</p>
+            <p class="meta">Published July 8, 2026 by FY PromoGifts</p>
+          </div>
+          <div class="visual">
+            <img src="/assets/blog/promotional-drinkware/40oz-handle-tumbler-collection.webp" alt="Four large capacity handle tumblers for branded merchandise" width="900" height="900">
+          </div>
         </div>
       </div>
     </section>
