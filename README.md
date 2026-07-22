@@ -1,12 +1,12 @@
-# FY PromoGifts Homepage
+# FY PromoGifts
 
-GitHub-ready static homepage package.
+[FY PromoGifts](https://www.fypromogifts.com/) supplies custom promotional gifts, branded merchandise and mixed-product gift kits for corporate buyers, agencies and event teams.
 
-Upload `index.html` and the entire `assets` folder to the root of your GitHub repository.
+## Buyer Resources
 
-Cloudflare Pages settings:
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: /
+- [Employee Onboarding Kits](https://www.fypromogifts.com/employee-onboarding-kits/)
+- [Online Product Catalog](https://www.fypromogifts.com/catalog/)
+- [Gift Kit Studio](https://www.fypromogifts.com/kit-studio/)
+- [Promotional Gift Buying Guides](https://www.fypromogifts.com/blog/)
 
-Do not upload only index.html. The assets folder is required.
+This repository contains the production static site deployed through Cloudflare Pages.
