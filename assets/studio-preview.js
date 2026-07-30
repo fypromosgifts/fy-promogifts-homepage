@@ -16,7 +16,7 @@ async function sendInquiry(event){
   const status = form.querySelector(".status");
   status.textContent = "Submitting...";
   const response = await fetch(endpoint, { method:"POST", body:new FormData(form), headers:{ Accept:"application/json" } });
-  status.textContent = response.ok ? "Thanks. Your inquiry has been sent." : "Submission failed. Please email sira@fypromogifts.com.";
+  status.textContent = response.ok ? "Thanks. Your inquiry has been sent." : "Submission failed. Please email info@fypromogifts.com.";
   if(response.ok) form.reset();
 }
 

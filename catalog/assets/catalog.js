@@ -9,7 +9,7 @@
   const storageKey = "catalogInquiryBag";
   const legacyStorageKeys = ["fyCatalogInquiry", `fyCatalogInquiry:${categorySlug || "catalog"}`];
   const defaultWhatsappNumber = "8615869117529";
-  const defaultEmailAddress = "sira@fypromogifts.com";
+  const defaultEmailAddress = "info@fypromogifts.com";
   const whatsappNumber = normalizePhoneNumber(page.whatsappNumber) || defaultWhatsappNumber;
   const emailAddress = page.emailAddress || defaultEmailAddress;
 
