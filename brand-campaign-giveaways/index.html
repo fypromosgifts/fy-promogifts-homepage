@@ -103,16 +103,20 @@
     .nav-actions .btn{min-height:40px;padding:0 16px;font-size:13px}
     .menu-toggle{display:none;width:44px;height:40px;border:1px solid rgba(255,255,255,.2);border-radius:12px;color:#fff;background:rgba(255,255,255,.08);cursor:pointer}
 
-    .hero{position:relative;min-height:720px;padding:112px 0 60px;color:#fff;background:radial-gradient(circle at 82% 38%,rgba(23,83,91,.54),transparent 34%),radial-gradient(circle at 15% 18%,rgba(217,155,56,.12),transparent 25%),linear-gradient(115deg,#030d16 0%,#071724 52%,#0d2944 100%)}
+    .hero{position:relative;min-height:650px;padding:118px 0 56px;color:#fff;background:radial-gradient(circle at 82% 38%,rgba(23,83,91,.54),transparent 34%),radial-gradient(circle at 15% 18%,rgba(217,155,56,.12),transparent 25%),linear-gradient(115deg,#030d16 0%,#071724 52%,#0d2944 100%)}
     .hero:before{content:"";position:absolute;inset:0;opacity:.1;background-image:linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(0deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:82px 82px}
-    .hero-grid{position:relative;display:grid;grid-template-columns:minmax(520px,1fr) minmax(480px,.92fr);gap:40px;align-items:center}
-    .hero-copy p{max-width:650px;color:rgba(255,248,238,.84);font-size:18px;line-height:1.65}
-    .hero-ctas,.card-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
-    .hero-facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
-    .hero-facts span{border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:8px 12px;color:#fff;background:rgba(255,255,255,.035);font-size:12px;font-weight:800}
-    .hero-visual{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);background:#14263a;box-shadow:0 30px 60px rgba(0,0,0,.35)}
+    .hero-grid{position:relative;display:grid;grid-template-columns:minmax(430px,.78fr) minmax(0,1.22fr);gap:52px;align-items:center}
+    .hero-copy{padding:10px 0}
+    .hero h1{max-width:520px;margin-bottom:24px;font-size:clamp(52px,4.9vw,68px);line-height:.98;letter-spacing:-.045em}
+    .hero-copy p{max-width:530px;color:rgba(255,248,238,.82);font-size:17px;line-height:1.68}
+    .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}
+    .card-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
+    .hero-facts{display:grid;grid-template-columns:repeat(3,max-content);gap:10px 20px;margin-top:26px}
+    .hero-facts span{display:flex;align-items:center;gap:8px;padding:0;color:rgba(255,248,238,.82);font-size:12px;font-weight:800}
+    .hero-facts span:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold2);box-shadow:0 0 0 4px rgba(240,191,104,.09)}
+    .hero-visual{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.14);border-radius:28px;background:#14263a;box-shadow:0 34px 74px rgba(0,0,0,.38)}
     .hero-visual img{width:100%;aspect-ratio:3/2;object-fit:cover}
-    .hero-visual figcaption{position:absolute;inset:auto 18px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:12px 14px;background:rgba(7,23,36,.80);backdrop-filter:blur(12px);font-size:12px;font-weight:800;color:#fff}
+    .hero-visual figcaption{position:absolute;inset:auto 16px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:12px 14px;background:rgba(7,23,36,.84);backdrop-filter:blur(12px);font-size:12px;font-weight:800;color:#fff}
     .hero-visual figcaption span:last-child{color:var(--gold2)}
 
     .buyer-info{padding:46px 0 58px}
@@ -235,8 +239,8 @@
     }
     @media(max-width:700px){
       .container{width:min(100% - 28px,1240px)}.section{padding:52px 0}h1{font-size:40px}h2{font-size:32px}
-      .hero{min-height:auto;padding:104px 0 44px}.hero-grid{grid-template-columns:1fr;gap:30px}.hero-copy p{font-size:16px}
-      .hero-facts span{width:100%;text-align:center}.info-strip,.scenario-grid,.kit-grid,.system-list,.process,.form-grid,.footer-grid{grid-template-columns:1fr}
+      .hero{min-height:auto;padding:104px 0 44px}.hero-grid{grid-template-columns:1fr;gap:34px}.hero h1{font-size:clamp(40px,11vw,52px)}.hero-copy p{font-size:16px}
+      .hero-facts{grid-template-columns:1fr;gap:10px}.info-strip,.scenario-grid,.kit-grid,.system-list,.process,.form-grid,.footer-grid{grid-template-columns:1fr}
       .step,.step:nth-child(2n){border-right:0}.product-showcase{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(74vw,280px);overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x mandatory;padding-bottom:8px}
       .product-tile{scroll-snap-align:start}.product-range-actions{display:grid;grid-template-columns:1fr;width:100%}.product-range-actions .btn{width:100%}
       .packaging .check-list{grid-template-columns:1fr}.inquiry{padding:22px 16px}.span-two,.form-actions,.form-status{grid-column:1}
@@ -264,15 +268,15 @@
   <header class="hero" id="home">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <div class="kicker">Coordinated Merchandise for Agencies &amp; Events</div>
-        <h1>Custom Brand Campaign Giveaways That Look Like One Collection</h1>
-        <p>Build a color-matched merchandise kit for launches, activations, events and client campaigns. Choose practical products, repeat the brand consistently and package everything around one campaign story.</p>
+        <div class="kicker">Custom Brand Merchandise for Agencies &amp; Events</div>
+        <h1>Campaign Giveaways,<br>Built as One<br>Collection</h1>
+        <p>Create a coordinated merchandise kit for launches, activations and client campaigns—using practical products, consistent branding and one clear visual direction.</p>
         <div class="hero-ctas">
           <a class="btn btn-gold" href="#inquiry">Get a Free Campaign Mockup</a>
           <a class="btn btn-outline" href="#kits">Explore Kit Levels</a>
         </div>
         <div class="hero-facts" aria-label="Key buyer information">
-          <span>Product-Led MOQ</span><span>Free Digital Mockup</span><span>Flexible Product Mix</span><span>Repeated Logo Placement</span><span>Custom Cards &amp; Packaging</span>
+          <span>Product-Led MOQ</span><span>Free Digital Mockup</span><span>Flexible Product Mix</span>
         </div>
       </div>
       <figure class="hero-visual">
