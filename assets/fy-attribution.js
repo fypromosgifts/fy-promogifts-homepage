@@ -3,7 +3,9 @@
   var KEY = "fy_attribution_v1";
   var TTL = 2 * 60 * 60 * 1000;
   var UTM_KEYS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
-  var DATA_KEYS = UTM_KEYS.concat(["landing_page", "initial_referrer", "current_page", "session_start_time"]);
+  var CLICK_ID_KEYS = ["gclid", "gbraid", "wbraid", "msclkid"];
+  var CAMPAIGN_KEYS = UTM_KEYS.concat(CLICK_ID_KEYS);
+  var DATA_KEYS = CAMPAIGN_KEYS.concat(["landing_page", "initial_referrer", "current_page", "session_start_time"]);
   var recent = [];
 
   window.dataLayer = window.dataLayer || [];
@@ -47,17 +49,17 @@
   function collect() {
     var params = new URLSearchParams(location.search);
     var stored = readStored() || {};
-    var hasNewUtm = UTM_KEYS.some(function (key) {
+    var hasNewCampaign = CAMPAIGN_KEYS.some(function (key) {
       return params.has(key);
     });
     var data = {};
-    UTM_KEYS.forEach(function (key) {
-      data[key] = hasNewUtm ? clean(params.get(key)) : clean(stored[key]);
+    CAMPAIGN_KEYS.forEach(function (key) {
+      data[key] = hasNewCampaign ? clean(params.get(key)) : clean(stored[key]);
     });
-    data.landing_page = hasNewUtm || !stored.landing_page ? location.pathname + location.search : clean(stored.landing_page);
-    data.initial_referrer = hasNewUtm || !stored.initial_referrer ? clean(document.referrer) : clean(stored.initial_referrer);
+    data.landing_page = hasNewCampaign || !stored.landing_page ? location.pathname + location.search : clean(stored.landing_page);
+    data.initial_referrer = hasNewCampaign || !stored.initial_referrer ? clean(document.referrer) : clean(stored.initial_referrer);
     data.current_page = location.pathname;
-    data.session_start_time = hasNewUtm || !stored.session_start_time ? now() : stored.session_start_time;
+    data.session_start_time = hasNewCampaign || !stored.session_start_time ? now() : stored.session_start_time;
     try {
       sessionStorage.setItem(KEY, JSON.stringify(data));
     } catch (error) {}
@@ -195,10 +197,66 @@
         article_slug: slug()
       });
     }
+    if (href.indexOf("mailto:") === 0) {
+      window.fyTrackEvent("email_click", {
+        page_path: pagePath,
+        button_location: target.closest("#fy-floating-cta") ? "floating_cta" : "page_link",
+        article_slug: slug(),
+        cta_target: href
+      });
+    }
+  }
+
+  function bindSpamGuard(form) {
+    if (form.__fySpamGuardBound) return;
+    if ((form.action || "").indexOf("formspree.io/") === -1) return;
+    form.__fySpamGuardBound = true;
+
+    var openedAt = now();
+    var lastAttemptAt = 0;
+    var minimumFillTime = 3500;
+    var retryDelay = 15000;
+
+    function showMessage(message, isError) {
+      var status = form.querySelector(".form-status, .quote-status, .status, [aria-live]");
+      if (!status) return;
+      status.textContent = message;
+      status.classList.toggle("is-error", Boolean(isError));
+    }
+
+    form.addEventListener("submit", function (event) {
+      var trap = form.elements.namedItem("_gotcha");
+      var submittedAt = now();
+
+      if (trap && clean(trap.value, "")) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        form.reset();
+        showMessage("Request received.", false);
+        return;
+      }
+
+      if (submittedAt - openedAt < minimumFillTime) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        showMessage("Please wait a moment, then submit your inquiry again.", true);
+        return;
+      }
+
+      if (lastAttemptAt && submittedAt - lastAttemptAt < retryDelay) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        showMessage("Your inquiry is already being processed. Please wait before trying again.", true);
+        return;
+      }
+
+      lastAttemptAt = submittedAt;
+    }, true);
   }
 
   function bindForms() {
     document.querySelectorAll("form").forEach(function (form) {
+      bindSpamGuard(form);
       if (form.__fyAttributionBound) return;
       form.__fyAttributionBound = true;
       var formId = form.id || clean(form.getAttribute("name"));
@@ -229,17 +287,24 @@
       var status = form.querySelector(".form-status, .quote-status, .status, [aria-live]");
       if (status && window.MutationObserver) {
         var completed = false;
+        var failed = false;
         new MutationObserver(function () {
-          if (completed) return;
           var text = clean(status.textContent, "").toLowerCase();
-          if (!/(thanks|sent|success)/.test(text)) return;
-          completed = true;
-          if (!wasPushed("contact_form_submit", formId)) {
+          if (!completed && /(thanks|sent|success)/.test(text)) {
+            completed = true;
             window.fyTrackEvent("contact_form_submit", {
               page_path: location.pathname,
               form_id: formId,
               article_slug: slug(),
               landing_page: window.fyAttribution.get().landing_page
+            });
+          }
+          if (!failed && /(failed|could not|error|sorry)/.test(text)) {
+            failed = true;
+            window.fyTrackEvent("contact_form_error", {
+              page_path: location.pathname,
+              form_id: formId,
+              article_slug: slug()
             });
           }
         }).observe(status, { childList: true, subtree: true, characterData: true });
