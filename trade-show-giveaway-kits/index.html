@@ -19,16 +19,42 @@
     "@context":"https://schema.org",
     "@graph":[
       {
+        "@type":"Organization",
+        "@id":"https://www.fypromogifts.com/#organization",
+        "name":"FY PromoGifts",
+        "url":"https://www.fypromogifts.com/",
+        "email":"info@fypromogifts.com",
+        "contactPoint":{"@type":"ContactPoint","telephone":"+86-158-6911-7529","contactType":"sales","availableLanguage":["English","Chinese"]}
+      },
+      {
+        "@type":"WebSite",
+        "@id":"https://www.fypromogifts.com/#website",
+        "url":"https://www.fypromogifts.com/",
+        "name":"FY PromoGifts",
+        "publisher":{"@id":"https://www.fypromogifts.com/#organization"}
+      },
+      {
         "@type":"WebPage",
         "@id":"https://www.fypromogifts.com/trade-show-giveaway-kits/#page",
         "url":"https://www.fypromogifts.com/trade-show-giveaway-kits/",
         "name":"Custom Trade Show Giveaway Kits & Event Swag",
         "description":"Custom branded giveaway kits for booth lead capture, exhibitor staff and trade show attendees.",
+        "dateModified":"2026-08-06",
         "isPartOf":{"@id":"https://www.fypromogifts.com/#website"},
-        "about":{"@id":"https://www.fypromogifts.com/#organization"}
+        "about":{"@id":"https://www.fypromogifts.com/trade-show-giveaway-kits/#service"},
+        "breadcrumb":{"@id":"https://www.fypromogifts.com/trade-show-giveaway-kits/#breadcrumb"}
+      },
+      {
+        "@type":"BreadcrumbList",
+        "@id":"https://www.fypromogifts.com/trade-show-giveaway-kits/#breadcrumb",
+        "itemListElement":[
+          {"@type":"ListItem","position":1,"name":"Home","item":"https://www.fypromogifts.com/"},
+          {"@type":"ListItem","position":2,"name":"Trade Show Giveaway Kits","item":"https://www.fypromogifts.com/trade-show-giveaway-kits/"}
+        ]
       },
       {
         "@type":"Service",
+        "@id":"https://www.fypromogifts.com/trade-show-giveaway-kits/#service",
         "name":"Custom Trade Show Giveaway Kits",
         "serviceType":"Branded trade show giveaways, booth kits and exhibitor staff packs",
         "provider":{"@id":"https://www.fypromogifts.com/#organization"},
@@ -51,7 +77,7 @@
   <style>
     :root{
       --navy:#071724;--navy2:#0d2944;--cream:#f6efe6;--paper:#fffaf3;
-      --ink:#0b2034;--text:#30465a;--muted:#68778a;--gold:#d99b38;--gold2:#f0bf68;
+      --ink:#0b2034;--text:#30465a;--muted:#5f6f80;--gold:#d99b38;--gold2:#f0bf68;
       --blue:#1565c0;--blue2:#4aa3ff;--lime:#bddb29;--orange:#e8752e;
       --line:rgba(11,32,52,.13);--shadow:0 20px 48px rgba(7,23,36,.11);--radius:24px;
       --serif:Georgia,"Times New Roman",serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
@@ -91,6 +117,10 @@
     .tier-section{background:var(--navy);color:#fff}.tier-section h2{color:#fff}.tier-section .lead{color:rgba(255,250,243,.72)}.tier-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}.tier-card{border:1px solid rgba(255,255,255,.13);border-radius:18px;padding:22px;background:rgba(255,255,255,.045)}
     .tier-card span{color:var(--lime);font-size:12px;font-weight:900}.tier-card h3{font-family:var(--serif);font-size:22px;margin:13px 0 8px}.tier-card p{margin:0;color:rgba(255,250,243,.70);font-size:13px;line-height:1.55}
 
+    .planning{background:#fff}.table-wrap{margin-top:28px;overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.planning-table{width:100%;min-width:800px;border-collapse:collapse;text-align:left}.planning-table th,.planning-table td{padding:16px 18px;border-bottom:1px solid var(--line);vertical-align:top}.planning-table th{background:#e3ebf4;color:var(--ink);font-size:12px;letter-spacing:.06em;text-transform:uppercase}.planning-table td{color:var(--text);font-size:14px;line-height:1.55}.planning-table tbody tr:last-child td{border-bottom:0}.planning-table td:first-child{color:var(--ink);font-weight:850}
+
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.related-card{display:block;border:1px solid var(--line);border-radius:18px;background:var(--paper);padding:22px;transition:transform .2s ease,border-color .2s ease}.related-card:hover{transform:translateY(-2px);border-color:rgba(21,101,192,.45)}.related-card small{display:block;color:#17619f;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.related-card strong{display:block;margin:8px 0 6px;font-family:var(--serif);font-size:22px}.related-card span{color:var(--text);font-size:13px;line-height:1.5}
+
     .process{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.step{position:relative;border-top:3px solid var(--orange);padding:18px 10px 0 0}.step b{color:#b84f17;font-size:12px}.step h3{font-size:17px;margin:8px 0}.step p{margin:0;color:var(--muted);font-size:13px;line-height:1.48}
 
     .faq-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:48px;align-items:start}.faq-list{display:grid;gap:10px}details{border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:0 18px}summary{cursor:pointer;font-weight:850;padding:18px 30px 18px 0;position:relative}summary:after{content:"+";position:absolute;right:0;font-size:21px;color:var(--blue)}details[open] summary:after{content:"-"}details p{color:var(--text);font-size:14px;line-height:1.6;margin:0 0 18px}
@@ -101,8 +131,8 @@
 
     .footer{background:var(--navy);color:rgba(255,250,243,.72);padding:34px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-start}.footer-brand{font-family:var(--serif);font-size:25px;color:#fff;margin-bottom:8px}.footer p{font-size:13px;max-width:480px}.footer-links{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;font-weight:800}.footer-contact{margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px}
     a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--gold2);outline-offset:3px}
-    @media(max-width:1050px){.hero-grid,.utility-layout,.inquiry{grid-template-columns:1fr}.hero-visual{max-width:800px}.trust-grid,.use-grid,.tier-grid{grid-template-columns:repeat(2,1fr)}.kit-grid{grid-template-columns:1fr;max-width:760px;margin:auto}.kit-card.recommended{transform:none}.utility-copy{position:static}.process{grid-template-columns:repeat(3,1fr)}}
-    @media(max-width:720px){.container{width:min(100% - 28px,1200px)}.section{padding:52px 0}.nav-links{display:none}.nav-actions .btn-light{display:none}.hero{padding:30px 0 38px}.hero-grid{grid-template-columns:1fr;gap:24px}.hero-copy{order:1}.hero-copy>p{font-size:15px}.hero-visual{order:0;justify-self:stretch}.hero-visual figcaption{display:block}.hero-visual figcaption span{display:block}.hero-visual figcaption span+span{margin-top:5px}.section-head,.faq-layout{grid-template-columns:1fr;gap:14px}.section-head .lead{justify-self:start}.trust-grid,.use-grid,.category-grid,.tier-grid,.process,.form-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.wide{grid-column:span 1}.inquiry{padding:20px}.form-actions{display:grid}.form-actions .btn{width:100%}.footer-grid{display:grid}}
+    @media(max-width:1050px){.hero-grid,.utility-layout,.inquiry{grid-template-columns:1fr}.hero-visual{max-width:800px}.trust-grid,.use-grid,.tier-grid{grid-template-columns:repeat(2,1fr)}.kit-grid{grid-template-columns:1fr;max-width:760px;margin:auto}.kit-card.recommended{transform:none}.utility-copy{position:static}.process{grid-template-columns:repeat(3,1fr)}.related-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:720px){.container{width:min(100% - 28px,1200px)}.section{padding:52px 0}.nav-links{display:none}.nav-actions .btn-light{display:none}.hero{padding:30px 0 38px}.hero-grid{grid-template-columns:1fr;gap:24px}.hero-copy{order:1}.hero-copy>p{font-size:15px}.hero-visual{order:0;justify-self:stretch}.hero-visual figcaption{display:block}.hero-visual figcaption span{display:block}.hero-visual figcaption span+span{margin-top:5px}.section-head,.faq-layout{grid-template-columns:1fr;gap:14px}.section-head .lead{justify-self:start}.trust-grid,.use-grid,.category-grid,.tier-grid,.process,.form-grid,.related-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.wide{grid-column:span 1}.inquiry{padding:20px}.form-actions{display:grid}.form-actions .btn{width:100%}.footer-grid{display:grid}}
   </style>
 </head>
 <body>
@@ -129,6 +159,23 @@
           <img src="/assets/trade-show-giveaways/lead-capture-booth-kit-v2.webp" width="1536" height="1024" alt="Trade show lead capture booth kit with tablet scanner, exhibitor badge, NFC card, power bank and charging cable set" fetchpriority="high" decoding="async">
           <figcaption><span>Lead Capture Booth Kit</span><span>Example configuration - products and branding can be changed</span></figcaption>
         </figure>
+      </div>
+    </section>
+
+    <section class="section planning" aria-labelledby="trade-planning-title">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Event Buying Guide</div><h2 id="trade-planning-title">Assign Giveaways by Visitor and Booth Goal</h2></div><p class="lead">Order quantities should follow the expected audience and distribution plan. Product MOQ, samples, production timing and freight are confirmed after the final items, artwork and event destination are reviewed.</p></div>
+        <div class="table-wrap">
+          <table class="planning-table">
+            <thead><tr><th>Event tier</th><th>Primary goal</th><th>Useful product directions</th><th>Distribution point</th><th>Confirm before quotation</th></tr></thead>
+            <tbody>
+              <tr><td>Booth traffic</td><td>Start conversations with broad attendee reach</td><td>Stickers, pins, wristbands, lanyards and compact cables</td><td>Aisle, counter or prize station</td><td>Visitor estimate, carton volume and staff handling</td></tr>
+              <tr><td>Lead capture</td><td>Support a scan, demo or qualified exchange</td><td>QR or NFC cards, phone stands, power banks and totes</td><td>After registration, scan or product demo</td><td>Device compatibility, logo area and giveaway rules</td></tr>
+              <tr><td>Exhibitor staff</td><td>Equip the team for setup and show days</td><td>Apparel, badges, backpacks, bottles and charging accessories</td><td>Issued before the event opens</td><td>Sizes, staff count, names and packing by person</td></tr>
+              <tr><td>VIP follow-up</td><td>Recognize meetings, partners and priority prospects</td><td>Premium tech, travel accessories and drinkware</td><td>Appointment, speaker room or post-show shipment</td><td>Recipient list, individual packing and delivery address</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
@@ -238,6 +285,20 @@
           <details><summary>Can you provide more sustainable trade show giveaways?</summary><p>Yes. Reusable products, recycled-material bags, durable drinkware, reduced packaging and practical items can be prioritized for programs with sustainability requirements.</p></details>
           <details><summary>How early should trade show giveaways be ordered?</summary><p>Share the event city, quantity and must-arrive date as early as possible. Product selection, artwork approval, production and shipping time must all be confirmed before the event.</p></details>
           <details><summary>Can I request a digital mockup or physical sample?</summary><p>A digital mockup can be prepared after receiving the logo, selected products and project requirements. Physical sample availability and cost depend on the products and customization methods.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="trade-related-title">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Explore Related Solutions</div><h2 id="trade-related-title">Other Custom Gift Kit Use Cases</h2></div><p class="lead">Compare another merchandise program or use a practical event guide to prepare the brief.</p></div>
+        <div class="related-grid">
+          <a class="related-card" href="/employee-onboarding-kits/"><small>Use Case</small><strong>Employee Onboarding Kits</strong><span>Welcome products and packed kits for new hires and internal teams.</span></a>
+          <a class="related-card" href="/client-appreciation-gifts/"><small>Use Case</small><strong>Client Appreciation Gifts</strong><span>Useful branded gifts for client thank-yous, VIP programs and milestones.</span></a>
+          <a class="related-card" href="/brand-campaign-giveaways/"><small>Use Case</small><strong>Brand Campaign Giveaways</strong><span>Coordinated merchandise for activations, launches and agency campaigns.</span></a>
+          <a class="related-card" href="/blog/trade-show-giveaway-ideas-for-agencies/"><small>Buyer Guide</small><strong>Trade Show Ideas for Agencies</strong><span>Plan audience tiers, quantities, budget and delivery for client campaigns.</span></a>
+          <a class="related-card" href="/blog/how-to-build-custom-event-gift-kits/"><small>Buyer Guide</small><strong>How to Build an Event Gift Kit</strong><span>Turn the event brief into a practical branded product plan.</span></a>
+          <a class="related-card" href="/catalog/event-party-supplies/"><small>Catalog</small><strong>Event Products</strong><span>Browse lanyards, badges, bags and other event product directions.</span></a>
         </div>
       </div>
     </section>

@@ -19,13 +19,48 @@
     "@context":"https://schema.org",
     "@graph":[
       {
+        "@type":"Organization",
+        "@id":"https://www.fypromogifts.com/#organization",
+        "name":"FY PromoGifts",
+        "url":"https://www.fypromogifts.com/",
+        "email":"info@fypromogifts.com",
+        "contactPoint":{"@type":"ContactPoint","telephone":"+86-158-6911-7529","contactType":"sales","availableLanguage":["English","Chinese"]}
+      },
+      {
+        "@type":"WebSite",
+        "@id":"https://www.fypromogifts.com/#website",
+        "url":"https://www.fypromogifts.com/",
+        "name":"FY PromoGifts",
+        "publisher":{"@id":"https://www.fypromogifts.com/#organization"}
+      },
+      {
         "@type":"WebPage",
         "@id":"https://www.fypromogifts.com/client-appreciation-gifts/#page",
         "url":"https://www.fypromogifts.com/client-appreciation-gifts/",
         "name":"Custom Client Appreciation Gifts & Gift Sets",
         "description":"Practical custom client appreciation gift sets with flexible products, branding and packaging.",
+        "dateModified":"2026-08-06",
         "isPartOf":{"@id":"https://www.fypromogifts.com/#website"},
-        "about":{"@id":"https://www.fypromogifts.com/#organization"}
+        "about":{"@id":"https://www.fypromogifts.com/#service"},
+        "breadcrumb":{"@id":"https://www.fypromogifts.com/client-appreciation-gifts/#breadcrumb"}
+      },
+      {
+        "@type":"BreadcrumbList",
+        "@id":"https://www.fypromogifts.com/client-appreciation-gifts/#breadcrumb",
+        "itemListElement":[
+          {"@type":"ListItem","position":1,"name":"Home","item":"https://www.fypromogifts.com/"},
+          {"@type":"ListItem","position":2,"name":"Client Appreciation Gifts","item":"https://www.fypromogifts.com/client-appreciation-gifts/"}
+        ]
+      },
+      {
+        "@type":"Service",
+        "@id":"https://www.fypromogifts.com/client-appreciation-gifts/#service",
+        "name":"Custom Client Appreciation Gifts",
+        "serviceType":"Custom branded client appreciation gifts and corporate gift sets",
+        "provider":{"@id":"https://www.fypromogifts.com/#organization"},
+        "areaServed":"Worldwide",
+        "url":"https://www.fypromogifts.com/client-appreciation-gifts/",
+        "description":"Custom client appreciation gift sets with practical products, coordinated branding, optional packaging and product-led MOQ."
       },
       {
         "@type":"FAQPage",
@@ -42,7 +77,7 @@
   <style>
     :root{
       --navy:#071724;--navy2:#0d2944;--cream:#f6efe6;--paper:#fffaf3;
-      --ink:#0b2034;--text:#30465a;--muted:#68778a;--gold:#d99b38;--gold2:#f0bf68;
+      --ink:#0b2034;--text:#30465a;--muted:#5f6f80;--gold:#d99b38;--gold2:#f0bf68;
       --sage:#74836a;--sage2:#a7b39a;--rust:#b85f3c;--line:rgba(11,32,52,.13);
       --shadow:0 20px 48px rgba(7,23,36,.10);--radius:24px;
       --serif:Georgia,"Times New Roman",serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
@@ -82,6 +117,10 @@
     .brand-system{background:var(--navy);color:#fff}.brand-system h2{color:#fff}.brand-system .lead{color:rgba(255,250,243,.72)}.brand-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}.brand-card{border:1px solid rgba(255,255,255,.13);border-radius:18px;padding:22px;background:rgba(255,255,255,.045)}
     .brand-card span{color:var(--gold2);font-size:12px;font-weight:900}.brand-card h3{font-family:var(--serif);font-size:22px;margin:13px 0 8px}.brand-card p{margin:0;color:rgba(255,250,243,.70);font-size:13px;line-height:1.55}
 
+    .planning{background:#fff}.table-wrap{margin-top:28px;overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.planning-table{width:100%;min-width:760px;border-collapse:collapse;text-align:left}.planning-table th,.planning-table td{padding:16px 18px;border-bottom:1px solid var(--line);vertical-align:top}.planning-table th{background:#f0e7db;color:var(--ink);font-size:12px;letter-spacing:.06em;text-transform:uppercase}.planning-table td{color:var(--text);font-size:14px;line-height:1.55}.planning-table tbody tr:last-child td{border-bottom:0}.planning-table td:first-child{color:var(--ink);font-weight:850}
+
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.related-card{display:block;border:1px solid var(--line);border-radius:18px;background:var(--paper);padding:22px;transition:transform .2s ease,border-color .2s ease}.related-card:hover{transform:translateY(-2px);border-color:rgba(155,84,47,.5)}.related-card small{display:block;color:#9b542f;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.related-card strong{display:block;margin:8px 0 6px;font-family:var(--serif);font-size:22px}.related-card span{color:var(--text);font-size:13px;line-height:1.5}
+
     .process{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.step{position:relative;border-top:3px solid var(--rust);padding:18px 10px 0 0}.step b{color:var(--rust);font-size:12px}.step h3{font-size:17px;margin:8px 0}.step p{margin:0;color:var(--muted);font-size:13px;line-height:1.48}
 
     .faq-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:48px;align-items:start}.faq-list{display:grid;gap:10px}details{border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:0 18px}summary{cursor:pointer;font-weight:850;padding:18px 30px 18px 0;position:relative}summary:after{content:"+";position:absolute;right:0;font-size:21px;color:var(--rust)}details[open] summary:after{content:"-"}details p{color:var(--text);font-size:14px;line-height:1.6;margin:0 0 18px}
@@ -92,8 +131,8 @@
 
     .footer{background:var(--navy);color:rgba(255,250,243,.72);padding:34px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-start}.footer-brand{font-family:var(--serif);font-size:25px;color:#fff;margin-bottom:8px}.footer p{font-size:13px;max-width:480px}.footer-links{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;font-weight:800}.footer-contact{margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px}
 
-    @media(max-width:1050px){.hero-grid,.utility-layout,.inquiry{grid-template-columns:1fr}.hero-visual{max-width:800px}.trust-grid,.occasion-grid,.brand-grid{grid-template-columns:repeat(2,1fr)}.set-grid{grid-template-columns:1fr;max-width:760px;margin:auto}.set-card.recommended{transform:none}.utility-copy{position:static}.process{grid-template-columns:repeat(3,1fr)}}
-    @media(max-width:720px){.container{width:min(100% - 28px,1200px)}.section{padding:52px 0}.nav-links{display:none}.nav-actions .btn-light{display:none}.hero{padding:42px 0 54px}.hero-grid{grid-template-columns:1fr;gap:28px}.hero-copy{order:1}.hero-visual{order:0}.hero-visual figcaption{display:block}.hero-visual figcaption span{display:block}.hero-visual figcaption span+span{margin-top:5px}.section-head,.faq-layout{grid-template-columns:1fr;gap:14px}.section-head .lead{justify-self:start}.trust-grid,.occasion-grid,.product-grid,.brand-grid,.process,.form-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.wide{grid-column:span 1}.inquiry{padding:20px}.form-actions{display:grid}.form-actions .btn{width:100%}.footer-grid{display:grid}}
+    @media(max-width:1050px){.hero-grid,.utility-layout,.inquiry{grid-template-columns:1fr}.hero-visual{max-width:800px}.trust-grid,.occasion-grid,.brand-grid{grid-template-columns:repeat(2,1fr)}.set-grid{grid-template-columns:1fr;max-width:760px;margin:auto}.set-card.recommended{transform:none}.utility-copy{position:static}.process{grid-template-columns:repeat(3,1fr)}.related-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:720px){.container{width:min(100% - 28px,1200px)}.section{padding:52px 0}.nav-links{display:none}.nav-actions .btn-light{display:none}.hero{padding:42px 0 54px}.hero-grid{grid-template-columns:1fr;gap:28px}.hero-copy{order:1}.hero-visual{order:0}.hero-visual figcaption{display:block}.hero-visual figcaption span{display:block}.hero-visual figcaption span+span{margin-top:5px}.section-head,.faq-layout{grid-template-columns:1fr;gap:14px}.section-head .lead{justify-self:start}.trust-grid,.occasion-grid,.product-grid,.brand-grid,.process,.form-grid,.related-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.wide{grid-column:span 1}.inquiry{padding:20px}.form-actions{display:grid}.form-actions .btn{width:100%}.footer-grid{display:grid}}
   </style>
 </head>
 <body>
@@ -119,6 +158,22 @@
           <img src="/assets/client-appreciation/commute-essentials-set-v2.webp" width="1536" height="1024" alt="Client appreciation commute set with custom backpack, insulated coffee cup, accessory pouch and key tag" fetchpriority="high" decoding="async">
           <figcaption><span>Urban Commute Appreciation Set</span><span>Example configuration - products can be changed</span></figcaption>
         </figure>
+      </div>
+    </section>
+
+    <section class="section planning" aria-labelledby="client-planning-title">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Buyer Planning Guide</div><h2 id="client-planning-title">Choose the Client Gift Direction Before Choosing Products</h2></div><p class="lead">Use the recipient, delivery method and presentation goal to narrow the set. MOQ, samples, production timing and shipping are confirmed after the final items and artwork are reviewed.</p></div>
+        <div class="table-wrap">
+          <table class="planning-table">
+            <thead><tr><th>Gift direction</th><th>Best suited to</th><th>Useful starting products</th><th>Packing direction</th><th>Confirm before quotation</th></tr></thead>
+            <tbody>
+              <tr><td>Everyday appreciation</td><td>Broad client thank-you and repeat-customer programs</td><td>Tote, ceramic mug, lunch container, coasters</td><td>Tote-as-packaging, mailer or bulk packing</td><td>Recipient count, logo method and destination</td></tr>
+              <tr><td>Workday and travel</td><td>Priority accounts, partners and milestone gifts</td><td>Backpack, insulated cup, pouch, key tag</td><td>Individual packing or presentation box</td><td>Bag specification, color availability and shipping volume</td></tr>
+              <tr><td>Home and seasonal utility</td><td>Year-end, loyalty and relationship-building programs</td><td>Organizer, umbrella, textile and catch-all tray</td><td>Mailer or fitted gift box</td><td>Product dimensions, seasonal deadline and packing protection</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
@@ -226,6 +281,20 @@
           <details><summary>Can the products and colors be changed?</summary><p>Yes. The displayed sets are starting concepts. Products, colors, logo placement, message cards and packaging can be adjusted before quotation.</p></details>
           <details><summary>Is gift box packaging required?</summary><p>No. Packaging is optional. Products can be packed in a tote, a practical mailer, an individual box or bulk cartons depending on presentation, shipping and budget requirements.</p></details>
           <details><summary>Can I request a sample or digital mockup?</summary><p>A digital mockup can be prepared after receiving the logo, selected products and project requirements. Physical sample availability and cost depend on the individual products and customization methods.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="client-related-title">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Explore Related Solutions</div><h2 id="client-related-title">Other Custom Gift Kit Use Cases</h2></div><p class="lead">Compare a different program or read a practical guide before sending your brief.</p></div>
+        <div class="related-grid">
+          <a class="related-card" href="/employee-onboarding-kits/"><small>Use Case</small><strong>Employee Onboarding Kits</strong><span>Branded welcome kits for new hires, remote teams and repeat onboarding programs.</span></a>
+          <a class="related-card" href="/trade-show-giveaway-kits/"><small>Use Case</small><strong>Trade Show Giveaway Kits</strong><span>Booth, staff and attendee products planned around the event workflow.</span></a>
+          <a class="related-card" href="/brand-campaign-giveaways/"><small>Use Case</small><strong>Brand Campaign Giveaways</strong><span>Coordinated merchandise for activations, product launches and agency campaigns.</span></a>
+          <a class="related-card" href="/blog/client-appreciation-gift-box-ideas/"><small>Buyer Guide</small><strong>Client Gift Box Ideas</strong><span>Compare daily-use, desk and lifestyle gift box directions.</span></a>
+          <a class="related-card" href="/blog/custom-client-appreciation-gift-ideas/"><small>Buyer Guide</small><strong>Custom Client Gift Ideas</strong><span>Plan client gifts around recipient, budget, branding and delivery.</span></a>
+          <a class="related-card" href="/catalog/gift-sets/"><small>Catalog</small><strong>Custom Gift Sets</strong><span>Browse product directions before requesting a coordinated proposal.</span></a>
         </div>
       </div>
     </section>
