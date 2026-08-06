@@ -157,6 +157,23 @@
     var href = target.getAttribute("href") || "";
     var text = clean(target.textContent || target.getAttribute("aria-label") || target.id);
     var pagePath = location.pathname;
+    var section = target.closest("section,header,footer,main");
+    var sourceSection = clean(section && (section.id || section.getAttribute("aria-label") || section.className), "page");
+    var downloadPath = href.split("?")[0].split("#")[0];
+    var downloadMatch = downloadPath.match(/\.([a-z0-9]{2,8})$/i);
+    var isDownload = target.hasAttribute("download") || Boolean(downloadMatch && /^(pdf|doc|docx|xls|xlsx|ppt|pptx|zip)$/i.test(downloadMatch[1]));
+
+    if (isDownload) {
+      window.fyTrackEvent("lead_magnet_download", {
+        page_path: pagePath,
+        article_slug: slug(),
+        link_text: text,
+        link_url: href,
+        file_name: clean(downloadPath.split("/").pop()),
+        file_extension: downloadMatch ? downloadMatch[1].toLowerCase() : "not_available",
+        source_section: sourceSection
+      });
+    }
     if (href.indexOf("wa.me/") > -1 && typeof window.fyTrack !== "function") {
       window.fyTrackEvent("whatsapp_click", {
         page_path: pagePath,
@@ -181,7 +198,7 @@
         page_path: pagePath
       });
     }
-    if (href === "/contact/" || href === "#contact" || href.indexOf("#contact") > -1) {
+    if (href === "/contact/" || /#(contact|inquiry|quote|quote-form)(?:$|[?&])/i.test(href)) {
       window.fyTrackEvent("contact_form_open", {
         page_path: pagePath,
         button_location: target.closest("#fy-floating-cta") ? "floating_cta" : "page_link",
@@ -189,7 +206,16 @@
         cta_target: href
       });
     }
-    if (href && href.charAt(0) === "/" && href.indexOf("wa.me") === -1) {
+    var ownerForm = target.closest("form");
+    if (ownerForm && (target.id === "submitInquiry" || target.matches('button[type="submit"],input[type="submit"]'))) {
+      window.fyTrackEvent("inquiry_submit_click", {
+        page_path: pagePath,
+        form_id: ownerForm.id || clean(ownerForm.getAttribute("name")),
+        button_text: text,
+        source_section: sourceSection
+      });
+    }
+    if (href && href.charAt(0) === "/" && href.indexOf("wa.me") === -1 && !isDownload) {
       window.fyTrackEvent("internal_link_click", {
         link_text: text,
         destination_url: href,
