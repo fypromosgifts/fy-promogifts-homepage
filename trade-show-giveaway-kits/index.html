@@ -118,302 +118,6 @@
     .tier-card span{color:var(--lime);font-size:12px;font-weight:900}.tier-card h3{font-family:var(--serif);font-size:22px;margin:13px 0 8px}.tier-card p{margin:0;color:rgba(255,250,243,.70);font-size:13px;line-height:1.55}
 
     .planning{background:#fff}.table-wrap{margin-top:28px;overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.planning-table{width:100%;min-width:800px;border-collapse:collapse;text-align:left}.planning-table th,.planning-table td{padding:16px 18px;border-bottom:1px solid var(--line);vertical-align:top}.planning-table th{background:#e3ebf4;color:var(--ink);font-size:12px;letter-spacing:.06em;text-transform:uppercase}.planning-table td{color:var(--text);font-size:14px;line-height:1.55}.planning-table tbody tr:last-child td{border-bottom:0}.planning-table td:first-child{color:var(--ink);font-weight:850}
+    .checklist-card{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);gap:28px;align-items:center;margin-top:28px;padding:28px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(135deg,#f7ead7,#e4eef7);scroll-margin-top:78px}.checklist-card h3{font-family:var(--serif);font-size:32px;line-height:1.08;margin:7px 0 12px}.checklist-card p{color:var(--text);font-size:14px;line-height:1.6}.checklist-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.checklist-link{display:inline-flex;align-items:center;font-weight:850;color:#14588f;font-size:13px}.checklist-preview{border:1px solid rgba(11,32,52,.18);border-radius:16px;background:var(--paper);padding:18px;box-shadow:0 14px 34px rgba(7,23,36,.10)}.checklist-preview b{display:block;margin-bottom:12px}.checklist-preview span{display:flex;align-items:flex-start;gap:9px;padding:8px 0;border-top:1px solid var(--line);color:var(--text);font-size:12px;line-height:1.4}.checklist-preview span:before{content:"";width:12px;height:12px;flex:0 0 12px;margin-top:1px;border:1px solid rgba(11,32,52,.28);border-radius:3px;background:#fff}
 
-    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.related-card{display:block;border:1px solid var(--line);border-radius:18px;background:var(--paper);padding:22px;transition:transform .2s ease,border-color .2s ease}.related-card:hover{transform:translateY(-2px);border-color:rgba(21,101,192,.45)}.related-card small{display:block;color:#17619f;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.related-card strong{display:block;margin:8px 0 6px;font-family:var(--serif);font-size:22px}.related-card span{color:var(--text);font-size:13px;line-height:1.5}
-
-    .process{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.step{position:relative;border-top:3px solid var(--orange);padding:18px 10px 0 0}.step b{color:#b84f17;font-size:12px}.step h3{font-size:17px;margin:8px 0}.step p{margin:0;color:var(--muted);font-size:13px;line-height:1.48}
-
-    .faq-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:48px;align-items:start}.faq-list{display:grid;gap:10px}details{border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:0 18px}summary{cursor:pointer;font-weight:850;padding:18px 30px 18px 0;position:relative}summary:after{content:"+";position:absolute;right:0;font-size:21px;color:var(--blue)}details[open] summary:after{content:"-"}details p{color:var(--text);font-size:14px;line-height:1.6;margin:0 0 18px}
-
-    .inquiry-section{background:linear-gradient(180deg,#e5ebee,var(--cream))}.inquiry{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(300px,.55fr);gap:26px;border:1px solid var(--line);border-radius:28px;background:var(--paper);padding:30px;box-shadow:var(--shadow)}
-    .inquiry h2{font-size:clamp(36px,4vw,52px)}.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 16px;margin-top:24px}.field label{display:block;font-size:13px;font-weight:850;margin-bottom:7px}.field input,.field select,.field textarea{width:100%;height:44px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:0 12px;color:var(--ink)}.field textarea{height:102px;padding-top:11px;resize:vertical}.wide{grid-column:span 2}.file-upload{display:flex!important;align-items:center;justify-content:space-between;height:46px;border:1px dashed rgba(11,32,52,.28);border-radius:10px;padding:0 12px;background:#fff;cursor:pointer}.native-file{position:absolute;left:-10000px}.file-text{font-weight:500;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.file-button{font-size:12px;color:var(--blue);font-weight:900}.form-actions{display:flex;gap:12px;align-items:center}.form-status{min-height:20px;margin-top:12px;color:#177247;font-weight:800;font-size:13px}.form-status.is-error{color:#a33a2b}
-    .side-card{border-radius:22px;padding:25px;background:linear-gradient(145deg,#0e3a66,#1565c0);color:#fff}.side-card h3{font-family:var(--serif);font-size:28px;margin-bottom:18px}.side-card ul{list-style:none;padding:0;margin:0;display:grid;gap:17px}.side-card li{color:rgba(255,255,255,.77);font-size:14px;line-height:1.5}.side-card b{display:block;color:#fff;margin-bottom:3px}.side-card a{display:block;margin-top:24px;color:#e5f37c;font-weight:900}
-
-    .footer{background:var(--navy);color:rgba(255,250,243,.72);padding:34px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-start}.footer-brand{font-family:var(--serif);font-size:25px;color:#fff;margin-bottom:8px}.footer p{font-size:13px;max-width:480px}.footer-links{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;font-weight:800}.footer-contact{margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px}
-    a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--gold2);outline-offset:3px}
-    @media(max-width:1050px){.hero-grid,.utility-layout,.inquiry{grid-template-columns:1fr}.hero-visual{max-width:800px}.trust-grid,.use-grid,.tier-grid{grid-template-columns:repeat(2,1fr)}.kit-grid{grid-template-columns:1fr;max-width:760px;margin:auto}.kit-card.recommended{transform:none}.utility-copy{position:static}.process{grid-template-columns:repeat(3,1fr)}.related-grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:720px){.container{width:min(100% - 28px,1200px)}.section{padding:52px 0}.nav-links{display:none}.nav-actions .btn-light{display:none}.hero{padding:30px 0 38px}.hero-grid{grid-template-columns:1fr;gap:24px}.hero-copy{order:1}.hero-copy>p{font-size:15px}.hero-visual{order:0;justify-self:stretch}.hero-visual figcaption{display:block}.hero-visual figcaption span{display:block}.hero-visual figcaption span+span{margin-top:5px}.section-head,.faq-layout{grid-template-columns:1fr;gap:14px}.section-head .lead{justify-self:start}.trust-grid,.use-grid,.category-grid,.tier-grid,.process,.form-grid,.related-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.wide{grid-column:span 1}.inquiry{padding:20px}.form-actions{display:grid}.form-actions .btn{width:100%}.footer-grid{display:grid}}
-  </style>
-</head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="top">
-    <nav class="container nav" aria-label="Primary navigation">
-      <a class="brand" href="/"><b>FY</b> PromoGifts</a>
-      <div class="nav-links"><a href="#uses">Use Cases</a><a href="#kits">Kit Ideas</a><a href="#products">Products</a><a href="#process">Process</a><a href="#faq">FAQ</a></div>
-      <div class="nav-actions"><a class="btn btn-light" href="https://wa.me/8615869117529" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-gold" href="#inquiry">Get Free Mockup</a></div>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="kicker">Custom Kits for Expos, Conferences &amp; Booth Teams</div>
-          <h1>Trade Show Giveaways Built for the Booth</h1>
-          <p>Plan branded products around what happens on the show floor: capture leads, equip booth staff, attract attendees and give qualified prospects something useful to keep.</p>
-          <div class="hero-ctas"><a class="btn btn-gold" href="#inquiry">Get a Free Event Kit Mockup</a><a class="btn btn-light" href="#kits">Explore Three Kit Ideas</a></div>
-          <div class="hero-facts"><span>Lead Capture Ready</span><span>Staff &amp; Attendee Tiers</span><span>Product-Led MOQ</span><span>Deadline Planning</span></div>
-        </div>
-        <figure class="hero-visual">
-          <img src="/assets/trade-show-giveaways/lead-capture-booth-kit-v2.webp" width="1536" height="1024" alt="Trade show lead capture booth kit with tablet scanner, exhibitor badge, NFC card, power bank and charging cable set" fetchpriority="high" decoding="async">
-          <figcaption><span>Lead Capture Booth Kit</span><span>Example configuration - products and branding can be changed</span></figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="section planning" aria-labelledby="trade-planning-title">
-      <div class="container">
-        <div class="section-head"><div><div class="kicker">Event Buying Guide</div><h2 id="trade-planning-title">Assign Giveaways by Visitor and Booth Goal</h2></div><p class="lead">Order quantities should follow the expected audience and distribution plan. Product MOQ, samples, production timing and freight are confirmed after the final items, artwork and event destination are reviewed.</p></div>
-        <div class="table-wrap">
-          <table class="planning-table">
-            <thead><tr><th>Event tier</th><th>Primary goal</th><th>Useful product directions</th><th>Distribution point</th><th>Confirm before quotation</th></tr></thead>
-            <tbody>
-              <tr><td>Booth traffic</td><td>Start conversations with broad attendee reach</td><td>Stickers, pins, wristbands, lanyards and compact cables</td><td>Aisle, counter or prize station</td><td>Visitor estimate, carton volume and staff handling</td></tr>
-              <tr><td>Lead capture</td><td>Support a scan, demo or qualified exchange</td><td>QR or NFC cards, phone stands, power banks and totes</td><td>After registration, scan or product demo</td><td>Device compatibility, logo area and giveaway rules</td></tr>
-              <tr><td>Exhibitor staff</td><td>Equip the team for setup and show days</td><td>Apparel, badges, backpacks, bottles and charging accessories</td><td>Issued before the event opens</td><td>Sizes, staff count, names and packing by person</td></tr>
-              <tr><td>VIP follow-up</td><td>Recognize meetings, partners and priority prospects</td><td>Premium tech, travel accessories and drinkware</td><td>Appointment, speaker room or post-show shipment</td><td>Recipient list, individual packing and delivery address</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="trust-strip" aria-label="Key buyer information">
-      <div class="container trust-grid">
-        <div class="trust-item"><strong>Start with the booth goal</strong><p>Traffic, qualified leads, staff support and VIP follow-up need different products.</p></div>
-        <div class="trust-item"><strong>Make distribution easy</strong><p>Choose compact items that staff can hand out, scan or pack without slowing the booth.</p></div>
-        <div class="trust-item"><strong>Review before production</strong><p>Receive a coordinated digital direction before confirming products and artwork.</p></div>
-        <div class="trust-item"><strong>Plan the must-arrive date</strong><p>Production and delivery are confirmed against the event city and schedule.</p></div>
-      </div>
-    </section>
-
-    <section class="section" id="uses">
-      <div class="container">
-        <div class="section-head"><div><div class="kicker">Four Jobs on the Show Floor</div><h2>One Giveaway Does Not Fit Every Visitor</h2></div><p class="lead">Use the event objective to decide who receives each product, when it is handed over and what action it should support.</p></div>
-        <div class="use-grid">
-          <article class="use-card"><span>01</span><h3>Booth Traffic</h3><p>Visible, quick-to-distribute items that help start conversations and bring attendees to the counter.</p></article>
-          <article class="use-card"><span>02</span><h3>Lead Capture</h3><p>Badges, scanning accessories and useful tech items that support a qualified exchange.</p></article>
-          <article class="use-card"><span>03</span><h3>Exhibitor Staff</h3><p>Coordinated apparel, bags, drinkware and power accessories for a long working day.</p></article>
-          <article class="use-card"><span>04</span><h3>VIP Follow-Up</h3><p>Higher-value products reserved for appointments, speakers, partners and priority prospects.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section kits" id="kits">
-      <div class="container">
-        <div class="section-head"><div><div class="kicker">Practical Starting Points</div><h2>Three Trade Show Kit Ideas</h2></div><p class="lead">Use these concepts to choose a direction, then adjust products, colors, quantities, logo methods and packing for the event.</p></div>
-        <div class="kit-grid">
-          <article class="kit-card recommended">
-            <div class="kit-image"><img src="/assets/trade-show-giveaways/lead-capture-booth-kit-v2.webp" width="1536" height="1024" alt="Lead capture booth kit with tablet stand, exhibitor lanyard, NFC card, power bank, cable organizer and screen cloth" loading="lazy" decoding="async"><span class="badge">Lead Capture</span></div>
-            <div class="kit-body"><small>Booth Operations</small><h3>Lead Capture Booth Kit</h3><p>A focused working set for scanning visitors, keeping devices powered and supporting a professional booth counter.</p><ul><li>Tablet or phone display stand</li><li>Exhibitor lanyard and badge holder</li><li>QR or NFC contact card</li><li>Power bank and cable organizer</li><li>Microfiber screen cloth</li></ul><button class="btn btn-navy kit-select" type="button" data-kit="Lead Capture Booth Kit" data-products="Tablet or phone stand, exhibitor lanyards and badge holders, QR or NFC contact cards, power banks, cable organizers, microfiber screen cloths">Customize This Kit</button></div>
-          </article>
-          <article class="kit-card">
-            <div class="kit-image"><img src="/assets/trade-show-giveaways/exhibitor-staff-kit-v2.webp" width="1536" height="1024" alt="Exhibitor staff kit with backpack, polo shirt, lightweight jacket, badge, insulated bottle, power bank, umbrella and storage cube" loading="lazy" decoding="async"><span class="badge">Booth Team</span></div>
-            <div class="kit-body"><small>All-Day Staff Utility</small><h3>Exhibitor Staff Kit</h3><p>A coordinated team collection for staff identification, personal carry, hydration, power and changing weather.</p><ul><li>Backpack and fold-flat storage cube</li><li>Polo shirt and lightweight jacket</li><li>Exhibitor lanyard and badge</li><li>Insulated bottle and power bank</li><li>Compact folding umbrella</li></ul><button class="btn btn-navy kit-select" type="button" data-kit="Exhibitor Staff Kit" data-products="Staff backpacks, polo shirts, lightweight jackets, exhibitor lanyards and badges, insulated bottles, power banks, folding umbrellas, fold-flat storage cubes">Customize This Kit</button></div>
-          </article>
-          <article class="kit-card">
-            <div class="kit-image"><img src="/assets/trade-show-giveaways/attendee-giveaway-kit-v2.webp" width="1536" height="1024" alt="Attendee giveaway kit with canvas tote, collapsible bottle, lanyard, wristbands, phone stand, charging cable, patches, pins and stickers" loading="lazy" decoding="async"><span class="badge">Attendee Giveaway</span></div>
-            <div class="kit-body"><small>Traffic &amp; Engagement</small><h3>Attendee Giveaway Kit</h3><p>A colorful, practical mix for high-volume visitor engagement, prize stations and campaign activation.</p><ul><li>Reusable canvas tote</li><li>Collapsible water bottle</li><li>Attendee lanyard and wristbands</li><li>Phone stand and charging cable</li><li>Stickers, woven patches and pins</li></ul><button class="btn btn-navy kit-select" type="button" data-kit="Attendee Giveaway Kit" data-products="Canvas totes, collapsible water bottles, attendee lanyards and wristbands, phone stands, three-in-one charging cables, stickers, woven patches and enamel pins">Customize This Kit</button></div>
-          </article>
-        </div>
-        <p class="kit-note">Images show concept directions, not fixed inventory. Final materials, colors, product availability, logo methods, MOQ and packing details are confirmed after the selected combination is reviewed.</p>
-      </div>
-    </section>
-
-    <section class="section utility" id="products">
-      <div class="container utility-layout">
-        <div class="utility-copy"><div class="kicker">More Than Promotional Trinkets</div><h2>What a Real Trade Show Kit Needs</h2><p class="lead">The strongest event products help the booth operate or remain useful after the show. Build around the visitor journey instead of filling a bag with unrelated items.</p><a class="btn btn-navy" href="/catalog/event-party-supplies/">Browse Event Products</a></div>
-        <div class="utility-points">
-          <article class="utility-point"><span>01</span><div><h3>Immediate Event Recognition</h3><p>Lanyards, badge holders, wristbands, staff apparel and booth graphics make the use case obvious.</p></div></article>
-          <article class="utility-point"><span>02</span><div><h3>Lead Capture Support</h3><p>Phone or tablet stands, QR cards, power banks and charging cables keep the booth workflow moving.</p></div></article>
-          <article class="utility-point"><span>03</span><div><h3>Fast Distribution</h3><p>Compact, pre-sorted items help booth staff serve visitors without creating counter clutter.</p></div></article>
-          <article class="utility-point"><span>04</span><div><h3>All-Day Staff Utility</h3><p>Apparel, backpacks, bottles, umbrellas and organizers support staff before, during and after the show.</p></div></article>
-          <article class="utility-point"><span>05</span><div><h3>Travel-Friendly Packing</h3><p>Foldable and lightweight products reduce storage pressure and simplify transport to the venue.</p></div></article>
-          <article class="utility-point"><span>06</span><div><h3>Reusable Product Direction</h3><p>Durable drinkware, bags and reduced packaging suit programs that prioritize lower-waste giveaways.</p></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-head"><div><div class="kicker">Flexible Product Directions</div><h2>Build the Mix Around the Event</h2></div><p class="lead">Choose one anchor category or combine complementary products for booth staff, general attendees and qualified prospects.</p></div>
-        <div class="category-grid">
-          <article class="category"><div class="icon"></div><b>Badges &amp; Lanyards</b><p>Badge holders, woven or printed lanyards, wristbands and VIP identification.</p></article>
-          <article class="category"><div class="icon"></div><b>Bags &amp; Carry</b><p>Canvas totes, drawstring bags, backpacks, cable pouches and foldable storage.</p></article>
-          <article class="category"><div class="icon"></div><b>Drinkware</b><p>Collapsible bottles, insulated bottles and travel tumblers for staff and attendees.</p></article>
-          <article class="category"><div class="icon"></div><b>Power &amp; Tech</b><p>Power banks, multi-cables, phone stands, wireless chargers and travel adapters.</p></article>
-          <article class="category"><div class="icon"></div><b>Event Apparel</b><p>Polo shirts, T-shirts, lightweight jackets and vests for a coordinated booth team.</p></article>
-          <article class="category"><div class="icon"></div><b>Activation Accessories</b><p>Stickers, pins, patches, wristbands, QR cards and prize-station items.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section tier-section">
-      <div class="container">
-        <div class="section-head"><div><div class="kicker">One Event, Several Value Levels</div><h2>Match the Product to the Conversation</h2></div><p class="lead">Not every attendee needs the same item. Assign products by purpose so the event budget supports both reach and qualified follow-up.</p></div>
-        <div class="tier-grid">
-          <article class="tier-card"><span>01 / TRAFFIC</span><h3>High-Volume Items</h3><p>Wristbands, stickers, patches, pins and charging cables for broad booth engagement.</p></article>
-          <article class="tier-card"><span>02 / CONVERSATION</span><h3>Useful Giveaways</h3><p>Totes, bottles, phone stands and lanyards offered after a product conversation or scan.</p></article>
-          <article class="tier-card"><span>03 / TEAM</span><h3>Staff Essentials</h3><p>Apparel, backpacks, power and hydration products issued before the show opens.</p></article>
-          <article class="tier-card"><span>04 / PRIORITY</span><h3>VIP Follow-Up</h3><p>Premium tech, travel and drinkware reserved for appointments and qualified prospects.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="process">
-      <div class="container">
-        <div class="section-head"><div><div class="kicker">How Ordering Works</div><h2>From Booth Brief to Must-Arrive Date</h2></div><p class="lead">We review the event goal and delivery requirements before quotation so the products can be branded, packed and shipped on a realistic schedule.</p></div>
-        <div class="process">
-          <article class="step"><b>STEP 01</b><h3>Share the Event</h3><p>Send the event type, audience, city, quantity, deadline and budget direction.</p></article>
-          <article class="step"><b>STEP 02</b><h3>Assign the Tiers</h3><p>Choose products for traffic, qualified leads, staff and VIP follow-up.</p></article>
-          <article class="step"><b>STEP 03</b><h3>Review Feasibility</h3><p>Confirm product MOQ, colors, branding surfaces and packing needs.</p></article>
-          <article class="step"><b>STEP 04</b><h3>Receive Mockup</h3><p>Review the coordinated visual direction and logo placement.</p></article>
-          <article class="step"><b>STEP 05</b><h3>Approve Details</h3><p>Confirm artwork, samples, products and the production schedule.</p></article>
-          <article class="step"><b>STEP 06</b><h3>Pack &amp; Deliver</h3><p>Produce and organize the items, then arrange shipping to the agreed destination.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="faq">
-      <div class="container faq-layout">
-        <div><div class="kicker">Buyer Questions</div><h2>Trade Show Giveaway FAQ</h2><p class="lead" style="margin-top:18px">Need more ideas? Read our <a href="/blog/trade-show-giveaway-ideas-for-agencies/" style="color:#17619f;font-weight:850">trade show buyer guide</a> or send the event goal and quantity for a custom recommendation.</p></div>
-        <div class="faq-list">
-          <details><summary>What products are commonly used at US and European trade shows?</summary><p>Common products include branded lanyards, badge holders, tote bags, reusable drinkware, event apparel, phone stands, charging cables, power banks, wristbands, stickers, patches and staff bags.</p></details>
-          <details><summary>Can the displayed trade show kits be changed?</summary><p>Yes. The displayed kits are starting concepts. Products, colors, logo placement, quantities and packing methods can be adjusted before quotation.</p></details>
-          <details><summary>What is the minimum order quantity?</summary><p>MOQ is product-led and varies by item, color, branding method and packaging. Low MOQ is available for selected products, while mixed-product kits are reviewed item by item.</p></details>
-          <details><summary>Can you provide more sustainable trade show giveaways?</summary><p>Yes. Reusable products, recycled-material bags, durable drinkware, reduced packaging and practical items can be prioritized for programs with sustainability requirements.</p></details>
-          <details><summary>How early should trade show giveaways be ordered?</summary><p>Share the event city, quantity and must-arrive date as early as possible. Product selection, artwork approval, production and shipping time must all be confirmed before the event.</p></details>
-          <details><summary>Can I request a digital mockup or physical sample?</summary><p>A digital mockup can be prepared after receiving the logo, selected products and project requirements. Physical sample availability and cost depend on the products and customization methods.</p></details>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="trade-related-title">
-      <div class="container">
-        <div class="section-head"><div><div class="kicker">Explore Related Solutions</div><h2 id="trade-related-title">Other Custom Gift Kit Use Cases</h2></div><p class="lead">Compare another merchandise program or use a practical event guide to prepare the brief.</p></div>
-        <div class="related-grid">
-          <a class="related-card" href="/employee-onboarding-kits/"><small>Use Case</small><strong>Employee Onboarding Kits</strong><span>Welcome products and packed kits for new hires and internal teams.</span></a>
-          <a class="related-card" href="/client-appreciation-gifts/"><small>Use Case</small><strong>Client Appreciation Gifts</strong><span>Useful branded gifts for client thank-yous, VIP programs and milestones.</span></a>
-          <a class="related-card" href="/brand-campaign-giveaways/"><small>Use Case</small><strong>Brand Campaign Giveaways</strong><span>Coordinated merchandise for activations, launches and agency campaigns.</span></a>
-          <a class="related-card" href="/blog/trade-show-giveaway-ideas-for-agencies/"><small>Buyer Guide</small><strong>Trade Show Ideas for Agencies</strong><span>Plan audience tiers, quantities, budget and delivery for client campaigns.</span></a>
-          <a class="related-card" href="/blog/how-to-build-custom-event-gift-kits/"><small>Buyer Guide</small><strong>How to Build an Event Gift Kit</strong><span>Turn the event brief into a practical branded product plan.</span></a>
-          <a class="related-card" href="/catalog/event-party-supplies/"><small>Catalog</small><strong>Event Products</strong><span>Browse lanyards, badges, bags and other event product directions.</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section inquiry-section" id="inquiry">
-      <div class="container inquiry">
-        <div>
-          <div class="kicker">Request a Trade Show Kit Proposal</div><h2>Get a Free Branded Event Kit Mockup</h2><p class="lead">Share the event, audience, quantity, destination, must-arrive date and preferred products. We will review the mix and recommend a practical direction.</p>
-          <form id="quoteForm" class="form-grid" action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data">
-            <input type="hidden" name="_subject" value="Trade Show Giveaway Kit Inquiry - FY PromoGifts">
-            <input type="hidden" name="use_case" value="Trade Show &amp; Event Kits">
-            <input type="hidden" name="page_url" id="pageUrl">
-            <div aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden"><label>Leave empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
-            <div class="field"><label for="inqName">Name *</label><input id="inqName" name="name" autocomplete="name" required></div>
-            <div class="field"><label for="inqEmail">Work Email *</label><input id="inqEmail" name="email" type="email" autocomplete="email" required></div>
-            <div class="field"><label for="inqWhatsapp">WhatsApp</label><input id="inqWhatsapp" name="whatsapp" inputmode="tel" autocomplete="tel" pattern="[+0-9() .-]{7,25}" title="Enter a complete international number, or leave blank."></div>
-            <div class="field"><label for="inqCompany">Company</label><input id="inqCompany" name="company" autocomplete="organization"></div>
-            <div class="field"><label for="inqEventType">Event Type</label><select id="inqEventType" name="event_type"><option>Trade Show / Expo</option><option>Conference</option><option>Product Launch</option><option>Dealer or Partner Event</option><option>Concert or Live Event</option><option>Other Event</option></select></div>
-            <div class="field"><label for="inqQuantity">Estimated Quantity *</label><input id="inqQuantity" name="quantity" placeholder="e.g., 500 attendee items + 20 staff kits" required></div>
-            <div class="field"><label for="inqDestination">Event City / Country</label><input id="inqDestination" name="destination" placeholder="e.g., Las Vegas, USA"></div>
-            <div class="field"><label for="inqDate">Must-Arrive Date *</label><input id="inqDate" name="need_by_date" type="date" required></div>
-            <div class="field wide"><label for="inqKit">Preferred Kit</label><select id="inqKit" name="preferred_kit"><option>Not Sure Yet</option><option>Lead Capture Booth Kit</option><option>Exhibitor Staff Kit</option><option>Attendee Giveaway Kit</option><option>Custom Combination</option></select></div>
-            <div class="field wide"><label for="inqProducts">Products Interested In</label><input id="inqProducts" name="products" placeholder="e.g., lanyards, totes, bottles, power banks and staff polos"></div>
-            <div class="field wide"><label for="inqMessage">Message</label><textarea id="inqMessage" name="message" placeholder="Tell us about the booth goal, visitor tiers, budget direction, packing needs and event schedule."></textarea></div>
-            <div class="field wide"><label for="logoUpload">Logo / Artwork</label><label class="file-upload" for="logoUpload"><input class="native-file" id="logoUpload" name="logo_artwork" type="file" accept=".jpg,.jpeg,.png,.pdf,.ai,.eps,.svg"><span class="file-text" id="fileText">JPG, PNG, PDF, AI, EPS or SVG</span><span class="file-button">Choose File</span></label></div>
-            <div class="wide form-actions"><button class="btn btn-gold" id="submitInquiry" type="submit">Submit Event Kit Inquiry</button><a class="btn btn-navy" href="https://wa.me/8615869117529" target="_blank" rel="noopener">Chat on WhatsApp</a></div>
-            <div class="wide form-status" id="formStatus" aria-live="polite"></div>
-          </form>
-        </div>
-        <aside class="side-card"><h3>What to Include</h3><ul><li><b>Event &amp; Audience</b>What is the show and who will visit the booth?</li><li><b>Quantity by Tier</b>How many attendee, staff and VIP items are needed?</li><li><b>City &amp; Must-Arrive Date</b>Where and when must the products arrive?</li><li><b>Products &amp; Budget</b>Which items and overall level fit the program?</li><li><b>Logo Files</b>Vector artwork is best for production review.</li></ul><a href="mailto:info@fypromogifts.com">info@fypromogifts.com</a></aside>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container"><div class="footer-grid"><div><div class="footer-brand">FY PromoGifts</div><p>Custom promotional gifts and practical mixed-product kits for agencies, event teams and corporate buyers.</p></div><nav class="footer-links" aria-label="Footer navigation"><a href="/">Home</a><a href="/catalog/">Catalog</a><a href="/kit-studio/">Kit Studio</a><a href="/brand-campaign-giveaways/">Campaign Giveaways</a><a href="/client-appreciation-gifts/">Client Gifts</a><a href="/blog/">Buyer Guides</a></nav></div><div class="footer-contact"><span>&copy; FY PromoGifts. All rights reserved.</span><span><a href="mailto:info@fypromogifts.com">info@fypromogifts.com</a> &nbsp; | &nbsp; <a href="https://wa.me/8615869117529" target="_blank" rel="noopener">WhatsApp: +86 158 6911 7529</a></span></div></div>
-  </footer>
-
-  <script>
-    const pageUrl = document.getElementById('pageUrl');
-    if (pageUrl) pageUrl.value = window.location.href;
-    const dateField = document.getElementById('inqDate');
-    if (dateField) {
-      const now = new Date();
-      now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
-      dateField.min = now.toISOString().slice(0, 10);
-    }
-    const kitField = document.getElementById('inqKit');
-    const productsField = document.getElementById('inqProducts');
-    document.querySelectorAll('.kit-select').forEach((button) => {
-      button.addEventListener('click', () => {
-        if (kitField) kitField.value = button.dataset.kit;
-        if (productsField) productsField.value = button.dataset.products;
-        document.getElementById('inquiry').scrollIntoView({behavior:'smooth'});
-        if (typeof window.fyTrack === 'function') window.fyTrack('trade_show_kit_select',{kit_name:button.dataset.kit});
-      });
-    });
-    const logoUpload = document.getElementById('logoUpload');
-    const fileText = document.getElementById('fileText');
-    if (logoUpload && fileText) logoUpload.addEventListener('change', () => { fileText.textContent = logoUpload.files.length ? logoUpload.files[0].name : 'JPG, PNG, PDF, AI, EPS or SVG'; });
-    const quoteForm = document.getElementById('quoteForm');
-    const submitInquiry = document.getElementById('submitInquiry');
-    const formStatus = document.getElementById('formStatus');
-    if (quoteForm && submitInquiry) quoteForm.addEventListener('submit', async (event) => {
-      event.preventDefault();
-      if (!quoteForm.reportValidity()) return;
-      const defaultText = submitInquiry.textContent;
-      submitInquiry.disabled = true;
-      submitInquiry.textContent = 'Submitting...';
-      formStatus.textContent = '';
-      formStatus.classList.remove('is-error');
-      try {
-        const response = await fetch(quoteForm.action,{method:'POST',body:new FormData(quoteForm),headers:{Accept:'application/json'}});
-        if (!response.ok) throw new Error('Form submission failed');
-        quoteForm.reset();
-        if (pageUrl) pageUrl.value = window.location.href;
-        if (fileText) fileText.textContent = 'JPG, PNG, PDF, AI, EPS or SVG';
-        formStatus.textContent = 'Thanks, your trade show kit inquiry has been sent. We will reply as soon as possible.';
-      } catch (error) {
-        formStatus.textContent = 'Sorry, the form could not be sent. Please email info@fypromogifts.com or chat on WhatsApp.';
-        formStatus.classList.add('is-error');
-      } finally {
-        submitInquiry.disabled = false;
-        submitInquiry.textContent = defaultText;
-      }
-    });
-  </script>
-  <script>
-    (function(){
-      function clean(value){return String(value||'').replace(/\s+/g,' ').trim().slice(0,120)}
-      function track(name,params){
-        const payload=Object.assign({event:name,page_path:location.pathname,page_title:document.title},params||{});
-        window.dataLayer=window.dataLayer||[];window.dataLayer.push(payload);
-        if(typeof window.gtag==='function')window.gtag('event',name,payload);
-        if(typeof window.clarity==='function')window.clarity('event',name);
-        if(window.zaraz&&typeof window.zaraz.track==='function')window.zaraz.track(name,payload);
-        window.dispatchEvent(new CustomEvent('fy:track',{detail:{name:name,params:payload}}));
-      }
-      window.fyTrack=track;track('trade_show_giveaway_page_view');
-      document.addEventListener('click',function(event){
-        const target=event.target.closest('a,button');if(!target)return;
-        const href=target.getAttribute('href')||'';const text=clean(target.textContent||target.id);
-        if(href.indexOf('wa.me/')>-1)track('whatsapp_click',{link_text:text,link_url:href});
-        if(href.indexOf('/catalog/')>-1)track('catalog_click',{link_text:text,link_url:href});
-        if(href.indexOf('#inquiry')>-1)track('contact_cta_click',{link_text:text,link_url:href});
-      },true);
-      let started=false;
-      if(quoteForm){
-        quoteForm.addEventListener('input',function(){if(started)return;started=true;track('form_start',{form_id:'quoteForm'})},true);
-        quoteForm.addEventListener('submit',function(){track('form_submit_attempt',{form_id:'quoteForm'})},true);
-      }
-      if(formStatus&&window.MutationObserver){let sent=false;new MutationObserver(function(){if(sent)return;if(formStatus.textContent.indexOf('Thanks')>-1){sent=true;track('form_submit_success',{form_id:'quoteForm'})}}).observe(formStatus,{childList:true,subtree:true,characterData:true})}
-    })();
-  </script>
-  <script src="/assets/fy-attribution.js?v=20260804" defer></script>
-  <script src="/assets/floating-cta.js?v=20260709-cta10" defer></script>
-</body>
-</html>
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.reïm{¶‰ËkºwµçxñÀù½¹™¥É´ÁÉ½‘ÕĞ5=D°½±½ÉÌ°‰É…¹‘¥¹œÍÕÉ™…•Ì…¹Á…­¥¹œ¹••‘Ì¸ğ½Àøğ½…ÉÑ¥±”ø4(€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ•ÀˆøñˆùMQ@€ÀĞğ½ˆøñ ÌùI••¥Ù”5½­ÕÀğ½ ÌøñÀùI•Ù¥•ÜÑ¡”½½É‘¥¹…Ñ•Ù¥ÍÕ…°‘¥É•Ñ¥½¸…¹±½¼Á±…•µ•¹Ğ¸ğ½Àøğ½…ÉÑ¥±”ø4(€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ•ÀˆøñˆùMQ@€ÀÔğ½ˆøñ ÌùÁÁÉ½Ù”•Ñ…¥±Ìğ½ ÌøñÀù½¹™¥É´…ÉÑİ½É¬°Í…µÁ±•Ì°ÁÉ½‘ÕÑÌ…¹Ñ¡”ÁÉ½‘ÕÑ¥½¸Í¡•‘Õ±”¸ğ½Àøğ½…ÉÑ¥±”ø4(€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ•ÀˆøñˆùMQ@€ÀØğ½ˆøñ ÌùA…¬€™…µÀì•±¥Ù•Èğ½ ÌøñÀùAÉ½‘Õ”…¹½É…¹¥é”Ñ¡”¥Ñ•µÌ°Ñ¡•¸…ÉÉ…¹”Í¡¥ÁÁ¥¹œÑ¼Ñ¡”…É••‘•ÍÑ¥¹…Ñ¥½¸¸ğ½Àøğ½…ÉÑ¥±”ø4(€€€€€€€€ğ½‘¥Øø4(€€€€€€ğ½‘¥Øø4(€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€ñÍ•Ñ¥½¸±…ÍÌô‰Í•Ñ¥½¸ˆ¥ô‰™…Äˆø4(€€€€€€ñ‘¥Ø±…ÍÌô‰½¹Ñ…¥¹•È™…Äµ±…å½ÕĞˆø4(€€€€€€€€ñ‘¥Øøñ‘¥Ø±…ÍÌô‰­¥­•Èˆù	Õå•ÈEÕ•ÍÑ¥½¹Ìğ½‘¥Øøñ ÈùQÉ…‘”M¡½Ü¥Ù•…İ…äDğ½ ÈøñÀ±…ÍÌô‰±•…ˆÍÑå±”ô‰µ…É¥¸µÑ½ÀèÄáÁàˆù]½É­¥¹œ½¸Ñ¡”‰Õ‘•ĞüI•…½ÕÈ€ñ„¡É•˜ôˆ½‰±½œ½ÑÉ…‘”µÍ¡½Üµ¥Ù•…İ…åÌµ‰äµ‰Õ‘•Ğ¼ˆÍÑå±”ô‰½±½ÈèŒÄÜØÄå˜í™½¹Ğµİ•¥¡ĞèàÔÀˆùÑÉ…‘”Í¡½Ü¥Ù•…İ…ä‰Õ‘•ĞÕ¥‘”ğ½„ø½ÈÍ•¹Ñ¡”•Ù•¹Ğ½…°…¹ÅÕ…¹Ñ¥Ñä™½È„ÕÍÑ½´É•½µµ•¹‘…Ñ¥½¸¸ğ½Àøğ½‘¥Øø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰™…Äµ±¥ÍĞˆø4(€€€€€€€€€€ñ‘•Ñ…¥±ÌøñÍÕµµ…Éäù]¡…ĞÁÉ½‘ÕÑÌ…É”½µµ½¹±äÕÍ•…ĞUL…¹ÕÉ½Á•…¸ÑÉ…‘”Í¡½İÌüğ½ÍÕµµ…ÉäøñÀù½µµ½¸ÁÉ½‘ÕÑÌ¥¹±Õ‘”‰É…¹‘•±…¹å…É‘Ì°‰…‘”¡½±‘•ÉÌ°Ñ½Ñ”‰…Ì°É•ÕÍ…‰±”‘É¥¹­İ…É”°•Ù•¹Ğ…ÁÁ…É•°°Á¡½¹”ÍÑ…¹‘Ì°¡…É¥¹œ…‰±•Ì°Á½İ•È‰…¹­Ì°İÉ¥ÍÑ‰…¹‘Ì°ÍÑ¥­•ÉÌ°Á…Ñ¡•Ì…¹ÍÑ…™˜‰…Ì¸ğ½Àøğ½‘•Ñ…¥±Ìø4(€€€€€€€€€€ñ‘•Ñ…¥±ÌøñÍÕµµ…Éäù…¸Ñ¡”‘¥ÍÁ±…å•ÑÉ…‘”Í¡½Ü­¥ÑÌ‰”¡…¹•üğ½ÍÕµµ…ÉäøñÀùe•Ì¸Q¡”‘¥ÍÁ±…å•­¥ÑÌ…É”ÍÑ…ÉÑ¥¹œ½¹•ÁÑÌ¸AÉ½‘ÕÑÌ°½±½ÉÌ°±½¼Á±…•µ•¹Ğ°ÅÕ…¹Ñ¥Ñ¥•Ì…¹Á…­¥¹œµ•Ñ¡½‘Ì…¸‰”…‘©ÕÍÑ•‰•™½É”ÅÕ½Ñ…Ñ¥½¸¸ğ½Àøğ½‘•Ñ…¥±Ìø4(€€€€€€€€€€ñ‘•Ñ…¥±ÌøñÍÕµµ…Éäù]¡…Ğ¥ÌÑ¡”µ¥¹¥µÕ´½É‘•ÈÅÕ…¹Ñ¥Ñäüğ½ÍÕµµ…ÉäøñÀù5=D¥ÌÁÉ½‘ÕĞµ±•…¹Ù…É¥•Ì‰ä¥Ñ•´°½±½È°‰É…¹‘¥¹œµ•Ñ¡½…¹Á…­…¥¹œ¸1½Ü5=D¥Ì…Ù…¥±…‰±”™½ÈÍ•±•Ñ•ÁÉ½‘ÕÑÌ°İ¡¥±”µ¥á•µÁÉ½‘ÕĞ­¥ÑÌ…É”É•Ù¥•İ•¥Ñ•´‰ä¥Ñ•´¸ğ½Àøğ½‘•Ñ…¥±Ìø4(€€€€€€€€€€ñ‘•Ñ…¥±ÌøñÍÕµµ…Éäù…¸å½ÔÁÉ½Ù¥‘”µ½É”ÍÕÍÑ…¥¹…‰±”ÑÉ…‘”Í¡½Ü¥Ù•…İ…åÌüğ½ÍÕµµ…ÉäøñÀùe•Ì¸I•ÕÍ…‰±”ÁÉ½‘ÕÑÌ°É•å±•µµ…Ñ•É¥…°‰…Ì°‘ÕÉ…‰±”‘É¥¹­İ…É”°É•‘Õ•Á…­…¥¹œ…¹ÁÉ…Ñ¥…°¥Ñ•µÌ…¸‰”ÁÉ¥½É¥Ñ¥é•™½ÈÁÉ½É…µÌİ¥Ñ ÍÕÍÑ…¥¹…‰¥±¥ÑäÉ•ÅÕ¥É•µ•¹ÑÌ¸ğ½Àøğ½‘•Ñ…¥±Ìø4(€€€€€€€€€€ñ‘•Ñ…¥±ÌøñÍÕµµ…Éäù!½Ü•…É±äÍ¡½Õ±ÑÉ…‘”Í¡½Ü¥Ù•…İ…åÌ‰”½É‘•É•üğ½ÍÕµµ…ÉäøñÀùM¡…É”Ñ¡”•Ù•¹Ğ¥Ñä°ÅÕ…¹Ñ¥Ñä…¹µÕÍĞµ…ÉÉ¥Ù”‘…Ñ”…Ì•…É±ä…ÌÁ½ÍÍ¥‰±”¸AÉ½‘ÕĞÍ•±•Ñ¥½¸°…ÉÑİ½É¬…ÁÁÉ½Ù…°°ÁÉ½‘ÕÑ¥½¸…¹Í¡¥ÁÁ¥¹œÑ¥µ”µÕÍĞ…±°‰”½¹™¥Éµ•‰•™½É”Ñ¡”•Ù•¹Ğ¸ğ½Àøğ½‘•Ñ…¥±Ìø4(€€€€€€€€€€ñ‘•Ñ…¥±ÌøñÍÕµµ…Éäù…¸$É•ÅÕ•ÍĞ„‘¥¥Ñ…°µ½­ÕÀ½ÈÁ¡åÍ¥…°Í…µÁ±”üğ½ÍÕµµ…ÉäøñÀù‘¥¥Ñ…°µ½­ÕÀ…¸‰”ÁÉ•Á…É•…™Ñ•ÈÉ••¥Ù¥¹œÑ¡”±½¼°Í•±•Ñ•ÁÉ½‘ÕÑÌ…¹ÁÉ½©•ĞÉ•ÅÕ¥É•µ•¹ÑÌ¸A¡åÍ¥…°Í…µÁ±”…Ù…¥±…‰¥±¥Ñä…¹½ÍĞ‘•Á•¹½¸Ñ¡”ÁÉ½‘ÕÑÌ…¹ÕÍÑ½µ¥é…Ñ¥½¸µ•Ñ¡½‘Ì¸ğ½Àøğ½‘•Ñ…¥±Ìø4(€€€€€€€€ğ½‘¥Øø4(€€€€€€ğ½‘¥Øø4(€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€ñÍ•Ñ¥½¸±…ÍÌô‰Í•Ñ¥½¸ˆ…É¥„µ±…‰•±±•‘‰äô‰ÑÉ…‘”µÉ•±…Ñ•µÑ¥Ñ±”ˆø4(€€€€€€ñ‘¥Ø±…ÍÌô‰½¹Ñ…¥¹•Èˆø4(€€€€€€€€ñ‘¥Ø±…ÍÌô‰Í•Ñ¥½¸µ¡•…ˆøñ‘¥Øøñ‘¥Ø±…ÍÌô‰­¥­•ÈˆùáÁ±½É”I•±…Ñ•M½±ÕÑ¥½¹Ìğ½‘¥Øøñ È¥ô‰ÑÉ…‘”µÉ•±…Ñ•µÑ¥Ñ±”ˆù=Ñ¡•ÈÕÍÑ½´¥™Ğ-¥ĞUÍ”…Í•Ìğ½ Èøğ½‘¥ØøñÀ±…ÍÌô‰±•…ˆù½µÁ…É”…¹½Ñ¡•Èµ•É¡…¹‘¥Í”ÁÉ½É…´½ÈÕÍ”„ÁÉ…Ñ¥…°•Ù•¹ĞÕ¥‘”Ñ¼ÁÉ•Á…É”Ñ¡”‰É¥•˜¸ğ½Àøğ½‘¥Øø4(€€€€€€€€ñ‘¥Ø±…ÍÌô‰É•±…Ñ•µÉ¥ˆø4(€€€€€€€€€€ñ„±…ÍÌô‰É•±…Ñ•µ…Éˆ¡É•˜ôˆ½•µÁ±½å•”µ½¹‰½…É‘¥¹œµ­¥ÑÌ¼ˆøñÍµ…±°ùUÍ”…Í”ğ½Íµ…±°øñÍÑÉ½¹œùµÁ±½å•”=¹‰½…É‘¥¹œ-¥ÑÌğ½ÍÑÉ½¹œøñÍÁ…¸ù]•±½µ”ÁÉ½‘ÕÑÌ…¹Á…­•­¥ÑÌ™½È¹•Ü¡¥É•Ì…¹¥¹Ñ•É¹…°Ñ•…µÌ¸ğ½ÍÁ…¸øğ½„ø4(€€€€€€€€€€ñ„±…ÍÌô‰É•±…Ñ•µ…Éˆ¡É•˜ôˆ½±¥•¹Ğµ…ÁÁÉ•¥…Ñ¥½¸µ¥™ÑÌ¼ˆøñÍµ…±°ùUÍ”…Í”ğ½Íµ…±°øñÍÑÉ½¹œù±¥•¹ĞÁÁÉ•¥…Ñ¥½¸¥™ÑÌğ½ÍÑÉ½¹œøñÍÁ…¸ùUÍ•™Õ°‰É…¹‘•¥™ÑÌ™½È±¥•¹ĞÑ¡…¹¬µå½ÕÌ°Y%@ÁÉ½É…µÌ…¹µ¥±•ÍÑ½¹•Ì¸ğ½ÍÁ…¸øğ½„ø4(€€€€€€€€€€ñ„±…ÍÌô‰É•±…Ñ•µ…Éˆ¡É•˜ôˆ½‰É…¹µ…µÁ…¥¸µ¥Ù•…İ…åÌ¼ˆøñÍµ…±°ùUÍ”…Í”ğ½Íµ…±°øñÍÑÉ½¹œù	É…¹…µÁ…¥¸¥Ù•…İ…åÌğ½ÍÑÉ½¹œøñÍÁ…¸ù½½É‘¥¹…Ñ•µ•É¡…¹‘¥Í”™½È…Ñ¥Ù…Ñ¥½¹Ì°±…Õ¹¡•Ì…¹…•¹ä…µÁ…¥¹Ì¸ğ½ÍÁ…¸øğ½„ø4(€€€€€€€€€€ñ„±…ÍÌô‰É•±…Ñ•µ…Éˆ¡É•˜ôˆ½‰±½œ½ÑÉ…‘”µÍ¡½Üµ¥Ù•…İ…äµ¥‘•…Ìµ™½Èµ…•¹¥•Ì¼ˆøñÍµ…±°ù	Õå•ÈÕ¥‘”ğ½Íµ…±°øñÍÑÉ½¹œùQÉ…‘”M¡½Ü%‘•…Ì™½È•¹¥•Ìğ½ÍÑÉ½¹œøñÍÁ…¸ùA±…¸…Õ‘¥•¹”Ñ¥•ÉÌ°ÅÕ…¹Ñ¥Ñ¥•Ì°‰Õ‘•Ğ…¹‘•±¥Ù•Éä™½È±¥•¹Ğ…µÁ…¥¹Ì¸ğ½ÍÁ…¸øğ½„ø4(€€€€€€€€€€ñ„±…ÍÌô‰É•±…Ñ•µ…Éˆ¡É•˜ôˆ½‰±½œ½¡½ÜµÑ¼µ‰Õ¥±µÕÍÑ½´µ•Ù•¹Ğµ¥™Ğµ­¥ÑÌ¼ˆøñÍµ…±°ù	Õå•ÈÕ¥‘”ğ½Íµ…±°øñÍÑÉ½¹œù!½ÜÑ¼	Õ¥±…¸Ù•¹Ğ¥™Ğ-¥Ğğ½ÍÑÉ½¹œøñÍÁ…¸ùQÕÉ¸Ñ¡”•Ù•¹Ğ‰É¥•˜¥¹Ñ¼„ÁÉ…Ñ¥…°‰É…¹‘•ÁÉ½‘ÕĞÁ±…¸¸ğ½ÍÁ…¸øğ½„ø4(€€€€€€€€€€ñ„±…ÍÌô‰É•±…Ñ•µ…Éˆ¡É•˜ôˆ½‰±½œ½ÑÉ…‘”µÍ¡½Üµ¥Ù•…İ…åÌµ‰äµ‰Õ‘•Ğ¼ˆøñÍµ…±°ù	Õ‘•ĞÕ¥‘”ğ½Íµ…±°øñÍÑÉ½¹œù¥Ù•…İ…åÌU¹‘•È€È°€Ô°€ÄÀ…¹€ÈÀğ½ÍÑÉ½¹œøñÍÁ…¸ùUÍ”ÁÉ½‘ÕĞµ½¹±äÁ±…¹¹¥¹œ‰…¹‘ÌÑ¼¹…ÉÉ½ÜÑ¡”•Ù•¹ĞÍ¡½ÉÑ±¥ÍĞ¸ğ½ÍÁ…¸øğ½„ø(€€€€€€€€ğ½‘¥Øø4(€€€€€€ğ½‘¥Øø4(€€€€ğ½Í•Ñ¥½¸ø4(4(€€€€ñÍ•Ñ¥½¸±…ÍÌô‰Í•Ñ¥½¸¥¹ÅÕ¥ÉäµÍ•Ñ¥½¸ˆ¥ô‰¥¹ÅÕ¥Éäˆø4(€€€€€€ñ‘¥Ø±…ÍÌô‰½¹Ñ…¥¹•È¥¹ÅÕ¥Éäˆø4(€€€€€€€€ñ‘¥Øø4(€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰­¥­•ÈˆùI•ÅÕ•ÍĞ„QÉ…‘”M¡½Ü-¥ĞAÉ½Á½Í…°ğ½‘¥Øøñ Èù•Ğ„É•”	É…¹‘•Ù•¹Ğ-¥Ğ5½­ÕÀğ½ ÈøñÀ±…ÍÌô‰±•…ˆùM¡…É”Ñ¡”•Ù•¹Ğ°…Õ‘¥•¹”°ÅÕ…¹Ñ¥Ñä°‘•ÍÑ¥¹…Ñ¥½¸°µÕÍĞµ…ÉÉ¥Ù”‘…Ñ”…¹ÁÉ•™•ÉÉ•ÁÉ½‘ÕÑÌ¸]”İ¥±°É•Ù¥•ÜÑ¡”µ¥à…¹É•½µµ•¹„ÁÉ…Ñ¥…°‘¥É•Ñ¥½¸¸ğ½Àø4(€€€€€€€€€€ñ™½É´¥ô‰ÅÕ½Ñ•½É´ˆ±…ÍÌô‰™½É´µÉ¥ˆ…Ñ¥½¸ô‰¡ÑÑÁÌè¼½™½ÉµÍÁÉ•”¹¥¼½˜½á½ÅÅÉ¹¼ˆµ•Ñ¡½ô‰A=MPˆ•¹ÑåÁ”ô‰µÕ±Ñ¥Á…ÉĞ½™½É´µ‘…Ñ„ˆø4(€€€€€€€€€€€€ñ¥¹ÁÕĞÑåÁ”ô‰¡¥‘‘•¸ˆ¹…µ”ô‰}ÍÕ‰©•ĞˆÙ…±Õ”ô‰QÉ…‘”M¡½Ü¥Ù•…İ…ä-¥Ğ%¹ÅÕ¥Éä€´dAÉ½µ½¥™ÑÌˆø4(€€€€€€€€€€€€ñ¥¹ÁÕĞÑåÁ”ô‰¡¥‘‘•¸ˆ¹…µ”ô‰ÕÍ•}…Í”ˆÙ…±Õ”ô‰QÉ…‘”M¡½Ü€™…µÀìÙ•¹Ğ-¥ÑÌˆø4(€€€€€€€€€€€€ñ¥¹ÁÕĞÑåÁ”ô‰¡¥‘‘•¸ˆ¹…µ”ô‰Á…•}ÕÉ°ˆ¥ô‰Á…•UÉ°ˆø4(€€€€€€€€€€€€ñ‘¥Ø…É¥„µ¡¥‘‘•¸ô‰ÑÉÕ”ˆÍÑå±”ô‰Á½Í¥Ñ¥½¸é…‰Í½±ÕÑ”í±•™Ğè´ÄÀÀÀÁÁàíİ¥‘Ñ èÅÁàí¡•¥¡ĞèÅÁàí½Ù•É™±½Üé¡¥‘‘•¸ˆøñ±…‰•°ù1•…Ù”•µÁÑäñ¥¹ÁÕĞÑåÁ”ô‰Ñ•áĞˆ¹…µ”ô‰}½Ñ¡„ˆÑ…‰¥¹‘•àôˆ´Äˆ…ÕÑ½½µÁ±•Ñ”ô‰½™˜ˆøğ½±…‰•°øğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±ˆøñ±…‰•°™½Èô‰¥¹Å9…µ”ˆù9…µ”€¨ğ½±…‰•°øñ¥¹ÁÕĞ¥ô‰¥¹Å9…µ”ˆ¹…µ”ô‰¹…µ”ˆ…ÕÑ½½µÁ±•Ñ”ô‰¹…µ”ˆÉ•ÅÕ¥É•øğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±ˆøñ±…‰•°™½Èô‰¥¹Åµ…¥°ˆù]½É¬µ…¥°€¨ğ½±…‰•°øñ¥¹ÁÕĞ¥ô‰¥¹Åµ…¥°ˆ¹…µ”ô‰•µ…¥°ˆÑåÁ”ô‰•µ…¥°ˆ…ÕÑ½½µÁ±•Ñ”ô‰•µ…¥°ˆÉ•ÅÕ¥É•øğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±ˆøñ±…‰•°™½Èô‰¥¹Å]¡…ÑÍ…ÁÀˆù]¡…ÑÍÁÀğ½±…‰•°øñ¥¹ÁÕĞ¥ô‰¥¹Å]¡…ÑÍ…ÁÀˆ¹…µ”ô‰İ¡…ÑÍ…ÁÀˆ¥¹ÁÕÑµ½‘”ô‰Ñ•°ˆ…ÕÑ½½µÁ±•Ñ”ô‰Ñ•°ˆÁ…ÑÑ•É¸ô‰l¬À´ä ¤€¸µuìÜ°ÈÕôˆÑ¥Ñ±”ô‰¹Ñ•È„½µÁ±•Ñ”¥¹Ñ•É¹…Ñ¥½¹…°¹Õµ‰•È°½È±•…Ù”‰±…¹¬¸ˆøğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±ˆøñ±…‰•°™½Èô‰¥¹Å½µÁ…¹äˆù½µÁ…¹äğ½±…‰•°øñ¥¹ÁÕĞ¥ô‰¥¹Å½µÁ…¹äˆ¹…µ”ô‰½µÁ…¹äˆ…ÕÑ½½µÁ±•Ñ”ô‰½É…¹¥é…Ñ¥½¸ˆøğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±ˆøñ±…‰•°™½Èô‰¥¹ÅÙ•¹ÑQåÁ”ˆùÙ•¹ĞQåÁ”ğ½±…‰•°øñÍ•±•Ğ¥ô‰¥¹ÅÙ•¹ÑQåÁ”ˆ¹…µ”ô‰•Ù•¹Ñ}ÑåÁ”ˆøñ½ÁÑ¥½¸ùQÉ…‘”M¡½Ü€¼áÁ¼ğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ù½¹™•É•¹”ğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ùAÉ½‘ÕĞ1…Õ¹ ğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ù•…±•È½ÈA…ÉÑ¹•ÈÙ•¹Ğğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ù½¹•ÉĞ½È1¥Ù”Ù•¹Ğğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ù=Ñ¡•ÈÙ•¹Ğğ½½ÁÑ¥½¸øğ½Í•±•Ğøğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±ˆøñ±…‰•°™½Èô‰¥¹ÅEÕ…¹Ñ¥ÑäˆùÍÑ¥µ…Ñ•EÕ…¹Ñ¥Ñä€¨ğ½±…‰•°øñ¥¹ÁÕĞ¥ô‰¥¹ÅEÕ…¹Ñ¥Ñäˆ¹…µ”ô‰ÅÕ…¹Ñ¥ÑäˆÁ±…•¡½±‘•Èô‰”¹œ¸°€ÔÀÀ…ÑÑ•¹‘•”¥Ñ•µÌ€¬€ÈÀÍÑ…™˜­¥ÑÌˆÉ•ÅÕ¥É•øğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±ˆøñ±…‰•°™½Èô‰¥¹Å•ÍÑ¥¹…Ñ¥½¸ˆùÙ•¹Ğ¥Ñä€¼½Õ¹ÑÉäğ½±…‰•°øñ¥¹ÁÕĞ¥ô‰¥¹Å•ÍÑ¥¹…Ñ¥½¸ˆ¹…µ”ô‰‘•ÍÑ¥¹…Ñ¥½¸ˆÁ±…•¡½±‘•Èô‰”¹œ¸°1…ÌY•…Ì°UMˆøğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±ˆøñ±…‰•°™½Èô‰¥¹Å…Ñ”ˆù5ÕÍĞµÉÉ¥Ù”…Ñ”€¨ğ½±…‰•°øñ¥¹ÁÕĞ¥ô‰¥¹Å…Ñ”ˆ¹…µ”ô‰¹••‘}‰å}‘…Ñ”ˆÑåÁ”ô‰‘…Ñ”ˆÉ•ÅÕ¥É•øğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±İ¥‘”ˆøñ±…‰•°™½Èô‰¥¹Å-¥ĞˆùAÉ•™•ÉÉ•-¥Ğğ½±…‰•°øñÍ•±•Ğ¥ô‰¥¹Å-¥Ğˆ¹…µ”ô‰ÁÉ•™•ÉÉ•‘}­¥Ğˆøñ½ÁÑ¥½¸ù9½ĞMÕÉ”e•Ğğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ù1•……ÁÑÕÉ”	½½Ñ -¥Ğğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ùá¡¥‰¥Ñ½ÈMÑ…™˜-¥Ğğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ùÑÑ•¹‘•”¥Ù•…İ…ä-¥Ğğ½½ÁÑ¥½¸øñ½ÁÑ¥½¸ùÕÍÑ½´½µ‰¥¹…Ñ¥½¸ğ½½ÁÑ¥½¸øğ½Í•±•Ğøğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±İ¥‘”ˆøñ±…‰•°™½Èô‰¥¹ÅAÉ½‘ÕÑÌˆùAÉ½‘ÕÑÌ%¹Ñ•É•ÍÑ•%¸ğ½±…‰•°øñ¥¹ÁÕĞ¥ô‰¥¹ÅAÉ½‘ÕÑÌˆ¹…µ”ô‰ÁÉ½‘ÕÑÌˆÁ±…•¡½±‘•Èô‰”¹œ¸°±…¹å…É‘Ì°Ñ½Ñ•Ì°‰½ÑÑ±•Ì°Á½İ•È‰…¹­Ì…¹ÍÑ…™˜Á½±½Ìˆøğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±İ¥‘”ˆøñ±…‰•°™½Èô‰¥¹Å5•ÍÍ…”ˆù5•ÍÍ…”ğ½±…‰•°øñÑ•áÑ…É•„¥ô‰¥¹Å5•ÍÍ…”ˆ¹…µ”ô‰µ•ÍÍ…”ˆÁ±…•¡½±‘•Èô‰Q•±°ÕÌ…‰½ÕĞÑ¡”‰½½Ñ ½…°°Ù¥Í¥Ñ½ÈÑ¥•ÉÌ°‰Õ‘•Ğ‘¥É•Ñ¥½¸°Á…­¥¹œ¹••‘Ì…¹•Ù•¹ĞÍ¡•‘Õ±”¸ˆøğ½Ñ•áÑ…É•„øğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰™¥•±İ¥‘”ˆøñ±…‰•°™½Èô‰±½½UÁ±½…ˆù1½¼€¼ÉÑİ½É¬ğ½±…‰•°øñ±…‰•°±…ÍÌô‰™¥±”µÕÁ±½…ˆ™½Èô‰±½½UÁ±½…ˆøñ¥¹ÁÕĞ±…ÍÌô‰¹…Ñ¥Ù”µ™¥±”ˆ¥ô‰±½½UÁ±½…ˆ¹…µ”ô‰±½½}…ÉÑİ½É¬ˆÑåÁ”ô‰™¥±”ˆ…•ÁĞôˆ¹©Áœ°¹©Á•œ°¹Á¹œ°¹Á‘˜°¹…¤°¹•ÁÌ°¹ÍÙœˆøñÍÁ…¸±…ÍÌô‰™¥±”µÑ•áĞˆ¥ô‰™¥±•Q•áĞˆù)A°A9°A°$°AL½ÈMYğ½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰™¥±”µ‰ÕÑÑ½¸ˆù¡½½Í”¥±”ğ½ÍÁ…¸øğ½±…‰•°øğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰İ¥‘”™½É´µ…Ñ¥½¹Ìˆøñ‰ÕÑÑ½¸±…ÍÌô‰‰Ñ¸‰Ñ¸µ½±ˆ¥ô‰ÍÕ‰µ¥Ñ%¹ÅÕ¥ÉäˆÑåÁ”ô‰ÍÕ‰µ¥ĞˆùMÕ‰µ¥ĞÙ•¹Ğ-¥Ğ%¹ÅÕ¥Éäğ½‰ÕÑÑ½¸øñ„±…ÍÌô‰‰Ñ¸‰Ñ¸µ¹…Ùäˆ¡É•˜ô‰¡ÑÑÁÌè¼½İ„¹µ”¼àØÄÔàØäÄÄÜÔÈäˆÑ…É•Ğô‰}‰±…¹¬ˆÉ•°ô‰¹½½Á•¹•Èˆù¡…Ğ½¸]¡…ÑÍÁÀğ½„øğ½‘¥Øø4(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰İ¥‘”™½É´µÍÑ…ÑÕÌˆ¥ô‰™½ÉµMÑ…ÑÕÌˆ…É¥„µ±¥Ù”ô‰Á½±¥Ñ”ˆøğ½‘¥Øø4(€€€€€€€€€€ğ½™½É´ø4(€€€€€€€€ğ½‘¥Øø4(€€€€€€€€ñ…Í¥‘”±…ÍÌô‰Í¥‘”µ…Éˆøñ Ìù]¡…ĞÑ¼%¹±Õ‘”ğ½ ÌøñÕ°øñ±¤øñˆùÙ•¹Ğ€™…µÀìÕ‘¥•¹”ğ½ˆù]¡…Ğ¥ÌÑ¡”Í¡½Ü…¹İ¡¼İ¥±°Ù¥Í¥ĞÑ¡”‰½½Ñ üğ½±¤øñ±¤øñˆùEÕ…¹Ñ¥Ñä‰äQ¥•Èğ½ˆù!½Üµ…¹ä…ÑÑ•¹‘•”°ÍÑ…™˜…¹Y%@¥Ñ•µÌ…É”¹••‘•üğ½±¤øñ±¤øñˆù¥Ñä€™…µÀì5ÕÍĞµÉÉ¥Ù”…Ñ”ğ½ˆù]¡•É”…¹İ¡•¸µÕÍĞÑ¡”ÁÉ½‘ÕÑÌ…ÉÉ¥Ù”üğ½±¤øñ±¤øñˆùAÉ½‘ÕÑÌ€™…µÀì	Õ‘•Ğğ½ˆù]¡¥ ¥Ñ•µÌ…¹½Ù•É…±°±•Ù•°™¥ĞÑ¡”ÁÉ½É…´üğ½±¤øñ±¤øñˆù1½¼¥±•Ìğ½ˆùY•Ñ½È…ÉÑİ½É¬¥Ì‰•ÍĞ™½ÈÁÉ½‘ÕÑ¥½¸É•Ù¥•Ü¸ğ½±¤øğ½Õ°øñ„¡É•˜ô‰µ…¥±Ñ¼é¥¹™½™åÁÉ½µ½¥™ÑÌ¹½´ˆù¥¹™½™åÁÉ½µ½¥™ÑÌ¹½´ğ½„øğ½…Í¥‘”ø4(€€€€€€ğ½‘¥Øø4(€€€€ğ½Í•Ñ¥½¸ø4(€€ğ½µ…¥¸ø4(4(€€ñ™½½Ñ•È±…ÍÌô‰™½½Ñ•Èˆø4(€€€€ñ‘¥Ø±…ÍÌô‰½¹Ñ…¥¹•Èˆøñ‘¥Ø±…ÍÌô‰™½½Ñ•ÈµÉ¥ˆøñ‘¥Øøñ‘¥Ø±…ÍÌô‰™½½Ñ•Èµ‰É…¹ˆùdAÉ½µ½¥™ÑÌğ½‘¥ØøñÀùÕÍÑ½´ÁÉ½µ½Ñ¥½¹…°¥™ÑÌ…¹ÁÉ…Ñ¥…°µ¥á•µÁÉ½‘ÕĞ­¥ÑÌ™½È…•¹¥•Ì°•Ù•¹ĞÑ•…µÌ…¹½ÉÁ½É…Ñ”‰Õå•ÉÌ¸ğ½Àøğ½‘¥Øøñ¹…Ø±…ÍÌô‰™½½Ñ•Èµ±¥¹­Ìˆ…É¥„µ±…‰•°ô‰½½Ñ•È¹…Ù¥…Ñ¥½¸ˆøñ„¡É•˜ôˆ¼ˆù!½µ”ğ½„øñ„¡É•˜ôˆ½…Ñ…±½œ¼ˆù…Ñ…±½œğ½„øñ„¡É•˜ôˆ½­¥ĞµÍÑÕ‘¥¼¼ˆù-¥ĞMÑÕ‘¥¼ğ½„øñ„¡É•˜ôˆ½‰É…¹µ…µÁ…¥¸µ¥Ù•…İ…åÌ¼ˆù…µÁ…¥¸¥Ù•…İ…åÌğ½„øñ„¡É•˜ôˆ½±¥•¹Ğµ…ÁÁÉ•¥…Ñ¥½¸µ¥™ÑÌ¼ˆù±¥•¹Ğ¥™ÑÌğ½„øñ„¡É•˜ôˆ½‰±½œ¼ˆù	Õå•ÈÕ¥‘•Ìğ½„øğ½¹…Øøğ½‘¥Øøñ‘¥Ø±…ÍÌô‰™½½Ñ•Èµ½¹Ñ…ĞˆøñÍÁ…¸ø™½ÁäìdAÉ½µ½¥™ÑÌ¸±°É¥¡ÑÌÉ•Í•ÉÙ•¸ğ½ÍÁ…¸øñÍÁ…¸øñ„¡É•˜ô‰µ…¥±Ñ¼é¥¹™½™åÁÉ½µ½¥™ÑÌ¹½´ˆù¥¹™½™åÁÉ½µ½¥™ÑÌ¹½´ğ½„ø€™¹‰ÍÀìğ€™¹‰ÍÀì€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½İ„¹µ”¼àØÄÔàØäÄÄÜÔÈäˆÑ…É•Ğô‰}‰±…¹¬ˆÉ•°ô‰¹½½Á•¹•Èˆù]¡…ÑÍÁÀè€¬àØ€ÄÔà€ØäÄÄ€ÜÔÈäğ½„øğ½ÍÁ…¸øğ½‘¥Øøğ½‘¥Øø4(€€ğ½™½½Ñ•Èø4(4(€€ñÍÉ¥ÁĞø4(€€€½¹ÍĞÁ…•UÉ°€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% Á…•UÉ°œ¤ì4(€€€¥˜€¡Á…•UÉ°¤Á…•UÉ°¹Ù…±Õ”€ôİ¥¹‘½Ü¹±½…Ñ¥½¸¹¡É•˜ì4(€€€½¹ÍĞ‘…Ñ•¥•±€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ¥¹Å…Ñ”œ¤ì4(€€€¥˜€¡‘…Ñ•¥•±¤ì4(€€€€€½¹ÍĞ¹½Ü€ô¹•Ü…Ñ” ¤ì4(€€€€€¹½Ü¹Í•Ñ5¥¹ÕÑ•Ì¡¹½Ü¹•Ñ5¥¹ÕÑ•Ì ¤€´¹½Ü¹•ÑQ¥µ•é½¹•=™™Í•Ğ ¤¤ì4(€€€€€‘…Ñ•¥•±¹µ¥¸€ô¹½Ü¹Ñ½%M=MÑÉ¥¹œ ¤¹Í±¥” À°€ÄÀ¤ì4(€€€ô4(€€€½¹ÍĞ­¥Ñ¥•±€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ¥¹Å-¥Ğœ¤ì4(€€€½¹ÍĞÁÉ½‘ÕÑÍ¥•±€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ¥¹ÅAÉ½‘ÕÑÌœ¤ì4(€€€‘½Õµ•¹Ğ¹ÅÕ•ÉåM•±•Ñ½É±° œ¹­¥ĞµÍ•±•Ğœ¤¹™½É…  ¡‰ÕÑÑ½¸¤€ôøì4(€€€€€‰ÕÑÑ½¸¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°€ ¤€ôøì4(€€€€€€€¥˜€¡­¥Ñ¥•±¤­¥Ñ¥•±¹Ù…±Õ”€ô‰ÕÑÑ½¸¹‘…Ñ…Í•Ğ¹­¥Ğì4(€€€€€€€¥˜€¡ÁÉ½‘ÕÑÍ¥•±¤ÁÉ½‘ÕÑÍ¥•±¹Ù…±Õ”€ô‰ÕÑÑ½¸¹‘…Ñ…Í•Ğ¹ÁÉ½‘ÕÑÌì4(€€€€€€€‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ¥¹ÅÕ¥Éäœ¤¹ÍÉ½±±%¹Ñ½Y¥•Ü¡í‰•¡…Ù¥½ÈèÍµ½½Ñ ô¤ì4(€€€€€€€¥˜€¡ÑåÁ•½˜İ¥¹‘½Ü¹™åQÉ…¬€ôôô€™Õ¹Ñ¥½¸œ¤İ¥¹‘½Ü¹™åQÉ…¬ ÑÉ…‘•}Í¡½İ}­¥Ñ}Í•±•Ğœ±í­¥Ñ}¹…µ”é‰ÕÑÑ½¸¹‘…Ñ…Í•Ğ¹­¥Ñô¤ì4(€€€€€ô¤ì4(€€€ô¤ì4(€€€½¹ÍĞ±½½UÁ±½…€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ±½½UÁ±½…œ¤ì4(€€€½¹ÍĞ™¥±•Q•áĞ€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ™¥±•Q•áĞœ¤ì4(€€€¥˜€¡±½½UÁ±½…€˜˜™¥±•Q•áĞ¤±½½UÁ±½…¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ¡…¹”œ°€ ¤€ôøì™¥±•Q•áĞ¹Ñ•áÑ½¹Ñ•¹Ğ€ô±½½UÁ±½…¹™¥±•Ì¹±•¹Ñ €ü±½½UÁ±½…¹™¥±•ÍlÁt¹¹…µ”€è€)A°A9°A°$°AL½ÈMYœìô¤ì4(€€€½¹ÍĞÅÕ½Ñ•½É´€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ÅÕ½Ñ•½É´œ¤ì4(€€€½¹ÍĞÍÕ‰µ¥Ñ%¹ÅÕ¥Éä€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ÍÕ‰µ¥Ñ%¹ÅÕ¥Éäœ¤ì4(€€€½¹ÍĞ™½ÉµMÑ…ÑÕÌ€ô‘½Õµ•¹Ğ¹•Ñ±•µ•¹Ñ	å% ™½ÉµMÑ…ÑÕÌœ¤ì4(€€€¥˜€¡ÅÕ½Ñ•½É´€˜˜ÍÕ‰µ¥Ñ%¹ÅÕ¥Éä¤ÅÕ½Ñ•½É´¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ÍÕ‰µ¥Ğœ°…Íå¹Œ€¡•Ù•¹Ğ¤€ôøì4(€€€€€•Ù•¹Ğ¹ÁÉ•Ù•¹Ñ•™…Õ±Ğ ¤ì4(€€€€€¥˜€ …ÅÕ½Ñ•½É´¹É•Á½ÉÑY…±¥‘¥Ñä ¤¤É•ÑÕÉ¸ì4(€€€€€½¹ÍĞ‘•™…Õ±ÑQ•áĞ€ôÍÕ‰µ¥Ñ%¹ÅÕ¥Éä¹Ñ•áÑ½¹Ñ•¹Ğì4(€€€€€ÍÕ‰µ¥Ñ%¹ÅÕ¥Éä¹‘¥Í…‰±•€ôÑÉÕ”ì4(€€€€€ÍÕ‰µ¥Ñ%¹ÅÕ¥Éä¹Ñ•áÑ½¹Ñ•¹Ğ€ô€MÕ‰µ¥ÑÑ¥¹œ¸¸¸œì4(€€€€€™½ÉµMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ğ€ô€œœì4(€€€€€™½ÉµMÑ…ÑÕÌ¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” ¥Ìµ•ÉÉ½Èœ¤ì4(€€€€€ÑÉäì4(€€€€€€€½¹ÍĞÉ•ÍÁ½¹Í”€ô…İ…¥Ğ™•Ñ ¡ÅÕ½Ñ•½É´¹…Ñ¥½¸±íµ•Ñ¡½èA=MPœ±‰½‘äé¹•Ü½Éµ…Ñ„¡ÅÕ½Ñ•½É´¤±¡•…‘•ÉÌéí•ÁĞè…ÁÁ±¥…Ñ¥½¸½©Í½¸õô¤ì4(€€€€€€€¥˜€ …É•ÍÁ½¹Í”¹½¬¤Ñ¡É½Ü¹•ÜÉÉ½È ½É´ÍÕ‰µ¥ÍÍ¥½¸™…¥±•œ¤ì4(€€€€€€€ÅÕ½Ñ•½É´¹É•Í•Ğ ¤ì4(€€€€€€€¥˜€¡Á…•UÉ°¤Á…•UÉ°¹Ù…±Õ”€ôİ¥¹‘½Ü¹±½…Ñ¥½¸¹¡É•˜ì4(€€€€€€€¥˜€¡™¥±•Q•áĞ¤™¥±•Q•áĞ¹Ñ•áÑ½¹Ñ•¹Ğ€ô€)A°A9°A°$°AL½ÈMYœì4(€€€€€€€™½ÉµMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ğ€ô€Q¡…¹­Ì°å½ÕÈÑÉ…‘”Í¡½Ü­¥Ğ¥¹ÅÕ¥Éä¡…Ì‰••¸Í•¹Ğ¸]”İ¥±°É•Á±ä…ÌÍ½½¸…ÌÁ½ÍÍ¥‰±”¸œì4(€€€€€ô…Ñ €¡•ÉÉ½È¤ì4(€€€€€€€™½ÉµMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ğ€ô€M½ÉÉä°Ñ¡”™½É´½Õ±¹½Ğ‰”Í•¹Ğ¸A±•…Í”•µ…¥°¥¹™½™åÁÉ½µ½¥™ÑÌ¹½´½È¡…Ğ½¸]¡…ÑÍÁÀ¸œì4(€€€€€€€™½ÉµMÑ…ÑÕÌ¹±…ÍÍ1¥ÍĞ¹…‘ ¥Ìµ•ÉÉ½Èœ¤ì4(€€€€€ô™¥¹…±±äì4(€€€€€€€ÍÕ‰µ¥Ñ%¹ÅÕ¥Éä¹‘¥Í…‰±•€ô™…±Í”ì4(€€€€€€€ÍÕ‰µ¥Ñ%¹ÅÕ¥Éä¹Ñ•áÑ½¹Ñ•¹Ğ€ô‘•™…Õ±ÑQ•áĞì4(€€€€€ô4(€€€ô¤ì4(€€ğ½ÍÉ¥ÁĞø4(€€ñÍÉ¥ÁĞø4(€€€€¡™Õ¹Ñ¥½¸ ¥ì4(€€€€€™Õ¹Ñ¥½¸±•…¸¡Ù…±Õ”¥íÉ•ÑÕÉ¸MÑÉ¥¹œ¡Ù…±Õ•ñğœœ¤¹É•Á±…” ½qÌ¬½œ°œ€œ¤¹ÑÉ¥´ ¤¹Í±¥” À°ÄÈÀ¥ô4(€€€€€™Õ¹Ñ¥½¸ÑÉ…¬¡¹…µ”±Á…É…µÌ¥ì4(€€€€€€€½¹ÍĞÁ…å±½…õ=‰©•Ğ¹…ÍÍ¥¸¡í•Ù•¹Ğé¹…µ”±Á…•}Á…Ñ é±½…Ñ¥½¸¹Á…Ñ¡¹…µ”±Á…•}Ñ¥Ñ±”é‘½Õµ•¹Ğ¹Ñ¥Ñ±•ô±Á…É…µÍññíô¤ì4(€€€€€€€İ¥¹‘½Ü¹‘…Ñ…1…å•Èõİ¥¹‘½Ü¹‘…Ñ…1…å•Éññmtíİ¥¹‘½Ü¹‘…Ñ…1…å•È¹ÁÕÍ ¡Á…å±½…¤ì4(€€€€€€€¥˜¡ÑåÁ•½˜İ¥¹‘½Ü¹Ñ…œôôô™Õ¹Ñ¥½¸œ¥İ¥¹‘½Ü¹Ñ…œ •Ù•¹Ğœ±¹…µ”±Á…å±½…¤ì4(€€€€€€€¥˜¡ÑåÁ•½˜İ¥¹‘½Ü¹±…É¥Ñäôôô™Õ¹Ñ¥½¸œ¥İ¥¹‘½Ü¹±…É¥Ñä •Ù•¹Ğœ±¹…µ”¤ì4(€€€€€€€¥˜¡İ¥¹‘½Ü¹é…É…è˜™ÑåÁ•½˜İ¥¹‘½Ü¹é…É…è¹ÑÉ…¬ôôô™Õ¹Ñ¥½¸œ¥İ¥¹‘½Ü¹é…É…è¹ÑÉ…¬¡¹…µ”±Á…å±½…¤ì4(€€€€€€€İ¥¹‘½Ü¹‘¥ÍÁ…Ñ¡Ù•¹Ğ¡¹•ÜÕÍÑ½µÙ•¹Ğ ™äéÑÉ…¬œ±í‘•Ñ…¥°éí¹…µ”é¹…µ”±Á…É…µÌéÁ…å±½…‘õô¤¤ì4(€€€€€ô4(€€€€€İ¥¹‘½Ü¹™åQÉ…¬õÑÉ…¬íÑÉ…¬ ÑÉ…‘•}Í¡½İ}¥Ù•…İ…å}Á…•}Ù¥•Üœ¤ì4(€€€€€‘½Õµ•¹Ğ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ±™Õ¹Ñ¥½¸¡•Ù•¹Ğ¥ì4(€€€€€€€½¹ÍĞÑ…É•Ğõ•Ù•¹Ğ¹Ñ…É•Ğ¹±½Í•ÍĞ „±‰ÕÑÑ½¸œ¤í¥˜ …Ñ…É•Ğ¥É•ÑÕÉ¸ì4(€€€€€€€½¹ÍĞ¡É•˜õÑ…É•Ğ¹•ÑÑÑÉ¥‰ÕÑ” ¡É•˜œ¥ñğœœí½¹ÍĞÑ•áĞõ±•…¸¡Ñ…É•Ğ¹Ñ•áÑ½¹Ñ•¹ÑññÑ…É•Ğ¹¥¤ì4(€€€€€€€¥˜¡¡É•˜¹¥¹‘•á=˜ İ„¹µ”¼œ¤ø´Ä¥ÑÉ…¬ İ¡…ÑÍ…ÁÁ}±¥¬œ±í±¥¹­}Ñ•áĞéÑ•áĞ±±¥¹­}ÕÉ°é¡É•™ô¤ì4(€€€€€€€¥˜¡¡É•˜¹¥¹‘•á=˜ œ½…Ñ…±½œ¼œ¤ø´Ä¥ÑÉ…¬ …Ñ…±½}±¥¬œ±í±¥¹­}Ñ•áĞéÑ•áĞ±±¥¹­}ÕÉ°é¡É•™ô¤ì4(€€€€€€€¥˜¡¡É•˜¹¥¹‘•á=˜ œ¥¹ÅÕ¥Éäœ¤ø´Ä¥ÑÉ…¬ ½¹Ñ…Ñ}Ñ…}±¥¬œ±í±¥¹­}Ñ•áĞéÑ•áĞ±±¥¹­}ÕÉ°é¡É•™ô¤ì4(€€€€€ô±ÑÉÕ”¤ì4(€€€€€±•ĞÍÑ…ÉÑ•õ™…±Í”ì4(€€€€€¥˜¡ÅÕ½Ñ•½É´¥ì4(€€€€€€€ÅÕ½Ñ•½É´¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ¥¹ÁÕĞœ±™Õ¹Ñ¥½¸ ¥í¥˜¡ÍÑ…ÉÑ•¥É•ÑÕÉ¸íÍÑ…ÉÑ•õÑÉÕ”íÑÉ…¬ ™½Éµ}ÍÑ…ÉĞœ±í™½Éµ}¥èÅÕ½Ñ•½É´ô¥ô±ÑÉÕ”¤ì4(€€€€€€€ÅÕ½Ñ•½É´¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ÍÕ‰µ¥Ğœ±™Õ¹Ñ¥½¸ ¥íÑÉ…¬ ™½Éµ}ÍÕ‰µ¥Ñ}…ÑÑ•µÁĞœ±í™½Éµ}¥èÅÕ½Ñ•½É´ô¥ô±ÑÉÕ”¤ì4(€€€€€ô4(€€€€€¥˜¡™½ÉµMÑ…ÑÕÌ˜™İ¥¹‘½Ü¹5ÕÑ…Ñ¥½¹=‰Í•ÉÙ•È¥í±•ĞÍ•¹Ğõ™…±Í”í¹•Ü5ÕÑ…Ñ¥½¹=‰Í•ÉÙ•È¡™Õ¹Ñ¥½¸ ¥í¥˜¡Í•¹Ğ¥É•ÑÕÉ¸í¥˜¡™½ÉµMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ğ¹¥¹‘•á=˜ Q¡…¹­Ìœ¤ø´Ä¥íÍ•¹ĞõÑÉÕ”íÑÉ…¬ ™½Éµ}ÍÕ‰µ¥Ñ}ÍÕ•ÍÌœ±í™½Éµ}¥èÅÕ½Ñ•½É´ô¥õô¤¹½‰Í•ÉÙ”¡™½ÉµMÑ…ÑÕÌ±í¡¥±‘1¥ÍĞéÑÉÕ”±ÍÕ‰ÑÉ•”éÑÉÕ”±¡…É…Ñ•É…Ñ„éÑÉÕ•ô¥ô4(€€€ô¤ ¤ì4(€€ğ½ÍÉ¥ÁĞø4(€€ñÍÉ¥ÁĞÍÉŒôˆ½…ÍÍ•ÑÌ½™äµ…ÑÑÉ¥‰ÕÑ¥½¸¹©ÌıØôÈÀÈØÀàÀĞˆ‘•™•Èøğ½ÍÉ¥ÁĞø4(€€ñÍÉ¥ÁĞÍÉŒôˆ½…ÍÍ•ÑÌ½™±½…Ñ¥¹œµÑ„¹©ÌıØôÈÀÈØÀÜÀäµÑ„ÄÀˆ‘•™•Èøğ½ÍÉ¥ÁĞø4(ğ½‰½‘äø4(ğ½¡Ñµ°ø4(
