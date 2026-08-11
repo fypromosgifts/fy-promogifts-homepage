@@ -7,11 +7,11 @@
 /package.json / 301
 /package-lock.json / 301
 /employee-onboarding-kits-final-images.zip /employee-onboarding-kits/ 301
-/kit-builder /catalog/ 301
+/kit-builder /kit-studio/ 301
 /custom-products /catalog/ 301
 /preview-kit-builder /catalog/ 301
 /preview-custom-products /catalog/ 301
-/kit-builder/* /catalog/ 301
+/kit-builder/* /kit-studio/ 301
 /custom-products/* /catalog/ 301
 /preview-kit-builder/* /catalog/ 301
 /preview-custom-products/* /catalog/ 301
