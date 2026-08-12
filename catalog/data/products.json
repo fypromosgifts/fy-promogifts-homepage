@@ -955,12 +955,7 @@
       "Custom Packaging"
     ],
     "image_main": "/catalog/images/products-optimized/DR004.jpg",
-    "image_gallery": [
-      "/catalog/images/products-optimized/DR004-02.jpg",
-      "/catalog/images/products-optimized/DR004-03.jpg",
-      "/catalog/images/products-optimized/DR004-04.jpg",
-      "/catalog/images/products-optimized/DR004-05.jpg"
-    ],
+    "image_gallery": [],
     "media": {
       "original": "",
       "thumbnail": "/catalog/images/products/DR004.png",
