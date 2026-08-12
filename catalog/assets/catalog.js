@@ -498,7 +498,7 @@
     const productTitle = getProductTitle(product);
     const productImage = getProductImage(product);
     const selected = isSelected(productId);
-    const specs = getProductSpecs(product);
+    const specs = getProductSpecs(product).slice(0, 2);
     const tags = getArray(product.tags);
     const badge = tags[0] || "";
 
@@ -521,7 +521,6 @@
         <div class="product-body">
           <h3 class="product-title">${product.detail_url ? `<a href="${escapeHtml(product.detail_url)}">${escapeHtml(productTitle)}</a>` : escapeHtml(productTitle)}</h3>
           <div class="product-id">${escapeHtml(productId)}</div>
-          ${product.short_description ? `<p class="product-card-description">${escapeHtml(product.short_description)}</p>` : ""}
           ${specs.length ? `<p class="product-specs">${specs.map((spec) => escapeHtml(spec)).join(" &middot; ")}</p>` : ""}
         </div>
       </article>
