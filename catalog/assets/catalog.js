@@ -30,7 +30,6 @@
   const drawerOverlay = document.getElementById("drawerOverlay");
   const closeDrawer = document.getElementById("closeDrawer");
   const heroRequestQuote = document.getElementById("heroRequestQuote");
-  const pdfMessage = "PDF catalog is being prepared. Please send us an inquiry for the latest product list.";
   const materialFilterOptions = [
     { value: "stainless-steel", label: "Stainless Steel" },
     { value: "ceramic", label: "Ceramic" },
@@ -212,6 +211,12 @@
       products = products.filter((product) => slugify(product.capacity) === state.filters.capacity);
     }
 
+    if (state.filters.style !== "all") {
+      products = products.filter((product) =>
+        getArray(product.styles).some((style) => slugify(style) === state.filters.style)
+      );
+    }
+
     if (state.filters.useCase !== "all") {
       products = products.filter((product) =>
         getArray(product.use_case).some((useCase) => slugify(useCase) === state.filters.useCase)
@@ -244,10 +249,16 @@
           { id: "useCase", label: "Use Case", values: getUseCaseOptions() },
           { id: "customization", label: "Customization", values: getCustomizationOptions() }
         ]
-      : [
+      : categorySlug === "gift-sets"
+        ? [
+          { id: "material", label: "Material", values: getUniqueProductValues("material") },
+          { id: "useCase", label: "Use Case", values: getUseCaseOptions() },
+          { id: "style", label: "Style", values: getUniqueArrayValues("styles") }
+        ]
+        : [
           { id: "material", label: "Material", values: materialFilterOptions },
           { id: "capacity", label: "Capacity", values: getUniqueProductValues("capacity") },
-          { id: "style", label: "Style", values: [] }
+          { id: "style", label: "Style", values: getUniqueArrayValues("styles") }
         ];
 
     filterBar.innerHTML = `
@@ -258,7 +269,7 @@
       ${options.map(renderSelectFilter).join("")}
       <label class="filter-control" data-filter="sort">
         <span>Sort</span>
-        <select aria-label="Sort products" data-filter-select="sort">
+        <select name="catalog_sort" aria-label="Sort products" data-filter-select="sort">
           <option value="featured"${state.filters.sort === "featured" ? " selected" : ""}>Featured</option>
           <option value="title"${state.filters.sort === "title" ? " selected" : ""}>Product Name</option>
         </select>
@@ -268,8 +279,6 @@
   }
 
   function renderCategoryMenu() {
-    ensurePdfButton();
-
     document.querySelectorAll(".catalog-nav").forEach((nav) => {
       if (!nav.querySelector(".nav-dropdown")) {
         const categoryLink = [...nav.querySelectorAll("a")].find((link) =>
@@ -291,21 +300,6 @@
     const menuHtml = buildCategoryMenuHtml();
     document.querySelectorAll(".category-menu").forEach((menu) => {
       menu.innerHTML = menuHtml;
-    });
-  }
-
-  function ensurePdfButton() {
-    document.querySelectorAll(".header-actions").forEach((actions) => {
-      if (actions.querySelector("[data-pdf-placeholder]")) {
-        return;
-      }
-
-      const button = document.createElement("button");
-      button.className = "pill-button secondary pdf-button";
-      button.type = "button";
-      button.dataset.pdfPlaceholder = "";
-      button.textContent = "Download PDF Catalog";
-      actions.insertBefore(button, actions.firstElementChild);
     });
   }
 
@@ -345,7 +339,7 @@
     return `
       <label class="filter-control" data-filter="${escapeHtml(filter.id)}">
         <span>${escapeHtml(filter.label)}</span>
-        <select aria-label="${escapeHtml(filter.label)} filter" data-filter-select="${escapeHtml(filter.id)}">
+        <select name="catalog_${escapeHtml(filter.id)}" aria-label="${escapeHtml(filter.label)} filter" data-filter-select="${escapeHtml(filter.id)}">
           <option value="all">All</option>
           ${filter.values.map((item) => `<option value="${escapeHtml(item.value)}"${state.filters[filter.id] === item.value ? " selected" : ""}>${escapeHtml(item.label)}</option>`).join("")}
         </select>
@@ -398,6 +392,14 @@
     return [...values].map(([value, label]) => ({ value, label }));
   }
 
+  function getUniqueArrayValues(key) {
+    const values = new Map();
+    getBaseProductsForFilter().forEach((product) => {
+      getArray(product[key]).forEach((value) => values.set(slugify(value), value));
+    });
+    return [...values].map(([value, label]) => ({ value, label }));
+  }
+
   function matchesMaterialFilter(material, filterValue) {
     if (filterValue === "all") {
       return true;
@@ -407,6 +409,10 @@
 
     if (!normalizedMaterial) {
       return filterValue === "other";
+    }
+
+    if (!materialMatchers[filterValue] && filterValue !== "other") {
+      return slugify(material) === filterValue;
     }
 
     if (filterValue === "other") {
@@ -515,6 +521,7 @@
         <div class="product-body">
           <h3 class="product-title">${product.detail_url ? `<a href="${escapeHtml(product.detail_url)}">${escapeHtml(productTitle)}</a>` : escapeHtml(productTitle)}</h3>
           <div class="product-id">${escapeHtml(productId)}</div>
+          ${product.short_description ? `<p class="product-card-description">${escapeHtml(product.short_description)}</p>` : ""}
           ${specs.length ? `<p class="product-specs">${specs.map((spec) => escapeHtml(spec)).join(" &middot; ")}</p>` : ""}
         </div>
       </article>
@@ -657,10 +664,11 @@
       renderProducts();
       renderInquiry();
     } catch (error) {
-      productGrid.innerHTML = "";
-      resultCount.textContent = "Product data could not be loaded.";
-      emptyState.hidden = false;
-      emptyState.innerHTML = "<p>Please serve the catalog from the site root so catalog data can be loaded.</p>";
+      if (!productGrid.children.length) {
+        resultCount.textContent = "Product data could not be loaded.";
+        emptyState.hidden = false;
+        emptyState.innerHTML = "<p>Please refresh the page or contact us for the current product list.</p>";
+      }
       renderInquiry();
     }
   }
@@ -681,9 +689,9 @@
   });
 
   document.addEventListener("click", (event) => {
-    const addButton = event.target.closest("[data-add-id]");
+    const addButton = event.target.closest("[data-add-id], [data-product-id]");
     if (addButton) {
-      addToInquiry(addButton.dataset.addId);
+      addToInquiry(addButton.dataset.addId || addButton.dataset.productId);
       return;
     }
 
@@ -714,10 +722,6 @@
       return;
     }
 
-    if (event.target.closest("[data-pdf-placeholder]")) {
-      event.preventDefault();
-      window.alert(pdfMessage);
-    }
   });
 
   document.addEventListener("click", (event) => {
@@ -741,19 +745,19 @@
     }
   });
 
-  clearInquiry.addEventListener("click", () => {
+  clearInquiry?.addEventListener("click", () => {
     inquiry = [];
     saveInquiry();
     renderProducts();
     renderInquiry();
   });
 
-  inquiryBagButton.addEventListener("click", openDrawer);
-  heroRequestQuote.addEventListener("click", openDrawer);
-  whatsappLink.addEventListener("click", preventEmptyInquiry);
-  emailLink.addEventListener("click", preventEmptyInquiry);
-  closeDrawer.addEventListener("click", closeInquiryDrawer);
-  drawerOverlay.addEventListener("click", closeInquiryDrawer);
+  inquiryBagButton?.addEventListener("click", openDrawer);
+  heroRequestQuote?.addEventListener("click", openDrawer);
+  whatsappLink?.addEventListener("click", preventEmptyInquiry);
+  emailLink?.addEventListener("click", preventEmptyInquiry);
+  closeDrawer?.addEventListener("click", closeInquiryDrawer);
+  drawerOverlay?.addEventListener("click", closeInquiryDrawer);
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       closeInquiryDrawer();

@@ -3,88 +3,253 @@
     "product_id": "GF004",
     "category": "Gift Sets",
     "category_slug": "gift-sets",
-    "parent_category": "Gift Sets",
-    "parent_category_slug": "gift-sets",
-    "title_en": "Portable Comfort & Appreciation Gift Set",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Travel Comfort & Coffee Gift Case",
+    "short_description": "A portable brown gift case built around travel comfort and coffee moments. Contents are selected and confirmed for each project.",
     "material": "Mixed materials",
     "size": "Portable carry case",
     "capacity": "",
-    "colors": ["Brown"],
-    "use_case": ["Client Appreciation Gifts", "Employee Gifts", "Corporate Events"],
-    "suitable_for": ["Client Appreciation Gifts", "Employee Recognition", "Anniversary Gifts"],
-    "can_be_paired_with": ["Thank You Card", "Custom Sleeve", "Logo Label"],
-    "customization": ["Logo Printing", "Custom Insert Card", "Custom Product Mix"],
-    "image_main": "/catalog/images/gift-sets/GF004-01.webp",
+    "colors": [
+      "Brown"
+    ],
+    "styles": [
+      "Travel",
+      "Warm",
+      "Minimal"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts"
+    ],
+    "suitable_for": [
+      "Employee Recognition",
+      "Client Thank-You Programs",
+      "Travel-Themed Campaigns"
+    ],
+    "product_contents": [
+      "Shown configuration: travel neck pillow",
+      "Manual coffee grinder",
+      "Travel cup",
+      "Spoon and small accessories",
+      "Reusable zip carry case"
+    ],
+    "configuration_note": "Multiple configurations and free-mix options are available. Final contents, packaging and availability are confirmed during quotation.",
+    "can_be_paired_with": [
+      "Insert Card",
+      "Logo Label"
+    ],
+    "customization": [
+      "Logo Label",
+      "Insert Card",
+      "Configuration Selection"
+    ],
+    "image_main": "/catalog/images/gift-sets/GF004-01-v2.webp",
     "image_gallery": [],
-    "detail_url": "/catalog/gift-sets/portable-comfort-appreciation-gift-set/",
-    "media": {"original": "", "thumbnail": "/catalog/images/gift-sets/GF004-01.webp", "medium": "/catalog/images/gift-sets/GF004-01.webp"},
-    "tags": ["New"],
+    "detail_url": "/catalog/gift-sets/travel-comfort-coffee-gift-case/",
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/gift-sets/GF004-01-v2.webp",
+      "medium": "/catalog/images/gift-sets/GF004-01-v2.webp"
+    },
+    "tags": [
+      "New"
+    ],
     "publish_to_catalog": true
   },
   {
     "product_id": "GF003",
     "category": "Gift Sets",
     "category_slug": "gift-sets",
-    "parent_category": "Gift Sets",
-    "parent_category_slug": "gift-sets",
-    "title_en": "Premium Multi-Piece Executive Gift Set",
-    "material": "Metal and mixed materials",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Configurable Executive Office & Tech Gift Set",
+    "short_description": "A flexible executive gift program combining drinkware, stationery and selected tech accessories in 3-, 4-, 5- or 7-piece configurations.",
+    "material": "Mixed materials",
     "size": "3-, 4-, 5- or 7-piece configurations",
-    "capacity": "450ml tumbler option",
-    "colors": ["Red", "Blue", "Black", "Gold", "Silver"],
-    "use_case": ["Corporate Gifts", "Employee Onboarding", "Client Appreciation Gifts"],
-    "suitable_for": ["Executive Gifts", "Employee Welcome Kits", "Company Anniversary Gifts"],
-    "can_be_paired_with": ["Notebook", "Pen", "Umbrella", "USB Drive", "Power Bank", "Speaker"],
-    "customization": ["Logo Printing", "Laser Engraving", "Custom Gift Box", "Custom Product Mix"],
+    "capacity": "",
+    "colors": [
+      "Red",
+      "Blue",
+      "Black",
+      "Gold",
+      "Silver"
+    ],
+    "styles": [
+      "Executive",
+      "Business",
+      "Tech"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "suitable_for": [
+      "Executive Gifts",
+      "Employee Welcome Kits",
+      "Company Anniversary Programs"
+    ],
+    "product_contents": [
+      "Configuration-dependent: temperature-display tumbler",
+      "Notebook and pen",
+      "Umbrella",
+      "USB drive",
+      "Power bank",
+      "Speaker"
+    ],
+    "configuration_note": "Available combinations vary by piece count. The exact item mix is confirmed against budget, quantity and delivery date before production.",
+    "can_be_paired_with": [
+      "Notebook",
+      "Pen",
+      "Umbrella",
+      "USB Drive",
+      "Power Bank",
+      "Speaker"
+    ],
+    "customization": [
+      "Logo Customization",
+      "Configuration Selection"
+    ],
     "image_main": "/catalog/images/gift-sets/GF003-01.webp",
-    "image_gallery": ["/catalog/images/gift-sets/GF003-02.webp"],
-    "detail_url": "/catalog/gift-sets/premium-multi-piece-executive-gift-set/",
-    "media": {"original": "", "thumbnail": "/catalog/images/gift-sets/GF003-01.webp", "medium": "/catalog/images/gift-sets/GF003-01.webp"},
-    "tags": ["New"],
+    "image_gallery": [
+      "/catalog/images/gift-sets/GF003-02.webp"
+    ],
+    "detail_url": "/catalog/gift-sets/configurable-executive-office-tech-gift-set/",
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/gift-sets/GF003-01.webp",
+      "medium": "/catalog/images/gift-sets/GF003-01.webp"
+    },
+    "tags": [
+      "New"
+    ],
     "publish_to_catalog": true
   },
   {
     "product_id": "GF002",
     "category": "Gift Sets",
     "category_slug": "gift-sets",
-    "parent_category": "Gift Sets",
-    "parent_category_slug": "gift-sets",
-    "title_en": "Insulated Tumbler & Automatic Umbrella Gift Set",
-    "material": "Metal and polyester",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Tumbler & Automatic Umbrella Gift Set",
+    "short_description": "A practical two-piece gift set pairing a metal tumbler with an automatic umbrella in a presentation box.",
+    "material": "Metal tumbler and umbrella fabric",
     "size": "Two-piece presentation set",
     "capacity": "",
-    "colors": ["Red", "Blue", "Black"],
-    "use_case": ["Corporate Gifts", "Company Anniversary Gifts", "Event Gifts"],
-    "suitable_for": ["Client Appreciation Gifts", "Employee Gifts", "Opening Event Gifts"],
-    "can_be_paired_with": ["Gift Bag", "Thank You Card", "Custom Sleeve"],
-    "customization": ["Logo Printing", "Laser Engraving", "Custom Gift Box"],
+    "colors": [
+      "Red",
+      "Blue",
+      "Black"
+    ],
+    "styles": [
+      "Business",
+      "Practical",
+      "Event"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Client Appreciation Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [
+      "Client Gifts",
+      "Employee Gifts",
+      "Opening Event Gifts"
+    ],
+    "product_contents": [
+      "Metal tumbler",
+      "8-rib automatic umbrella",
+      "Presentation box"
+    ],
+    "configuration_note": "This page shows the tumbler-and-umbrella configuration. Color matching and final packaging are confirmed during quotation.",
+    "can_be_paired_with": [
+      "Gift Bag",
+      "Insert Card"
+    ],
+    "customization": [
+      "Logo Customization",
+      "Gift Box Selection"
+    ],
     "image_main": "/catalog/images/gift-sets/GF002-01.webp",
     "image_gallery": [],
-    "detail_url": "/catalog/gift-sets/insulated-tumbler-automatic-umbrella-gift-set/",
-    "media": {"original": "", "thumbnail": "/catalog/images/gift-sets/GF002-01.webp", "medium": "/catalog/images/gift-sets/GF002-01.webp"},
-    "tags": ["New"],
+    "detail_url": "/catalog/gift-sets/tumbler-automatic-umbrella-gift-set/",
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/gift-sets/GF002-01.webp",
+      "medium": "/catalog/images/gift-sets/GF002-01.webp"
+    },
+    "tags": [
+      "New"
+    ],
     "publish_to_catalog": true
   },
   {
     "product_id": "GF001",
     "category": "Gift Sets",
     "category_slug": "gift-sets",
-    "parent_category": "Gift Sets",
-    "parent_category_slug": "gift-sets",
-    "title_en": "Executive Office Gift Set with Tumbler, Notebook & Pen",
-    "material": "Metal and PU",
-    "size": "330 × 270 × 70mm gift box",
-    "capacity": "Temperature-display tumbler option",
-    "colors": ["Black", "Red", "Navy", "Green", "Blue"],
-    "use_case": ["Corporate Gifts", "Employee Onboarding", "Client Appreciation Gifts"],
-    "suitable_for": ["Employee Welcome Kits", "Executive Gifts", "Company Anniversary Gifts"],
-    "can_be_paired_with": ["Gift Bag", "Thank You Card", "Umbrella"],
-    "customization": ["Logo Printing", "Laser Engraving", "Custom Gift Box"],
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Executive Tumbler, Notebook & Pen Gift Set",
+    "short_description": "A presentation-box office set with a metal tumbler, notebook and pen for employee, executive and client programs.",
+    "material": "Mixed materials",
+    "size": "330 × 270 × 70 mm gift box",
+    "capacity": "",
+    "colors": [
+      "Black",
+      "Red",
+      "Navy",
+      "Avocado Green",
+      "Tiffany Blue",
+      "Blue"
+    ],
+    "styles": [
+      "Executive",
+      "Business",
+      "Minimal"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "suitable_for": [
+      "Employee Welcome Kits",
+      "Executive Gifts",
+      "Company Anniversary Programs"
+    ],
+    "product_contents": [
+      "Metal tumbler",
+      "Notebook",
+      "Pen",
+      "Presentation gift box"
+    ],
+    "configuration_note": "The standard configuration contains a tumbler, notebook and pen. Umbrella variants are also available and quoted separately.",
+    "can_be_paired_with": [
+      "Gift Bag",
+      "Insert Card",
+      "Umbrella Variant"
+    ],
+    "customization": [
+      "Logo Customization"
+    ],
     "image_main": "/catalog/images/gift-sets/GF001-01.webp",
-    "image_gallery": ["/catalog/images/gift-sets/GF001-02.webp"],
-    "detail_url": "/catalog/gift-sets/executive-office-gift-set/",
-    "media": {"original": "", "thumbnail": "/catalog/images/gift-sets/GF001-01.webp", "medium": "/catalog/images/gift-sets/GF001-01.webp"},
-    "tags": ["New"],
+    "image_gallery": [
+      "/catalog/images/gift-sets/GF001-02.webp"
+    ],
+    "detail_url": "/catalog/gift-sets/executive-tumbler-notebook-pen-gift-set/",
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/gift-sets/GF001-01.webp",
+      "medium": "/catalog/images/gift-sets/GF001-01.webp"
+    },
+    "tags": [
+      "New"
+    ],
     "publish_to_catalog": true
   },
   {

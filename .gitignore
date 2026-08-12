@@ -3,3 +3,4 @@ package-lock.json
 package.json
 employee-onboarding-kits-final-images.zip
 worker-upload-fix/
+data/*.private.json

@@ -33,6 +33,32 @@ body.drawer-open {
   overflow: hidden;
 }
 
+.inquiry-bag-button {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 90;
+  min-height: 48px;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--navy);
+  color: #fff;
+  font-weight: 800;
+  box-shadow: 0 12px 30px rgba(7, 23, 36, .24);
+}
+
+.inquiry-bag-button span {
+  display: inline-grid;
+  min-width: 24px;
+  height: 24px;
+  margin-left: 6px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--gold);
+  color: #fff;
+}
+
 button,
 input,
 select {
@@ -881,6 +907,25 @@ h2 {
     font-size: 11px;
   }
 
+  .site-header {
+    position: relative;
+  }
+
+  .header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    padding: 10px 14px 12px;
+  }
+
+  .brand { order: 1; flex: 1 1 auto; }
+  .header-actions { order: 2; flex: 0 0 auto; }
+  .catalog-nav { order: 3; flex: 1 0 100%; padding: 0; gap: 10px 16px; }
+  .brand-logo { min-height: 0; padding: 5px 8px; }
+  .brand-fy { font-size: 20px; }
+  .brand-promogifts { font-size: 16px; }
+  .header-actions .pill-button { min-height: 36px; padding: 0 12px; font-size: 12px; }
+
   .category-menu {
     position: fixed;
     top: 128px;
@@ -950,6 +995,15 @@ h2 {
     height: 220px;
   }
 
+  .product-image-wrap {
+    min-height: 250px;
+  }
+
+  .product-image-wrap img {
+    height: auto;
+    max-height: 230px;
+  }
+
   .inquiry-drawer {
     width: 100vw;
   }
@@ -960,6 +1014,79 @@ h2 {
   width: 100%;
   height: 100%;
   place-items: center;
+}
+
+.product-card-link {
+  display: contents;
+}
+
+.product-image-wrap {
+  position: relative;
+  display: grid;
+  min-height: 310px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--cream);
+}
+
+.product-image-wrap img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+}
+
+.product-image-wrap .product-id {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  margin: 0;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, .94);
+  color: var(--navy);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.product-copy h2 {
+  margin: 12px 0 8px;
+  font: 700 24px/1.15 Georgia, "Times New Roman", serif;
+}
+
+.product-category {
+  margin: 14px 0 0;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.product-card-description {
+  margin: 10px 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.add-inquiry {
+  width: 100%;
+  min-height: 44px;
+  margin-top: auto;
+  border: 1px solid var(--navy);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.add-inquiry:hover,
+.add-inquiry:focus-visible {
+  background: var(--navy);
+  color: #fff;
 }
 
 .product-title a {
@@ -983,7 +1110,8 @@ h2 {
 .product-breadcrumbs { margin-bottom: 28px; color: var(--muted); font-size: 14px; }
 .product-breadcrumbs a { color: inherit; }
 .product-detail-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, .92fr); gap: 56px; align-items: start; }
-.product-detail-media { border-radius: 24px; background: #fffaf2; padding: 32px; border: 1px solid var(--line); }
+.product-detail-gallery { display: grid; gap: 18px; }
+.product-detail-media { margin: 0; border-radius: 24px; background: #fffaf2; padding: 32px; border: 1px solid var(--line); }
 .product-detail-media img { display: block; width: 100%; height: auto; border-radius: 16px; }
 .product-detail-kicker { margin: 0 0 10px; color: var(--accent-dark); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; font-size: 13px; }
 .product-detail h1 { margin: 0 0 18px; font-size: clamp(34px, 5vw, 58px); line-height: 1.04; }
@@ -993,11 +1121,36 @@ h2 {
 .product-facts dt { font-weight: 800; }
 .product-facts dd { margin: 0; color: var(--muted); }
 .product-detail-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.configuration-note { margin: 0 0 24px; padding: 16px 18px; border-left: 4px solid var(--gold); border-radius: 8px; background: #fffaf2; color: var(--muted); line-height: 1.65; }
 .product-detail-copy { margin-top: 64px; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 28px; }
 .product-detail-copy section { padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: #fff; }
 .product-detail-copy h2 { margin-top: 0; font-size: 26px; }
 .product-detail-copy p, .product-detail-copy li { color: var(--muted); line-height: 1.7; }
+
+.product-faq,
+.product-inquiry {
+  margin-top: 64px;
+  padding: clamp(24px, 4vw, 44px);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #fff;
+}
+
+.product-faq h2,
+.product-inquiry h2 { margin: 4px 0 20px; font: 700 clamp(28px, 4vw, 42px)/1.08 Georgia, "Times New Roman", serif; }
+.product-faq details { padding: 17px 0; border-top: 1px solid var(--line); }
+.product-faq summary { cursor: pointer; font-weight: 800; }
+.product-faq details p { margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
+.product-inquiry { display: grid; grid-template-columns: minmax(240px, .72fr) minmax(0, 1.28fr); gap: 44px; scroll-margin-top: 100px; background: #fffaf2; }
+.product-inquiry > div > p:last-child { color: var(--muted); line-height: 1.7; }
+.inquiry-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 20px; }
+.inquiry-form-grid label { display: grid; gap: 7px; color: var(--navy); font-size: 13px; font-weight: 800; }
+.inquiry-form-grid input,
+.inquiry-form-grid textarea { width: 100%; min-height: 46px; padding: 11px 13px; border: 1px solid var(--line-strong); border-radius: 10px; background: #fff; color: var(--text); font: inherit; }
+.inquiry-form-grid textarea { resize: vertical; }
+.form-span { grid-column: 1 / -1; }
 @media (max-width: 800px) { .product-detail-grid, .product-detail-copy { grid-template-columns: 1fr; } .product-detail-grid { gap: 30px; } }
+@media (max-width: 800px) { .product-inquiry { grid-template-columns: 1fr; gap: 24px; } .inquiry-form-grid { grid-template-columns: 1fr; } .form-span { grid-column: auto; } }
 
 .site-footer {
   padding: 28px 24px;
