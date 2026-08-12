@@ -1,5 +1,1391 @@
 [
   {
+    "product_id": "GF005",
+    "category": "Gift Sets",
+    "category_slug": "gift-sets",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Custom Fitness & Sports Gift Set",
+    "short_description": "A configurable employee wellness gift set with a compact sports bag and selected fitness accessories for onboarding, team events and client programs.",
+    "material": "Mixed materials",
+    "size": "Configurable sports bag set",
+    "capacity": "",
+    "colors": [
+      "Royal Blue"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Trade Show & Event Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "suitable_for": [
+      "Employee Wellness Programs",
+      "Team-Building Events",
+      "New-Hire Welcome Kits"
+    ],
+    "can_be_paired_with": [
+      "Insert Card",
+      "Custom Water Bottle"
+    ],
+    "customization": [
+      "Logo Customization",
+      "Accessory Selection"
+    ],
+    "image_main": "/catalog/images/products-optimized/GF005.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF005.png",
+      "medium": "/catalog/images/products/GF005.png"
+    },
+    "tags": [
+      "Sport",
+      "Practical"
+    ],
+    "styles": [
+      "Sport",
+      "Practical"
+    ],
+    "detail_url": "/catalog/gift-sets/custom-fitness-sports-gift-set/",
+    "product_contents": [
+      "Royal-blue sports bag",
+      "Adjustable hand gripper",
+      "Leg exerciser",
+      "Jump rope",
+      "Sports towel"
+    ],
+    "configuration_note": "The shown configuration combines a sports bag with four fitness accessories. Other supplier configurations are quoted separately and confirmed before production.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Employee Wellness Programs",
+      "Team-Building Events",
+      "New-Hire Welcome Kits"
+    ],
+    "bestFor": [
+      "Employee Wellness Programs",
+      "Team-Building Events",
+      "New-Hire Welcome Kits"
+    ],
+    "custom_options": [
+      "Logo Customization",
+      "Accessory Selection"
+    ],
+    "customOptions": [
+      "Logo Customization",
+      "Accessory Selection"
+    ]
+  },
+  {
+    "product_id": "MU023",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Ceramic Mug Gift Sets",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [],
+    "image_main": "/catalog/images/products-optimized/MU023.jpg",
+    "image_gallery": [
+      "/catalog/images/products-optimized/MU023-02.jpg"
+    ],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU023.png",
+      "medium": "/catalog/images/products/MU023.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [],
+    "customOptions": []
+  },
+  {
+    "product_id": "MU022",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "400ml/500ml 304/316 stainless steel Mug",
+    "short_description": "",
+    "material": "304/316 stainless steel",
+    "size": "",
+    "capacity": "400ml/500ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [
+      "Employee Gift Kits",
+      "Client Appreciation Gifts",
+      "Trade Show & Event Giveaways",
+      "Brand Campaign Giveaways",
+      "Nonprofit & Fundraising Events"
+    ],
+    "can_be_paired_with": [
+      "Tote Bag",
+      "Gift Box",
+      "Gift Bag",
+      "Thank You Card",
+      "Sticker",
+      "Keychain",
+      "Towel",
+      "Umbrella",
+      "Cap",
+      "T-shirt",
+      "Drawstring Bag",
+      "Socks",
+      "Calendar"
+    ],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU022.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU022.png",
+      "medium": "/catalog/images/products/MU022.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU021",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "480ml 304 stainless steel Mug",
+    "short_description": "",
+    "material": "304 stainless steel",
+    "size": "",
+    "capacity": "480ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU021.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU021.png",
+      "medium": "/catalog/images/products/MU021.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU020",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "350ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "350ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU020.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU020.png",
+      "medium": "/catalog/images/products/MU020.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU019",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "400ml 304 stainless steel Mug",
+    "short_description": "",
+    "material": "304 stainless steel",
+    "size": "",
+    "capacity": "400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU019.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU019.png",
+      "medium": "/catalog/images/products/MU019.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU018",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "400ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU018.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU018.png",
+      "medium": "/catalog/images/products/MU018.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU017",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "260ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "260ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU017.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU017.png",
+      "medium": "/catalog/images/products/MU017.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU016",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU016.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU016.png",
+      "medium": "/catalog/images/products/MU016.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU015",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "380ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "380ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU015.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU015.png",
+      "medium": "/catalog/images/products/MU015.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU014",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "360ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "360ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU014.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU014.png",
+      "medium": "/catalog/images/products/MU014.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU013",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "350ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "350ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU013.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU013.png",
+      "medium": "/catalog/images/products/MU013.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "seoPageGroup": "promotional-products, drinkware, tumblers, gift-kits, employee-welcome-kits, client-appreciation-gifts, trade-show-giveaways, custom-packaging",
+    "best_for": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Welcome Kits",
+      "Client Appreciation Gifts",
+      "Trade Show Giveaways",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Gift Box",
+      "Insert Card"
+    ]
+  },
+  {
+    "product_id": "MU012",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU012.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU012.png",
+      "medium": "/catalog/images/products/MU012.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU011",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU011.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU011.png",
+      "medium": "/catalog/images/products/MU011.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU010",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "380ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "380ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU010.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU010.png",
+      "medium": "/catalog/images/products/MU010.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU009",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "360ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "360ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU009.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU009.png",
+      "medium": "/catalog/images/products/MU009.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU008",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU008.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU008.png",
+      "medium": "/catalog/images/products/MU008.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU007",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "400ML Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "400ML",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU007.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU007.png",
+      "medium": "/catalog/images/products/MU007.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU006",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU006.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU006.png",
+      "medium": "/catalog/images/products/MU006.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU005",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU005.jpg",
+    "image_gallery": [
+      "/catalog/images/products-optimized/MU005-02.jpg"
+    ],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU005.png",
+      "medium": "/catalog/images/products/MU005.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU004",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "350ML Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "350ML",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU004.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU004.png",
+      "medium": "/catalog/images/products/MU004.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU003",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "11oz Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "11oz",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU003.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU003.png",
+      "medium": "/catalog/images/products/MU003.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU002",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "301-400ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU002.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU002.png",
+      "medium": "/catalog/images/products/MU002.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
+    "product_id": "MU001",
+    "category": "Drinkware",
+    "category_slug": "mugs",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "270ml Ceramic Mug",
+    "short_description": "",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "270ml",
+    "colors": [],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts"
+    ],
+    "suitable_for": [],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU001.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU001.png",
+      "medium": "/catalog/images/products/MU001.png"
+    },
+    "tags": [],
+    "styles": [],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [],
+    "bestFor": [],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
     "product_id": "GF004",
     "category": "Gift Sets",
     "category_slug": "gift-sets",
@@ -46,13 +1432,13 @@
       "Insert Card",
       "Configuration Selection"
     ],
-    "image_main": "/catalog/images/gift-sets/GF004-01-v2.webp",
+    "image_main": "/catalog/images/gift-sets/GF004-01-v2.webp?v=c5e5484",
     "image_gallery": [],
     "detail_url": "/catalog/gift-sets/travel-comfort-coffee-gift-case/",
     "media": {
       "original": "",
-      "thumbnail": "/catalog/images/gift-sets/GF004-01-v2.webp",
-      "medium": "/catalog/images/gift-sets/GF004-01-v2.webp"
+      "thumbnail": "/catalog/images/gift-sets/GF004-01-v2.webp?v=c5e5484",
+      "medium": "/catalog/images/gift-sets/GF004-01-v2.webp?v=c5e5484"
     },
     "tags": [
       "New"
@@ -250,715 +1636,6 @@
     "tags": [
       "New"
     ],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU023",
-    "category": "Ceramic Mug Gift Sets",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Ceramic Mug Gift Sets",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [],
-    "image_main": "/catalog/images/products-optimized/MU023.jpg",
-    "image_gallery": [
-      "/catalog/images/products-optimized/MU023-02.jpg"
-    ],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU023.png",
-      "medium": "/catalog/images/products/MU023.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU022",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "400ml/500ml 304/316 stainless steel Mug",
-    "material": "304/316 stainless steel",
-    "size": "",
-    "capacity": "400ml/500ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [
-      "Employee Gift Kits",
-      "Client Appreciation Gifts",
-      "Trade Show & Event Giveaways",
-      "Brand Campaign Giveaways",
-      "Nonprofit & Fundraising Events"
-    ],
-    "can_be_paired_with": [
-      "Tote Bag",
-      "Gift Box",
-      "Gift Bag",
-      "Thank You Card",
-      "Sticker",
-      "Keychain",
-      "Towel",
-      "Umbrella",
-      "Cap",
-      "T-shirt",
-      "Drawstring Bag",
-      "Socks",
-      "Calendar"
-    ],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU022.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU022.png",
-      "medium": "/catalog/images/products/MU022.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU021",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "480ml 304 stainless steel Mug",
-    "material": "304 stainless steel",
-    "size": "",
-    "capacity": "480ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU021.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU021.png",
-      "medium": "/catalog/images/products/MU021.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU020",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "350ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "350ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU020.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU020.png",
-      "medium": "/catalog/images/products/MU020.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU019",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "400ml 304 stainless steel Mug",
-    "material": "304 stainless steel",
-    "size": "",
-    "capacity": "400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU019.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU019.png",
-      "medium": "/catalog/images/products/MU019.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU018",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "400ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU018.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU018.png",
-      "medium": "/catalog/images/products/MU018.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU017",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "260ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "260ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU017.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU017.png",
-      "medium": "/catalog/images/products/MU017.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU016",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU016.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU016.png",
-      "medium": "/catalog/images/products/MU016.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU015",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "380ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "380ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU015.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU015.png",
-      "medium": "/catalog/images/products/MU015.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU014",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "360ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "360ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU014.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU014.png",
-      "medium": "/catalog/images/products/MU014.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU013",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "350ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "350ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU013.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU013.png",
-      "medium": "/catalog/images/products/MU013.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU012",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU012.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU012.png",
-      "medium": "/catalog/images/products/MU012.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU011",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU011.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU011.png",
-      "medium": "/catalog/images/products/MU011.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU010",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "380ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "380ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU010.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU010.png",
-      "medium": "/catalog/images/products/MU010.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU009",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "360ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "360ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU009.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU009.png",
-      "medium": "/catalog/images/products/MU009.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU008",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU008.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU008.png",
-      "medium": "/catalog/images/products/MU008.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU007",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "400ML Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "400ML",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU007.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU007.png",
-      "medium": "/catalog/images/products/MU007.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU006",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU006.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU006.png",
-      "medium": "/catalog/images/products/MU006.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU005",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU005.jpg",
-    "image_gallery": [
-      "/catalog/images/products-optimized/MU005-02.jpg"
-    ],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU005.png",
-      "medium": "/catalog/images/products/MU005.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU004",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "350ML Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "350ML",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU004.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU004.png",
-      "medium": "/catalog/images/products/MU004.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU003",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "11oz Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "11oz",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU003.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU003.png",
-      "medium": "/catalog/images/products/MU003.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU002",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU002.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU002.png",
-      "medium": "/catalog/images/products/MU002.png"
-    },
-    "tags": [],
-    "publish_to_catalog": true
-  },
-  {
-    "product_id": "MU001",
-    "category": "Mugs",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "270ml Ceramic Mug",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "270ml",
-    "colors": [],
-    "use_case": [
-      "Corporate Gifts",
-      "Trade Show & Event Gifts"
-    ],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [
-      "Logo Printing"
-    ],
-    "image_main": "/catalog/images/products-optimized/MU001.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU001.png",
-      "medium": "/catalog/images/products/MU001.png"
-    },
-    "tags": [],
     "publish_to_catalog": true
   }
 ]
