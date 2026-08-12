@@ -1009,6 +1009,16 @@ h2 {
   }
 }
 
+.catalog-load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 28px 0 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .product-image-link {
   display: grid;
   width: 100%;

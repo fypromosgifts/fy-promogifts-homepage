@@ -71,6 +71,7 @@
       sort: "featured"
     }
   };
+  let visibleLimit = pageType === "index" ? 12 : Number.POSITIVE_INFINITY;
 
   let inquiry = readInquiry();
 
@@ -465,9 +466,16 @@
 
   function renderProducts() {
     const visibleProducts = getVisibleProducts();
+    const renderedProducts = visibleProducts.slice(0, visibleLimit);
     const countText = `${visibleProducts.length} product${visibleProducts.length === 1 ? "" : "s"}`;
 
-    productGrid.innerHTML = visibleProducts.map(renderProductCard).join("");
+    document.getElementById("catalogLoadMore")?.remove();
+    productGrid.innerHTML = renderedProducts.map(renderProductCard).join("");
+    if (renderedProducts.length < visibleProducts.length) {
+      productGrid.insertAdjacentHTML("afterend", `<div id="catalogLoadMore" class="catalog-load-more"><button class="pill-button secondary" type="button" data-load-more>Load more products</button><span>Showing ${renderedProducts.length} of ${visibleProducts.length}</span></div>`);
+    } else {
+      document.getElementById("catalogLoadMore")?.remove();
+    }
     installProductImageFallbacks();
     resultCount.textContent = countText;
     catalogSummary.textContent = "";
@@ -691,6 +699,7 @@
 
   document.addEventListener("input", (event) => {
     if (event.target.id === "catalogSearch") {
+      visibleLimit = Number.POSITIVE_INFINITY;
       state.filters.search = event.target.value;
       renderProducts();
     }
@@ -699,6 +708,7 @@
   document.addEventListener("change", (event) => {
     const filterId = event.target.dataset.filterSelect;
     if (filterId) {
+      visibleLimit = Number.POSITIVE_INFINITY;
       state.filters[filterId] = event.target.value;
       renderProducts();
     }
@@ -708,6 +718,13 @@
     const addButton = event.target.closest("[data-add-id], [data-product-id]");
     if (addButton) {
       addToInquiry(addButton.dataset.addId || addButton.dataset.productId);
+      return;
+    }
+
+    if (event.target.closest("[data-load-more]")) {
+      visibleLimit += 12;
+      document.getElementById("catalogLoadMore")?.remove();
+      renderProducts();
       return;
     }
 
