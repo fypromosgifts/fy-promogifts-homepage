@@ -7,7 +7,7 @@
     "category_image": "",
     "sort_order": 1,
     "status": "available",
-    "product_count": 23
+    "product_count": 36
   },
   {
     "category_name": "Bags",
@@ -17,7 +17,7 @@
     "category_image": "",
     "sort_order": 2,
     "status": "available",
-    "product_count": 0
+    "product_count": 1
   },
   {
     "category_name": "Stationery & Office",
@@ -27,7 +27,7 @@
     "category_image": "",
     "sort_order": 3,
     "status": "available",
-    "product_count": 0
+    "product_count": 4
   },
   {
     "category_name": "Keychains & Accessories",
@@ -37,7 +37,7 @@
     "category_image": "",
     "sort_order": 4,
     "status": "available",
-    "product_count": 0
+    "product_count": 1
   },
   {
     "category_name": "Apparel & Wearables",
@@ -87,7 +87,7 @@
     "category_image": "",
     "sort_order": 9,
     "status": "available",
-    "product_count": 0
+    "product_count": 1
   },
   {
     "category_name": "Gift Sets",
@@ -107,7 +107,7 @@
     "category_image": "",
     "sort_order": 11,
     "status": "available",
-    "product_count": 0
+    "product_count": 2
   },
   {
     "category_name": "Mugs",

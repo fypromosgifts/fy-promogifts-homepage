@@ -84,6 +84,996 @@
     ]
   },
   {
+    "product_id": "PA002",
+    "category": "Packaging & Gift Boxes",
+    "category_slug": "packaging-gift-boxes",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Foldable Ribbon Gift Box",
+    "short_description": "A fold-flat paper gift box with ribbon closure for apparel, welcome kits and premium presentation projects.",
+    "material": "Paper",
+    "size": "345*255*65mm",
+    "capacity": "",
+    "colors": [
+      "Royal Blue"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts"
+    ],
+    "suitable_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Custom Color",
+      "Ribbon Selection"
+    ],
+    "image_main": "/catalog/images/products-optimized/PA002.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/PA002.jpg",
+      "medium": "/catalog/images/products/PA002.jpg"
+    },
+    "tags": [
+      "Premium",
+      "Minimal"
+    ],
+    "styles": [
+      "Premium",
+      "Minimal"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts"
+    ],
+    "bestFor": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Custom Color",
+      "Ribbon Selection"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Custom Color",
+      "Ribbon Selection"
+    ]
+  },
+  {
+    "product_id": "PA001",
+    "category": "Packaging & Gift Boxes",
+    "category_slug": "packaging-gift-boxes",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Custom Magnetic Book-Style Gift Box",
+    "short_description": "A rigid magnetic gift box available in multiple sizes and colors for branded kits, client gifts and product presentation.",
+    "material": "Specialty Paper",
+    "size": "Multi Size",
+    "capacity": "",
+    "colors": [
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts"
+    ],
+    "suitable_for": [
+      "Corporate Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Custom Size",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products-optimized/PA001.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/PA001.jpg",
+      "medium": "/catalog/images/products/PA001.jpg"
+    },
+    "tags": [
+      "Premium",
+      "Modern"
+    ],
+    "styles": [
+      "Premium",
+      "Modern"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Corporate Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts"
+    ],
+    "bestFor": [
+      "Corporate Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Custom Size",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Custom Size",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "OB001",
+    "category": "Keychains & Accessories",
+    "category_slug": "keychains-accessories",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Double-Sided PP ID Badge Holder",
+    "short_description": "A lightweight double-sided PP badge holder for employee IDs, conferences, events and access cards.",
+    "material": "PP",
+    "size": "102*80mm/112*70mm",
+    "capacity": "",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Custom Color",
+      "Printed Insert"
+    ],
+    "image_main": "/catalog/images/products-optimized/OB001.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/OB001.png",
+      "medium": "/catalog/images/products/OB001.png"
+    },
+    "tags": [
+      "Practical",
+      "Event"
+    ],
+    "styles": [
+      "Practical",
+      "Event"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Custom Color",
+      "Printed Insert"
+    ],
+    "customOptions": [
+      "Custom Color",
+      "Printed Insert"
+    ]
+  },
+  {
+    "product_id": "BA001",
+    "category": "Bags",
+    "category_slug": "bags",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Custom Canvas Tote Bag",
+    "short_description": "A reusable canvas tote available in multiple sizes for events, employee kits, retail campaigns and everyday brand exposure.",
+    "material": "Canvas",
+    "size": "Multi Size",
+    "capacity": "",
+    "colors": [
+      "Natural",
+      "Black",
+      "White"
+    ],
+    "use_case": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "suitable_for": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Custom Size",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products-optimized/BA001.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/BA001.jpg",
+      "medium": "/catalog/images/products/BA001.jpg"
+    },
+    "tags": [
+      "Natural",
+      "Practical"
+    ],
+    "styles": [
+      "Natural",
+      "Practical"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "bestFor": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Custom Size",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Custom Size",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "NP004",
+    "category": "Stationery & Office",
+    "category_slug": "stationery-office",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Custom 0.5 mm Metal Rollerball Pen",
+    "short_description": "A slim metal rollerball pen for conferences, corporate gifting, office programs and branded stationery sets.",
+    "material": "Metal",
+    "size": "0.5mm",
+    "capacity": "",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Laser Engraving"
+    ],
+    "image_main": "/catalog/images/products-optimized/NP004.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/NP004.png",
+      "medium": "/catalog/images/products/NP004.png"
+    },
+    "tags": [
+      "Executive",
+      "Modern"
+    ],
+    "styles": [
+      "Executive",
+      "Modern"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Corporate Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving"
+    ]
+  },
+  {
+    "product_id": "NP003",
+    "category": "Stationery & Office",
+    "category_slug": "stationery-office",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "A5 Elastic-Band PU Notebook",
+    "short_description": "A colorful A5 PU notebook with elastic closure for meetings, welcome kits, campaigns and employee programs.",
+    "material": "PU",
+    "size": "A5",
+    "capacity": "",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products-optimized/NP003.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/NP003.png",
+      "medium": "/catalog/images/products/NP003.png"
+    },
+    "tags": [
+      "Modern",
+      "Bold"
+    ],
+    "styles": [
+      "Modern",
+      "Bold"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "NP002",
+    "category": "Stationery & Office",
+    "category_slug": "stationery-office",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "A5 PU Notebook with Pen Holder",
+    "short_description": "An A5 PU business notebook with integrated pen holder for onboarding, conferences and client gift programs.",
+    "material": "PU",
+    "size": "A5",
+    "capacity": "",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "suitable_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products-optimized/NP002.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/NP002.jpg",
+      "medium": "/catalog/images/products/NP002.jpg"
+    },
+    "tags": [
+      "Executive",
+      "Modern"
+    ],
+    "styles": [
+      "Executive",
+      "Modern"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "bestFor": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "NP001",
+    "category": "Stationery & Office",
+    "category_slug": "stationery-office",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "A5 PU Business Notebook with Pen",
+    "short_description": "A coordinated A5 PU notebook and pen option for company meetings, employee onboarding and business gift sets.",
+    "material": "PU",
+    "size": "A5",
+    "capacity": "",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "suitable_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products-optimized/NP001.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/NP001.png",
+      "medium": "/catalog/images/products/NP001.png"
+    },
+    "tags": [
+      "Executive",
+      "Practical"
+    ],
+    "styles": [
+      "Executive",
+      "Practical"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "bestFor": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Onboarding Gift Kits"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Debossing",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "DR003",
+    "category": "Drinkware",
+    "category_slug": "drinkware",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Stainless Steel Travel Coffee Tumbler",
+    "short_description": "A stainless steel travel tumbler with textured grip, offered in 380 ml and 510 ml sizes for daily use and corporate programs.",
+    "material": "304 stainless steel",
+    "size": "",
+    "capacity": "380ml/510ml",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products-optimized/DR003.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/DR003.png",
+      "medium": "/catalog/images/products/DR003.png"
+    },
+    "tags": [
+      "Modern",
+      "Practical"
+    ],
+    "styles": [
+      "Modern",
+      "Practical"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "DR002",
+    "category": "Drinkware",
+    "category_slug": "drinkware",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "40 oz Insulated Handle Tumbler",
+    "short_description": "A large 40 oz stainless steel tumbler with handle and straw for outdoor events, wellness campaigns and employee gifting.",
+    "material": "304 stainless steel",
+    "size": "",
+    "capacity": "40oz",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products-optimized/DR002.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/DR002.png",
+      "medium": "/catalog/images/products/DR002.png"
+    },
+    "tags": [
+      "Modern",
+      "Outdoor"
+    ],
+    "styles": [
+      "Modern",
+      "Outdoor"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Gifts",
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "DR001",
+    "category": "Drinkware",
+    "category_slug": "drinkware",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "12 oz Insulated Stainless Steel Mug",
+    "short_description": "A compact 12 oz double-wall stainless steel mug with handle and lid for office, travel and employee gift programs.",
+    "material": "304 stainless steel",
+    "size": "",
+    "capacity": "12oz",
+    "colors": [
+      "Black"
+    ],
+    "use_case": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts"
+    ],
+    "suitable_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing",
+      "Laser Engraving"
+    ],
+    "image_main": "/catalog/images/products-optimized/DR001.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/DR001.png",
+      "medium": "/catalog/images/products/DR001.png"
+    },
+    "tags": [
+      "Minimal",
+      "Practical"
+    ],
+    "styles": [
+      "Minimal",
+      "Practical"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts"
+    ],
+    "bestFor": [
+      "Corporate Gifts",
+      "Employee Gifts",
+      "Client Appreciation Gifts"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Laser Engraving"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Laser Engraving"
+    ]
+  },
+  {
+    "product_id": "DR004",
+    "category": "Drinkware",
+    "category_slug": "drinkware",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Ceramic Mug and Towel Gift Set",
+    "short_description": "A presentation-ready ceramic mug and towel gift set for celebrations, appreciation programs and seasonal campaigns.",
+    "material": "Ceramic",
+    "size": "",
+    "capacity": "301-400ml",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors"
+    ],
+    "suitable_for": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors"
+    ],
+    "can_be_paired_with": [
+      "Gift Bag",
+      "Thank You Card",
+      "Sticker",
+      "Keychain"
+    ],
+    "customization": [
+      "Logo Printing",
+      "Custom Packaging"
+    ],
+    "image_main": "/catalog/images/products-optimized/DR004.jpg",
+    "image_gallery": [
+      "/catalog/images/products-optimized/DR004-02.jpg",
+      "/catalog/images/products-optimized/DR004-03.jpg",
+      "/catalog/images/products-optimized/DR004-04.jpg",
+      "/catalog/images/products-optimized/DR004-05.jpg"
+    ],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/DR004.png",
+      "medium": "/catalog/images/products/DR004.png"
+    },
+    "tags": [
+      "Warm",
+      "Gift-Ready"
+    ],
+    "styles": [
+      "Warm",
+      "Gift-Ready"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors"
+    ],
+    "bestFor": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors"
+    ],
+    "custom_options": [
+      "Logo Printing",
+      "Custom Packaging"
+    ],
+    "customOptions": [
+      "Logo Printing",
+      "Custom Packaging"
+    ]
+  },
+  {
+    "product_id": "PS001",
+    "category": "Event & Party Supplies",
+    "category_slug": "event-party-supplies",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Multicolor LED Foam Cheer Stick",
+    "short_description": "A 48 cm multicolor LED foam cheer stick for concerts, launches, parties, sports events and audience engagement.",
+    "material": "Foam",
+    "size": "48*4cm",
+    "capacity": "",
+    "colors": [
+      "Multicolor LED"
+    ],
+    "use_case": [
+      "Trade Show & Event Gifts",
+      "Wedding & Party Favors",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Trade Show & Event Gifts",
+      "Wedding & Party Favors",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Logo Printing"
+    ],
+    "image_main": "/catalog/images/products-optimized/PS001.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/PS001.png",
+      "medium": "/catalog/images/products/PS001.png"
+    },
+    "tags": [
+      "Event",
+      "Bold"
+    ],
+    "styles": [
+      "Event",
+      "Bold"
+    ],
+    "detail_url": "",
+    "product_contents": [],
+    "configuration_note": "",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": false,
+    "publishToSeoPage": false,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Trade Show & Event Gifts",
+      "Wedding & Party Favors",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Trade Show & Event Gifts",
+      "Wedding & Party Favors",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Logo Printing"
+    ],
+    "customOptions": [
+      "Logo Printing"
+    ]
+  },
+  {
     "product_id": "MU023",
     "category": "Drinkware",
     "category_slug": "mugs",
