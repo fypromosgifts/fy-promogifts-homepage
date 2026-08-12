@@ -1009,14 +1009,25 @@ h2 {
   }
 }
 
-.catalog-load-more {
+.catalog-pagination {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 14px;
   padding: 28px 0 8px;
   color: var(--muted);
   font-size: 13px;
+}
+
+.catalog-pagination span {
+  min-width: 220px;
+  text-align: center;
+}
+
+.catalog-pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.42;
 }
 
 .product-image-link {

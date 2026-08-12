@@ -71,7 +71,8 @@
       sort: "featured"
     }
   };
-  let visibleLimit = pageType === "index" ? 12 : Number.POSITIVE_INFINITY;
+  const pageSize = 12;
+  let currentPage = 1;
 
   let inquiry = readInquiry();
 
@@ -466,15 +467,22 @@
 
   function renderProducts() {
     const visibleProducts = getVisibleProducts();
-    const renderedProducts = visibleProducts.slice(0, visibleLimit);
+    const pageCount = Math.max(1, Math.ceil(visibleProducts.length / pageSize));
+    currentPage = Math.min(currentPage, pageCount);
+    const pageStart = (currentPage - 1) * pageSize;
+    const renderedProducts = visibleProducts.slice(pageStart, pageStart + pageSize);
     const countText = `${visibleProducts.length} product${visibleProducts.length === 1 ? "" : "s"}`;
 
-    document.getElementById("catalogLoadMore")?.remove();
+    document.getElementById("catalogPagination")?.remove();
     productGrid.innerHTML = renderedProducts.map(renderProductCard).join("");
-    if (renderedProducts.length < visibleProducts.length) {
-      productGrid.insertAdjacentHTML("afterend", `<div id="catalogLoadMore" class="catalog-load-more"><button class="pill-button secondary" type="button" data-load-more>Load more products</button><span>Showing ${renderedProducts.length} of ${visibleProducts.length}</span></div>`);
-    } else {
-      document.getElementById("catalogLoadMore")?.remove();
+    if (visibleProducts.length > pageSize) {
+      productGrid.insertAdjacentHTML("afterend", `
+        <nav id="catalogPagination" class="catalog-pagination" aria-label="Catalog pages">
+          <button class="pill-button secondary" type="button" data-page-action="previous"${currentPage === 1 ? " disabled" : ""}>Previous</button>
+          <span>Page ${currentPage} of ${pageCount} · Showing ${pageStart + 1}–${pageStart + renderedProducts.length} of ${visibleProducts.length}</span>
+          <button class="pill-button secondary" type="button" data-page-action="next"${currentPage === pageCount ? " disabled" : ""}>Next</button>
+        </nav>
+      `);
     }
     installProductImageFallbacks();
     resultCount.textContent = countText;
@@ -699,7 +707,7 @@
 
   document.addEventListener("input", (event) => {
     if (event.target.id === "catalogSearch") {
-      visibleLimit = Number.POSITIVE_INFINITY;
+      currentPage = 1;
       state.filters.search = event.target.value;
       renderProducts();
     }
@@ -708,7 +716,7 @@
   document.addEventListener("change", (event) => {
     const filterId = event.target.dataset.filterSelect;
     if (filterId) {
-      visibleLimit = Number.POSITIVE_INFINITY;
+      currentPage = 1;
       state.filters[filterId] = event.target.value;
       renderProducts();
     }
@@ -721,10 +729,11 @@
       return;
     }
 
-    if (event.target.closest("[data-load-more]")) {
-      visibleLimit += 12;
-      document.getElementById("catalogLoadMore")?.remove();
+    const pageButton = event.target.closest("[data-page-action]");
+    if (pageButton && !pageButton.disabled) {
+      currentPage += pageButton.dataset.pageAction === "next" ? 1 : -1;
       renderProducts();
+      productGrid.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
 
@@ -735,6 +744,7 @@
     }
 
     if (event.target.closest("#resetFilters")) {
+      currentPage = 1;
       Object.assign(state.filters, {
         search: "",
         category: "all",
