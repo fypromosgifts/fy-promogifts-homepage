@@ -955,6 +955,60 @@ h2 {
   }
 }
 
+.product-image-link {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+}
+
+.product-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.product-title a:hover,
+.product-title a:focus-visible {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.product-detail {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 42px 24px 72px;
+}
+
+.product-breadcrumbs { margin-bottom: 28px; color: var(--muted); font-size: 14px; }
+.product-breadcrumbs a { color: inherit; }
+.product-detail-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, .92fr); gap: 56px; align-items: start; }
+.product-detail-media { border-radius: 24px; background: #fffaf2; padding: 32px; border: 1px solid var(--line); }
+.product-detail-media img { display: block; width: 100%; height: auto; border-radius: 16px; }
+.product-detail-kicker { margin: 0 0 10px; color: var(--accent-dark); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; font-size: 13px; }
+.product-detail h1 { margin: 0 0 18px; font-size: clamp(34px, 5vw, 58px); line-height: 1.04; }
+.product-lede { color: var(--muted); font-size: 18px; line-height: 1.7; }
+.product-facts { display: grid; gap: 0; margin: 28px 0; border-top: 1px solid var(--line); }
+.product-facts div { display: grid; grid-template-columns: 130px 1fr; gap: 16px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+.product-facts dt { font-weight: 800; }
+.product-facts dd { margin: 0; color: var(--muted); }
+.product-detail-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.product-detail-copy { margin-top: 64px; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 28px; }
+.product-detail-copy section { padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: #fff; }
+.product-detail-copy h2 { margin-top: 0; font-size: 26px; }
+.product-detail-copy p, .product-detail-copy li { color: var(--muted); line-height: 1.7; }
+@media (max-width: 800px) { .product-detail-grid, .product-detail-copy { grid-template-columns: 1fr; } .product-detail-grid { gap: 30px; } }
+
+.site-footer {
+  padding: 28px 24px;
+  border-top: 1px solid var(--line);
+  background: var(--navy);
+  color: #f8f2e8;
+  text-align: center;
+}
+
+.site-footer a { color: #f0c27a; text-decoration: underline; text-underline-offset: 3px; }
+
 .catalog-seo-intro {
   margin: 0 0 22px;
   padding: 28px;

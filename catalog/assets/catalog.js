@@ -508,10 +508,12 @@
           >
             ${selected ? "&#10003;" : "+"}
           </button>
-          <img src="${escapeHtml(productImage)}" alt="${escapeHtml(productTitle)}" loading="lazy" decoding="async">
+          ${product.detail_url
+            ? `<a class="product-image-link" href="${escapeHtml(product.detail_url)}" aria-label="View ${escapeHtml(productTitle)} details"><img src="${escapeHtml(productImage)}" alt="${escapeHtml(productTitle)}" loading="lazy" decoding="async"></a>`
+            : `<img src="${escapeHtml(productImage)}" alt="${escapeHtml(productTitle)}" loading="lazy" decoding="async">`}
         </div>
         <div class="product-body">
-          <h3 class="product-title">${escapeHtml(productTitle)}</h3>
+          <h3 class="product-title">${product.detail_url ? `<a href="${escapeHtml(product.detail_url)}">${escapeHtml(productTitle)}</a>` : escapeHtml(productTitle)}</h3>
           <div class="product-id">${escapeHtml(productId)}</div>
           ${specs.length ? `<p class="product-specs">${specs.map((spec) => escapeHtml(spec)).join(" &middot; ")}</p>` : ""}
         </div>
