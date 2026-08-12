@@ -468,11 +468,28 @@
     const countText = `${visibleProducts.length} product${visibleProducts.length === 1 ? "" : "s"}`;
 
     productGrid.innerHTML = visibleProducts.map(renderProductCard).join("");
+    installProductImageFallbacks();
     resultCount.textContent = countText;
     catalogSummary.textContent = "";
     catalogSummary.hidden = true;
 
     renderEmptyState(visibleProducts.length);
+  }
+
+  function installProductImageFallbacks() {
+    productGrid.querySelectorAll("img").forEach((image) => {
+      image.addEventListener("error", () => {
+        if (image.dataset.retryDone === "1") {
+          image.closest(".product-image, .product-image-wrap")?.classList.add("image-unavailable");
+          image.hidden = true;
+          return;
+        }
+        image.dataset.retryDone = "1";
+        const url = new URL(image.src, window.location.href);
+        url.searchParams.set("retry", "20260812-catalog4");
+        image.src = url.toString();
+      });
+    });
   }
 
   function renderEmptyState(count) {
