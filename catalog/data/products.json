@@ -1,5 +1,1595 @@
 [
   {
+    "product_id": "GF070",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "UV-Blocking Shell Sun Visor",
+    "short_description": "An open-crown shell visor with an oversized curved brim for beach, resort and warm-weather promotional programs.",
+    "material": "Lightweight nylon with dark sun-shield underside",
+    "size": "Adjustable one-size fit",
+    "capacity": "",
+    "colors": [
+      "Ivory White",
+      "Black",
+      "Khaki",
+      "Navy",
+      "Pink"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Travel Programs",
+      "Sports & Recreation Programs"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Travel Programs",
+      "Sports & Recreation Programs"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF070-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF070-clean-v2.webp",
+      "medium": "/catalog/images/products/GF070-clean-v2.webp"
+    },
+    "tags": [
+      "Shell Visor",
+      "Oversized Brim"
+    ],
+    "styles": [
+      "Shell Visor",
+      "Oversized Brim"
+    ],
+    "detail_url": "/catalog/apparel-wearables/uv-blocking-shell-sun-visor/",
+    "product_contents": [
+      "UV-Blocking Shell Sun Visor"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Travel Programs",
+      "Sports & Recreation Programs"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Travel Programs",
+      "Sports & Recreation Programs"
+    ],
+    "custom_options": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF069",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Reversible Wide-Brim Bucket Hat",
+    "short_description": "A reversible wide-brim bucket hat with extended sun coverage for travel, resorts and outdoor promotional campaigns.",
+    "material": "Cotton-polyester blend",
+    "size": "One size; final measurements confirmed before order",
+    "capacity": "",
+    "colors": [
+      "Beige and Navy",
+      "Black",
+      "Red",
+      "Custom Color Pairings"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Travel Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Travel Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "All-Over Print",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF069-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF069-clean-v2.webp",
+      "medium": "/catalog/images/products/GF069-clean-v2.webp"
+    },
+    "tags": [
+      "Bucket Hat",
+      "Wide Brim",
+      "Reversible"
+    ],
+    "styles": [
+      "Bucket Hat",
+      "Wide Brim",
+      "Reversible"
+    ],
+    "detail_url": "/catalog/apparel-wearables/reversible-wide-brim-bucket-hat/",
+    "product_contents": [
+      "Reversible Wide-Brim Bucket Hat"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Travel Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Travel Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "All-Over Print",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "All-Over Print",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF068",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Seamless Sports Sun Visor",
+    "short_description": "A seamless open-top sports visor with an oversized curved brim for running, golf and summer wellness programs.",
+    "material": "Polyamide-polyester fabric",
+    "size": "Adjustable one-size fit",
+    "capacity": "",
+    "colors": [
+      "Charcoal Gray",
+      "Black",
+      "Ivory",
+      "Light Gray"
+    ],
+    "use_case": [
+      "Sports & Recreation Programs",
+      "Outdoor Event Gifts",
+      "Wellness Programs"
+    ],
+    "suitable_for": [
+      "Sports & Recreation Programs",
+      "Outdoor Event Gifts",
+      "Wellness Programs"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Heat Transfer",
+      "Screen Printing",
+      "Reflective Print",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF068-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF068-clean-v2.webp",
+      "medium": "/catalog/images/products/GF068-clean-v2.webp"
+    },
+    "tags": [
+      "Sun Visor",
+      "Seamless"
+    ],
+    "styles": [
+      "Sun Visor",
+      "Seamless"
+    ],
+    "detail_url": "/catalog/apparel-wearables/seamless-sports-sun-visor/",
+    "product_contents": [
+      "Seamless Sports Sun Visor"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Sports & Recreation Programs",
+      "Outdoor Event Gifts",
+      "Wellness Programs"
+    ],
+    "bestFor": [
+      "Sports & Recreation Programs",
+      "Outdoor Event Gifts",
+      "Wellness Programs"
+    ],
+    "custom_options": [
+      "Heat Transfer",
+      "Screen Printing",
+      "Reflective Print",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Heat Transfer",
+      "Screen Printing",
+      "Reflective Print",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF067",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Outdoor UV Sun Hat with Neck Flap",
+    "short_description": "A full-coverage outdoor sun hat with a wide brim, ventilation, neck flap and adjustable chin cord for field activities.",
+    "material": "Lightweight nylon-polyester with mesh ventilation",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Light Gray",
+      "Khaki",
+      "Navy",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Field Team Programs",
+      "Sports & Recreation Programs"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Field Team Programs",
+      "Sports & Recreation Programs"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF067-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF067-clean-v2.webp",
+      "medium": "/catalog/images/products/GF067-clean-v2.webp"
+    },
+    "tags": [
+      "Outdoor Hat",
+      "Full Coverage"
+    ],
+    "styles": [
+      "Outdoor Hat",
+      "Full Coverage"
+    ],
+    "detail_url": "/catalog/apparel-wearables/outdoor-uv-sun-hat-with-neck-flap/",
+    "product_contents": [
+      "Outdoor UV Sun Hat with Neck Flap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Field Team Programs",
+      "Sports & Recreation Programs"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Field Team Programs",
+      "Sports & Recreation Programs"
+    ],
+    "custom_options": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF066",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Corduroy Baseball Cap",
+    "short_description": "A textured corduroy baseball cap with a soft seasonal look for staff gifts and premium lifestyle campaigns.",
+    "material": "Cotton-blend corduroy",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Deep Teal",
+      "Camel Tan",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Employee Gifts",
+      "Retail Merchandise",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Employee Gifts",
+      "Retail Merchandise",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF066-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF066-clean-v2.webp",
+      "medium": "/catalog/images/products/GF066-clean-v2.webp"
+    },
+    "tags": [
+      "Baseball Cap",
+      "Corduroy"
+    ],
+    "styles": [
+      "Baseball Cap",
+      "Corduroy"
+    ],
+    "detail_url": "/catalog/apparel-wearables/corduroy-baseball-cap/",
+    "product_contents": [
+      "Corduroy Baseball Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Employee Gifts",
+      "Retail Merchandise",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Employee Gifts",
+      "Retail Merchandise",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF065",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Colorblock Washed Baseball Cap",
+    "short_description": "A colorblock washed cap combining a muted crown and contrast brim for distinctive branded merchandise.",
+    "material": "Washed cotton denim",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Charcoal Brown and Mustard",
+      "Custom Color Pairings"
+    ],
+    "use_case": [
+      "Retail Merchandise",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "suitable_for": [
+      "Retail Merchandise",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF065-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF065-clean-v2.webp",
+      "medium": "/catalog/images/products/GF065-clean-v2.webp"
+    },
+    "tags": [
+      "Baseball Cap",
+      "Colorblock"
+    ],
+    "styles": [
+      "Baseball Cap",
+      "Colorblock"
+    ],
+    "detail_url": "/catalog/apparel-wearables/colorblock-washed-baseball-cap/",
+    "product_contents": [
+      "Colorblock Washed Baseball Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Retail Merchandise",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "bestFor": [
+      "Retail Merchandise",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF064",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Classic Two-Tone Trucker Cap",
+    "short_description": "A classic two-tone trucker cap with contrast mesh panels and a curved brim for outdoor promotional use.",
+    "material": "Cotton-polyester front with mesh back",
+    "size": "Adjustable snapback fit",
+    "capacity": "",
+    "colors": [
+      "Black and Yellow",
+      "Tan and Brown",
+      "Custom Color Pairings"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF064-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF064-clean-v2.webp",
+      "medium": "/catalog/images/products/GF064-clean-v2.webp"
+    },
+    "tags": [
+      "Trucker Cap",
+      "Classic"
+    ],
+    "styles": [
+      "Trucker Cap",
+      "Classic"
+    ],
+    "detail_url": "/catalog/apparel-wearables/classic-two-tone-trucker-cap/",
+    "product_contents": [
+      "Classic Two-Tone Trucker Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF063",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Distressed Washed Baseball Cap",
+    "short_description": "A washed cotton cap with intentional distressed details for casual lifestyle merchandise and youth-focused campaigns.",
+    "material": "Washed cotton",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Washed Denim Blue",
+      "Black",
+      "Khaki",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Retail Merchandise",
+      "Brand Campaign Giveaways",
+      "Outdoor Event Gifts"
+    ],
+    "suitable_for": [
+      "Retail Merchandise",
+      "Brand Campaign Giveaways",
+      "Outdoor Event Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF063-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF063-clean-v2.webp",
+      "medium": "/catalog/images/products/GF063-clean-v2.webp"
+    },
+    "tags": [
+      "Baseball Cap",
+      "Distressed"
+    ],
+    "styles": [
+      "Baseball Cap",
+      "Distressed"
+    ],
+    "detail_url": "/catalog/apparel-wearables/distressed-washed-baseball-cap/",
+    "product_contents": [
+      "Distressed Washed Baseball Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Retail Merchandise",
+      "Brand Campaign Giveaways",
+      "Outdoor Event Gifts"
+    ],
+    "bestFor": [
+      "Retail Merchandise",
+      "Brand Campaign Giveaways",
+      "Outdoor Event Gifts"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Patch",
+      "Woven Label",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF062",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Flat-Brim Snapback Cap",
+    "short_description": "A structured flat-brim snapback with a prominent front decoration area for streetwear-inspired promotional programs.",
+    "material": "Cotton-polyester twill",
+    "size": "Adjustable snapback fit",
+    "capacity": "",
+    "colors": [
+      "Green",
+      "Yellow",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Brand Campaign Giveaways",
+      "Retail Merchandise",
+      "Festival Merchandise"
+    ],
+    "suitable_for": [
+      "Brand Campaign Giveaways",
+      "Retail Merchandise",
+      "Festival Merchandise"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "3D Embroidery",
+      "Patch",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF062-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF062-clean-v2.webp",
+      "medium": "/catalog/images/products/GF062-clean-v2.webp"
+    },
+    "tags": [
+      "Snapback Cap",
+      "Flat Brim"
+    ],
+    "styles": [
+      "Snapback Cap",
+      "Flat Brim"
+    ],
+    "detail_url": "/catalog/apparel-wearables/flat-brim-snapback-cap/",
+    "product_contents": [
+      "Flat-Brim Snapback Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Brand Campaign Giveaways",
+      "Retail Merchandise",
+      "Festival Merchandise"
+    ],
+    "bestFor": [
+      "Brand Campaign Giveaways",
+      "Retail Merchandise",
+      "Festival Merchandise"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "3D Embroidery",
+      "Patch",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "3D Embroidery",
+      "Patch",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF061",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Custom Cotton Sun Visor",
+    "short_description": "A lightweight open-top cotton visor for golf days, sports events, volunteer teams and warm-weather promotions.",
+    "material": "Cotton twill",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Red",
+      "White",
+      "Navy",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Sports & Recreation Programs",
+      "Outdoor Event Gifts",
+      "Employee Gifts"
+    ],
+    "suitable_for": [
+      "Sports & Recreation Programs",
+      "Outdoor Event Gifts",
+      "Employee Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF061-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF061-clean-v2.webp",
+      "medium": "/catalog/images/products/GF061-clean-v2.webp"
+    },
+    "tags": [
+      "Sun Visor",
+      "Sport"
+    ],
+    "styles": [
+      "Sun Visor",
+      "Sport"
+    ],
+    "detail_url": "/catalog/apparel-wearables/custom-cotton-sun-visor/",
+    "product_contents": [
+      "Cotton Sun Visor"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Sports & Recreation Programs",
+      "Outdoor Event Gifts",
+      "Employee Gifts"
+    ],
+    "bestFor": [
+      "Sports & Recreation Programs",
+      "Outdoor Event Gifts",
+      "Employee Gifts"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF060",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Curved-Brim Two-Tone Trucker Cap",
+    "short_description": "A contrast-color trucker cap with a curved brim and breathable mesh for outdoor teams and energetic campaigns.",
+    "material": "Cotton-polyester front with mesh back",
+    "size": "Adjustable snapback fit",
+    "capacity": "",
+    "colors": [
+      "Charcoal and Lime",
+      "Tan and Brown",
+      "Custom Color Pairings"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF060-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF060-clean-v2.webp",
+      "medium": "/catalog/images/products/GF060-clean-v2.webp"
+    },
+    "tags": [
+      "Trucker Cap",
+      "Contrast Color"
+    ],
+    "styles": [
+      "Trucker Cap",
+      "Contrast Color"
+    ],
+    "detail_url": "/catalog/apparel-wearables/curved-brim-two-tone-trucker-cap/",
+    "product_contents": [
+      "Curved-Brim Two-Tone Trucker Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF059",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Cotton Mesh Baseball Cap",
+    "short_description": "A breathable curved-brim cap combining a cotton front with mesh back panels for warm-weather promotions.",
+    "material": "Cotton twill front with polyester mesh back",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Forest Green",
+      "Beige",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Employee Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Employee Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label"
+    ],
+    "image_main": "/catalog/images/products/GF059-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF059-clean-v2.webp",
+      "medium": "/catalog/images/products/GF059-clean-v2.webp"
+    },
+    "tags": [
+      "Mesh Baseball Cap",
+      "Classic"
+    ],
+    "styles": [
+      "Mesh Baseball Cap",
+      "Classic"
+    ],
+    "detail_url": "/catalog/apparel-wearables/cotton-mesh-baseball-cap/",
+    "product_contents": [
+      "Cotton Mesh Baseball Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Employee Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Employee Gifts",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label"
+    ]
+  },
+  {
+    "product_id": "GF058",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Cotton Bucket Hat",
+    "short_description": "A casual cotton bucket hat with a broad decoration area for festivals, summer activations and travel programs.",
+    "material": "Cotton twill",
+    "size": "One size; final measurements confirmed before order",
+    "capacity": "",
+    "colors": [
+      "Pastel Pink",
+      "Orange",
+      "Beige",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Festival Merchandise",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Festival Merchandise",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF058-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF058-clean-v2.webp",
+      "medium": "/catalog/images/products/GF058-clean-v2.webp"
+    },
+    "tags": [
+      "Bucket Hat",
+      "Casual"
+    ],
+    "styles": [
+      "Bucket Hat",
+      "Casual"
+    ],
+    "detail_url": "/catalog/apparel-wearables/cotton-bucket-hat/",
+    "product_contents": [
+      "Cotton Bucket Hat"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Festival Merchandise",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Festival Merchandise",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF057",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Foam Trucker Cap",
+    "short_description": "A lightweight foam-front trucker cap with breathable mesh and a large blank decoration area.",
+    "material": "Foam front with polyester mesh back",
+    "size": "Adjustable snapback fit",
+    "capacity": "",
+    "colors": [
+      "Blue and White",
+      "Orange and White",
+      "Pink and White",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Sports & Recreation Programs"
+    ],
+    "suitable_for": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Sports & Recreation Programs"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Sublimation",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF057-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF057-clean-v2.webp",
+      "medium": "/catalog/images/products/GF057-clean-v2.webp"
+    },
+    "tags": [
+      "Trucker Cap",
+      "Two Tone"
+    ],
+    "styles": [
+      "Trucker Cap",
+      "Two Tone"
+    ],
+    "detail_url": "/catalog/apparel-wearables/foam-trucker-cap/",
+    "product_contents": [
+      "Foam Trucker Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Sports & Recreation Programs"
+    ],
+    "bestFor": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Sports & Recreation Programs"
+    ],
+    "custom_options": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Sublimation",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Screen Printing",
+      "Heat Transfer",
+      "Sublimation",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF056",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Washed Vintage Baseball Cap",
+    "short_description": "A soft washed cotton baseball cap with a relaxed vintage finish for lifestyle campaigns and branded merchandise.",
+    "material": "Washed cotton",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Brick Red",
+      "Mustard",
+      "Denim Blue",
+      "Forest Green"
+    ],
+    "use_case": [
+      "Brand Campaign Giveaways",
+      "Retail Merchandise",
+      "Outdoor Event Gifts"
+    ],
+    "suitable_for": [
+      "Brand Campaign Giveaways",
+      "Retail Merchandise",
+      "Outdoor Event Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Distressed Embroidery",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF056-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF056-clean-v2.webp",
+      "medium": "/catalog/images/products/GF056-clean-v2.webp"
+    },
+    "tags": [
+      "Baseball Cap",
+      "Vintage Washed"
+    ],
+    "styles": [
+      "Baseball Cap",
+      "Vintage Washed"
+    ],
+    "detail_url": "/catalog/apparel-wearables/washed-vintage-baseball-cap/",
+    "product_contents": [
+      "Washed Vintage Baseball Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Brand Campaign Giveaways",
+      "Retail Merchandise",
+      "Outdoor Event Gifts"
+    ],
+    "bestFor": [
+      "Brand Campaign Giveaways",
+      "Retail Merchandise",
+      "Outdoor Event Gifts"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Distressed Embroidery",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Distressed Embroidery",
+      "Woven Label",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF055",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Wide-Brim Fishing Sun Hat",
+    "short_description": "A lightweight wide-brim outdoor hat with ventilation and a chin cord for field teams, travel and summer events.",
+    "material": "Lightweight polyester with mesh ventilation",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Light Gray",
+      "Khaki",
+      "Navy",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Employee Gifts"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Employee Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF055-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF055-clean-v2.webp",
+      "medium": "/catalog/images/products/GF055-clean-v2.webp"
+    },
+    "tags": [
+      "Outdoor Hat",
+      "Wide Brim"
+    ],
+    "styles": [
+      "Outdoor Hat",
+      "Wide Brim"
+    ],
+    "detail_url": "/catalog/apparel-wearables/wide-brim-fishing-sun-hat/",
+    "product_contents": [
+      "Wide-Brim Fishing Sun Hat"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Employee Gifts"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Sports & Recreation Programs",
+      "Employee Gifts"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "Woven Label",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "Woven Label",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF054",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Reversible Bucket Hat",
+    "short_description": "A reversible bucket hat that offers two color directions in one compact promotional product.",
+    "material": "Cotton-polyester blend",
+    "size": "One size; final measurements confirmed before order",
+    "capacity": "",
+    "colors": [
+      "Yellow",
+      "Blue",
+      "Custom Color Pairings"
+    ],
+    "use_case": [
+      "Outdoor Event Gifts",
+      "Brand Campaign Giveaways",
+      "Festival Merchandise"
+    ],
+    "suitable_for": [
+      "Outdoor Event Gifts",
+      "Brand Campaign Giveaways",
+      "Festival Merchandise"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "All-Over Print",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF054-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF054-clean-v2.webp",
+      "medium": "/catalog/images/products/GF054-clean-v2.webp"
+    },
+    "tags": [
+      "Bucket Hat",
+      "Reversible"
+    ],
+    "styles": [
+      "Bucket Hat",
+      "Reversible"
+    ],
+    "detail_url": "/catalog/apparel-wearables/reversible-bucket-hat/",
+    "product_contents": [
+      "Reversible Bucket Hat"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Outdoor Event Gifts",
+      "Brand Campaign Giveaways",
+      "Festival Merchandise"
+    ],
+    "bestFor": [
+      "Outdoor Event Gifts",
+      "Brand Campaign Giveaways",
+      "Festival Merchandise"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "All-Over Print",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "All-Over Print",
+      "Custom Color"
+    ]
+  },
+  {
+    "product_id": "GF053",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Adjustable Embroidered Baseball Cap",
+    "short_description": "A versatile curved-brim cap with an adjustable closure and a clean front panel for custom embroidery or print.",
+    "material": "Cotton twill",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Yellow",
+      "Blue",
+      "Purple",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "School & Team Programs"
+    ],
+    "suitable_for": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "School & Team Programs"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label"
+    ],
+    "image_main": "/catalog/images/products/GF053-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF053-clean-v2.webp",
+      "medium": "/catalog/images/products/GF053-clean-v2.webp"
+    },
+    "tags": [
+      "Baseball Cap",
+      "Bright Color"
+    ],
+    "styles": [
+      "Baseball Cap",
+      "Bright Color"
+    ],
+    "detail_url": "/catalog/apparel-wearables/adjustable-embroidered-baseball-cap/",
+    "product_contents": [
+      "Embroidered Baseball Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "School & Team Programs"
+    ],
+    "bestFor": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "School & Team Programs"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Woven Label"
+    ]
+  },
+  {
+    "product_id": "GF052",
+    "category": "Apparel & Wearables",
+    "category_slug": "apparel-wearables",
+    "parent_category": "",
+    "parent_category_slug": "",
+    "title_en": "Custom Cotton Baseball Cap",
+    "short_description": "A classic adjustable cotton baseball cap for event teams, staff uniforms and branded outdoor campaigns.",
+    "material": "Cotton twill",
+    "size": "Adjustable adult fit",
+    "capacity": "",
+    "colors": [
+      "Navy Blue",
+      "Burgundy",
+      "Custom Colors"
+    ],
+    "use_case": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "suitable_for": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "can_be_paired_with": [],
+    "customization": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "image_main": "/catalog/images/products/GF052-clean-v2.webp",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/GF052-clean-v2.webp",
+      "medium": "/catalog/images/products/GF052-clean-v2.webp"
+    },
+    "tags": [
+      "Baseball Cap",
+      "Classic"
+    ],
+    "styles": [
+      "Baseball Cap",
+      "Classic"
+    ],
+    "detail_url": "/catalog/apparel-wearables/custom-cotton-baseball-cap/",
+    "product_contents": [
+      "Cotton Baseball Cap"
+    ],
+    "configuration_note": "Artwork, hat measurements, material, colors, decoration method and packaging are confirmed against quantity and production requirements before quotation.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": false,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "bestFor": [
+      "Trade Show & Event Gifts",
+      "Brand Campaign Giveaways",
+      "Employee Gifts"
+    ],
+    "custom_options": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ],
+    "customOptions": [
+      "Embroidery",
+      "Screen Printing",
+      "Heat Transfer",
+      "Custom Color"
+    ]
+  },
+  {
     "product_id": "GF051",
     "category": "Gift Sets",
     "category_slug": "gift-sets",
