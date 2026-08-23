@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" viewBox="0 0 520 420" role="img" aria-labelledby="title">
+  <title id="title">Stainless steel travel mug</title>
+  <rect width="520" height="420" fill="#f8fafc"/>
+  <ellipse cx="258" cy="337" rx="126" ry="22" fill="#d9e2ec"/>
+  <path d="M169 116h178l-18 196c-3 31-29 55-60 55h-22c-31 0-57-24-60-55z" fill="#cbd5e1" stroke="#334155" stroke-width="10"/>
+  <ellipse cx="258" cy="116" rx="89" ry="23" fill="#f1f5f9" stroke="#334155" stroke-width="10"/>
+  <path d="M181 181h154" stroke="#64748b" stroke-width="16"/>
+  <path d="M190 286h136" stroke="#94a3b8" stroke-width="14"/>
+  <path d="M345 163h29c37 0 55 62 22 87-18 14-43 9-55-10" fill="none" stroke="#334155" stroke-width="16" stroke-linecap="round"/>
+  <rect x="211" y="205" width="94" height="42" rx="8" fill="#1f4f8f"/>
+  <text x="258" y="233" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">500ML</text>
+</svg>

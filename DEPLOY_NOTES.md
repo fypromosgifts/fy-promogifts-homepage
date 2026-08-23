@@ -4,7 +4,7 @@
 
 ### Scope
 
-- Working directory: `D:\Documents\独立站-publish`
+- Working directory: `D:\Documents\???-publish`
 - Cloudflare Pages project: `fy-promogifts-homepage`
 - Production domains:
   - `https://www.fypromogifts.com/`
@@ -168,7 +168,7 @@
 
 ### Scope
 
-- Added two global fixed floating entries across all current HTML pages in `D:\Documents\独立站-publish`.
+- Added two global fixed floating entries across all current HTML pages in `D:\Documents\???-publish`.
 - No homepage module/content redesign was performed.
 - Replaced the old buyer-question page floating script that used an image-based WhatsApp icon.
 

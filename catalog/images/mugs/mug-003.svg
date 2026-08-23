@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" viewBox="0 0 520 420" role="img" aria-labelledby="title">
+  <title id="title">Bamboo fiber cup with silicone lid</title>
+  <rect width="520" height="420" fill="#f8fafc"/>
+  <ellipse cx="260" cy="335" rx="122" ry="23" fill="#d9e2ec"/>
+  <path d="M158 151h204l-26 161c-5 30-31 52-61 52h-30c-30 0-56-22-61-52z" fill="#f5e6c8" stroke="#5b4a36" stroke-width="10"/>
+  <path d="M145 121h230v34H145z" fill="#0f766e" stroke="#0f4f4a" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M194 92h132c14 0 26 12 26 26v3H168v-3c0-14 12-26 26-26z" fill="#64b6ac" stroke="#0f4f4a" stroke-width="10"/>
+  <path d="M215 207c23-22 62-22 90 0" fill="none" stroke="#b45309" stroke-width="14" stroke-linecap="round"/>
+  <path d="M218 244h84" stroke="#b45309" stroke-width="14" stroke-linecap="round"/>
+</svg>

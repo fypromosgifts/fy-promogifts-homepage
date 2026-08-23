@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" viewBox="0 0 520 420" role="img" aria-labelledby="title">
+  <title id="title">White ceramic mug</title>
+  <rect width="520" height="420" fill="#f8fafc"/>
+  <ellipse cx="246" cy="322" rx="142" ry="25" fill="#d9e2ec"/>
+  <path d="M142 126h196l-23 178c-4 29-29 51-59 51h-32c-30 0-55-22-59-51z" fill="#ffffff" stroke="#475569" stroke-width="10"/>
+  <ellipse cx="240" cy="126" rx="98" ry="25" fill="#eef2f7" stroke="#475569" stroke-width="10"/>
+  <path d="M336 169h45c44 0 63 76 22 106-21 16-50 10-65-12" fill="none" stroke="#475569" stroke-width="18" stroke-linecap="round"/>
+  <rect x="183" y="194" width="116" height="44" rx="8" fill="#0f766e"/>
+  <text x="241" y="223" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff">MUG</text>
+</svg>

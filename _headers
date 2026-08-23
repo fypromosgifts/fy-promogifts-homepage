@@ -22,3 +22,17 @@
 /robots.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=3600
+
+# Internal sourcing captures and operating files must not enter search indexes.
+/assets/1688-products*
+  X-Robots-Tag: noindex, nofollow, nosnippet
+  Cache-Control: private, no-store
+
+/data/*
+  X-Robots-Tag: noindex, nofollow, nosnippet
+
+/scripts/*
+  X-Robots-Tag: noindex, nofollow, nosnippet
+
+/*.md
+  X-Robots-Tag: noindex, nofollow, nosnippet

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "MUG-001",
+    "title": "Ceramic Mug with Classic C Handle",
+    "material": "Ceramic",
+    "capacity": "350 ml",
+    "colors": ["White", "Black", "Navy"],
+    "image": "/catalog/images/mugs/mug-001.svg"
+  },
+  {
+    "id": "MUG-002",
+    "title": "Double Wall Stainless Steel Travel Mug",
+    "material": "Stainless Steel, PP",
+    "capacity": "500 ml",
+    "colors": ["Silver", "Matte Black"],
+    "image": "/catalog/images/mugs/mug-002.svg"
+  },
+  {
+    "id": "MUG-003",
+    "title": "Bamboo Fiber Coffee Cup with Silicone Lid",
+    "material": "Bamboo Fiber, Silicone",
+    "capacity": "420 ml",
+    "colors": [],
+    "image": "/catalog/images/mugs/mug-003.svg"
+  }
+]

@@ -1,5 +1,298 @@
 [
   {
+    "product_id": "MU024",
+    "category": "Gift Sets",
+    "category_slug": "gift-sets",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Smart Heated Ceramic Mug Gift Set",
+    "short_description": "A ceramic mug, lid, spoon and USB warming coaster in a presentation gift box, with a confirmed 100-set MOQ for high-temperature fired decal customization.",
+    "material": "Ceramic mug with electric warming coaster and presentation-board gift box",
+    "size": "Configurable heated mug presentation set",
+    "capacity": "",
+    "colors": [
+      "Green",
+      "Ivory",
+      "Red",
+      "Orange",
+      "Pink",
+      "Yellow"
+    ],
+    "use_case": [
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Executive Desk Gifts"
+    ],
+    "suitable_for": [
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Executive Desk Gifts"
+    ],
+    "can_be_paired_with": [
+      "Thank You Card",
+      "Gift Bag",
+      "Custom Sleeve"
+    ],
+    "customization": [
+      "High-Temperature Fired Decal",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU024.jpg",
+    "image_gallery": [],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU024.png",
+      "medium": "/catalog/images/products/MU024.png"
+    },
+    "tags": [
+      "Premium",
+      "Desk",
+      "Gift-Ready",
+      "Drinkware"
+    ],
+    "styles": [
+      "Premium",
+      "Modern",
+      "Gift-Ready"
+    ],
+    "moq": "100",
+    "unit": "sets",
+    "top_seller_rank": 1,
+    "top_seller_group": "top-selling-mug-gift-sets",
+    "detail_url": "/catalog/gift-sets/smart-heated-ceramic-mug-gift-set/",
+    "product_contents": [
+      "Ceramic mug with lid",
+      "Matching spoon",
+      "USB warming coaster",
+      "Presentation gift box"
+    ],
+    "configuration_note": "MOQ 100 sets applies to the confirmed high-temperature fired decal route. Mug color, warming-coaster specification, plug or power requirements, artwork and packaging are confirmed for the destination market before production.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Executive Desk Gifts"
+    ],
+    "bestFor": [
+      "Employee Gifts",
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Executive Desk Gifts"
+    ],
+    "custom_options": [
+      "High-Temperature Fired Decal",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ],
+    "customOptions": [
+      "High-Temperature Fired Decal",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ]
+  },
+  {
+    "product_id": "DR004",
+    "category": "Gift Sets",
+    "category_slug": "gift-sets",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Ceramic Mug and Towel Gift Set",
+    "short_description": "A ceramic mug and towel presentation set for appreciation and event gifting, with a confirmed 60-set MOQ for high-temperature fired decal customization.",
+    "material": "Ceramic mug, textile towel and presentation-board gift box",
+    "size": "Configurable ceramic mug and towel presentation set",
+    "capacity": "",
+    "colors": [
+      "Assorted Colors"
+    ],
+    "use_case": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors",
+      "Event Gifts"
+    ],
+    "suitable_for": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors",
+      "Event Gifts"
+    ],
+    "can_be_paired_with": [
+      "Gift Bag",
+      "Thank You Card",
+      "Sticker",
+      "Keychain"
+    ],
+    "customization": [
+      "High-Temperature Fired Decal",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ],
+    "image_main": "/catalog/images/products-optimized/DR004.jpg",
+    "image_gallery": [
+      "/catalog/images/products-optimized/DR004-02.jpg"
+    ],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/DR004.png",
+      "medium": "/catalog/images/products/DR004.png"
+    },
+    "tags": [
+      "Warm",
+      "Gift-Ready"
+    ],
+    "styles": [
+      "Warm",
+      "Gift-Ready"
+    ],
+    "moq": "60",
+    "unit": "sets",
+    "top_seller_rank": 3,
+    "top_seller_group": "top-selling-mug-gift-sets",
+    "detail_url": "/catalog/gift-sets/ceramic-mug-towel-gift-set/",
+    "product_contents": [
+      "Ceramic mug",
+      "Rolled towel",
+      "Matching spoon",
+      "Presentation gift box"
+    ],
+    "configuration_note": "MOQ 60 sets applies to the confirmed high-temperature fired decal route. Mug color, towel color, artwork, box finish and final pack-out are approved before production.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors",
+      "Event Gifts"
+    ],
+    "bestFor": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors",
+      "Event Gifts"
+    ],
+    "custom_options": [
+      "High-Temperature Fired Decal",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ],
+    "customOptions": [
+      "High-Temperature Fired Decal",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ]
+  },
+  {
+    "product_id": "MU023",
+    "category": "Gift Sets",
+    "category_slug": "gift-sets",
+    "parent_category": "Drinkware",
+    "parent_category_slug": "drinkware",
+    "title_en": "Premium Ceramic Mug & Towel Gift Box",
+    "short_description": "A ceramic mug, towel and spoon gift box for client appreciation, events and seasonal gifting, available from 40 sets with screen-printed logo customization.",
+    "material": "Ceramic mug, textile towel and presentation-board gift box",
+    "size": "Configurable ceramic mug and towel presentation set",
+    "capacity": "",
+    "colors": [],
+    "use_case": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors",
+      "Brand Campaign Giveaways"
+    ],
+    "suitable_for": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors",
+      "Brand Campaign Giveaways"
+    ],
+    "can_be_paired_with": [
+      "Thank You Card",
+      "Gift Bag",
+      "Custom Sleeve",
+      "Sticker"
+    ],
+    "customization": [
+      "Screen Printing",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ],
+    "image_main": "/catalog/images/products-optimized/MU023.jpg",
+    "image_gallery": [
+      "/catalog/images/products-optimized/MU023-02.jpg"
+    ],
+    "media": {
+      "original": "",
+      "thumbnail": "/catalog/images/products/MU023.png",
+      "medium": "/catalog/images/products/MU023.png"
+    },
+    "tags": [
+      "Premium",
+      "Warm",
+      "Gift-Ready"
+    ],
+    "styles": [
+      "Premium",
+      "Warm",
+      "Gift-Ready"
+    ],
+    "moq": "40",
+    "unit": "sets",
+    "top_seller_rank": 2,
+    "top_seller_group": "top-selling-mug-gift-sets",
+    "detail_url": "/catalog/gift-sets/premium-ceramic-mug-towel-gift-box/",
+    "product_contents": [
+      "Ceramic mug with lid",
+      "Matching spoon",
+      "Rolled towel",
+      "Presentation gift box"
+    ],
+    "configuration_note": "The displayed colors and arrangement are reference options. Mug color, towel color, screen-printed artwork and box finish are confirmed against quantity and deadline.",
+    "publish_to_catalog": true,
+    "publishToCatalog": true,
+    "publish_to_seo_page": true,
+    "publishToSeoPage": true,
+    "featured": true,
+    "seo_page_group": "",
+    "seoPageGroup": "",
+    "best_for": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors",
+      "Brand Campaign Giveaways"
+    ],
+    "bestFor": [
+      "Client Appreciation Gifts",
+      "Holiday & Seasonal Gifts",
+      "Wedding & Party Favors",
+      "Brand Campaign Giveaways"
+    ],
+    "custom_options": [
+      "Screen Printing",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ],
+    "customOptions": [
+      "Screen Printing",
+      "Custom Logo on Mug",
+      "Custom Gift Box"
+    ]
+  },
+  {
     "product_id": "GF070",
     "category": "Apparel & Wearables",
     "category_slug": "apparel-wearables",
@@ -2651,7 +2944,7 @@
     "parent_category": "",
     "parent_category_slug": "",
     "title_en": "Bamboo-Lid Glass Tumbler",
-    "short_description": "A modern glass tumbler with bamboo lid and reusable straw for office, café and event programs.",
+    "short_description": "A modern glass tumbler with bamboo lid and reusable straw for office, caf? and event programs.",
     "material": "High-borosilicate glass, bamboo and reusable straw",
     "size": "Tall tumbler with bamboo lid and straw",
     "capacity": "",
@@ -3618,7 +3911,7 @@
     "category_slug": "gift-sets",
     "parent_category": "",
     "parent_category_slug": "",
-    "title_en": "Tulip Theme Women’s Gift Set",
+    "title_en": "Tulip Theme Women?s Gift Set",
     "short_description": "A soft pink tulip-themed set with drinkware, fragrance and blanket options for appreciation, seasonal and lifestyle gifting.",
     "material": "Mixed textile, stainless steel, plastic and presentation-board materials",
     "size": "Configurable presentation set",
@@ -6239,84 +6532,6 @@
     ]
   },
   {
-    "product_id": "DR004",
-    "category": "Drinkware",
-    "category_slug": "drinkware",
-    "parent_category": "",
-    "parent_category_slug": "",
-    "title_en": "Ceramic Mug and Towel Gift Set",
-    "short_description": "A presentation-ready ceramic mug and towel gift set for celebrations, appreciation programs and seasonal campaigns.",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [
-      "Assorted Colors"
-    ],
-    "use_case": [
-      "Client Appreciation Gifts",
-      "Holiday & Seasonal Gifts",
-      "Wedding & Party Favors"
-    ],
-    "suitable_for": [
-      "Client Appreciation Gifts",
-      "Holiday & Seasonal Gifts",
-      "Wedding & Party Favors"
-    ],
-    "can_be_paired_with": [
-      "Gift Bag",
-      "Thank You Card",
-      "Sticker",
-      "Keychain"
-    ],
-    "customization": [
-      "Logo Printing",
-      "Custom Packaging"
-    ],
-    "image_main": "/catalog/images/products-optimized/DR004.jpg",
-    "image_gallery": [],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/DR004.png",
-      "medium": "/catalog/images/products/DR004.png"
-    },
-    "tags": [
-      "Warm",
-      "Gift-Ready"
-    ],
-    "styles": [
-      "Warm",
-      "Gift-Ready"
-    ],
-    "detail_url": "/catalog/drinkware/",
-    "product_contents": [],
-    "configuration_note": "",
-    "publish_to_catalog": true,
-    "publishToCatalog": true,
-    "publish_to_seo_page": false,
-    "publishToSeoPage": false,
-    "featured": false,
-    "seo_page_group": "",
-    "seoPageGroup": "",
-    "best_for": [
-      "Client Appreciation Gifts",
-      "Holiday & Seasonal Gifts",
-      "Wedding & Party Favors"
-    ],
-    "bestFor": [
-      "Client Appreciation Gifts",
-      "Holiday & Seasonal Gifts",
-      "Wedding & Party Favors"
-    ],
-    "custom_options": [
-      "Logo Printing",
-      "Custom Packaging"
-    ],
-    "customOptions": [
-      "Logo Printing",
-      "Custom Packaging"
-    ]
-  },
-  {
     "product_id": "PS001",
     "category": "Event & Party Supplies",
     "category_slug": "event-party-supplies",
@@ -6385,48 +6600,6 @@
     "customOptions": [
       "Logo Printing"
     ]
-  },
-  {
-    "product_id": "MU023",
-    "category": "Drinkware",
-    "category_slug": "mugs",
-    "parent_category": "Drinkware",
-    "parent_category_slug": "drinkware",
-    "title_en": "301-400ml Ceramic Ceramic Mug Gift Sets",
-    "short_description": "",
-    "material": "Ceramic",
-    "size": "",
-    "capacity": "301-400ml",
-    "colors": [],
-    "use_case": [],
-    "suitable_for": [],
-    "can_be_paired_with": [],
-    "customization": [],
-    "image_main": "/catalog/images/products-optimized/MU023.jpg",
-    "image_gallery": [
-      "/catalog/images/products-optimized/MU023-02.jpg"
-    ],
-    "media": {
-      "original": "",
-      "thumbnail": "/catalog/images/products/MU023.png",
-      "medium": "/catalog/images/products/MU023.png"
-    },
-    "tags": [],
-    "styles": [],
-    "detail_url": "/catalog/mugs/",
-    "product_contents": [],
-    "configuration_note": "",
-    "publish_to_catalog": true,
-    "publishToCatalog": true,
-    "publish_to_seo_page": false,
-    "publishToSeoPage": false,
-    "featured": false,
-    "seo_page_group": "",
-    "seoPageGroup": "",
-    "best_for": [],
-    "bestFor": [],
-    "custom_options": [],
-    "customOptions": []
   },
   {
     "product_id": "MU022",
@@ -7885,7 +8058,7 @@
     "title_en": "Executive Tumbler, Notebook & Pen Gift Set",
     "short_description": "A presentation-box office set with a metal tumbler, notebook and pen for employee, executive and client programs.",
     "material": "Mixed materials",
-    "size": "330 × 270 × 70 mm gift box",
+    "size": "330 ? 270 ? 70 mm gift box",
     "capacity": "",
     "colors": [
       "Black",

@@ -5,10 +5,14 @@ const root = resolve(import.meta.dirname, '..');
 const products = JSON.parse(await readFile(resolve(root, 'catalog/data/products.json'), 'utf8'));
 const useCases = JSON.parse(await readFile(resolve(root, 'catalog/data/use-cases.json'), 'utf8'));
 const allowedUseCases = new Set(useCases.map((item) => item.use_case_name));
-const giftSets = products.filter((product) => product.category_slug === 'gift-sets' && product.publish_to_catalog !== false);
+const giftSets = products.filter((product) => product.product_id.startsWith('GF'));
 const errors = [];
+const expectedGiftSetIds = ['GF001', 'GF002', 'GF003', 'GF004', 'GF005'];
 
-if (!giftSets.length) errors.push('No published gift sets found.');
+if (giftSets.length !== expectedGiftSetIds.length) errors.push(`Expected ${expectedGiftSetIds.length} gift sets, found ${giftSets.length}.`);
+for (const productId of expectedGiftSetIds) {
+  if (!giftSets.some((product) => product.product_id === productId)) errors.push(`Missing expected gift set ${productId}.`);
+}
 if (new Set(giftSets.map((product) => product.product_id)).size !== giftSets.length) errors.push('Duplicate gift set IDs.');
 if (new Set(giftSets.map((product) => product.detail_url)).size !== giftSets.length) errors.push('Duplicate detail URLs.');
 
@@ -19,7 +23,7 @@ for (const product of giftSets) {
     if (!allowedUseCases.has(useCase)) errors.push(`${product.product_id}: unknown use case "${useCase}".`);
   }
   for (const image of [product.image_main, ...(product.image_gallery || [])]) {
-    try { await access(resolve(root, image.replace(/^\//, ''))); } catch { errors.push(`${product.product_id}: missing image ${image}.`); }
+    try { await access(resolve(root, image.split('?')[0].replace(/^\//, ''))); } catch { errors.push(`${product.product_id}: missing image ${image}.`); }
   }
   const pagePath = resolve(root, product.detail_url.replace(/^\//, ''), 'index.html');
   let html = '';
@@ -30,7 +34,7 @@ for (const product of giftSets) {
     ['Breadcrumb schema', '"@type":"BreadcrumbList"'],
     ['visible FAQ', 'class="product-faq"'],
     ['Formspree form', 'https://formspree.io/f/xgoqqrno'],
-    ['versioned CSS', 'catalog.css?v=20260814-catalog7']
+    ['versioned CSS', 'catalog.css?v=20260812-catalog6']
   ];
   checks.forEach(([label, needle]) => { if (!html.includes(needle)) errors.push(`${product.product_id}: missing ${label}.`); });
   if (/detail\.1688\.com|1688\.com|"brand":\{"@type":"Brand","name":"FY PromoGifts"/.test(html)) errors.push(`${product.product_id}: public source or false brand claim leaked.`);
@@ -46,4 +50,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`Gift set validation passed: ${giftSets.length} products, assets, pages, use cases, SEO data and inquiry forms are consistent.`);
+console.log(`Gift set validation passed: ${giftSets.length} products, assets, pages, sitemap, use cases, SEO data and inquiry forms are consistent.`);
