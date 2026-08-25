@@ -22,7 +22,7 @@
       "Employee Gifts",
       "Client Appreciation Gifts",
       "Holiday & Seasonal Gifts",
-      "Executive Desk Gifts"
+      "Corporate Gifts"
     ],
     "suitable_for": [
       "Employee Gifts",
@@ -38,7 +38,7 @@
     "customization": [
       "High-Temperature Fired Decal",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ],
     "image_main": "/catalog/images/products-optimized/MU024.jpg",
     "image_gallery": [],
@@ -60,6 +60,9 @@
     ],
     "moq": "100",
     "unit": "sets",
+    "sample_lead_time": "3–5 days",
+    "production_lead_time": "5–7 days",
+    "packaging": "Standard fixed gift box; custom box artwork from 500 pieces",
     "top_seller_rank": 1,
     "top_seller_group": "top-selling-mug-gift-sets",
     "detail_url": "/catalog/gift-sets/smart-heated-ceramic-mug-gift-set/",
@@ -69,7 +72,7 @@
       "USB warming coaster",
       "Presentation gift box"
     ],
-    "configuration_note": "MOQ 100 sets applies to the confirmed high-temperature fired decal route. Mug color, warming-coaster specification, plug or power requirements, artwork and packaging are confirmed for the destination market before production.",
+    "configuration_note": "MOQ 100 sets applies to the confirmed high-temperature fired decal route. The regular presentation uses the standard fixed gift box; custom box artwork is available from 500 pieces. Mug color, warming-coaster specification, plug or power requirements and artwork are confirmed for the destination market before production.",
     "publish_to_catalog": true,
     "publishToCatalog": true,
     "publish_to_seo_page": true,
@@ -92,12 +95,12 @@
     "custom_options": [
       "High-Temperature Fired Decal",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ],
     "customOptions": [
       "High-Temperature Fired Decal",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ]
   },
   {
@@ -118,7 +121,7 @@
       "Client Appreciation Gifts",
       "Holiday & Seasonal Gifts",
       "Wedding & Party Favors",
-      "Event Gifts"
+      "Trade Show & Event Gifts"
     ],
     "suitable_for": [
       "Client Appreciation Gifts",
@@ -135,7 +138,7 @@
     "customization": [
       "High-Temperature Fired Decal",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ],
     "image_main": "/catalog/images/products-optimized/DR004.jpg",
     "image_gallery": [
@@ -156,6 +159,9 @@
     ],
     "moq": "60",
     "unit": "sets",
+    "sample_lead_time": "3–5 days",
+    "production_lead_time": "5–7 days",
+    "packaging": "Standard fixed gift box; custom box artwork from 500 pieces",
     "top_seller_rank": 3,
     "top_seller_group": "top-selling-mug-gift-sets",
     "detail_url": "/catalog/gift-sets/ceramic-mug-towel-gift-set/",
@@ -165,7 +171,7 @@
       "Matching spoon",
       "Presentation gift box"
     ],
-    "configuration_note": "MOQ 60 sets applies to the confirmed high-temperature fired decal route. Mug color, towel color, artwork, box finish and final pack-out are approved before production.",
+    "configuration_note": "MOQ 60 sets applies to the confirmed high-temperature fired decal route. Regular orders use the standard fixed gift box; custom box artwork is available from 500 pieces. Mug color, towel color, artwork and final pack-out are approved before production.",
     "publish_to_catalog": true,
     "publishToCatalog": true,
     "publish_to_seo_page": true,
@@ -188,12 +194,12 @@
     "custom_options": [
       "High-Temperature Fired Decal",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ],
     "customOptions": [
       "High-Temperature Fired Decal",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ]
   },
   {
@@ -229,7 +235,7 @@
     "customization": [
       "Screen Printing",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ],
     "image_main": "/catalog/images/products-optimized/MU023.jpg",
     "image_gallery": [
@@ -252,6 +258,9 @@
     ],
     "moq": "40",
     "unit": "sets",
+    "sample_lead_time": "3–5 days",
+    "production_lead_time": "5–7 days",
+    "packaging": "Standard fixed gift box; custom box artwork from 500 pieces",
     "top_seller_rank": 2,
     "top_seller_group": "top-selling-mug-gift-sets",
     "detail_url": "/catalog/gift-sets/premium-ceramic-mug-towel-gift-box/",
@@ -261,7 +270,7 @@
       "Rolled towel",
       "Presentation gift box"
     ],
-    "configuration_note": "The displayed colors and arrangement are reference options. Mug color, towel color, screen-printed artwork and box finish are confirmed against quantity and deadline.",
+    "configuration_note": "The displayed colors and arrangement are reference options. Regular orders use the standard fixed gift box; custom box artwork is available from 500 pieces. Mug color, towel color and screen-printed artwork are confirmed against quantity and deadline.",
     "publish_to_catalog": true,
     "publishToCatalog": true,
     "publish_to_seo_page": true,
@@ -284,12 +293,12 @@
     "custom_options": [
       "Screen Printing",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ],
     "customOptions": [
       "Screen Printing",
       "Custom Logo on Mug",
-      "Custom Gift Box"
+      "Standard Gift Box; Custom Box Artwork from 500 Pieces"
     ]
   },
   {
@@ -2944,7 +2953,7 @@
     "parent_category": "",
     "parent_category_slug": "",
     "title_en": "Bamboo-Lid Glass Tumbler",
-    "short_description": "A modern glass tumbler with bamboo lid and reusable straw for office, caf? and event programs.",
+    "short_description": "A modern glass tumbler with bamboo lid and reusable straw for office, café and event programs.",
     "material": "High-borosilicate glass, bamboo and reusable straw",
     "size": "Tall tumbler with bamboo lid and straw",
     "capacity": "",
@@ -3911,7 +3920,7 @@
     "category_slug": "gift-sets",
     "parent_category": "",
     "parent_category_slug": "",
-    "title_en": "Tulip Theme Women?s Gift Set",
+    "title_en": "Tulip Theme Women’s Gift Set",
     "short_description": "A soft pink tulip-themed set with drinkware, fragrance and blanket options for appreciation, seasonal and lifestyle gifting.",
     "material": "Mixed textile, stainless steel, plastic and presentation-board materials",
     "size": "Configurable presentation set",
@@ -8058,7 +8067,7 @@
     "title_en": "Executive Tumbler, Notebook & Pen Gift Set",
     "short_description": "A presentation-box office set with a metal tumbler, notebook and pen for employee, executive and client programs.",
     "material": "Mixed materials",
-    "size": "330 ? 270 ? 70 mm gift box",
+    "size": "330 × 270 × 70 mm gift box",
     "capacity": "",
     "colors": [
       "Black",
