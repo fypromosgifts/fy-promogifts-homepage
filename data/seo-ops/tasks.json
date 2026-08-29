@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T12:44:24.339Z",
+  "updatedAt": "2026-08-29T12:59:04.908Z",
   "statusDefinitions": {
     "next": "AI or owner can execute now",
     "in_progress": "currently being worked",
@@ -46,10 +46,11 @@
       "status": "in_progress",
       "target": "Google Search Console / Bing Webmaster Tools",
       "successCriteria": "两个平台均成功读取 sitemap.xml",
-      "nextAction": "Bing/参与搜索引擎已通过 IndexNow 接收本轮3个更新URL（HTTP 200）；GSC已登录到 sc-domain:fypromogifts.com，但自动读取界面持续超时，需在已保留的GSC页面手动检查sitemap并对优先URL执行URL Inspection。",
+      "nextAction": "2026-08-29 公开 sitemap.xml 已验证为 122 个 URL，本轮 6 个更新 URL 已被 IndexNow 接收（HTTP 200）。当前浏览器未登录 GSC/Bing；需用户登录后确认两个平台的 sitemap 最后读取日期，并在 GSC 对优先 URL 执行 URL Inspection。",
       "evidenceNeeded": "GSC 与 Bing 的 sitemap 状态截图和最后读取日期",
       "createdAt": "2026-08-22T00:00:00.000Z",
-      "updatedAt": "2026-08-24T14:05:20.000Z"
+      "updatedAt": "2026-08-29T12:59:04.908Z",
+      "changeId": "chg-1788008344902"
     },
     {
       "id": "SEO-004",
@@ -169,7 +170,7 @@
       "status": "done",
       "target": "sitewide",
       "successCriteria": "全部正式页面都有核心单品、套装支柱、使用场景、证据/指南、工具/转化之一的角色，并有保留、合并、301 或 noindex 结论",
-      "nextAction": "导出 119 个当前可索引页面的 title、H1、canonical、字数、图片、内链和搜索信号，识别重复/薄页并制作风险可复核的去留表；规划通过后再实施。",
+      "nextAction": "架构审计已收口；2026-09-26 或新增/删除正式页面后复核角色、canonical、合并、301 与 noindex 决策。",
       "evidenceNeeded": "本地审计、sitemap、GSC 页面/查询数据和现有业务入口",
       "createdAt": "2026-08-25T05:00:00.000Z",
       "updatedAt": "2026-08-29T12:44:24.081Z",
@@ -185,7 +186,7 @@
       "status": "in_progress",
       "target": "Custom Mugs / Ceramic Mugs / Heated Mugs / Tumblers / Notebooks / Towels / Packaging",
       "successCriteria": "每页有独立搜索意图、真实图片、采购规格、MOQ、Logo、样品/交期、FAQ、相关套装和可追踪询盘入口",
-      "nextAction": "先完成页面优先级、现状差距和模板字段，再从 Custom Mugs 与 Custom Ceramic Mugs 开始逐页升级。",
+      "nextAction": "Mugs、Tumblers、Notebooks 已升级；下一步补齐独立 Heated Mug 与 Towel 的真实 SKU、规格、MOQ、工艺、样品/交期和包装证据，再决定是否建立独立可索引页。",
       "evidenceNeeded": "各产品真实 MOQ、常见规格、Logo 工艺、样品/交期和包装选项；未知项保留 unknown",
       "createdAt": "2026-08-25T05:00:00.000Z",
       "updatedAt": "2026-08-29T12:44:24.339Z",

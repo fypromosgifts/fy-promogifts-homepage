@@ -356,7 +356,7 @@ function saveDashboard(result) {
     : "| - | - | - | 尚无改动记录 | - |";
   const markdown = `# FY PromoGifts 独立站增长总看板
 
-最后刷新：${new Date().toISOString()}  
+最后刷新：${new Date().toISOString()}
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
