@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "createdAt": "2026-08-22T07:00:00.000Z",
+  "status": "analyzed_provisional",
+  "lastAnalyzedAt": "2026-08-22T08:30:00.000Z",
+  "analysisFile": "D:/Documents/FY-SEO-Data/latest-search-analysis.json",
+  "purpose": "Separate genuine search demand from AI/user verification activity before SEO decisions.",
+  "rules": [
+    {
+      "signal": "GSC or Bing impressions",
+      "treatment": "Retain as search-engine observations. AI editing or URL submission does not directly create impressions; suspicious test queries are flagged separately."
+    },
+    {
+      "signal": "Clicks on exact brand queries or site: queries during AI operation dates",
+      "treatment": "Flag as possible testing. Do not delete automatically because some branded searches may be genuine."
+    },
+    {
+      "signal": "URL Inspection requests sitemap submissions and IndexNow submissions",
+      "treatment": "Record as operational actions only. Never count them as impressions clicks rankings or indexed pages."
+    },
+    {
+      "signal": "Queries from target countries with non-brand buyer intent and repeat impressions across multiple dates",
+      "treatment": "Treat as stronger organic-demand evidence and prioritize query-page matching."
+    },
+    {
+      "signal": "GA4 sessions events and conversions generated during testing",
+      "treatment": "Keep separate from organic search baselines; label test events where identifiable."
+    }
+  ],
+  "requiredExports": [
+    "GSC Performance Search results: last 28 days and last 3 months; Queries Pages Countries Devices Dates",
+    "Bing Search Performance: last 30 days and last 3 months; keywords and pages",
+    "Known dates or approximate periods when AI/user repeatedly searched and clicked the site"
+  ],
+  "decisionRule": "Do not change target keywords from a single anomalous click. Prefer repeated impressions and consistent query-page patterns across dates.",
+  "currentLimitations": [
+    "Only 134 of 328 GSC impressions are visible at query level; the rest are privacy-filtered.",
+    "The two clicks are attributed to /brand-campaign-giveaways/ and 2026-08-06, but the corresponding queries are not disclosed.",
+    "No reliable AI/user test date list was available, so suspicious activity is flagged rather than removed.",
+    "Bing has only one impression in the exported period and cannot support ranking decisions yet."
+  ]
+}

@@ -1,0 +1,2415 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-29T12:50:53.811Z",
+    "publicPages": 150,
+    "indexablePages": 122,
+    "sitemapUrls": 122,
+    "sitemapCoveragePercent": 100,
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  },
+  "issues": [],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Custom Promotional Gifts & Gift Kits | FY PromoGifts",
+      "description": "Custom promotional gifts and branded gift kits for employee onboarding, events and client appreciation. Low MOQ options and free mockup within 2 hours.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/",
+      "canonicalPath": "/",
+      "h1": [
+        "Custom Gift Kits Made for Brands, Teams & Events"
+      ],
+      "words": 1642,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "index.html",
+      "imageCount": 47
+    },
+    {
+      "path": "/best-promotional-gift-ideas-small-business-marketing-campaigns/",
+      "title": "Promotional Gift Ideas for Small Business | FY PromoGifts",
+      "description": "Compare practical promotional gift ideas for small business campaigns, including drinkware, tote bags, notebooks, pens and mixed gift sets.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/best-promotional-gift-ideas-small-business-marketing-campaigns/",
+      "canonicalPath": "/best-promotional-gift-ideas-small-business-marketing-campaigns/",
+      "h1": [
+        "Best Promotional Gift Ideas for Small Business Marketing Campaigns"
+      ],
+      "words": 1281,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "best-promotional-gift-ideas-small-business-marketing-campaigns/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/",
+      "title": "Promotional Gifts Blog & Buyer Guides | FY PromoGifts",
+      "description": "Promotional gifts blog with practical buyer guides for corporate gift kits, employee welcome kits, client appreciation gifts and trade show giveaways.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/",
+      "canonicalPath": "/blog/",
+      "h1": [
+        "Better ideas for custom promotional gifts and branded kits."
+      ],
+      "words": 476,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "blog/index.html",
+      "imageCount": 15
+    },
+    {
+      "path": "/blog/best-employee-onboarding-kit-ideas/",
+      "title": "Onboarding Kit Ideas by Budget & Work Style | FY PromoGifts",
+      "description": "Compare employee onboarding kit ideas by budget, role, work setting and delivery method for office, hybrid and remote new-hire programs.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/blog/best-employee-onboarding-kit-ideas/",
+      "canonicalPath": "/blog/best-employee-onboarding-kit-ideas/",
+      "h1": [
+        "Employee Onboarding Kit Ideas by Budget and Work Style"
+      ],
+      "words": 1130,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "blog/best-employee-onboarding-kit-ideas/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/client-appreciation-gift-box-ideas/",
+      "title": "Client Appreciation Gift Box & Packaging Ideas | FY PromoGifts",
+      "description": "Compare client appreciation gift box ideas, product combinations, subtle branding and packaging choices for corporate and VIP gifting programs.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/client-appreciation-gift-box-ideas/",
+      "canonicalPath": "/blog/client-appreciation-gift-box-ideas/",
+      "h1": [
+        "Client Appreciation Gift Box and Packaging Ideas"
+      ],
+      "words": 509,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "blog/client-appreciation-gift-box-ideas/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/blog/custom-client-appreciation-gift-ideas/",
+      "title": "Custom Client Gift Ideas by Recipient Tier | FY PromoGifts",
+      "description": "Compare custom client gift ideas by recipient tier, occasion, branding level and delivery method for repeatable corporate gifting programs.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/blog/custom-client-appreciation-gift-ideas/",
+      "canonicalPath": "/blog/custom-client-appreciation-gift-ideas/",
+      "h1": [
+        "Custom Client Gift Ideas by Recipient Tier"
+      ],
+      "words": 1005,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "blog/custom-client-appreciation-gift-ideas/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/employee-welcome-kit-ideas/",
+      "title": "What to Put in an Employee Welcome Kit | FY PromoGifts",
+      "description": "Learn what to put in an employee welcome kit, from drinkware and stationery to bags, welcome cards and packaging for new-hire programs.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/employee-welcome-kit-ideas/",
+      "canonicalPath": "/blog/employee-welcome-kit-ideas/",
+      "h1": [
+        "What to Put in an Employee Welcome Kit"
+      ],
+      "words": 650,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/employee-welcome-kit-ideas/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/how-to-build-custom-event-gift-kits/",
+      "title": "How to Build a Custom Event Gift Kit | FY PromoGifts",
+      "description": "A practical guide to building custom event gift kits for trade shows, agency campaigns, client events and branded giveaways.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/blog/how-to-build-custom-event-gift-kits/",
+      "canonicalPath": "/blog/how-to-build-custom-event-gift-kits/",
+      "h1": [
+        "How to Build a Custom Gift Kit for an Event Campaign"
+      ],
+      "words": 807,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "blog/how-to-build-custom-event-gift-kits/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/low-moq-custom-promotional-products/",
+      "title": "Low MOQ Custom Promotional Products Buyer Guide",
+      "description": "Learn what buyers should confirm before ordering low MOQ custom promotional products, including printing, samples, lead times, packaging and shipping.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/blog/low-moq-custom-promotional-products/",
+      "canonicalPath": "/blog/low-moq-custom-promotional-products/",
+      "h1": [
+        "Low MOQ Custom Promotional Products: What Buyers Should Confirm Before Ordering"
+      ],
+      "words": 2460,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "blog/low-moq-custom-promotional-products/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/trade-show-giveaway-ideas-for-agencies/",
+      "title": "Trade Show Giveaway Planning for Agencies | FY PromoGifts",
+      "description": "A trade show giveaway planning guide for agencies covering attendee tiers, booth use, approvals, packing, deadlines and multi-destination delivery.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/blog/trade-show-giveaway-ideas-for-agencies/",
+      "canonicalPath": "/blog/trade-show-giveaway-ideas-for-agencies/",
+      "h1": [
+        "Trade Show Giveaway Planning for Agencies and Event Teams"
+      ],
+      "words": 1121,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "blog/trade-show-giveaway-ideas-for-agencies/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/trade-show-giveaway-ideas/",
+      "title": "Trade Show Giveaway Ideas by Quantity & Audience | FY PromoGifts",
+      "description": "Compare trade show giveaway ideas by visitor type, quantity and event goal, from high-volume booth items to staff kits and VIP meeting gifts.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/trade-show-giveaway-ideas/",
+      "canonicalPath": "/blog/trade-show-giveaway-ideas/",
+      "h1": [
+        "Trade Show Giveaway Ideas by Quantity and Audience"
+      ],
+      "words": 577,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "blog/trade-show-giveaway-ideas/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/blog/trade-show-giveaways-by-budget/",
+      "title": "Trade Show Giveaways by Budget: $2 to $20 | FY PromoGifts",
+      "description": "Compare trade show giveaway ideas under $2, $5, $10 and $20, with realistic product directions, quantity planning and cost factors for event buyers.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/blog/trade-show-giveaways-by-budget/",
+      "canonicalPath": "/blog/trade-show-giveaways-by-budget/",
+      "h1": [
+        "Trade Show Giveaways by Budget: Ideas Under $2, $5, $10 and $20"
+      ],
+      "words": 1318,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/trade-show-giveaways-by-budget/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/useful-summer-promotional-gifts-people-actually-keep/",
+      "title": "Useful Summer Promotional Gift Ideas | FY PromoGifts",
+      "description": "Explore useful summer promotional gifts for events and campaigns, including umbrellas, tumblers, bottles, cooling towels, totes and cooler bags.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/useful-summer-promotional-gifts-people-actually-keep/",
+      "canonicalPath": "/blog/useful-summer-promotional-gifts-people-actually-keep/",
+      "h1": [
+        "Useful Summer Promotional Gifts People Actually Keep: Top Picks for 2026"
+      ],
+      "words": 2090,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "blog/useful-summer-promotional-gifts-people-actually-keep/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/brand-campaign-giveaways/",
+      "title": "Brand Activation Merch & Campaign Giveaways | FY PromoGifts",
+      "description": "Build coordinated brand activation merchandise and custom campaign giveaways for product launches, agency programs and events. Flexible products, packaging and free mockups.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/brand-campaign-giveaways/",
+      "canonicalPath": "/brand-campaign-giveaways/",
+      "h1": [
+        "Brand Campaign Giveaways, Built as One Collection"
+      ],
+      "words": 1424,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "brand-campaign-giveaways/index.html",
+      "imageCount": 13
+    },
+    {
+      "path": "/catalog/",
+      "title": "Custom Promotional Gifts Catalog | FY PromoGifts",
+      "description": "Browse customizable promotional gifts, drinkware, bags, stationery, event giveaways, gift sets and packaging. Add products and request a quote.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/",
+      "canonicalPath": "/catalog/",
+      "h1": [
+        "Promotional Gifts Catalog"
+      ],
+      "words": 345,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/apparel-wearables/",
+      "title": "Apparel & Wearables Catalog | FY PromoGifts",
+      "description": "Custom logo apparel and wearables including caps, T-shirts and branded clothing for events, teams and promotional campaigns.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/",
+      "canonicalPath": "/catalog/apparel-wearables/",
+      "h1": [
+        "Apparel & Wearables Catalog"
+      ],
+      "words": 51,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/apparel-wearables/adjustable-embroidered-baseball-cap/",
+      "title": "Adjustable Embroidered Baseball Cap | Custom Promotional Product",
+      "description": "A versatile curved-brim cap with an adjustable closure and a clean front panel for custom embroidery or print.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/adjustable-embroidered-baseball-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/adjustable-embroidered-baseball-cap/",
+      "h1": [
+        "Adjustable Embroidered Baseball Cap"
+      ],
+      "words": 322,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/adjustable-embroidered-baseball-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/classic-two-tone-trucker-cap/",
+      "title": "Classic Two-Tone Trucker Cap | Custom Promotional Product",
+      "description": "A classic two-tone trucker cap with contrast mesh panels and a curved brim for outdoor promotional use.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/classic-two-tone-trucker-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/classic-two-tone-trucker-cap/",
+      "h1": [
+        "Classic Two-Tone Trucker Cap"
+      ],
+      "words": 327,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/classic-two-tone-trucker-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/colorblock-washed-baseball-cap/",
+      "title": "Colorblock Washed Baseball Cap | Custom Promotional Product",
+      "description": "A colorblock washed cap combining a muted crown and contrast brim for distinctive branded merchandise.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/colorblock-washed-baseball-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/colorblock-washed-baseball-cap/",
+      "h1": [
+        "Colorblock Washed Baseball Cap"
+      ],
+      "words": 315,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/colorblock-washed-baseball-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/corduroy-baseball-cap/",
+      "title": "Corduroy Baseball Cap | Custom Promotional Product",
+      "description": "A textured corduroy baseball cap with a soft seasonal look for staff gifts and premium lifestyle campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/corduroy-baseball-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/corduroy-baseball-cap/",
+      "h1": [
+        "Corduroy Baseball Cap"
+      ],
+      "words": 312,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/corduroy-baseball-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/cotton-bucket-hat/",
+      "title": "Cotton Bucket Hat | Custom Promotional Product",
+      "description": "A casual cotton bucket hat with a broad decoration area for festivals, summer activations and travel programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/cotton-bucket-hat/",
+      "canonicalPath": "/catalog/apparel-wearables/cotton-bucket-hat/",
+      "h1": [
+        "Cotton Bucket Hat"
+      ],
+      "words": 320,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/cotton-bucket-hat/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/cotton-mesh-baseball-cap/",
+      "title": "Cotton Mesh Baseball Cap | Custom Promotional Product",
+      "description": "A breathable curved-brim cap combining a cotton front with mesh back panels for warm-weather promotions.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/cotton-mesh-baseball-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/cotton-mesh-baseball-cap/",
+      "h1": [
+        "Cotton Mesh Baseball Cap"
+      ],
+      "words": 321,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/cotton-mesh-baseball-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/curved-brim-two-tone-trucker-cap/",
+      "title": "Curved-Brim Two-Tone Trucker Cap | Custom Promotional Product",
+      "description": "A contrast-color trucker cap with a curved brim and breathable mesh for outdoor teams and energetic campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/curved-brim-two-tone-trucker-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/curved-brim-two-tone-trucker-cap/",
+      "h1": [
+        "Curved-Brim Two-Tone Trucker Cap"
+      ],
+      "words": 327,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/curved-brim-two-tone-trucker-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/custom-cotton-baseball-cap/",
+      "title": "Custom Cotton Baseball Cap | Custom Promotional Product",
+      "description": "A classic adjustable cotton baseball cap for event teams, staff uniforms and branded outdoor campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/custom-cotton-baseball-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/custom-cotton-baseball-cap/",
+      "h1": [
+        "Custom Cotton Baseball Cap"
+      ],
+      "words": 317,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/custom-cotton-baseball-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/custom-cotton-sun-visor/",
+      "title": "Custom Cotton Sun Visor | Custom Promotional Product",
+      "description": "A lightweight open-top cotton visor for golf days, sports events, volunteer teams and warm-weather promotions.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/custom-cotton-sun-visor/",
+      "canonicalPath": "/catalog/apparel-wearables/custom-cotton-sun-visor/",
+      "h1": [
+        "Custom Cotton Sun Visor"
+      ],
+      "words": 315,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/custom-cotton-sun-visor/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/distressed-washed-baseball-cap/",
+      "title": "Distressed Washed Baseball Cap | Custom Promotional Product",
+      "description": "A washed cotton cap with intentional distressed details for casual lifestyle merchandise and youth-focused campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/distressed-washed-baseball-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/distressed-washed-baseball-cap/",
+      "h1": [
+        "Distressed Washed Baseball Cap"
+      ],
+      "words": 316,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/distressed-washed-baseball-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/flat-brim-snapback-cap/",
+      "title": "Flat-Brim Snapback Cap | Custom Promotional Product",
+      "description": "A structured flat-brim snapback with a prominent front decoration area for streetwear-inspired promotional programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/flat-brim-snapback-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/flat-brim-snapback-cap/",
+      "h1": [
+        "Flat-Brim Snapback Cap"
+      ],
+      "words": 307,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/flat-brim-snapback-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/foam-trucker-cap/",
+      "title": "Foam Trucker Cap | Custom Promotional Product",
+      "description": "A lightweight foam-front trucker cap with breathable mesh and a large blank decoration area.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/foam-trucker-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/foam-trucker-cap/",
+      "h1": [
+        "Foam Trucker Cap"
+      ],
+      "words": 327,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/foam-trucker-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/outdoor-uv-sun-hat-with-neck-flap/",
+      "title": "Outdoor UV Sun Hat with Neck Flap | Custom Promotional Product",
+      "description": "A full-coverage outdoor sun hat with a wide brim, ventilation, neck flap and adjustable chin cord for field activities.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/outdoor-uv-sun-hat-with-neck-flap/",
+      "canonicalPath": "/catalog/apparel-wearables/outdoor-uv-sun-hat-with-neck-flap/",
+      "h1": [
+        "Outdoor UV Sun Hat with Neck Flap"
+      ],
+      "words": 338,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/outdoor-uv-sun-hat-with-neck-flap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/reversible-bucket-hat/",
+      "title": "Reversible Bucket Hat | Custom Promotional Product",
+      "description": "A reversible bucket hat that offers two color directions in one compact promotional product.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/reversible-bucket-hat/",
+      "canonicalPath": "/catalog/apparel-wearables/reversible-bucket-hat/",
+      "h1": [
+        "Reversible Bucket Hat"
+      ],
+      "words": 316,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/reversible-bucket-hat/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/reversible-wide-brim-bucket-hat/",
+      "title": "Reversible Wide-Brim Bucket Hat | Custom Promotional Product",
+      "description": "A reversible wide-brim bucket hat with extended sun coverage for travel, resorts and outdoor promotional campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/reversible-wide-brim-bucket-hat/",
+      "canonicalPath": "/catalog/apparel-wearables/reversible-wide-brim-bucket-hat/",
+      "h1": [
+        "Reversible Wide-Brim Bucket Hat"
+      ],
+      "words": 324,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/reversible-wide-brim-bucket-hat/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/seamless-sports-sun-visor/",
+      "title": "Seamless Sports Sun Visor | Custom Promotional Product",
+      "description": "A seamless open-top sports visor with an oversized curved brim for running, golf and summer wellness programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/seamless-sports-sun-visor/",
+      "canonicalPath": "/catalog/apparel-wearables/seamless-sports-sun-visor/",
+      "h1": [
+        "Seamless Sports Sun Visor"
+      ],
+      "words": 322,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/seamless-sports-sun-visor/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/uv-blocking-shell-sun-visor/",
+      "title": "UV-Blocking Shell Sun Visor | Custom Promotional Product",
+      "description": "An open-crown shell visor with an oversized curved brim for beach, resort and warm-weather promotional programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/uv-blocking-shell-sun-visor/",
+      "canonicalPath": "/catalog/apparel-wearables/uv-blocking-shell-sun-visor/",
+      "h1": [
+        "UV-Blocking Shell Sun Visor"
+      ],
+      "words": 325,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/uv-blocking-shell-sun-visor/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/washed-vintage-baseball-cap/",
+      "title": "Washed Vintage Baseball Cap | Custom Promotional Product",
+      "description": "A soft washed cotton baseball cap with a relaxed vintage finish for lifestyle campaigns and branded merchandise.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/washed-vintage-baseball-cap/",
+      "canonicalPath": "/catalog/apparel-wearables/washed-vintage-baseball-cap/",
+      "h1": [
+        "Washed Vintage Baseball Cap"
+      ],
+      "words": 320,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/washed-vintage-baseball-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/apparel-wearables/wide-brim-fishing-sun-hat/",
+      "title": "Wide-Brim Fishing Sun Hat | Custom Promotional Product",
+      "description": "A lightweight wide-brim outdoor hat with ventilation and a chin cord for field teams, travel and summer events.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/apparel-wearables/wide-brim-fishing-sun-hat/",
+      "canonicalPath": "/catalog/apparel-wearables/wide-brim-fishing-sun-hat/",
+      "h1": [
+        "Wide-Brim Fishing Sun Hat"
+      ],
+      "words": 323,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/apparel-wearables/wide-brim-fishing-sun-hat/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/bags/",
+      "title": "Bags Catalog | FY PromoGifts",
+      "description": "Custom logo bags including tote bags, pouches, backpacks and carry options for events, employee kits, campaigns and corporate gifts.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/bags/",
+      "canonicalPath": "/catalog/bags/",
+      "h1": [
+        "Bags Catalog"
+      ],
+      "words": 50,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/bags/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/drinkware/",
+      "title": "Drinkware Catalog | FY PromoGifts",
+      "description": "Custom logo drinkware catalog with mugs, tumblers, bottles and glassware for corporate gifts, events and branded merchandise.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/drinkware/",
+      "canonicalPath": "/catalog/drinkware/",
+      "h1": [
+        "Drinkware Catalog"
+      ],
+      "words": 49,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/drinkware/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/drinkware/bamboo-lid-glass-tumbler/",
+      "title": "Bamboo-Lid Glass Tumbler | Custom Promotional Product",
+      "description": "A modern glass tumbler with bamboo lid and reusable straw for office, caf? and event programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/drinkware/bamboo-lid-glass-tumbler/",
+      "canonicalPath": "/catalog/drinkware/bamboo-lid-glass-tumbler/",
+      "h1": [
+        "Bamboo-Lid Glass Tumbler"
+      ],
+      "words": 322,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/drinkware/bamboo-lid-glass-tumbler/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/drinkware/glassware/",
+      "title": "Glassware Catalog | FY PromoGifts",
+      "description": "Custom branded glassware for corporate gifts, hospitality programs, events and promotional campaigns with flexible logo options.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/drinkware/glassware/",
+      "canonicalPath": "/catalog/drinkware/glassware/",
+      "h1": [
+        "Glassware Catalog"
+      ],
+      "words": 49,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/drinkware/glassware/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/drinkware/mugs/",
+      "title": "Custom Mugs Catalog | FY PromoGifts",
+      "description": "Custom mugs with logo for offices, client gifts, employee kits and events. Compare ceramic styles, branding routes and gift-ready sets.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/drinkware/mugs/",
+      "canonicalPath": "/catalog/drinkware/mugs/",
+      "h1": [
+        "Custom Mugs Catalog"
+      ],
+      "words": 608,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/drinkware/mugs/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/drinkware/tumblers/",
+      "title": "Custom Logo Tumblers & Travel Cups | FY PromoGifts",
+      "description": "Compare custom logo tumblers for employee gifts, client programs and events, including 40 oz, travel and bamboo-lid glass options.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/drinkware/tumblers/",
+      "canonicalPath": "/catalog/drinkware/tumblers/",
+      "h1": [
+        "Custom Logo Tumblers & Travel Cups"
+      ],
+      "words": 636,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/drinkware/tumblers/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/drinkware/water-bottles/",
+      "title": "Water Bottles Catalog | FY PromoGifts",
+      "description": "Custom water bottles with logo for teams, events, onboarding kits and corporate gifting with flexible branding options.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/drinkware/water-bottles/",
+      "canonicalPath": "/catalog/drinkware/water-bottles/",
+      "h1": [
+        "Water Bottles Catalog"
+      ],
+      "words": 52,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/drinkware/water-bottles/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/event-party-supplies/",
+      "title": "Event & Party Supplies Catalog | FY PromoGifts",
+      "description": "Custom event and party supplies including lanyards, badges, wristbands and promotional essentials for conferences, trade shows and brand activations.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/event-party-supplies/",
+      "canonicalPath": "/catalog/event-party-supplies/",
+      "h1": [
+        "Event & Party Supplies Catalog"
+      ],
+      "words": 54,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/event-party-supplies/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/gift-sets/",
+      "title": "Custom Corporate Gift Sets & MOQ Guide | FY PromoGifts",
+      "description": "Compare custom corporate gift sets by use case, logo method and confirmed MOQ. See real 40, 60 and 100-set options plus practical answers to common buyer questions.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/",
+      "canonicalPath": "/catalog/gift-sets/",
+      "h1": [
+        "Build a gift set people will actually use"
+      ],
+      "words": 1599,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/index.html",
+      "imageCount": 45
+    },
+    {
+      "path": "/catalog/gift-sets/a5-business-notebook-gift-set/",
+      "title": "A5 Business Notebook Gift Set | Custom Promotional Product",
+      "description": "A customizable A5 notebook gift set for corporate events, onboarding and everyday branded programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/a5-business-notebook-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/a5-business-notebook-gift-set/",
+      "h1": [
+        "A5 Business Notebook Gift Set"
+      ],
+      "words": 328,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/a5-business-notebook-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/beauty-and-wellness-appreciation-gift-set/",
+      "title": "Beauty & Wellness Appreciation Gift Set | Custom Promotional Product",
+      "description": "A lavender-toned wellness set designed for appreciation programs, beauty events and staff recognition.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/beauty-and-wellness-appreciation-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/beauty-and-wellness-appreciation-gift-set/",
+      "h1": [
+        "Beauty & Wellness Appreciation Gift Set"
+      ],
+      "words": 333,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/beauty-and-wellness-appreciation-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/ceramic-mug-towel-gift-set/",
+      "title": "Ceramic Mug and Towel Gift Set | Custom Promotional Product",
+      "description": "A ceramic mug and towel presentation set for appreciation and event gifting, with a confirmed 60-set MOQ for high-temperature fired decal customization.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/ceramic-mug-towel-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/ceramic-mug-towel-gift-set/",
+      "h1": [
+        "Ceramic Mug and Towel Gift Set"
+      ],
+      "words": 482,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/ceramic-mug-towel-gift-set/index.html",
+      "imageCount": 2
+    },
+    {
+      "path": "/catalog/gift-sets/coffee-cup-and-neck-massager-gift-set/",
+      "title": "Coffee Cup & Neck Massager Gift Set | Custom Promotional Product",
+      "description": "A compact wellness gift set pairing a travel cup, neck massager and portable charging accessory.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/coffee-cup-and-neck-massager-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/coffee-cup-and-neck-massager-gift-set/",
+      "h1": [
+        "Coffee Cup & Neck Massager Gift Set"
+      ],
+      "words": 328,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/coffee-cup-and-neck-massager-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/compact-umbrella-cup-and-fan-gift-set/",
+      "title": "Compact Umbrella, Cup & Fan Gift Set | Custom Promotional Product",
+      "description": "A color-coordinated compact travel set combining drinkware, a handheld fan and a folding umbrella.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/compact-umbrella-cup-and-fan-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/compact-umbrella-cup-and-fan-gift-set/",
+      "h1": [
+        "Compact Umbrella, Cup & Fan Gift Set"
+      ],
+      "words": 328,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/compact-umbrella-cup-and-fan-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/configurable-executive-office-tech-gift-set/",
+      "title": "Configurable Executive Office & Tech Gift Set | Custom Promotional Product",
+      "description": "A flexible executive gift program combining drinkware, stationery and selected tech accessories in 3-, 4-, 5- or 7-piece configurations.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/configurable-executive-office-tech-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/configurable-executive-office-tech-gift-set/",
+      "h1": [
+        "Configurable Executive Office & Tech Gift Set"
+      ],
+      "words": 334,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/configurable-executive-office-tech-gift-set/index.html",
+      "imageCount": 2
+    },
+    {
+      "path": "/catalog/gift-sets/cork-notebook-gift-set/",
+      "title": "Cork Notebook Gift Set | Custom Promotional Product",
+      "description": "An eco-inspired cork and notebook presentation set for sustainable campaigns, meetings and team gifts.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/cork-notebook-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/cork-notebook-gift-set/",
+      "h1": [
+        "Cork Notebook Gift Set"
+      ],
+      "words": 316,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/cork-notebook-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/custom-fitness-sports-gift-set/",
+      "title": "Custom Fitness & Sports Gift Set | Custom Promotional Product",
+      "description": "A configurable employee wellness gift set with a compact sports bag and selected fitness accessories for onboarding, team events and client programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/custom-fitness-sports-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/custom-fitness-sports-gift-set/",
+      "h1": [
+        "Custom Fitness & Sports Gift Set"
+      ],
+      "words": 335,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/custom-fitness-sports-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/executive-notebook-gift-box/",
+      "title": "Executive Notebook Gift Box | Custom Promotional Product",
+      "description": "A customizable business notebook presentation set for meetings, company anniversaries and branded programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/executive-notebook-gift-box/",
+      "canonicalPath": "/catalog/gift-sets/executive-notebook-gift-box/",
+      "h1": [
+        "Executive Notebook Gift Box"
+      ],
+      "words": 322,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/executive-notebook-gift-box/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/executive-office-gift-set/",
+      "title": "Executive Office Gift Set | Custom Gift Set",
+      "description": "A presentation-ready office gift set for business events, client programs and employee appreciation.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/executive-office-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/executive-office-gift-set/",
+      "h1": [
+        "Executive Office Gift Set"
+      ],
+      "words": 315,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/executive-office-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/executive-tumbler-notebook-pen-gift-set/",
+      "title": "Executive Tumbler, Notebook & Pen Gift Set | Custom Promotional Product",
+      "description": "A presentation-box office set with a metal tumbler, notebook and pen for employee, executive and client programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/executive-tumbler-notebook-pen-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/executive-tumbler-notebook-pen-gift-set/",
+      "h1": [
+        "Executive Tumbler, Notebook & Pen Gift Set"
+      ],
+      "words": 323,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/executive-tumbler-notebook-pen-gift-set/index.html",
+      "imageCount": 2
+    },
+    {
+      "path": "/catalog/gift-sets/executive-umbrella-and-fan-gift-set/",
+      "title": "Executive Office Gift Set | Custom Promotional Product",
+      "description": "A presentation-ready office gift set for business events, client programs and employee appreciation.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/executive-umbrella-and-fan-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/executive-umbrella-and-fan-gift-set/",
+      "h1": [
+        "Executive Office Gift Set"
+      ],
+      "words": 319,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/executive-umbrella-and-fan-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/executive-wireless-keyboard-and-tech-gift-set/",
+      "title": "Executive Wireless Keyboard & Tech Gift Set | Custom Promotional Product",
+      "description": "A coordinated wireless keyboard, mouse and selected tech accessories for premium employee and client gifting.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/executive-wireless-keyboard-and-tech-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/executive-wireless-keyboard-and-tech-gift-set/",
+      "h1": [
+        "Executive Wireless Keyboard & Tech Gift Set"
+      ],
+      "words": 329,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/executive-wireless-keyboard-and-tech-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/gift-sets/",
+      "title": "Executive Wireless Keyboard & Tech Gift Set | Custom Gift Set",
+      "description": "A coordinated wireless keyboard, mouse and selected tech accessories for premium employee and client gifting.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/",
+      "canonicalPath": "/catalog/gift-sets/",
+      "h1": [
+        "Executive Wireless Keyboard & Tech Gift Set"
+      ],
+      "words": 285,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/gift-sets/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/gradient-executive-tech-gift-set/",
+      "title": "Gradient Executive Tech Gift Set | Custom Promotional Product",
+      "description": "A coordinated red-to-black executive set combining drinkware, stationery and compact technology.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/gradient-executive-tech-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/gradient-executive-tech-gift-set/",
+      "h1": [
+        "Gradient Executive Tech Gift Set"
+      ],
+      "words": 330,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/gradient-executive-tech-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/insulated-tumbler-automatic-umbrella-gift-set/",
+      "title": "Insulated Tumbler & Automatic Umbrella Gift Set | FY PromoGifts",
+      "description": "A practical two-piece corporate gift set pairing an insulated tumbler with an automatic umbrella in a coordinated presentation box.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/insulated-tumbler-automatic-umbrella-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/insulated-tumbler-automatic-umbrella-gift-set/",
+      "h1": [
+        "Insulated Tumbler & Automatic Umbrella Gift Set"
+      ],
+      "words": 211,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/insulated-tumbler-automatic-umbrella-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/insulated-tumbler-business-gift-set/",
+      "title": "Insulated Tumbler Business Gift Set | Custom Promotional Product",
+      "description": "A gift-boxed insulated tumbler set for company events, employee recognition and seasonal campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/insulated-tumbler-business-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/insulated-tumbler-business-gift-set/",
+      "h1": [
+        "Insulated Tumbler Business Gift Set"
+      ],
+      "words": 328,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/insulated-tumbler-business-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/men-s-belt-wallet-and-keyring-gift-set/",
+      "title": "Men's Belt, Wallet & Keyring Gift Set | Custom Promotional Product",
+      "description": "A classic men's accessory set combining a textured belt, wallet and keyring in a presentation box.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/men-s-belt-wallet-and-keyring-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/men-s-belt-wallet-and-keyring-gift-set/",
+      "h1": [
+        "Men's Belt, Wallet & Keyring Gift Set"
+      ],
+      "words": 326,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/men-s-belt-wallet-and-keyring-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/navy-office-and-travel-gift-set/",
+      "title": "Navy Office & Travel Gift Set | Custom Promotional Product",
+      "description": "A coordinated navy office-and-travel set for onboarding, meetings and business gifting.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/navy-office-and-travel-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/navy-office-and-travel-gift-set/",
+      "h1": [
+        "Navy Office & Travel Gift Set"
+      ],
+      "words": 325,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/navy-office-and-travel-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/notebook-and-insulated-tumbler-gift-set/",
+      "title": "Notebook & Insulated Tumbler Gift Set | Custom Promotional Product",
+      "description": "A coordinated notebook and insulated tumbler set designed for onboarding, meetings and annual gift programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/notebook-and-insulated-tumbler-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/notebook-and-insulated-tumbler-gift-set/",
+      "h1": [
+        "Notebook & Insulated Tumbler Gift Set"
+      ],
+      "words": 325,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/notebook-and-insulated-tumbler-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/notebook-and-tumbler-presentation-set/",
+      "title": "Notebook & Tumbler Presentation Set | Custom Promotional Product",
+      "description": "A coordinated notebook and insulated tumbler gift box for schools, teams and corporate appreciation.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/notebook-and-tumbler-presentation-set/",
+      "canonicalPath": "/catalog/gift-sets/notebook-and-tumbler-presentation-set/",
+      "h1": [
+        "Notebook & Tumbler Presentation Set"
+      ],
+      "words": 326,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/notebook-and-tumbler-presentation-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/notebook-and-usb-drive-gift-set/",
+      "title": "Notebook & USB Drive Gift Set | Custom Promotional Product",
+      "description": "A business notebook and USB drive set for conferences, employee welcome packs and client gifts.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/notebook-and-usb-drive-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/notebook-and-usb-drive-gift-set/",
+      "h1": [
+        "Notebook & USB Drive Gift Set"
+      ],
+      "words": 324,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/notebook-and-usb-drive-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/personal-coffee-maker-gift-set/",
+      "title": "Personal Coffee Maker Gift Set | Custom Promotional Product",
+      "description": "A compact coffee maker gift set for client appreciation, company anniversaries and premium lifestyle gifting.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/personal-coffee-maker-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/personal-coffee-maker-gift-set/",
+      "h1": [
+        "Personal Coffee Maker Gift Set"
+      ],
+      "words": 333,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/personal-coffee-maker-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/portable-comfort-appreciation-gift-set/",
+      "title": "Portable Comfort & Appreciation Gift Set | FY PromoGifts",
+      "description": "A compact appreciation kit in a reusable carry case, with a flexible product mix for employee care, client thank-you and anniversary programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/portable-comfort-appreciation-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/portable-comfort-appreciation-gift-set/",
+      "h1": [
+        "Portable Comfort & Appreciation Gift Set"
+      ],
+      "words": 215,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/portable-comfort-appreciation-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/power-bank-usb-drive-and-pen-gift-set/",
+      "title": "Power Bank, USB Drive & Pen Gift Set | Custom Promotional Product",
+      "description": "A compact three-piece tech set with power bank, USB drive and pen for conferences, annual events and business gifting.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/power-bank-usb-drive-and-pen-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/power-bank-usb-drive-and-pen-gift-set/",
+      "h1": [
+        "Power Bank, USB Drive & Pen Gift Set"
+      ],
+      "words": 329,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/power-bank-usb-drive-and-pen-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/premium-a5-clasp-notebook-gift-set/",
+      "title": "Premium A5 Clasp Notebook Gift Set | Custom Promotional Product",
+      "description": "A premium A5 clasp notebook presentation set for companies, executive meetings and branded recognition programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/premium-a5-clasp-notebook-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/premium-a5-clasp-notebook-gift-set/",
+      "h1": [
+        "Premium A5 Clasp Notebook Gift Set"
+      ],
+      "words": 326,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/premium-a5-clasp-notebook-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/premium-ceramic-mug-towel-gift-box/",
+      "title": "Premium Ceramic Mug & Towel Gift Box | Custom Promotional Product",
+      "description": "A ceramic mug, towel and spoon gift box for client appreciation, events and seasonal gifting, available from 40 sets with screen-printed logo customization.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/premium-ceramic-mug-towel-gift-box/",
+      "canonicalPath": "/catalog/gift-sets/premium-ceramic-mug-towel-gift-box/",
+      "h1": [
+        "Premium Ceramic Mug & Towel Gift Box"
+      ],
+      "words": 483,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/premium-ceramic-mug-towel-gift-box/index.html",
+      "imageCount": 2
+    },
+    {
+      "path": "/catalog/gift-sets/premium-multi-piece-executive-gift-set/",
+      "title": "Premium Multi-Piece Executive Gift Set | FY PromoGifts",
+      "description": "A flexible executive gift kit available in three-, four-, five- and seven-piece configurations with office, drinkware and tech options.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/premium-multi-piece-executive-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/premium-multi-piece-executive-gift-set/",
+      "h1": [
+        "Premium Multi-Piece Executive Gift Set"
+      ],
+      "words": 227,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/premium-multi-piece-executive-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/premium-notebook-gift-box-set/",
+      "title": "Premium Notebook Gift Box Set | Custom Promotional Product",
+      "description": "A polished hard-cover notebook gift set for corporate events, employee recognition and client appreciation.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/premium-notebook-gift-box-set/",
+      "canonicalPath": "/catalog/gift-sets/premium-notebook-gift-box-set/",
+      "h1": [
+        "Premium Notebook Gift Box Set"
+      ],
+      "words": 320,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/premium-notebook-gift-box-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/premium-sports-and-wellness-gift-set/",
+      "title": "Premium Sports & Wellness Gift Set | Custom Promotional Product",
+      "description": "A premium mixed sports and wellness set for annual events, employee programs and executive gifting.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/premium-sports-and-wellness-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/premium-sports-and-wellness-gift-set/",
+      "h1": [
+        "Premium Sports & Wellness Gift Set"
+      ],
+      "words": 328,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/premium-sports-and-wellness-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/premium-travel-case-and-keyboard-gift-set/",
+      "title": "Premium Travel Case & Keyboard Gift Set | Custom Promotional Product",
+      "description": "A premium pink travel-case set combining office technology, drinkware and practical travel accessories.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/premium-travel-case-and-keyboard-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/premium-travel-case-and-keyboard-gift-set/",
+      "h1": [
+        "Premium Travel Case & Keyboard Gift Set"
+      ],
+      "words": 331,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/premium-travel-case-and-keyboard-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/red-travel-and-personal-care-gift-set/",
+      "title": "Red Travel & Personal Care Gift Set | Custom Promotional Product",
+      "description": "A practical red travel-and-personal-care set for employee, event and seasonal programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/red-travel-and-personal-care-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/red-travel-and-personal-care-gift-set/",
+      "h1": [
+        "Red Travel & Personal Care Gift Set"
+      ],
+      "words": 330,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/red-travel-and-personal-care-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/red-tumbler-and-notebook-gift-set/",
+      "title": "Red Tumbler & Notebook Gift Set | Custom Promotional Product",
+      "description": "A polished red-and-white business set with drinkware, stationery and a USB drive.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/red-tumbler-and-notebook-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/red-tumbler-and-notebook-gift-set/",
+      "h1": [
+        "Red Tumbler & Notebook Gift Set"
+      ],
+      "words": 326,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/red-tumbler-and-notebook-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/smart-heated-ceramic-mug-gift-set/",
+      "title": "Smart Heated Ceramic Mug Gift Set | Custom Promotional Product",
+      "description": "A ceramic mug, lid, spoon and USB warming coaster in a presentation gift box, with a confirmed 100-set MOQ for high-temperature fired decal customization.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/smart-heated-ceramic-mug-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/smart-heated-ceramic-mug-gift-set/",
+      "h1": [
+        "Smart Heated Ceramic Mug Gift Set"
+      ],
+      "words": 498,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/smart-heated-ceramic-mug-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/summer-cooling-gift-set/",
+      "title": "Summer Cooling Gift Set | Custom Promotional Product",
+      "description": "A fresh summer set with a bottle, fan and compact umbrella for outdoor events and employee programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/summer-cooling-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/summer-cooling-gift-set/",
+      "h1": [
+        "Summer Cooling Gift Set"
+      ],
+      "words": 335,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/summer-cooling-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/summer-employee-gift-set/",
+      "title": "Summer Employee Gift Set | Custom Promotional Product",
+      "description": "A light-blue summer appreciation set with a handheld fan, towel and reusable bottle.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/summer-employee-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/summer-employee-gift-set/",
+      "h1": [
+        "Summer Employee Gift Set"
+      ],
+      "words": 327,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/summer-employee-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/summer-fan-and-umbrella-gift-set/",
+      "title": "Summer Fan & Umbrella Gift Set | Custom Promotional Product",
+      "description": "A practical warm-weather gift set pairing a portable fan and umbrella for events, teams and seasonal campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/summer-fan-and-umbrella-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/summer-fan-and-umbrella-gift-set/",
+      "h1": [
+        "Summer Fan & Umbrella Gift Set"
+      ],
+      "words": 328,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/summer-fan-and-umbrella-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/summer-sun-hat-gift-set/",
+      "title": "Summer Sun Hat Gift Set | Custom Promotional Product",
+      "description": "A compact summer set pairing a reusable tumbler with a foldable sun-protection hat.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/summer-sun-hat-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/summer-sun-hat-gift-set/",
+      "h1": [
+        "Summer Sun Hat Gift Set"
+      ],
+      "words": 329,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/summer-sun-hat-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/teacher-appreciation-pen-gift-set/",
+      "title": "Teacher Appreciation Pen Gift Set | Custom Promotional Product",
+      "description": "A compact presentation pen set suited to appreciation campaigns, education events and commemorative programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/teacher-appreciation-pen-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/teacher-appreciation-pen-gift-set/",
+      "h1": [
+        "Teacher Appreciation Pen Gift Set"
+      ],
+      "words": 318,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/teacher-appreciation-pen-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/travel-comfort-coffee-gift-case/",
+      "title": "Travel Comfort & Coffee Gift Case | Custom Promotional Product",
+      "description": "A portable brown gift case built around travel comfort and coffee moments. Contents are selected and confirmed for each project.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/travel-comfort-coffee-gift-case/",
+      "canonicalPath": "/catalog/gift-sets/travel-comfort-coffee-gift-case/",
+      "h1": [
+        "Travel Comfort & Coffee Gift Case"
+      ],
+      "words": 331,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/travel-comfort-coffee-gift-case/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/tri-fold-notebook-and-pen-gift-set/",
+      "title": "Tri-Fold Notebook & Pen Gift Set | Custom Promotional Product",
+      "description": "A distinctive tri-fold notebook and pen set for business meetings, onboarding and premium promotional programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tri-fold-notebook-and-pen-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/tri-fold-notebook-and-pen-gift-set/",
+      "h1": [
+        "Tri-Fold Notebook & Pen Gift Set"
+      ],
+      "words": 331,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/tri-fold-notebook-and-pen-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/tulip-theme-women-s-gift-set/",
+      "title": "Tulip Theme Women?s Gift Set | Custom Gift Set",
+      "description": "A soft pink tulip-themed set with drinkware, fragrance and blanket options for appreciation, seasonal and lifestyle gifting.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tulip-theme-women-s-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/tulip-theme-women-s-gift-set/",
+      "h1": [
+        "Tulip Theme Women?s Gift Set"
+      ],
+      "words": 335,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/tulip-theme-women-s-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/tulip-theme-womens-gift-set/",
+      "title": "Tulip Theme Women?s Gift Set | Custom Promotional Product",
+      "description": "A soft pink tulip-themed set with drinkware, fragrance and blanket options for appreciation, seasonal and lifestyle gifting.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tulip-theme-womens-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/tulip-theme-womens-gift-set/",
+      "h1": [
+        "Tulip Theme Women?s Gift Set"
+      ],
+      "words": 339,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/tulip-theme-womens-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/tumbler-and-compact-umbrella-gift-set/",
+      "title": "Tumbler & Compact Umbrella Gift Set | Custom Promotional Product",
+      "description": "A clean two-piece tumbler and umbrella set for client gifts, anniversaries and business events.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tumbler-and-compact-umbrella-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/tumbler-and-compact-umbrella-gift-set/",
+      "h1": [
+        "Tumbler & Compact Umbrella Gift Set"
+      ],
+      "words": 324,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/tumbler-and-compact-umbrella-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/tumbler-and-notebook-appreciation-gift-set/",
+      "title": "Tumbler & Notebook Appreciation Gift Set | Custom Promotional Product",
+      "description": "A coordinated tumbler and notebook presentation set for company events, client appreciation and employee recognition.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tumbler-and-notebook-appreciation-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/tumbler-and-notebook-appreciation-gift-set/",
+      "h1": [
+        "Tumbler & Notebook Appreciation Gift Set"
+      ],
+      "words": 327,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/tumbler-and-notebook-appreciation-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/tumbler-automatic-umbrella-gift-set/",
+      "title": "Tumbler & Automatic Umbrella Gift Set | Custom Promotional Product",
+      "description": "A practical two-piece gift set pairing a metal tumbler with an automatic umbrella in a presentation box.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tumbler-automatic-umbrella-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/tumbler-automatic-umbrella-gift-set/",
+      "h1": [
+        "Tumbler & Automatic Umbrella Gift Set"
+      ],
+      "words": 318,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/tumbler-automatic-umbrella-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/tumbler-notebook-and-pen-gift-set/",
+      "title": "Tumbler, Notebook & Pen Gift Set | Custom Promotional Product",
+      "description": "A coordinated insulated tumbler, notebook and pen set for employee programs, company events and client gifts.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tumbler-notebook-and-pen-gift-set/",
+      "canonicalPath": "/catalog/gift-sets/tumbler-notebook-and-pen-gift-set/",
+      "h1": [
+        "Tumbler, Notebook & Pen Gift Set"
+      ],
+      "words": 323,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/tumbler-notebook-and-pen-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/gift-sets/zip-around-notebook-organizer/",
+      "title": "Zip-Around Notebook Organizer | Custom Promotional Product",
+      "description": "A multifunction zip-around notebook organizer for business travel, meetings and executive gift programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/gift-sets/zip-around-notebook-organizer/",
+      "canonicalPath": "/catalog/gift-sets/zip-around-notebook-organizer/",
+      "h1": [
+        "Zip-Around Notebook Organizer"
+      ],
+      "words": 320,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/gift-sets/zip-around-notebook-organizer/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/home-lifestyle/",
+      "title": "Home & Lifestyle Catalog | FY PromoGifts",
+      "description": "Custom home and lifestyle gifts for client appreciation, employee programs and branded campaigns with logo and packaging options.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/home-lifestyle/",
+      "canonicalPath": "/catalog/home-lifestyle/",
+      "h1": [
+        "Home & Lifestyle Catalog"
+      ],
+      "words": 51,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/home-lifestyle/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/keychains-accessories/",
+      "title": "Keychains & Accessories Catalog | FY PromoGifts",
+      "description": "Custom keychains and small promotional accessories for events, campaigns and giveaway kits with flexible logo methods.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/",
+      "canonicalPath": "/catalog/keychains-accessories/",
+      "h1": [
+        "Keychains & Accessories Catalog"
+      ],
+      "words": 51,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/keychains-accessories/3d-alpaca-keychain-and-phone-stand/",
+      "title": "3D Alpaca Keychain & Phone Stand | Custom Promotional Product",
+      "description": "A character keychain with a flexible strap that doubles as a compact phone stand.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/3d-alpaca-keychain-and-phone-stand/",
+      "canonicalPath": "/catalog/keychains-accessories/3d-alpaca-keychain-and-phone-stand/",
+      "h1": [
+        "3D Alpaca Keychain & Phone Stand"
+      ],
+      "words": 317,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/3d-alpaca-keychain-and-phone-stand/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/cartoon-crab-pvc-keychain/",
+      "title": "Cartoon Crab PVC Keychain | Custom Promotional Product",
+      "description": "A colorful cartoon crab keychain for coastal, family and summer promotional campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/cartoon-crab-pvc-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/cartoon-crab-pvc-keychain/",
+      "h1": [
+        "Cartoon Crab PVC Keychain"
+      ],
+      "words": 316,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/cartoon-crab-pvc-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/custom-car-model-pvc-keychain/",
+      "title": "Custom Car Model PVC Keychain | Custom Promotional Product",
+      "description": "A miniature car-model PVC keychain for automotive promotions, dealership events and branded campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/custom-car-model-pvc-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/custom-car-model-pvc-keychain/",
+      "h1": [
+        "Custom Car Model PVC Keychain"
+      ],
+      "words": 321,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/custom-car-model-pvc-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/custom-enamel-metal-keychain/",
+      "title": "Custom Enamel Metal Keychain | Custom Promotional Product",
+      "description": "A custom enamel keychain format for destination, school, campaign and commemorative merchandise.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/custom-enamel-metal-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/custom-enamel-metal-keychain/",
+      "h1": [
+        "Custom Enamel Metal Keychain"
+      ],
+      "words": 314,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/custom-enamel-metal-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/custom-tiger-pvc-keychain/",
+      "title": "Custom Tiger PVC Keychain | Custom Promotional Product",
+      "description": "A playful 3D tiger PVC keychain for mascot campaigns, events and branded giveaway programs.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/custom-tiger-pvc-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/custom-tiger-pvc-keychain/",
+      "h1": [
+        "Custom Tiger PVC Keychain"
+      ],
+      "words": 320,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/custom-tiger-pvc-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/enamel-metal-keychain/",
+      "title": "Enamel Metal Keychain | Custom Promotional Product",
+      "description": "A durable enamel keychain with a luggage-tag silhouette and customizable recessed design area.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/enamel-metal-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/enamel-metal-keychain/",
+      "h1": [
+        "Enamel Metal Keychain"
+      ],
+      "words": 311,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/enamel-metal-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/heart-shaped-pu-leather-keychain/",
+      "title": "Heart-Shaped PU Leather Keychain | Custom Promotional Product",
+      "description": "A soft padded heart charm for bags, keys, celebrations and colorful brand campaigns.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/heart-shaped-pu-leather-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/heart-shaped-pu-leather-keychain/",
+      "h1": [
+        "Heart-Shaped PU Leather Keychain"
+      ],
+      "words": 316,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/heart-shaped-pu-leather-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/laser-cut-stainless-steel-keychain/",
+      "title": "Laser-Cut Stainless Steel Keychain | Custom Promotional Product",
+      "description": "A slim laser-cut stainless steel keychain for custom monograms, symbols and premium promotional gifts.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/laser-cut-stainless-steel-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/laser-cut-stainless-steel-keychain/",
+      "h1": [
+        "Laser-Cut Stainless Steel Keychain"
+      ],
+      "words": 306,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/laser-cut-stainless-steel-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/leather-loop-keychain/",
+      "title": "Leather Loop Keychain | Custom Promotional Product",
+      "description": "A simple leather loop keychain suitable for debossing, printing and compact business giveaways.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/leather-loop-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/leather-loop-keychain/",
+      "h1": [
+        "Leather Loop Keychain"
+      ],
+      "words": 311,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/leather-loop-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/keychains-accessories/macaron-shell-pvc-keychain/",
+      "title": "Macaron Shell PVC Keychain | Custom Promotional Product",
+      "description": "A bright shell-shaped PVC keychain for youth campaigns, parties and colorful event giveaways.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/keychains-accessories/macaron-shell-pvc-keychain/",
+      "canonicalPath": "/catalog/keychains-accessories/macaron-shell-pvc-keychain/",
+      "h1": [
+        "Macaron Shell PVC Keychain"
+      ],
+      "words": 316,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/keychains-accessories/macaron-shell-pvc-keychain/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/mugs/",
+      "title": "Custom Mugs Catalog | FY PromoGifts",
+      "description": "Browse custom mugs with logo for offices, client gifts, employee kits and events.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/drinkware/mugs/",
+      "canonicalPath": "/catalog/drinkware/mugs/",
+      "h1": [
+        "Custom Mugs Catalog"
+      ],
+      "words": 49,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/mugs/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/outdoor-travel/",
+      "title": "Outdoor & Travel Catalog | FY PromoGifts",
+      "description": "Custom outdoor and travel promotional gifts for events, teams and campaigns with branded product and packaging options.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/outdoor-travel/",
+      "canonicalPath": "/catalog/outdoor-travel/",
+      "h1": [
+        "Outdoor & Travel Catalog"
+      ],
+      "words": 51,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/outdoor-travel/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/packaging-gift-boxes/",
+      "title": "Packaging & Gift Boxes Catalog | FY PromoGifts",
+      "description": "Custom packaging and gift boxes for branded kits, corporate gifts and promotional products. Explore boxes, bags, sleeves, inserts and presentation options.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/packaging-gift-boxes/",
+      "canonicalPath": "/catalog/packaging-gift-boxes/",
+      "h1": [
+        "Packaging & Gift Boxes Catalog"
+      ],
+      "words": 54,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/packaging-gift-boxes/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/stationery-office/",
+      "title": "Custom Notebooks & Office Gifts | FY PromoGifts",
+      "description": "Compare custom A5 PU notebooks, pens and office gifts for onboarding, meetings, events and client programs, with logo and packaging support.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/stationery-office/",
+      "canonicalPath": "/catalog/stationery-office/",
+      "h1": [
+        "Custom Notebooks & Office Gifts"
+      ],
+      "words": 602,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/stationery-office/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/catalog/stationery-office/custom-magnetic-bookmark/",
+      "title": "Custom Magnetic Bookmark | Custom Promotional Product",
+      "description": "A slim custom magnetic bookmark for reading programs, event handouts and compact branded mailers.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/catalog/stationery-office/custom-magnetic-bookmark/",
+      "canonicalPath": "/catalog/stationery-office/custom-magnetic-bookmark/",
+      "h1": [
+        "Custom Magnetic Bookmark"
+      ],
+      "words": 309,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "catalog/stationery-office/custom-magnetic-bookmark/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/catalog/tech-gifts/",
+      "title": "Tech Gifts Catalog | FY PromoGifts",
+      "description": "Custom tech gifts and accessories for employee onboarding, client appreciation, events and corporate campaigns.",
+      "robots": "noindex,follow",
+      "canonical": "https://www.fypromogifts.com/catalog/tech-gifts/",
+      "canonicalPath": "/catalog/tech-gifts/",
+      "h1": [
+        "Tech Gifts Catalog"
+      ],
+      "words": 51,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "catalog/tech-gifts/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/client-appreciation-gifts/",
+      "title": "Custom Client Appreciation Gifts & Gift Sets | FY PromoGifts",
+      "description": "Create practical custom client appreciation gifts with bags, drinkware, umbrellas, organizers and flexible packaging. Request a free branded gift set mockup.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/client-appreciation-gifts/",
+      "canonicalPath": "/client-appreciation-gifts/",
+      "h1": [
+        "Client Gifts They Will Actually Use"
+      ],
+      "words": 1601,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "client-appreciation-gifts/index.html",
+      "imageCount": 7
+    },
+    {
+      "path": "/corporate-gift-kits/",
+      "title": "Corporate Gift Kits | FY PromoGifts",
+      "description": "Build corporate gift kits for employees, clients, events, and campaigns with curated products, custom packaging, and logo options.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/corporate-gift-kits/",
+      "canonicalPath": "/corporate-gift-kits/",
+      "h1": [
+        "Corporate Gift Kits"
+      ],
+      "words": 928,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "corporate-gift-kits/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/corporate-gift-kits/client-appreciation-gifts/",
+      "title": "Client Appreciation Gifts | FY PromoGifts",
+      "description": "Client appreciation gift ideas with custom branded products, packaging, and curated kit options for B2B relationship campaigns.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/corporate-gift-kits/client-appreciation-gifts/",
+      "canonicalPath": "/corporate-gift-kits/client-appreciation-gifts/",
+      "h1": [
+        "Client Appreciation Gifts"
+      ],
+      "words": 527,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "corporate-gift-kits/client-appreciation-gifts/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/corporate-gift-kits/employee-welcome-kits/",
+      "title": "Employee Welcome Kits | FY PromoGifts",
+      "description": "Employee welcome kit ideas with custom drinkware, tote bags, stationery, packaging, and onboarding gift options.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/corporate-gift-kits/employee-welcome-kits/",
+      "canonicalPath": "/corporate-gift-kits/employee-welcome-kits/",
+      "h1": [
+        "Employee Welcome Kits"
+      ],
+      "words": 536,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "corporate-gift-kits/employee-welcome-kits/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/custom-gift-boxes-packaging/",
+      "title": "Custom Gift Boxes & Packaging | Branded Gift Kit Boxes | FY PromoGifts",
+      "description": "Compare rigid, magnetic, drawer, mailer, folding-carton and tube packaging for branded gift kits. Plan inserts, print finishes, samples, shipping protection and quote requirements.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/custom-gift-boxes-packaging/",
+      "canonicalPath": "/custom-gift-boxes-packaging/",
+      "h1": [
+        "Custom gift boxes and packaging for branded kits"
+      ],
+      "words": 1249,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-gift-boxes-packaging/index.html",
+      "imageCount": 8
+    },
+    {
+      "path": "/custom-lanyards-for-events/",
+      "title": "Custom Lanyards for Events | Logo Badge Lanyards | FY PromoGifts",
+      "description": "Custom lanyards for events, conferences and trade shows. Source logo lanyards, badge holders, wristbands and event giveaway kits with mockup support.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/custom-lanyards-for-events/",
+      "canonicalPath": "/custom-lanyards-for-events/",
+      "h1": [
+        "Custom lanyards for events, conferences and trade shows"
+      ],
+      "words": 223,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-lanyards-for-events/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/custom-logo-drinkware/",
+      "title": "Custom Logo Drinkware Supplier | Tumblers, Mugs & Bottles | FY PromoGifts",
+      "description": "Custom logo drinkware supplier for branded tumblers, mugs, water bottles and gift kits. Logo printing, laser engraving, mockups and bulk quote support.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/custom-logo-drinkware/",
+      "canonicalPath": "/custom-logo-drinkware/",
+      "h1": [
+        "Custom logo drinkware for branded gifts and events"
+      ],
+      "words": 299,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-logo-drinkware/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/custom-logo-pens/",
+      "title": "Custom Logo Pens Supplier | Branded Pens for Events | FY PromoGifts",
+      "description": "Custom logo pens for trade shows, offices, onboarding kits and brand campaigns. Source metal pens, plastic pens and pen gift sets with logo mockups.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/custom-logo-pens/",
+      "canonicalPath": "/custom-logo-pens/",
+      "h1": [
+        "Custom logo pens for promotional gifts and kits"
+      ],
+      "words": 231,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-logo-pens/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/custom-logo-tote-bags/",
+      "title": "Custom Logo Tote Bags Supplier | Branded Event Bags | FY PromoGifts",
+      "description": "Custom logo tote bags for events, trade shows, employee gifts and brand campaigns. Source cotton, canvas, non-woven and paper bags with mockup support.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/custom-logo-tote-bags/",
+      "canonicalPath": "/custom-logo-tote-bags/",
+      "h1": [
+        "Custom logo tote bags for events and gift kits"
+      ],
+      "words": 260,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-logo-tote-bags/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/custom-notebooks-with-logo/",
+      "title": "Wholesale Custom Notebooks with Logo | FY PromoGifts",
+      "description": "Wholesale custom notebooks with your logo for onboarding, events and corporate gifts. Choose covers, pages, branding and packaging with low MOQ options.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/custom-notebooks-with-logo/",
+      "canonicalPath": "/custom-notebooks-with-logo/",
+      "h1": [
+        "Custom Notebooks with Logo for Corporate Gifts"
+      ],
+      "words": 1108,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-notebooks-with-logo/index.html",
+      "imageCount": 5
+    },
+    {
+      "path": "/custom-packaging/",
+      "title": "Custom Packaging for Promotional Gifts | FY PromoGifts",
+      "description": "Custom packaging options for promotional gifts, corporate gift kits, client gifts, employee welcome kits, and event giveaways.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/custom-packaging/",
+      "canonicalPath": "/custom-packaging/",
+      "h1": [
+        "Custom Packaging for Promotional Gifts"
+      ],
+      "words": 527,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-packaging/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/custom-products/",
+      "title": "Custom Promotional Products | FY PromoGifts",
+      "description": "Choose single promotional products for custom logo printing, colors and bulk quote requests.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/custom-products/",
+      "canonicalPath": "/custom-products/",
+      "h1": [
+        "Customize single products without building a full kit."
+      ],
+      "words": 66,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "custom-products/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/custom-promotional-caps/",
+      "title": "Custom Promotional Caps & Hats | MOQ 50 | FY PromoGifts",
+      "description": "Custom caps and hats for B2B campaigns: 48 proven styles, standard logo MOQ 50, paid 1-piece samples, multi-position branding and free design support.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/",
+      "canonicalPath": "/custom-promotional-caps/",
+      "h1": [
+        "Custom caps you can approve before production."
+      ],
+      "words": 764,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/custom-promotional-caps/custom-baseball-caps/",
+      "title": "Custom Baseball Caps with Logo | MOQ 50 | FY PromoGifts",
+      "description": "Compare custom baseball caps for teams, events and branded merchandise. Choose cotton, washed, structured or quick-dry styles with logo customization from 50 pieces.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/custom-baseball-caps/",
+      "canonicalPath": "/custom-promotional-caps/custom-baseball-caps/",
+      "h1": [
+        "Custom baseball caps built around your logo and campaign."
+      ],
+      "words": 842,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/custom-baseball-caps/index.html",
+      "imageCount": 11
+    },
+    {
+      "path": "/custom-promotional-caps/custom-bucket-hats/",
+      "title": "Custom Bucket Hats with Logo | MOQ 50 | FY PromoGifts",
+      "description": "Compare custom bucket hats in cotton, quick-dry, reversible, denim and cold-weather fabrics. Add your logo from 50 pieces with sample support.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/custom-bucket-hats/",
+      "canonicalPath": "/custom-promotional-caps/custom-bucket-hats/",
+      "h1": [
+        "Custom bucket hats selected for the season and use case."
+      ],
+      "words": 836,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/custom-bucket-hats/index.html",
+      "imageCount": 11
+    },
+    {
+      "path": "/custom-promotional-caps/custom-dad-hats/",
+      "title": "Custom Dad Hats with Logo | Washed & Relaxed Caps | FY PromoGifts",
+      "description": "Explore custom dad hats and relaxed washed caps in cotton, denim and corduroy. Add embroidered or printed branding from 50 pieces.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/custom-dad-hats/",
+      "canonicalPath": "/custom-promotional-caps/custom-dad-hats/",
+      "h1": [
+        "Custom dad hats with a softer fit and more considered finish."
+      ],
+      "words": 793,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/custom-dad-hats/index.html",
+      "imageCount": 9
+    },
+    {
+      "path": "/custom-promotional-caps/custom-performance-caps/",
+      "title": "Custom Performance Caps | Quick-Dry Team Hats | FY PromoGifts",
+      "description": "Compare quick-dry, water-resistant, perforated and foldable custom performance caps for races, teams and outdoor events. Logo customization from 50 pieces.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/custom-performance-caps/",
+      "canonicalPath": "/custom-promotional-caps/custom-performance-caps/",
+      "h1": [
+        "Custom performance caps designed around movement, heat and deadlines."
+      ],
+      "words": 769,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/custom-performance-caps/index.html",
+      "imageCount": 9
+    },
+    {
+      "path": "/custom-promotional-caps/custom-trucker-hats/",
+      "title": "Custom Trucker Hats with Logo | MOQ 50 | FY PromoGifts",
+      "description": "Browse custom trucker hats with foam, cotton, suede-look and performance fronts plus breathable mesh backs. Logo customization from 50 pieces.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/custom-trucker-hats/",
+      "canonicalPath": "/custom-promotional-caps/custom-trucker-hats/",
+      "h1": [
+        "Custom trucker hats with the right front panel for your brand."
+      ],
+      "words": 829,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/custom-trucker-hats/index.html",
+      "imageCount": 11
+    },
+    {
+      "path": "/custom-promotional-caps/custom-visors/",
+      "title": "Custom Visors with Logo | Sports & Event Visors | FY PromoGifts",
+      "description": "Browse custom visors for golf days, races, beach campaigns and wellness events. Compare cotton, seamless and quick-dry structures with logo customization.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/custom-visors/",
+      "canonicalPath": "/custom-promotional-caps/custom-visors/",
+      "h1": [
+        "Custom visors that keep branding visible without a full crown."
+      ],
+      "words": 730,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/custom-visors/index.html",
+      "imageCount": 7
+    },
+    {
+      "path": "/custom-promotional-caps/styles/",
+      "title": "48 Custom Cap & Hat Styles | FY Custom Headwear",
+      "description": "Browse 48 custom cap and hat styles by promotional, trucker, outdoor, fashion and performance categories. Standard logo customization from 50 caps.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/styles/",
+      "canonicalPath": "/custom-promotional-caps/styles/",
+      "h1": [
+        "48 cap and hat structures."
+      ],
+      "words": 1460,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/styles/index.html",
+      "imageCount": 48
+    },
+    {
+      "path": "/custom-promotional-caps/styles/five-panel-promotional-cap/",
+      "title": "Five-Panel Promotional Cap | Custom Logo GF072 | FY PromoGifts",
+      "description": "A clean five-panel construction with a broad front area for team and event branding. Standard logo customization from 50 caps, paid 1-piece sample and global delivery options.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/styles/five-panel-promotional-cap/",
+      "canonicalPath": "/custom-promotional-caps/styles/five-panel-promotional-cap/",
+      "h1": [
+        "Five-Panel Promotional Cap"
+      ],
+      "words": 325,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/styles/five-panel-promotional-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/custom-promotional-caps/styles/laser-perforated-quick-dry-cap/",
+      "title": "Laser-Perforated Quick-Dry Cap | Custom Logo GF079 | FY PromoGifts",
+      "description": "A lightweight performance cap with laser-cut ventilation for active outdoor teams. Standard logo customization from 50 caps, paid 1-piece sample and global delivery options.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/styles/laser-perforated-quick-dry-cap/",
+      "canonicalPath": "/custom-promotional-caps/styles/laser-perforated-quick-dry-cap/",
+      "h1": [
+        "Laser-Perforated Quick-Dry Cap"
+      ],
+      "words": 319,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/styles/laser-perforated-quick-dry-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/custom-promotional-caps/styles/quick-dry-hiking-bucket-hat/",
+      "title": "Quick-Dry Hiking Bucket Hat | Custom Logo GF088 | FY PromoGifts",
+      "description": "A practical hiking bucket hat with quick-dry fabric and adjustable chin cord. Standard logo customization from 50 caps, paid 1-piece sample and global delivery options.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/styles/quick-dry-hiking-bucket-hat/",
+      "canonicalPath": "/custom-promotional-caps/styles/quick-dry-hiking-bucket-hat/",
+      "h1": [
+        "Quick-Dry Hiking Bucket Hat"
+      ],
+      "words": 324,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/styles/quick-dry-hiking-bucket-hat/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/custom-promotional-caps/styles/soft-top-dad-cap/",
+      "title": "Soft-Top Dad Cap | Custom Logo GF071 | FY PromoGifts",
+      "description": "A relaxed washed-cotton profile for lifestyle campaigns, staff kits and premium giveaways. Standard logo customization from 50 caps, paid 1-piece sample and global delivery options.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-promotional-caps/styles/soft-top-dad-cap/",
+      "canonicalPath": "/custom-promotional-caps/styles/soft-top-dad-cap/",
+      "h1": [
+        "Soft-Top Dad Cap"
+      ],
+      "words": 321,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "custom-promotional-caps/styles/soft-top-dad-cap/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/employee-onboarding-kits/",
+      "title": "Employee Onboarding Kits & Fulfillment | FY PromoGifts",
+      "description": "Plan custom employee onboarding kits with branded products, packaging and multi-address fulfillment options. Low MOQ options and a free digital mockup.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/employee-onboarding-kits/",
+      "canonicalPath": "/employee-onboarding-kits/",
+      "h1": [
+        "Custom Employee Onboarding Kits for New Hires"
+      ],
+      "words": 1394,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "employee-onboarding-kits/index.html",
+      "imageCount": 21
+    },
+    {
+      "path": "/employee-welcome-kit-office-gift-set/",
+      "title": "Employee Welcome Kit with Notebook & Tech | FY PromoGifts",
+      "description": "Explore an employee welcome kit with a notebook, matching pen and wireless charging mouse pad for onboarding and corporate gift programs.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/employee-welcome-kit-office-gift-set/",
+      "canonicalPath": "/employee-welcome-kit-office-gift-set/",
+      "h1": [
+        "Employee Welcome Kit Ideas: A Practical 3-Piece Office Gift Set"
+      ],
+      "words": 1251,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "employee-welcome-kit-office-gift-set/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/kit-studio/",
+      "title": "Kit Studio | Build Branded Gift Kits | FY PromoGifts",
+      "description": "Use FY PromoGifts Kit Studio to choose a branded gift kit by occasion, color direction, budget and quantity, then request a custom quote.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/kit-studio/",
+      "canonicalPath": "/kit-studio/",
+      "h1": [
+        "Recommended kit concepts"
+      ],
+      "words": 284,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "kit-studio/index.html",
+      "imageCount": 3
+    },
+    {
+      "path": "/low-moq-promotional-products/",
+      "title": "Low MOQ Promotional Products | Custom Gifts from 30 pcs | FY PromoGifts",
+      "description": "Low MOQ promotional products for custom logo gifts, samples, small events and test orders. MOQ starts from 30 pcs for selected products at FY PromoGifts.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/low-moq-promotional-products/",
+      "canonicalPath": "/low-moq-promotional-products/",
+      "h1": [
+        "Low MOQ promotional products for custom logo orders"
+      ],
+      "words": 316,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "low-moq-promotional-products/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/privacy-policy/",
+      "title": "Privacy Policy | FY PromoGifts",
+      "description": "How FY PromoGifts collects, uses and protects information submitted through fypromogifts.com.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/privacy-policy/",
+      "canonicalPath": "/privacy-policy/",
+      "h1": [
+        "Privacy Policy"
+      ],
+      "words": 503,
+      "jsonLdCount": 0,
+      "invalidJsonLd": 0,
+      "file": "privacy-policy/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/promotional-drinkware-for-corporate-gifts/",
+      "title": "Promotional Drinkware for Corporate Gifts | Buyer Guide",
+      "description": "Compare practical promotional drinkware for corporate gifts, employee kits and events, with the key details buyers should confirm before ordering.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/promotional-drinkware-for-corporate-gifts/",
+      "canonicalPath": "/promotional-drinkware-for-corporate-gifts/",
+      "h1": [
+        "Promotional Drinkware for Corporate Gifts: 4 Practical Options for Different Campaigns"
+      ],
+      "words": 1421,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-drinkware-for-corporate-gifts/index.html",
+      "imageCount": 5
+    },
+    {
+      "path": "/promotional-gifts-buyer-questions/",
+      "title": "Promotional Gift Ideas & Buyer Questions | FY PromoGifts",
+      "description": "Answers to B2B buyer questions about promotional gift MOQ, samples, mockups, production, shipping, logo methods and custom gift kits.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/promotional-gifts-buyer-questions/",
+      "canonicalPath": "/promotional-gifts-buyer-questions/",
+      "h1": [
+        "Promotional Gift Ideas & Buyer Questions"
+      ],
+      "words": 2351,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-gifts-buyer-questions/index.html",
+      "imageCount": 0
+    },
+    {
+      "path": "/promotional-products-supplier-for-marketing-agencies/",
+      "title": "Promotional Products Supplier for Marketing Agencies",
+      "description": "Promotional products sourcing for marketing agencies: custom products, gift kits, mockups, samples, branded packaging and delivery planning from one supplier.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/promotional-products-supplier-for-marketing-agencies/",
+      "canonicalPath": "/promotional-products-supplier-for-marketing-agencies/",
+      "h1": [
+        "Promotional Products Supplier for Marketing Agencies"
+      ],
+      "words": 469,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products-supplier-for-marketing-agencies/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/",
+      "title": "Custom Promotional Products for Agencies | FY PromoGifts",
+      "description": "Source custom promotional products for campaigns, events, employee gifts, and client appreciation projects with low-MOQ branding support.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/promotional-products/",
+      "canonicalPath": "/promotional-products/",
+      "h1": [
+        "Custom Promotional Products for Agencies and Events"
+      ],
+      "words": 549,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/promotional-products/bags/",
+      "title": "Custom Promotional Bags | FY PromoGifts",
+      "description": "Custom promotional bags for trade shows, employee kits, retail events, and branded campaigns, with packaging and logo support.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/promotional-products/bags/",
+      "canonicalPath": "/promotional-products/bags/",
+      "h1": [
+        "Custom Promotional Bags"
+      ],
+      "words": 528,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/bags/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/promotional-products/bags/custom-canvas-tote-bags/",
+      "title": "Custom Canvas Tote Bags | FY PromoGifts",
+      "description": "Custom canvas tote bags for events, welcome kits, retail campaigns, and branded gift packaging.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/promotional-products/bags/custom-canvas-tote-bags/",
+      "canonicalPath": "/promotional-products/bags/custom-canvas-tote-bags/",
+      "h1": [
+        "Custom Canvas Tote Bags"
+      ],
+      "words": 536,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/bags/custom-canvas-tote-bags/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/promotional-products/drinkware/",
+      "title": "Custom Promotional Drinkware | FY PromoGifts",
+      "description": "Custom drinkware ideas for corporate gifts, trade shows, onboarding kits, and branded campaigns, including mugs and stainless steel cups.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/",
+      "canonicalPath": "/promotional-products/drinkware/",
+      "h1": [
+        "Custom Promotional Drinkware"
+      ],
+      "words": 532,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/promotional-products/drinkware/custom-stainless-steel-tumblers/",
+      "title": "Custom Stainless Steel Tumblers | FY PromoGifts",
+      "description": "Custom stainless steel tumblers and insulated cups for employee gifts, client appreciation, events, and branded merchandise programs.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/custom-stainless-steel-tumblers/",
+      "canonicalPath": "/promotional-products/drinkware/custom-stainless-steel-tumblers/",
+      "h1": [
+        "Custom Stainless Steel Tumblers"
+      ],
+      "words": 530,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/custom-stainless-steel-tumblers/index.html",
+      "imageCount": 10
+    },
+    {
+      "path": "/quality-first-corporate-gift-kits/",
+      "title": "Corporate Gift Kit Quality Guide | FY PromoGifts",
+      "description": "Learn how to build practical, quality-first corporate gift kits for employee onboarding, client appreciation, trade shows and brand campaigns.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/quality-first-corporate-gift-kits/",
+      "canonicalPath": "/quality-first-corporate-gift-kits/",
+      "h1": [
+        "How to Build Quality-First Corporate Gift Kits That Buyers Actually Keep"
+      ],
+      "words": 897,
+      "jsonLdCount": 2,
+      "invalidJsonLd": 0,
+      "file": "quality-first-corporate-gift-kits/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/trade-show-giveaway-kits/",
+      "title": "Custom Trade Show Giveaway Kits & Event Swag | FY PromoGifts",
+      "description": "Create custom trade show giveaway kits for booth lead capture, exhibitor staff and attendees. Explore branded lanyards, bags, drinkware, tech accessories and event apparel.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/trade-show-giveaway-kits/",
+      "canonicalPath": "/trade-show-giveaway-kits/",
+      "h1": [
+        "Trade Show Giveaways Built for the Booth"
+      ],
+      "words": 1681,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "trade-show-giveaway-kits/index.html",
+      "imageCount": 4
+    },
+    {
+      "path": "/trade-show-giveaways/",
+      "title": "Trade Show Giveaways | FY PromoGifts",
+      "description": "Trade show giveaway ideas for agencies and event teams, including useful branded products, bags, drinkware, and kit pairings.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/trade-show-giveaways/",
+      "canonicalPath": "/trade-show-giveaways/",
+      "h1": [
+        "Trade Show Giveaways"
+      ],
+      "words": 526,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "trade-show-giveaways/index.html",
+      "imageCount": 10
+    }
+  ]
+}

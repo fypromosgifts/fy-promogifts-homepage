@@ -1,0 +1,12 @@
+priority,role,target_url,current_visible_words,planned_action,evidence_needed,status,review_date
+0,best_seller_source,alibaba:1601226044160,not_mapped,Map product to existing catalog or create a dedicated commercial page,Main image/product model + confirmed components,mapping_required,2026-08-24
+0,best_seller_source,alibaba:1601484463745,not_mapped,Map product to existing catalog or create a dedicated commercial page,Main image/product model + confirmed components,mapping_required,2026-08-24
+0,best_seller_source,/catalog/drinkware/,no_dedicated_page,Verify DR004 mapping then create a Ceramic Mug and Towel Gift Set commercial page,Main image/components; MOQ 60 and fired decal already confirmed,mapping_required,2026-08-24
+1,pillar,/catalog/gift-sets/,category page,Build buyer answer block; selection framework; customization; FAQ; product pathways,MOQ/sample/lead time/logo/packaging + top 3 products,planned,2026-09-11
+2,product,/catalog/gift-sets/insulated-tumbler-automatic-umbrella-gift-set/,211,Add unique use cases; configuration; customization; FAQ; related products,Product specs and packaging or sample evidence,planned,2026-09-06
+3,product,/catalog/gift-sets/portable-comfort-appreciation-gift-set/,215,Add buyer scenario; component rationale; customization; FAQ; CTA,Product specs and target campaign evidence,planned,2026-09-06
+4,product,/catalog/gift-sets/premium-multi-piece-executive-gift-set/,227,Add configuration comparison; buyer fit; customization; FAQ; CTA,Component list and packaging evidence,planned,2026-09-06
+5,product,/catalog/gift-sets/configurable-executive-office-tech-gift-set/,pending_audit,Strengthen configurable set intent and link to pillar,Confirmed configuration and logo options,candidate,2026-09-11
+6,product,/catalog/gift-sets/executive-tumbler-notebook-pen-gift-set/,pending_audit,Strengthen corporate onboarding and event use case,Confirmed dimensions and packaging,candidate,2026-09-11
+7,product,/catalog/gift-sets/summer-employee-gift-set/,pending_audit,Strengthen seasonal employee appreciation use case,Confirmed component specs and seasonal lead time,candidate,2026-09-11
+8,product,/catalog/gift-sets/custom-fitness-sports-gift-set/,pending_audit,Strengthen sports event and wellness program use case,Confirmed materials and branding options,candidate,2026-09-11

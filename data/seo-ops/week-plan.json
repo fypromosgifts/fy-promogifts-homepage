@@ -1,0 +1,216 @@
+{
+  "version": 3,
+  "weekId": "2026-W34-dual-engine-reset",
+  "mode": "AI_HIGH_INTENSITY",
+  "title": "双引擎增长：套装做品牌与转化，单品做搜索获客",
+  "startDate": "2026-08-22",
+  "endDate": "2026-08-28",
+  "objective": "把 FY PromoGifts 从零散页面集合重组为一条可理解的采购路径：用高价值礼品套装建立品牌差异和询盘理由，用核心促销单品承接 Google 长尾流量，再通过搭配建议、包装方案和统一询盘入口完成转化。",
+  "siteDirection": {
+    "positioning": "Custom Branded Gift Kits & Promotional Products",
+    "northStar": "礼品套装负责品牌定位、高客单价方案展示和成交；核心单品负责 Google 搜索入口；每个单品都能单独询价，也能自然升级为套装，避免把网站做成纯套装站或杂乱的产品目录。",
+    "trafficStrategy": [
+      "未来 4 周资源比例：核心单品 SEO 60%，套装/使用场景 25%，真实证据、技术与数据 15%。",
+      "首页与主导航先讲套装解决方案；产品目录保留单品入口，并只优先强化有采购意图的核心品类。",
+      "第一套装支柱为 Custom Mug Gift Sets；后续只保留 Employee Onboarding、Client Appreciation、Event & Campaign、Wedding & Party 等有独立场景意图的入口。",
+      "第一批单品页为 Custom Mugs、Ceramic Mugs、Heated Mugs、Tumblers、Notebooks、Towels、Gift Boxes & Packaging。",
+      "不再为近义词批量建薄页；重叠页进入保留、合并、301、noindex 四类清单后再处理。"
+    ],
+    "funnel": [
+      "Google 搜索单品",
+      "进入可采购单品页",
+      "查看搭配套装与包装",
+      "提交报价或 WhatsApp"
+    ],
+    "luxopack": {
+      "source": "https://luxopack.com/",
+      "adopt": [
+        "视觉优先：用真实产品、包装、细节与场景图替代连续大段文字，让买家先看懂再阅读。",
+        "采购信息前置：在卡片和首屏直接展示真实 MOQ、打样、交期、材质、Logo 与包装选项；未知项明确标 unknown。",
+        "页面按产品类型和买家用途双向组织，但每页必须有独立意图、实物内容和清晰入口。",
+        "建立可核验的信任层：工艺、打样、质检、包装、生产过程、证书边界和真实案例各自有证据。",
+        "询盘路径具体化：表单收集数量、交期、Logo、目的地和产品方向，并明确提交后下一步。",
+        "用案例讲问题、方案、结果；无法核验的品牌名、节省比例、工厂数据和证书不使用。"
+      ],
+      "guardrails": [
+        "学习结构和采购思维，不复制其文字、设计或定位",
+        "FY 不是单一包装工厂，不虚构工厂规模、认证、交期、价格优惠或案例结果",
+        "避免为了页面数量制造重复行业页、近义词页和超长产品堆叠",
+        "所有商业数字和承诺必须可追溯",
+        "客户实拍采用最小必要范围的适度像素马赛克：保留定制颜色、位置和大致轮廓，但名称、字母细节、人物面部和独特 Logo 细节不得可靠识别；原图不得进入公开站点资产"
+      ]
+    }
+  },
+  "dailyRules": [
+    "每天先跑全站审计，P0/P1 不清零时暂停内容扩张。",
+    "先完成页面角色与去留表，再动页面；每天最多正式修改 3 页，避免边改边制造重复。",
+    "每次升级同时建立单品 → 套装、套装 → 单品的上下文内链，避免全站机械锚文本。",
+    "社区问题可以作为选题与原始需求证据，但必须保留来源链接、日期和社区语境；正文答案由 FY PromoGifts 基于自身产品与供应链事实原创，不复制社区回答。",
+    "每次修改记录基线、理由、验证和 14 天复查日期。",
+    "没有真实 MOQ、价格、交期、认证或案例时写 unknown，不编造。",
+    "客户实拍进入项目或网站前必须完成隐私检查；马赛克只覆盖必要区域，保留定制颜色和大致轮廓，但不得让客户名称、人物或独特 Logo 细节可识别。"
+  ],
+  "outcomeTargets": [
+    "1 份全站页面角色与去留表",
+    "1 份经过测试流量甄别的搜索基线",
+    "7 个核心单品页优先级与统一成交模板",
+    "1 个 Custom Mug Gift Sets 支柱方案",
+    "5 个套装/场景入口边界",
+    "1 套单品与套装双向内链规范",
+    "1 份 LuxoPack 优势转化清单",
+    "1 套单品/套装询盘来源记录规则",
+    "所有改动可复查"
+  ],
+  "days": [
+    {
+      "date": "2026-08-22",
+      "label": "周六",
+      "focus": "搜索基线甄别 + Top 3 套装映射",
+      "aiTasks": [
+        "保全并分析 GSC/Bing 原始导出，建立 28 天可信基线，单独标记可能受 AI/人工测试影响的数据。",
+        "按曝光、排名、商业意图和可信度形成主页、Branded Gift Kits、Catalog、Kit Studio 的机会队列。",
+        "把三款国际站畅销套装的真实 MOQ 与工艺写入证据台账，保持 100/40/60，不虚构统一 MOQ。",
+        "更新 HTML 增长总看板、任务真相源和 14 天复查节点；重跑全站 QA。"
+      ],
+      "userTasks": [
+        {
+          "title": "若记得，补充测试流量日期",
+          "detail": "告诉我大概哪几天曾让 AI 或人工在 Google/Bing 搜索并点击本站；不记得也不影响继续。",
+          "deliverable": "日期范围，或回复不记得"
+        },
+        {
+          "title": "确认第三款本地产品映射",
+          "detail": "确认阿里第三款是否就是本站 DR004 Ceramic Mug and Towel Gift Set；前两款如有本地编号也一起告诉我。",
+          "deliverable": "是/否 + 可用的本地产品编号"
+        }
+      ],
+      "doneCriteria": "搜索原始数据已保全，可信基线和机会页进入 HTML 看板，Top 3 事实可追溯；本地 P0/P1=0、Sitemap=100%。"
+    },
+    {
+      "date": "2026-08-23",
+      "label": "周日",
+      "focus": "收录入口核验 + 第一批页面升级",
+      "aiTasks": [
+        "生成成交页优先的 10 个 GSC/Bing 提交 URL，并核验 sitemap、robots、canonical 与 IndexNow 条件。",
+        "使用站内已有可信资料升级 1 个薄弱产品页；若收到新证据，再同步升级第 2 个产品页。",
+        "从 5 个相关页面新增 5–10 条上下文内链，指向 Gift Sets 支柱页和升级产品页。",
+        "重建 sitemap（如页面发生实质变化）、审计并记录修改前后基线。"
+      ],
+      "userTasks": [
+        {
+          "title": "登录 GSC 与 Bing Webmaster",
+          "detail": "确认 Domain 属性、提交 sitemap；Bing 可从 GSC 导入。",
+          "deliverable": "两平台 sitemap 状态截图"
+        },
+        {
+          "title": "提交 10 个优先 URL",
+          "detail": "GSC 使用 URL Inspection；Bing 确认 IndexNow 或 URL submission。",
+          "deliverable": "提交数量和日期；提交不等于已收录"
+        }
+      ],
+      "doneCriteria": "10 个 URL 有提交清单，1–2 个页面完成实质升级，5–10 条内链通过 QA。"
+    },
+    {
+      "date": "2026-08-24",
+      "label": "周一",
+      "focus": "Gift Sets 支柱页 + 收录机会 + 集群内链",
+      "aiTasks": [
+        "重跑全站审计并抽查首页、Gift Sets、Client Appreciation、Top 3 产品页和 301；保持 P0/P1=0、Sitemap=100%。",
+        "使用 2026-08-22 的 GSC/Bing 原始导出建立今天的查询与页面机会表；单独排除或标记疑似 AI/人工测试数据，不把提交或测试点击当自然增长。",
+        "从 r/tradeshows、r/marketing、r/humanresources、r/smallbusiness 等社区筛选至少 12 个真实买家问题，记录原帖链接、日期、受众、痛点、可信度和适配页面；排除供应商软文与低质量引流帖。",
+        "升级 /catalog/gift-sets/ 为真正的采购支柱页：首屏直答、Top 3 真实 MOQ/工艺对比、用途选择框架、定制与包装流程，并引用社区问题后给出 FY PromoGifts 的原创回答。",
+        "审查 /corporate-gift-kits/ 与 /custom-gift-boxes-packaging/，最多升级 2 个确有独立搜索意图的辅助页；若意图重叠则合并或保留为内链入口，不制造换词页。",
+        "从首页、Client Appreciation、Corporate Gift Kits、Packaging 及相关产品页增加 8–12 条上下文内链，形成支柱页与成交页双向路径。",
+        "生成 10 个优先收录 URL 清单，核验 200、canonical、robots、sitemap、结构化数据和图片可访问性，供 GSC/Bing 提交。",
+        "完成桌面与移动端 QA、表单/WhatsApp 路径检查，并为今天所有实质修改写入基线、验证结果和 14 天复查日期。"
+      ],
+      "userTasks": [
+        {
+          "title": "补充一项可公开采购事实",
+          "detail": "从 Top 3 套装中任选一款，提供样品时间、量产时间、包装可选项或一条真实买家反馈；暂时没有可以回复没有。",
+          "deliverable": "产品编号 + 事实内容，或回复暂无"
+        }
+      ],
+      "doneCriteria": "形成 1 份可信机会表、至少 12 条带来源的社区问题、1 个 Gift Sets 支柱页升级、最多 2 个经过意图审查的辅助页、8–12 条上下文内链和 10 个优先收录 URL；社区问题保留出处，FY 回答原创且产品事实可追溯；全站 P0/P1=0、Sitemap=100%。"
+    },
+    {
+      "date": "2026-08-25",
+      "label": "周二",
+      "focus": "重定网站方向：套装转化 + 单品获客双引擎",
+      "aiTasks": [
+        "固定网站新方向：礼品套装负责品牌定位与高价值询盘，核心单品负责 Google 搜索获客；资源按单品 60%、套装/场景 25%、证据/技术/数据 15% 分配。",
+        "盘点全部可索引页面，建立页面角色与去留表：核心单品、套装支柱、使用场景、证据/指南、工具/转化；逐页标记保留、合并、301 或 noindex，先规划再删除。",
+        "确定第一批搜索获客页：Custom Mugs、Ceramic Mugs、Heated Mugs、Tumblers、Notebooks、Towels、Gift Boxes & Packaging，并为每页定义搜索意图、采购信息、图片、FAQ、CTA 和‘单独采购或加入套装’模块。",
+        "确定套装层级：Custom Mug Gift Sets 为首个支柱；Employee Onboarding、Client Appreciation、Event & Campaign、Wedding & Party 作为后续有独立需求的场景入口，不再建近义词薄页。",
+        "建立单品 → 套装 → 询盘的双向内链与导航草图：首页套装优先，目录单品承接，所有核心页共享可追踪的报价/WhatsApp 路径。",
+        "把 LuxoPack 的有效做法转成 FY 页面验收清单：真实图片优先、MOQ/打样/交期/材质/工艺前置、可核验证据、问题-方案-结果案例、明确询盘下一步；不复制、不虚构。",
+        "定义数据记录口径：区分单品入口与套装入口，记录 source page、requested product type、quantity、event/use case、有效询盘和 14/28 天 GSC 变化。",
+        "更新独立站增长总看板、任务真相源、90 天路线图和今日归档；校验 JSON、重新生成 HTML 看板并完成桌面与手机排版自查。"
+      ],
+      "userTasks": [],
+      "doneCriteria": "看板明确显示网站定位、60/25/15 资源分配、4 步成交路径、7 个优先单品页、5 个套装/场景入口和 LuxoPack 学习边界；任务库最多保留 5 个可执行重点；今日任务、90 天路线图和 HTML 看板一致，JSON 可解析，桌面与手机无溢出。"
+    },
+    {
+      "date": "2026-08-26",
+      "label": "周三",
+      "focus": "全站页面盘点 + 重复页合并决策",
+      "aiTasks": [
+        "导出全站可索引 URL、title、H1、canonical、字数、图片数、内链和 GSC 信号，按页面角色聚类。",
+        "识别关键词意图重叠、内容单薄、无入口和孤岛页面，形成保留、合并、301、noindex 清单；不直接批量删除。",
+        "为首页、Gift Sets、7 个优先单品和 5 个场景入口画出最终导航与内链关系。",
+        "核对每个计划合并页面的目标 URL、历史搜索信号和替代内容，避免误伤已有排名。"
+      ],
+      "userTasks": [
+        {
+          "title": "复核拟删除/合并清单",
+          "detail": "只判断页面是否仍用于报价、客户沟通或广告投放；SEO 与技术判断由 AI 完成。",
+          "deliverable": "标记必须保留的业务页面"
+        }
+      ],
+      "doneCriteria": "全部正式 URL 都有明确角色和去留结论；任何删除项都有目标页、301/noindex 方案和风险说明。"
+    },
+    {
+      "date": "2026-08-27",
+      "label": "周四",
+      "focus": "核心单品成交模板 + 第一批获客页",
+      "aiTasks": [
+        "建立可复用的单品页成交模板：真实图片、规格、MOQ、Logo、样品/交期、使用场景、风险说明、FAQ、相关套装和报价入口。",
+        "优先升级 Custom Mugs 与 Custom Ceramic Mugs 两个页面；未知商业事实不补写。",
+        "增加单品到 Custom Mug Gift Sets 的上下文链接，并从套装页回链对应单品。",
+        "完成 title、description、H1、Product/FAQ schema、图片、移动端和表单路径 QA。"
+      ],
+      "userTasks": [
+        {
+          "title": "核对两类杯子的真实差异",
+          "detail": "确认常见材质、容量、Logo 工艺、MOQ 和包装选项；只需纠正事实，不需要改英文。",
+          "deliverable": "确认或修改清单"
+        }
+      ],
+      "doneCriteria": "统一单品模板完成，2 个首批获客页通过技术、视觉和转化 QA，且能自然进入套装询盘路径。"
+    },
+    {
+      "date": "2026-08-28",
+      "label": "周五",
+      "focus": "Custom Mug Gift Sets 支柱 + 转化与周复盘",
+      "aiTasks": [
+        "把 Custom Mug Gift Sets 建成首个完整支柱：三款畅销套装、真实 100/40/60 MOQ、用途选择、单品组合、包装与询盘入口。",
+        "参考 LuxoPack 的视觉密度和采购信息前置做法完成桌面/手机验收，但保留 FY 自身品牌和供应链事实。",
+        "验证表单、WhatsApp、Email、CTA、source page 与 requested product type 记录路径。",
+        "重跑全站审计和 sitemap；为实质修改设置 14/28 天复查，下周只保留 3 个数据驱动重点。"
+      ],
+      "userTasks": [
+        {
+          "title": "完成一次手机询盘测试",
+          "detail": "提交测试表单并点击 WhatsApp，记录是否送达与首次收到时间。",
+          "deliverable": "送达/失败结果和时间"
+        },
+        {
+          "title": "报告本周有效询盘",
+          "detail": "按自然搜索、直接访问、LinkedIn、阿里和其他来源填写；没有就填 0。",
+          "deliverable": "渠道 + 有效询盘数"
+        }
+      ],
+      "doneCriteria": "首个套装支柱与首批单品页形成完整闭环；P0/P1=0、Sitemap=100%，询盘路径可验证，并形成下周 3 项优先任务。"
+    }
+  ]
+}

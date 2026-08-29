@@ -26,6 +26,52 @@
     return value || fallback || "not_available";
   }
 
+  function optional(value) {
+    return String(value || "").replace(/\s+/g, " ").trim();
+  }
+
+  function sourcePage() {
+    return location.pathname || "/";
+  }
+
+  function requestedProductType(scope) {
+    scope = scope || document;
+    var queryRoot = scope.querySelector ? scope : document;
+    var fieldNames = ["product", "products", "requested_product_type"];
+
+    for (var index = 0; index < fieldNames.length; index += 1) {
+      var field = queryRoot.querySelector('[name="' + fieldNames[index] + '"]');
+      var fieldValue = field && optional(field.value);
+      if (fieldValue) return fieldValue.slice(0, 500);
+    }
+
+    var dataTarget = scope.closest && scope.closest("[data-product-id],[data-add-id],[data-product-name]");
+    if (dataTarget) {
+      var dataValue = optional(dataTarget.getAttribute("data-product-name") || dataTarget.getAttribute("data-product-id") || dataTarget.getAttribute("data-add-id"));
+      if (dataValue) return dataValue.slice(0, 500);
+    }
+
+    var isInquiryAction = scope.closest && (scope.closest("#inquiryDrawer") || scope.id === "whatsappLink" || scope.id === "emailLink");
+    if (isInquiryAction) {
+      var selectedItems = Array.prototype.slice.call(document.querySelectorAll("#inquiryItems .inquiry-item")).map(function (item) {
+        return optional(item.textContent);
+      }).filter(Boolean);
+      if (selectedItems.length) return selectedItems.join(" | ").slice(0, 500);
+    }
+
+    var card = scope.closest && scope.closest(".product-card,.showcase-card");
+    if (card) {
+      var cardTitle = card.querySelector("h2,h3");
+      if (cardTitle && optional(cardTitle.textContent)) return optional(cardTitle.textContent).slice(0, 500);
+    }
+
+    var bodyValue = optional(document.body && (document.body.dataset.categoryName || document.body.dataset.categorySlug || document.body.dataset.pageType));
+    if (bodyValue) return bodyValue.slice(0, 500);
+
+    var heading = document.querySelector("h1");
+    return heading && optional(heading.textContent) ? optional(heading.textContent).slice(0, 500) : "not_available";
+  }
+
   function slug() {
     var path = location.pathname.replace(/^\/|\/$/g, "");
     return path || "home";
@@ -74,6 +120,8 @@
       if (!payload[key]) payload[key] = attribution[key] || "not_available";
     });
     if (!payload.page_path) payload.page_path = location.pathname;
+    if (!payload.source_page) payload.source_page = sourcePage();
+    if (!payload.requested_product_type) payload.requested_product_type = requestedProductType();
     if (!payload.article_slug) payload.article_slug = slug();
     return payload;
   }
@@ -148,6 +196,8 @@
       DATA_KEYS.forEach(function (key) {
         ensureHidden(form, key, data[key]);
       });
+      ensureHidden(form, "source_page", sourcePage());
+      ensureHidden(form, "requested_product_type", requestedProductType(form));
     });
   }
 
@@ -157,6 +207,7 @@
     var href = target.getAttribute("href") || "";
     var text = clean(target.textContent || target.getAttribute("aria-label") || target.id);
     var pagePath = location.pathname;
+    var requestedType = requestedProductType(target);
     var section = target.closest("section,header,footer,main");
     var sourceSection = clean(section && (section.id || section.getAttribute("aria-label") || section.className), "page");
     var downloadPath = href.split("?")[0].split("#")[0];
@@ -177,9 +228,20 @@
     if (href.indexOf("wa.me/") > -1 && typeof window.fyTrack !== "function") {
       window.fyTrackEvent("whatsapp_click", {
         page_path: pagePath,
+        source_page: sourcePage(),
+        requested_product_type: requestedType,
         button_location: target.closest("#fy-floating-cta") ? "floating_cta" : "page_link",
         article_slug: slug(),
         cta_target: href
+      });
+    }
+    if (target.matches("[data-add-id],[data-product-id]")) {
+      window.fyTrackEvent("inquiry_product_add", {
+        page_path: pagePath,
+        source_page: sourcePage(),
+        requested_product_type: requestedType,
+        product_id: clean(target.getAttribute("data-add-id") || target.getAttribute("data-product-id")),
+        button_text: text
       });
     }
     if (target.closest(".cta") || target.classList.contains("read")) {
@@ -201,6 +263,8 @@
     if (href === "/contact/" || /#(contact|inquiry|quote|quote-form)(?:$|[?&])/i.test(href)) {
       window.fyTrackEvent("contact_form_open", {
         page_path: pagePath,
+        source_page: sourcePage(),
+        requested_product_type: requestedType,
         button_location: target.closest("#fy-floating-cta") ? "floating_cta" : "page_link",
         article_slug: slug(),
         cta_target: href
@@ -210,6 +274,8 @@
     if (ownerForm && (target.id === "submitInquiry" || target.matches('button[type="submit"],input[type="submit"]'))) {
       window.fyTrackEvent("inquiry_submit_click", {
         page_path: pagePath,
+        source_page: sourcePage(),
+        requested_product_type: requestedProductType(ownerForm),
         form_id: ownerForm.id || clean(ownerForm.getAttribute("name")),
         button_text: text,
         source_section: sourceSection
@@ -226,6 +292,8 @@
     if (href.indexOf("mailto:") === 0) {
       window.fyTrackEvent("email_click", {
         page_path: pagePath,
+        source_page: sourcePage(),
+        requested_product_type: requestedType,
         button_location: target.closest("#fy-floating-cta") ? "floating_cta" : "page_link",
         article_slug: slug(),
         cta_target: href
@@ -288,6 +356,8 @@
       var formId = form.id || clean(form.getAttribute("name"));
       var started = false;
       form.addEventListener("input", function () {
+        ensureHidden(form, "source_page", sourcePage());
+        ensureHidden(form, "requested_product_type", requestedProductType(form));
         if (started) return;
         started = true;
         if (!wasPushed("form_start", formId)) {
@@ -303,6 +373,8 @@
         if (!wasPushed("contact_form_submit_attempt", formId)) {
           window.fyTrackEvent("contact_form_submit_attempt", {
             page_path: location.pathname,
+            source_page: sourcePage(),
+            requested_product_type: requestedProductType(form),
             form_id: formId,
             article_slug: slug(),
             landing_page: window.fyAttribution.get().landing_page
@@ -320,6 +392,8 @@
             completed = true;
             window.fyTrackEvent("contact_form_submit", {
               page_path: location.pathname,
+              source_page: sourcePage(),
+              requested_product_type: requestedProductType(form),
               form_id: formId,
               article_slug: slug(),
               landing_page: window.fyAttribution.get().landing_page
@@ -329,6 +403,8 @@
             failed = true;
             window.fyTrackEvent("contact_form_error", {
               page_path: location.pathname,
+              source_page: sourcePage(),
+              requested_product_type: requestedProductType(form),
               form_id: formId,
               article_slug: slug()
             });

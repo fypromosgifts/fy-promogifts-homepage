@@ -1,0 +1,3 @@
+content_id,cluster,content_type,target_url,primary_buyer_question,commercial_goal,evidence_status,status,owner,next_action,planned_date,published_date,last_review_date,notes
+CNT-001,custom gift kits,category upgrade,/catalog/gift-sets/,How do buyers choose a custom gift kit for an event?,qualified inquiry,needed,discovery,AI + user evidence,Audit existing pages and select the highest-value information gap,2026-08-25,,,Do not publish MOQ or lead-time claims without evidence
+CNT-002,custom promotional caps/headwear,cluster audit,/catalog/apparel/caps-hats/,Which cap style and decoration method fits a campaign?,qualified inquiry,needed,backlog,AI + user evidence,Start after the first gift-kits cluster milestone,,,,Keep only one primary cluster in active production

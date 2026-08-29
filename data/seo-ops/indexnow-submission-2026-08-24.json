@@ -1,0 +1,19 @@
+{
+  "date": "2026-08-24",
+  "endpoint": "https://api.indexnow.org/IndexNow",
+  "host": "www.fypromogifts.com",
+  "keyLocation": "https://www.fypromogifts.com/0e2615d442040dfff3d396b295cd3df9.txt",
+  "urls": [
+    "https://www.fypromogifts.com/catalog/gift-sets/",
+    "https://www.fypromogifts.com/corporate-gift-kits/",
+    "https://www.fypromogifts.com/custom-gift-boxes-packaging/"
+  ],
+  "firstResponse": {"status": 202, "meaning": "accepted; first-time key validation pending"},
+  "verifiedResponse": {"status": 200, "dateUtc": "Mon, 24 Aug 2026 14:05:20 GMT", "meaning": "URL set received successfully"},
+  "gsc": {
+    "loginVerified": true,
+    "property": "sc-domain:fypromogifts.com",
+    "manualInspectionSubmitted": false,
+    "note": "GSC opened in the authenticated Chrome session, but repeated page-state reads timed out. No blind clicks or unverified submission claims were made."
+  }
+}

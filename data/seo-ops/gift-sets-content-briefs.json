@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "createdAt": "2026-08-22T06:45:00.000Z",
+  "cluster": "custom corporate gift sets",
+  "publishingRule": "Use only confirmed first-party facts. Unknown commercial data must remain unpublished or be labeled pending verification internally.",
+  "briefs": [
+    {
+      "role": "pillar",
+      "targetUrl": "/catalog/gift-sets/",
+      "currentBaseline": {
+        "visibleEnglishWords": 943,
+        "note": "Most current visible words come from the product grid; the page needs buyer decision guidance rather than more product-card repetition."
+      },
+      "primaryIntent": "Source and configure custom corporate gift sets for employees, clients, onboarding and events.",
+      "buyerQuestions": [
+        "How do I choose the right items for a corporate gift set?",
+        "Can the products and gift box carry the same branding?",
+        "What information is needed to quote a custom gift set?",
+        "How should buyers plan samples, production and delivery?"
+      ],
+      "sections": [
+        "Direct answer block in the first third: choose by recipient, campaign use, budget band, delivery date and branding surface.",
+        "Selection framework comparing employee onboarding, client appreciation, event giveaway and seasonal programs.",
+        "Customization map covering product logo, insert card, box decoration and configurable contents.",
+        "Sample-to-delivery workflow with unverified timing fields omitted until confirmed.",
+        "Featured pathways to three user-confirmed priority products.",
+        "FAQ based on real buyer questions, followed by a concise project brief CTA."
+      ],
+      "evidenceRequired": [
+        "Common MOQ or MOQ rule",
+        "Sample availability and timing",
+        "Production lead-time rule",
+        "Confirmed logo methods",
+        "Confirmed packaging options",
+        "Three priority gift-set products"
+      ],
+      "internalLinks": {
+        "incomingTarget": 5,
+        "outgoingTargets": "3 priority product pages plus customization and contact"
+      },
+      "status": "ready_pending_evidence"
+    },
+    {
+      "role": "supporting_product",
+      "targetUrl": "/catalog/gift-sets/insulated-tumbler-automatic-umbrella-gift-set/",
+      "currentBaseline": {
+        "visibleEnglishWords": 211,
+        "auditFlag": "thin_visible_copy"
+      },
+      "primaryIntent": "Evaluate a coordinated tumbler and automatic umbrella set for corporate, travel or weather-related campaigns.",
+      "sections": [
+        "Who this combination is for and when it is more useful than a generic office set.",
+        "Confirmed components, materials, dimensions and packaging presentation.",
+        "Logo placement choices for each item and the gift box.",
+        "Buyer checklist: quantity, delivery date, destination, artwork and packaging.",
+        "FAQ, related gift sets and direct inquiry CTA."
+      ],
+      "evidenceRequired": [
+        "Exact component specifications",
+        "Branding methods and printable areas",
+        "Packaging photo or packaging description",
+        "MOQ/sample/lead time if publishable"
+      ],
+      "status": "ready_pending_evidence"
+    },
+    {
+      "role": "supporting_product",
+      "targetUrl": "/catalog/gift-sets/portable-comfort-appreciation-gift-set/",
+      "currentBaseline": {
+        "visibleEnglishWords": 215,
+        "auditFlag": "thin_visible_copy"
+      },
+      "primaryIntent": "Evaluate a portable comfort set for employee appreciation, travel or wellbeing programs.",
+      "sections": [
+        "Best-fit recipient and campaign scenarios without unsupported benefit claims.",
+        "Confirmed component list and why the items work together.",
+        "Branding, color coordination and presentation packaging options.",
+        "Buyer checklist and sample approval workflow.",
+        "FAQ, alternatives and direct inquiry CTA."
+      ],
+      "evidenceRequired": [
+        "Exact components and materials",
+        "Target use case confirmed by product owner",
+        "Logo and packaging options",
+        "One real sample/order/quote detail if publishable"
+      ],
+      "status": "ready_pending_evidence"
+    }
+  ]
+}

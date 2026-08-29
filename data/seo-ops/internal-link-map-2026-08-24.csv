@@ -1,0 +1,13 @@
+id,source,target,anchor_purpose,status
+IL-001,/catalog/gift-sets/,/corporate-gift-kits/,Move product browsers to program planning,verified_local
+IL-002,/catalog/gift-sets/,/custom-gift-boxes-packaging/,Explain packaging routes and packaging MOQ,verified_local
+IL-003,/catalog/gift-sets/,/client-appreciation-gifts/,Route client-gift intent to its use-case guide,verified_local
+IL-004,/catalog/gift-sets/,/employee-onboarding-kits/,Route employee-gift intent to its use-case guide,verified_local
+IL-005,/catalog/gift-sets/,/trade-show-giveaway-kits/,Route event-giveaway intent to its use-case guide,verified_local
+IL-006,/corporate-gift-kits/,/catalog/gift-sets/,Move planners to exact products and confirmed MOQs,verified_local
+IL-007,/corporate-gift-kits/,/custom-gift-boxes-packaging/,Move packaging questions to the packaging guide,verified_local
+IL-008,/corporate-gift-kits/,/client-appreciation-gifts/,Route client-program intent to its use-case guide,verified_local
+IL-009,/corporate-gift-kits/,/employee-onboarding-kits/,Route employee-program intent to its use-case guide,verified_local
+IL-010,/custom-gift-boxes-packaging/,/catalog/gift-sets/,Connect packaging planners with exact kit configurations,verified_local
+IL-011,/custom-gift-boxes-packaging/,/corporate-gift-kits/,Connect box buyers with complete program planning,verified_local
+IL-012,/custom-gift-boxes-packaging/,/client-appreciation-gifts/,Connect presentation intent with client gifting,verified_local

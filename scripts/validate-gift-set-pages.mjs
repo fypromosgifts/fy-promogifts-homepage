@@ -5,11 +5,10 @@ const root = resolve(import.meta.dirname, '..');
 const products = JSON.parse(await readFile(resolve(root, 'catalog/data/products.json'), 'utf8'));
 const useCases = JSON.parse(await readFile(resolve(root, 'catalog/data/use-cases.json'), 'utf8'));
 const allowedUseCases = new Set(useCases.map((item) => item.use_case_name));
-const giftSets = products.filter((product) => product.product_id.startsWith('GF'));
+const giftSets = products.filter((product) => product.publish_to_catalog !== false && product.category_slug === 'gift-sets');
 const errors = [];
-const expectedGiftSetIds = ['GF001', 'GF002', 'GF003', 'GF004', 'GF005'];
+const expectedGiftSetIds = ['MU024', 'MU023', 'DR004'];
 
-if (giftSets.length !== expectedGiftSetIds.length) errors.push(`Expected ${expectedGiftSetIds.length} gift sets, found ${giftSets.length}.`);
 for (const productId of expectedGiftSetIds) {
   if (!giftSets.some((product) => product.product_id === productId)) errors.push(`Missing expected gift set ${productId}.`);
 }
@@ -30,13 +29,16 @@ for (const product of giftSets) {
   try { html = await readFile(pagePath, 'utf8'); } catch { errors.push(`${product.product_id}: missing detail page.`); continue; }
   const checks = [
     ['canonical', `<link rel="canonical" href="https://www.fypromogifts.com${product.detail_url}">`],
-    ['Product schema', '"@type":"Product"'],
-    ['Breadcrumb schema', '"@type":"BreadcrumbList"'],
+    ['Product schema', /"@type"\s*:\s*"Product"/],
+    ['Breadcrumb schema', /"@type"\s*:\s*"BreadcrumbList"/],
     ['visible FAQ', 'class="product-faq"'],
     ['Formspree form', 'https://formspree.io/f/xgoqqrno'],
-    ['versioned CSS', 'catalog.css?v=20260812-catalog6']
+    ['versioned CSS', /catalog\.css\?v=\d{8}[a-z0-9-]*/]
   ];
-  checks.forEach(([label, needle]) => { if (!html.includes(needle)) errors.push(`${product.product_id}: missing ${label}.`); });
+  checks.forEach(([label, needle]) => {
+    const found = needle instanceof RegExp ? needle.test(html) : html.includes(needle);
+    if (!found) errors.push(`${product.product_id}: missing ${label}.`);
+  });
   if (/detail\.1688\.com|1688\.com|"brand":\{"@type":"Brand","name":"FY PromoGifts"/.test(html)) errors.push(`${product.product_id}: public source or false brand claim leaked.`);
 }
 

@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-24",
+  "productionHost": "https://www.fypromogifts.com",
+  "repository": "fypromosgifts/fy-promogifts-homepage",
+  "branch": "main",
+  "commits": [
+    {"path": "catalog/gift-sets/index.html", "commit": "0cc6665c88332bfc6a61bd3e26653d3060fb6653"},
+    {"path": "catalog/assets/catalog.css", "commit": "2286210f02cc9bd59f4f5bebdcd9e0abeec5f81a"},
+    {"path": "corporate-gift-kits/index.html", "commit": "4e52eb7f21a1a03d46b7547d32880a09877ff180"},
+    {"path": "custom-gift-boxes-packaging/index.html", "commit": "6aa7ee83e4e7f934ee11838dd3619a9eac11055a"},
+    {"path": "_redirects", "commit": "873984823026260c96bf1c9323083ac45360b69e"},
+    {"path": "sitemap.xml", "commit": "335ec2cf5c702e28c8d8ea45faf9fbecd910c5ec"},
+    {"path": "0e2615d442040dfff3d396b295cd3df9.txt", "commit": "495fc71ef8c64a4b1df7112620a4aa29bcd946ec"}
+  ],
+  "onlineQA": {
+    "testedUrls": 3,
+    "http200": 3,
+    "selfCanonical": 3,
+    "validJsonLd": 3,
+    "contactPaths": 3,
+    "verifiedImages": 4,
+    "cssStatus": 200,
+    "sitemapUrls": 122,
+    "sitemapCoveragePercent": 100,
+    "P0": 0,
+    "P1": 0,
+    "P2": 1
+  },
+  "redirectRecovery": {
+    "url": "https://www.fypromogifts.com/custom-gift-boxes-packaging/",
+    "before": "301 to /catalog/packaging-gift-boxes/ (noindex catalog category)",
+    "after": "200 self-canonical indexable packaging buyer guide"
+  }
+}
