@@ -48,6 +48,7 @@
           <h1 id="catalog-title">Custom Logo Tumblers &amp; Travel Cups</h1>
           <p id="catalogSummary" class="catalog-summary">Compare stainless steel and glass tumbler options for employee, client, event and brand programs.</p>
         </div>
+        <div class="hero-actions"><a class="pill-button primary" href="#category-inquiry">Request a Tumbler Quote</a></div>
       </section>
 
       <section id="filterBar" class="filter-bar filter-bar-category" aria-label="Catalog filters"></section>
@@ -85,6 +86,30 @@
         <details><summary>Which tumbler is best for an employee or event program?</summary><p>Choose by use case, capacity, material, distribution method and packing. A handled 40 oz tumbler suits outdoor and wellness programs, a smaller travel tumbler suits daily commuting, and a glass tumbler offers a different presentation for office or cafe campaigns.</p></details>
         <details><summary>Can FY PromoGifts apply a logo to tumblers?</summary><p>Yes. Available routes in this catalog include logo printing and, on compatible stainless steel products, laser engraving. The final method and print area are confirmed against the selected product and artwork.</p></details>
         <details><summary>What is the MOQ for custom tumblers?</summary><p>MOQ is confirmed for the selected product, decoration method, color and packaging. Send the target quantity and deadline for a product-specific quotation rather than relying on one category-wide MOQ.</p></details>
+      </section>
+
+      <section id="category-inquiry" class="product-inquiry" aria-labelledby="tumbler-inquiry-title">
+        <div>
+          <p class="eyebrow">Direct project brief</p>
+          <h2 id="tumbler-inquiry-title">Request a custom tumbler quotation</h2>
+          <p>Share the capacity, material direction, quantity, destination and deadline. We will confirm which listed tumbler and decoration route fit the project.</p>
+        </div>
+        <form action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Custom Tumbler Inquiry - FY PromoGifts">
+          <input type="hidden" name="products" value="Custom tumblers / travel cups">
+          <div class="inquiry-form-grid">
+            <label>Name <input name="name" autocomplete="name" required></label>
+            <label>Work email <input type="email" name="email" autocomplete="email" required></label>
+            <label>Company <input name="company" autocomplete="organization" required></label>
+            <label>WhatsApp / phone <input name="whatsapp" autocomplete="tel"></label>
+            <label>Estimated quantity <input type="number" name="quantity" min="1" inputmode="numeric" required></label>
+            <label>Need-by date <input type="date" name="need_by_date"></label>
+            <label class="form-span">Delivery country or city <input name="destination" autocomplete="country-name" required></label>
+            <label class="form-span">Capacity, material and packing preferences <textarea name="message" rows="4" placeholder="40 oz handle, travel size or glass; colors, logo and packaging"></textarea></label>
+            <label class="form-span">Logo or artwork <input type="file" name="logo" accept=".pdf,.ai,.eps,.svg,.png,.jpg,.jpeg"></label>
+          </div>
+          <button class="pill-button primary" type="submit">Send Tumbler Quote Request</button>
+        </form>
       </section>
     </main>
 

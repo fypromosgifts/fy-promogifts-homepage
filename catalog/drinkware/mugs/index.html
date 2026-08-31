@@ -57,6 +57,7 @@
           <p id="catalogSummary" class="catalog-summary" hidden></p>
         </div>
         <div class="hero-actions">
+          <a class="pill-button primary" href="#category-inquiry">Request a Mug Quote</a>
         </div>
       </section>
 
@@ -99,6 +100,30 @@
         <details><summary>Can a custom mug be packed as a gift?</summary><p>Yes. The packing direction can range from standard individual protection to a printed box, insert card or mixed-product gift set. Final options depend on mug dimensions, quantity, presentation goal and shipping protection.</p></details>
         <details><summary>Can I review the logo before production?</summary><p>Yes. Send the product direction and artwork for a digital mockup. A physical sample route can also be discussed when color, print quality, placement or packing needs to be checked before bulk production.</p></details>
         <details><summary>What information is needed for an accurate quote?</summary><p>Provide the quantity, destination, need-by date, preferred mug style or capacity, logo file, number of print colors and packing requirements. Include the other products if the mug belongs in a kit.</p></details>
+      </section>
+
+      <section id="category-inquiry" class="product-inquiry" aria-labelledby="mug-inquiry-title">
+        <div>
+          <p class="eyebrow">Direct project brief</p>
+          <h2 id="mug-inquiry-title">Request a custom mug quotation</h2>
+          <p>Send the target quantity, preferred mug type, destination and deadline. We will review a workable product, logo and packaging route before pricing.</p>
+        </div>
+        <form action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Custom Mug Inquiry - FY PromoGifts">
+          <input type="hidden" name="products" value="Custom mugs / ceramic mugs">
+          <div class="inquiry-form-grid">
+            <label>Name <input name="name" autocomplete="name" required></label>
+            <label>Work email <input type="email" name="email" autocomplete="email" required></label>
+            <label>Company <input name="company" autocomplete="organization" required></label>
+            <label>WhatsApp / phone <input name="whatsapp" autocomplete="tel"></label>
+            <label>Estimated quantity <input type="number" name="quantity" min="1" inputmode="numeric" required></label>
+            <label>Need-by date <input type="date" name="need_by_date"></label>
+            <label class="form-span">Delivery country or city <input name="destination" autocomplete="country-name" required></label>
+            <label class="form-span">Mug, color and packaging preferences <textarea name="message" rows="4" placeholder="Ceramic or travel mug, capacity, colors, logo method and packing"></textarea></label>
+            <label class="form-span">Logo or artwork <input type="file" name="logo" accept=".pdf,.ai,.eps,.svg,.png,.jpg,.jpeg"></label>
+          </div>
+          <button class="pill-button primary" type="submit">Send Mug Quote Request</button>
+        </form>
       </section>
     </main>
 

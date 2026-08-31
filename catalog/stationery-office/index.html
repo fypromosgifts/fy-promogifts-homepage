@@ -48,6 +48,7 @@
           <h1 id="catalog-title">Custom Notebooks &amp; Office Gifts</h1>
           <p id="catalogSummary" class="catalog-summary">A5 PU notebooks, pens and practical desk items for onboarding, meetings, client programs and events.</p>
         </div>
+        <div class="hero-actions"><a class="pill-button primary" href="#category-inquiry">Request a Notebook Quote</a></div>
       </section>
 
       <section id="filterBar" class="filter-bar filter-bar-category" aria-label="Catalog filters"></section>
@@ -85,6 +86,30 @@
         <details><summary>What notebook options are available for company branding?</summary><p>The current range includes A5 PU notebooks with a pen, an integrated pen holder or an elastic-band closure. Available branding routes include logo printing, debossing and custom color, subject to the selected product and quantity.</p></details>
         <details><summary>Can custom notebooks be included in an onboarding kit?</summary><p>Yes. A notebook can be paired with a pen, drinkware, welcome card, tech accessory or presentation box. Share the complete kit direction so dimensions, protection and pack-out can be checked together.</p></details>
         <details><summary>What information is needed for a notebook quote?</summary><p>Provide quantity, preferred size and cover style, logo artwork, branding method, color direction, packaging, destination and need-by date. MOQ and timing are then confirmed for that exact configuration.</p></details>
+      </section>
+
+      <section id="category-inquiry" class="product-inquiry" aria-labelledby="notebook-inquiry-title">
+        <div>
+          <p class="eyebrow">Direct project brief</p>
+          <h2 id="notebook-inquiry-title">Request a custom notebook quotation</h2>
+          <p>Send the notebook style, quantity, logo, destination and deadline. We will review the cover, branding, pen pairing and packaging before pricing.</p>
+        </div>
+        <form action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Custom Notebook Inquiry - FY PromoGifts">
+          <input type="hidden" name="products" value="Custom notebooks / stationery and office gifts">
+          <div class="inquiry-form-grid">
+            <label>Name <input name="name" autocomplete="name" required></label>
+            <label>Work email <input type="email" name="email" autocomplete="email" required></label>
+            <label>Company <input name="company" autocomplete="organization" required></label>
+            <label>WhatsApp / phone <input name="whatsapp" autocomplete="tel"></label>
+            <label>Estimated quantity <input type="number" name="quantity" min="1" inputmode="numeric" required></label>
+            <label>Need-by date <input type="date" name="need_by_date"></label>
+            <label class="form-span">Delivery country or city <input name="destination" autocomplete="country-name" required></label>
+            <label class="form-span">Notebook, branding and packaging preferences <textarea name="message" rows="4" placeholder="Cover style, color, logo method, pen pairing and packing"></textarea></label>
+            <label class="form-span">Logo or artwork <input type="file" name="logo" accept=".pdf,.ai,.eps,.svg,.png,.jpg,.jpeg"></label>
+          </div>
+          <button class="pill-button primary" type="submit">Send Notebook Quote Request</button>
+        </form>
       </section>
     </main>
 

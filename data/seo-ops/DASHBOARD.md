@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-08-29T12:59:21.875Z
+最后刷新：2026-08-31T13:46:28.836Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -43,7 +43,7 @@
 | 优先级 | 任务 | 负责人 | 下一动作 / 完成标准 |
 |---|---|---|---|
 | P1 | 核验 GSC/Bing 站点验证、Sitemap 与提交状态 | 用户 + AI | 2026-08-29 公开 sitemap.xml 已验证为 122 个 URL，本轮 6 个更新 URL 已被 IndexNow 接收（HTTP 200）。当前浏览器未登录 GSC/Bing；需用户登录后确认两个平台的 sitemap 最后读取日期，并在 GSC 对优先 URL 执行 URL Inspection。 |
-| P1 | 建立 7 个核心单品获客页的统一成交模板 | AI + 用户事实核验 | Mugs、Tumblers、Notebooks 已升级；下一步补齐独立 Heated Mug 与 Towel 的真实 SKU、规格、MOQ、工艺、样品/交期和包装证据，再决定是否建立独立可索引页。 |
+| P1 | 建立 7 个核心单品获客页的统一成交模板 | AI + 用户事实核验 | Mugs、Tumblers、Notebooks 已补齐页内 Formspree 询盘、来源归因和 4–5 个相关站内入口；下一步补齐独立 Heated Mug 与 Towel 的真实 SKU、规格、MOQ、工艺、样品/交期和包装证据，再决定是否建立独立可索引页。 |
 
 ## 等待输入
 
@@ -55,6 +55,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-08-31 | conversion_upgrade | /catalog/drinkware/mugs/ + /catalog/drinkware/tumblers/ + /catalog/stationery-office/ | 为 Mugs、Tumblers、Stationery 三个核心品类页补齐直接询盘表单、来源归因与相关上下文内链 | 本地 validator 0 errors；审计 P0/P1/P2=0/0/0；桌面 1440x900 与手机 390x844 无溢出和破图；归因字段正确 |
 | 2026-08-29 | indexing_submission | IndexNow + GSC/Bing verification | Submitted six updated commercial URLs to IndexNow and verified the live 122-URL sitemap; documented the remaining authenticated console check without claiming GSC or Bing platform success. | IndexNow API returned HTTP 200 at Sat, 29 Aug 2026 12:56:36 GMT; live sitemap returns 200 with 122 URLs; GSC/Bing authenticated sitemap read remains unverified. |
 | 2026-08-29 | deployment | main / production | Published the complete release from a clean worktree and restored the corporate gift-kit and three verified mug gift-set routes that had been overwritten by an incomplete production deploy. | GitHub main advanced to 05acb83; homepage, sitemap, corporate gift kits, packaging pillar, mugs, tumblers, notebooks and MU024/MU023/DR004 returned HTTP 200; all expected page markers were present; sitemap contains 122 URLs. |
 | 2026-08-29 | form_and_contact_fix | sitewide forms and public contact footers | Moved the final two legacy inquiry forms to Formspree, added source attribution to the single-product form, and standardized 13 public footer email references to info@fypromogifts.com. | 96 forms checked; 96 use the expected Formspree endpoint; legacy Worker references 0; obsolete email references 0; attribution script syntax passes and local forms contain source_page and requested_product_type. |
@@ -62,7 +63,6 @@
 | 2026-08-29 | architecture_closeout | sitewide | Closed the 150-page architecture decision audit with explicit page roles and keep, merge, redirect or noindex outcomes. | 150 release pages; 122 indexable canonicals; sitemap coverage 100%; P0/P1/P2 0/0/0; architecture table has zero missing roles, decisions or ambiguous merge rows. |
 | 2026-08-28 | conversion_standard | homepage + product pages + kit pages + inquiry flow | 固化 FY 页面与询盘六项验收清单：视觉、采购信息、证据、案例、报价路径、提交后下一步，并写明隐私与事实边界。 | 清单覆盖六项成功标准、Formspree 与联系信息、source_page/requested_product_type、桌面/手机断点、发布校验及 14/28 天复查规则。 |
 | 2026-08-28 | conversion_tracking | /catalog/gift-sets/ + sitewide inquiry forms | 完成 Custom Mug Gift Sets 支柱验收，并为全站 Formspree 表单与关键 CTA 统一补充 source_page、requested_product_type 记录；更新 118 个页面的追踪脚本缓存版本。 | 真实浏览器桌面 1440x900 与手机 390x844 验收无横向溢出；MU024 商品页隐藏字段正确；首页产品字段动态同步；Gift Set 42 款专项校验通过；全站 149 页发布校验 0 错误；Sitemap 119/119；P0/P1/P2=0/0/0。14 天复查询盘归因与 GSC 页面信号，28 天复查套装到单品路径表现。 |
-| 2026-08-25 | deployment | /catalog/gift-sets/, MU024, MU023, DR004, /kit-studio/, /trade-show-giveaways/ | Gift set evidence, verified lead times and site-path simplification deployed and verified live | GitHub main commit 8516940; live pages returned 200; three anonymized proof images loaded; MOQ 100/40/60 retained; 3–5 day samples, 5–7 day production and 500-piece custom-box threshold present; legacy trade-show URL returns 301 to /trade-show-giveaway-kits/; release validation errors 0 |
 
 ## 固定入口
 

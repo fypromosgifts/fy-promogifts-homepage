@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T12:59:04.908Z",
+  "updatedAt": "2026-08-31T13:46:08.001Z",
   "statusDefinitions": {
     "next": "AI or owner can execute now",
     "in_progress": "currently being worked",
@@ -186,11 +186,11 @@
       "status": "in_progress",
       "target": "Custom Mugs / Ceramic Mugs / Heated Mugs / Tumblers / Notebooks / Towels / Packaging",
       "successCriteria": "每页有独立搜索意图、真实图片、采购规格、MOQ、Logo、样品/交期、FAQ、相关套装和可追踪询盘入口",
-      "nextAction": "Mugs、Tumblers、Notebooks 已升级；下一步补齐独立 Heated Mug 与 Towel 的真实 SKU、规格、MOQ、工艺、样品/交期和包装证据，再决定是否建立独立可索引页。",
+      "nextAction": "Mugs、Tumblers、Notebooks 已补齐页内 Formspree 询盘、来源归因和 4–5 个相关站内入口；下一步补齐独立 Heated Mug 与 Towel 的真实 SKU、规格、MOQ、工艺、样品/交期和包装证据，再决定是否建立独立可索引页。",
       "evidenceNeeded": "各产品真实 MOQ、常见规格、Logo 工艺、样品/交期和包装选项；未知项保留 unknown",
       "createdAt": "2026-08-25T05:00:00.000Z",
-      "updatedAt": "2026-08-29T12:44:24.339Z",
-      "changeId": "chg-1788007464333"
+      "updatedAt": "2026-08-31T13:46:08.001Z",
+      "changeId": "chg-1788183967993"
     },
     {
       "id": "SEO-013",
