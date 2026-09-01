@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-31",
+  "commit": "3c91b19",
+  "branch": "main",
+  "provider": "Cloudflare Pages",
+  "detectedLiveAt": "2026-08-31T13:49:00Z",
+  "verification": {
+    "changedUrlsChecked": 8,
+    "http200": 8,
+    "expectedMarkers": 8,
+    "sitemapUrls": 122,
+    "sitemapCoveragePercent": 100,
+    "releaseValidatorErrors": 0,
+    "audit": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0
+    }
+  },
+  "notes": "Local desktop and mobile browser QA passed before release. Production HTTP and content-marker checks passed after Cloudflare deployment. No test inquiry was submitted."
+}

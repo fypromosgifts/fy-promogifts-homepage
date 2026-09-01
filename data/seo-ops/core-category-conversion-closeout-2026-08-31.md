@@ -34,3 +34,11 @@ The site now contains 99 static Formspree forms, up from 96. All 99 point to `ht
 ## Remaining dependency
 
 End-to-end inbox delivery and GA4 conversion-event verification still require authenticated access to Formspree and GA4. SEO-012 remains in progress because separate Heated Mug and Towel pages require verified SKU and procurement facts.
+
+## Deployment
+
+- Git commit: `3c91b19` (`Improve core category conversion paths`).
+- Pushed to `main`; Cloudflare Pages deployment was detected live on the fourth poll.
+- All eight changed public URLs returned HTTP 200 and contained their expected release markers.
+- Production sitemap contains 122 URLs; the three core category entries show `2026-08-31` as `lastmod`.
+- Submitted the eight changed URLs to IndexNow; API response was HTTP 200 at 2026-08-31 21:51:43 Asia/Shanghai.
