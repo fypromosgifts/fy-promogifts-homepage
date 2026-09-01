@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-09-01T03:36:26.687Z
+最后刷新：2026-09-01T04:19:46.544Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -55,6 +55,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-09-01 | market_research | data/seo-ops/google-promo-demand-top10-2026-09-01.md | 完成 Google 可检索权威来源的非 IP 促销礼品 Top 10 与 FY 上架优先级研究 | 交叉核对 ASI 2026 国际偏好、PPAI 2024-2026 销量/留存研究和 Custom Ink 300+ 员工套装调查；所有推荐排除授权 IP |
 | 2026-09-01 | deployment | main / Cloudflare Pages | 发布核心品类转化升级并完成线上逐页复核与 IndexNow 提交 | commit 3c91b19 已推送；8 个变更 URL 均 HTTP 200 且发布标记匹配；生产 sitemap 122；IndexNow 8 URL HTTP 200 |
 | 2026-08-31 | conversion_upgrade | /catalog/drinkware/mugs/ + /catalog/drinkware/tumblers/ + /catalog/stationery-office/ | 为 Mugs、Tumblers、Stationery 三个核心品类页补齐直接询盘表单、来源归因与相关上下文内链 | 本地 validator 0 errors；审计 P0/P1/P2=0/0/0；桌面 1440x900 与手机 390x844 无溢出和破图；归因字段正确 |
 | 2026-08-29 | indexing_submission | IndexNow + GSC/Bing verification | Submitted six updated commercial URLs to IndexNow and verified the live 122-URL sitemap; documented the remaining authenticated console check without claiming GSC or Bing platform success. | IndexNow API returned HTTP 200 at Sat, 29 Aug 2026 12:56:36 GMT; live sitemap returns 200 with 122 URLs; GSC/Bing authenticated sitemap read remains unverified. |
@@ -62,7 +63,6 @@
 | 2026-08-29 | form_and_contact_fix | sitewide forms and public contact footers | Moved the final two legacy inquiry forms to Formspree, added source attribution to the single-product form, and standardized 13 public footer email references to info@fypromogifts.com. | 96 forms checked; 96 use the expected Formspree endpoint; legacy Worker references 0; obsolete email references 0; attribution script syntax passes and local forms contain source_page and requested_product_type. |
 | 2026-08-29 | core_product_upgrade | /catalog/drinkware/mugs/, /catalog/drinkware/tumblers/, /catalog/stationery-office/ | Defined the seven-core-product canonical map, strengthened the mug page, fixed three tumbler product classifications, and upgraded tumbler and notebook category pages into buyer-ready acquisition pages. | Tumblers now resolves 3 real products; Stationery resolves 5 products; both pages have index/follow, buyer guidance and FAQ schema; release audit is 150 pages, 122 indexable, sitemap 122/122, P0/P1/P2 0/0/0. |
 | 2026-08-29 | architecture_closeout | sitewide | Closed the 150-page architecture decision audit with explicit page roles and keep, merge, redirect or noindex outcomes. | 150 release pages; 122 indexable canonicals; sitemap coverage 100%; P0/P1/P2 0/0/0; architecture table has zero missing roles, decisions or ambiguous merge rows. |
-| 2026-08-28 | conversion_standard | homepage + product pages + kit pages + inquiry flow | 固化 FY 页面与询盘六项验收清单：视觉、采购信息、证据、案例、报价路径、提交后下一步，并写明隐私与事实边界。 | 清单覆盖六项成功标准、Formspree 与联系信息、source_page/requested_product_type、桌面/手机断点、发布校验及 14/28 天复查规则。 |
 
 ## 固定入口
 

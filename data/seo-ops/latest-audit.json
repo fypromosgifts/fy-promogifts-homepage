@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-01T03:36:26.681Z",
+    "generatedAt": "2026-09-01T04:19:46.534Z",
     "publicPages": 150,
     "indexablePages": 122,
     "sitemapUrls": 122,
@@ -606,7 +606,7 @@
     {
       "path": "/catalog/drinkware/bamboo-lid-glass-tumbler/",
       "title": "Bamboo-Lid Glass Tumbler | Custom Promotional Product",
-      "description": "A modern glass tumbler with bamboo lid and reusable straw for office, caf? and event programs.",
+      "description": "A modern glass tumbler with bamboo lid and reusable straw for office, café and event programs.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/catalog/drinkware/bamboo-lid-glass-tumbler/",
       "canonicalPath": "/catalog/drinkware/bamboo-lid-glass-tumbler/",
@@ -707,13 +707,13 @@
       "canonical": "https://www.fypromogifts.com/catalog/gift-sets/",
       "canonicalPath": "/catalog/gift-sets/",
       "h1": [
-        "Build a gift set people will actually use"
+        "Custom corporate gift sets, ready to configure"
       ],
-      "words": 1599,
+      "words": 1505,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/index.html",
-      "imageCount": 45
+      "imageCount": 49
     },
     {
       "path": "/catalog/gift-sets/a5-business-notebook-gift-set/",
@@ -1373,15 +1373,15 @@
     },
     {
       "path": "/catalog/gift-sets/tulip-theme-women-s-gift-set/",
-      "title": "Tulip Theme Women?s Gift Set | Custom Gift Set",
+      "title": "Tulip Theme Women’s Gift Set | Custom Gift Set",
       "description": "A soft pink tulip-themed set with drinkware, fragrance and blanket options for appreciation, seasonal and lifestyle gifting.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tulip-theme-women-s-gift-set/",
       "canonicalPath": "/catalog/gift-sets/tulip-theme-women-s-gift-set/",
       "h1": [
-        "Tulip Theme Women?s Gift Set"
+        "Tulip Theme Women’s Gift Set"
       ],
-      "words": 335,
+      "words": 333,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/tulip-theme-women-s-gift-set/index.html",
@@ -1389,15 +1389,15 @@
     },
     {
       "path": "/catalog/gift-sets/tulip-theme-womens-gift-set/",
-      "title": "Tulip Theme Women?s Gift Set | Custom Promotional Product",
+      "title": "Tulip Theme Women’s Gift Set | Custom Promotional Product",
       "description": "A soft pink tulip-themed set with drinkware, fragrance and blanket options for appreciation, seasonal and lifestyle gifting.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tulip-theme-womens-gift-set/",
       "canonicalPath": "/catalog/gift-sets/tulip-theme-womens-gift-set/",
       "h1": [
-        "Tulip Theme Women?s Gift Set"
+        "Tulip Theme Women’s Gift Set"
       ],
-      "words": 339,
+      "words": 337,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/tulip-theme-womens-gift-set/index.html",
