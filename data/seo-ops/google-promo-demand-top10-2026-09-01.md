@@ -72,3 +72,7 @@ This is an action ranking, not a copied survey ranking. It combines recipient pr
 - [PPAI 2025 most-kept branded products](https://www.ppai.org/wp-content/uploads/2025/11/PPAI-Category-Map-Top-5-Most-Kept-and-Used-Promo-Products-Infographic.pdf)
 - [PPAI 2024 distributor sales report](https://www.ppai.org/wp-content/uploads/2025/02/2024-PPAI-Sales-Volume-Report.pdf)
 - [Custom Ink 2026 welcome-kit survey](https://www.customink.com/blog/what-employees-want-in-welcome-kits-survey/)
+
+## Concrete product image shortlist
+
+The visual shortlist contains ten specific non-character, non-licensed product forms. Images are third-party selection references only and must not be republished on the FY website. Open: `data/seo-ops/promo-product-image-shortlist-2026-09-01.html`.
