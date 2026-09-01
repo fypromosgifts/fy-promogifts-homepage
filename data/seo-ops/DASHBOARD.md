@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-09-01T05:28:21.121Z
+最后刷新：2026-09-01T05:32:44.655Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -55,6 +55,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-09-01 | post_deployment_qa_fix | /popular-promotional-products/ | Re-audited all 10 logo-free visuals and removed the mobile floating CTA overlap | All 10 source images visually inspected with no logo or watermark; all 10 live WebP URLs return HTTP 200; production at 390x844 has 10 cards, zero floating widgets, zero horizontal overflow, local quote link and correct Formspree action; SEO and release audits report zero errors |
 | 2026-09-01 | product_visual_deployment | /popular-promotional-products/ + homepage + catalog | Published 10 original logo-free promotional product concept visuals and a dedicated inquiry landing page | Commit 454aba4 pushed to main; production page HTTP 200; 10 cards; hero image 1200px; Formspree endpoint correct; desktop and 390px mobile QA passed; SEO audit P0/P1/P2 all zero |
 | 2026-09-01 | product_image_research | data/seo-ops/promo-product-image-shortlist-2026-09-01.html | 完成 10 个非 IP 具体促销礼品款式的图片选款板 | 10 张图片全部通过可访问性检查；3 张使用 FY 本地素材，7 张外部参考图返回 HTTP 200；逐款标注筛选参数与图片使用边界 |
 | 2026-09-01 | market_research | data/seo-ops/google-promo-demand-top10-2026-09-01.md | 完成 Google 可检索权威来源的非 IP 促销礼品 Top 10 与 FY 上架优先级研究 | 交叉核对 ASI 2026 国际偏好、PPAI 2024-2026 销量/留存研究和 Custom Ink 300+ 员工套装调查；所有推荐排除授权 IP |
@@ -62,7 +63,6 @@
 | 2026-08-31 | conversion_upgrade | /catalog/drinkware/mugs/ + /catalog/drinkware/tumblers/ + /catalog/stationery-office/ | 为 Mugs、Tumblers、Stationery 三个核心品类页补齐直接询盘表单、来源归因与相关上下文内链 | 本地 validator 0 errors；审计 P0/P1/P2=0/0/0；桌面 1440x900 与手机 390x844 无溢出和破图；归因字段正确 |
 | 2026-08-29 | indexing_submission | IndexNow + GSC/Bing verification | Submitted six updated commercial URLs to IndexNow and verified the live 122-URL sitemap; documented the remaining authenticated console check without claiming GSC or Bing platform success. | IndexNow API returned HTTP 200 at Sat, 29 Aug 2026 12:56:36 GMT; live sitemap returns 200 with 122 URLs; GSC/Bing authenticated sitemap read remains unverified. |
 | 2026-08-29 | deployment | main / production | Published the complete release from a clean worktree and restored the corporate gift-kit and three verified mug gift-set routes that had been overwritten by an incomplete production deploy. | GitHub main advanced to 05acb83; homepage, sitemap, corporate gift kits, packaging pillar, mugs, tumblers, notebooks and MU024/MU023/DR004 returned HTTP 200; all expected page markers were present; sitemap contains 122 URLs. |
-| 2026-08-29 | form_and_contact_fix | sitewide forms and public contact footers | Moved the final two legacy inquiry forms to Formspree, added source attribution to the single-product form, and standardized 13 public footer email references to info@fypromogifts.com. | 96 forms checked; 96 use the expected Formspree endpoint; legacy Worker references 0; obsolete email references 0; attribution script syntax passes and local forms contain source_page and requested_product_type. |
 
 ## 固定入口
 
