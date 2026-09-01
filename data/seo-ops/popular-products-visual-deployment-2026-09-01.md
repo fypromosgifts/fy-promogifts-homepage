@@ -6,6 +6,7 @@
 - Linked from the homepage Products section and the catalog buying guide.
 - Kept separate from the product catalog because these are selection concepts, not verified fixed SKUs.
 - Page disclosure states that exact model, material, dimensions, colors, MOQ, packaging and availability are confirmed before quotation.
+- The global floating contact widget is intentionally omitted on this page: its mobile buttons covered product/form content and its generic form link pointed back to the homepage. The page keeps the sticky quote CTA, per-product buttons, the local inquiry form and WhatsApp link.
 
 ## Image generation method
 
