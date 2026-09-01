@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-01T04:25:43.072Z",
-    "publicPages": 150,
-    "indexablePages": 122,
-    "sitemapUrls": 122,
+    "generatedAt": "2026-09-01T04:48:13.257Z",
+    "publicPages": 151,
+    "indexablePages": 123,
+    "sitemapUrls": 123,
     "sitemapCoveragePercent": 100,
     "P0": 0,
     "P1": 0,
@@ -21,7 +21,7 @@
       "h1": [
         "Custom Gift Kits Made for Brands, Teams & Events"
       ],
-      "words": 1642,
+      "words": 1650,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "index.html",
@@ -245,7 +245,7 @@
       "h1": [
         "Promotional Gifts Catalog"
       ],
-      "words": 365,
+      "words": 397,
       "jsonLdCount": 0,
       "invalidJsonLd": 0,
       "file": "catalog/index.html",
@@ -606,7 +606,7 @@
     {
       "path": "/catalog/drinkware/bamboo-lid-glass-tumbler/",
       "title": "Bamboo-Lid Glass Tumbler | Custom Promotional Product",
-      "description": "A modern glass tumbler with bamboo lid and reusable straw for office, café and event programs.",
+      "description": "A modern glass tumbler with bamboo lid and reusable straw for office, caf? and event programs.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/catalog/drinkware/bamboo-lid-glass-tumbler/",
       "canonicalPath": "/catalog/drinkware/bamboo-lid-glass-tumbler/",
@@ -707,13 +707,13 @@
       "canonical": "https://www.fypromogifts.com/catalog/gift-sets/",
       "canonicalPath": "/catalog/gift-sets/",
       "h1": [
-        "Custom corporate gift sets, ready to configure"
+        "Build a gift set people will actually use"
       ],
-      "words": 1505,
+      "words": 1599,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/index.html",
-      "imageCount": 49
+      "imageCount": 45
     },
     {
       "path": "/catalog/gift-sets/a5-business-notebook-gift-set/",
@@ -1373,15 +1373,15 @@
     },
     {
       "path": "/catalog/gift-sets/tulip-theme-women-s-gift-set/",
-      "title": "Tulip Theme Women’s Gift Set | Custom Gift Set",
+      "title": "Tulip Theme Women?s Gift Set | Custom Gift Set",
       "description": "A soft pink tulip-themed set with drinkware, fragrance and blanket options for appreciation, seasonal and lifestyle gifting.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tulip-theme-women-s-gift-set/",
       "canonicalPath": "/catalog/gift-sets/tulip-theme-women-s-gift-set/",
       "h1": [
-        "Tulip Theme Women’s Gift Set"
+        "Tulip Theme Women?s Gift Set"
       ],
-      "words": 333,
+      "words": 335,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/tulip-theme-women-s-gift-set/index.html",
@@ -1389,15 +1389,15 @@
     },
     {
       "path": "/catalog/gift-sets/tulip-theme-womens-gift-set/",
-      "title": "Tulip Theme Women’s Gift Set | Custom Promotional Product",
+      "title": "Tulip Theme Women?s Gift Set | Custom Promotional Product",
       "description": "A soft pink tulip-themed set with drinkware, fragrance and blanket options for appreciation, seasonal and lifestyle gifting.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/catalog/gift-sets/tulip-theme-womens-gift-set/",
       "canonicalPath": "/catalog/gift-sets/tulip-theme-womens-gift-set/",
       "h1": [
-        "Tulip Theme Women’s Gift Set"
+        "Tulip Theme Women?s Gift Set"
       ],
-      "words": 337,
+      "words": 339,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/tulip-theme-womens-gift-set/index.html",
@@ -2218,6 +2218,22 @@
       "invalidJsonLd": 0,
       "file": "low-moq-promotional-products/index.html",
       "imageCount": 1
+    },
+    {
+      "path": "/popular-promotional-products/",
+      "title": "10 Popular Promotional Product Ideas for 2026 | FY PromoGifts",
+      "description": "Explore 10 popular promotional product and gift-set ideas for 2026, with logo-ready concept visuals for events, onboarding, campaigns and client gifts.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/popular-promotional-products/",
+      "canonicalPath": "/popular-promotional-products/",
+      "h1": [
+        "10 Popular Promotional Product Ideas"
+      ],
+      "words": 738,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "popular-promotional-products/index.html",
+      "imageCount": 11
     },
     {
       "path": "/privacy-policy/",
