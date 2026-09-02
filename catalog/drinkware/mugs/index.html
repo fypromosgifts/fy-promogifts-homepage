@@ -108,7 +108,7 @@
           <h2 id="mug-inquiry-title">Request a custom mug quotation</h2>
           <p>Send the target quantity, preferred mug type, destination and deadline. We will review a workable product, logo and packaging route before pricing.</p>
         </div>
-        <form action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data">
+        <form action="/api/inquiry" method="POST" enctype="multipart/form-data">
           <input type="hidden" name="_subject" value="Custom Mug Inquiry - FY PromoGifts">
           <input type="hidden" name="products" value="Custom mugs / ceramic mugs">
           <div class="inquiry-form-grid">
@@ -154,5 +154,5 @@
     </aside>
 
     <script src="../../assets/catalog.js?v=20260812-catalog6"></script>
-  <script src="/assets/fy-attribution.js?v=20260828" defer></script></body>
+  <script src="/assets/fy-attribution.js?v=20260828" defer></script><script src="/assets/fy-inquiry-guard.js?v=20260902" defer></script></body>
 </html>

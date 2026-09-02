@@ -491,7 +491,7 @@
           <div class="kicker">Request a Campaign Proposal</div>
           <h2>Get a Free Brand Campaign Kit Mockup</h2>
           <p class="lead">Share your campaign use case, quantity, destination, deadline and preferred products. We will review the combination and recommend a practical direction.</p>
-          <form class="form-grid" id="quoteForm" action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data">
+          <form class="form-grid" id="quoteForm" action="/api/inquiry" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_subject" value="Brand Campaign Giveaway Inquiry - FY PromoGifts">
             <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden"><label>Leave this field empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
             <input type="hidden" name="use_case" value="Brand Campaign Giveaways">
@@ -596,5 +596,5 @@
   })();
 </script>
 <script src="/assets/fy-attribution.js?v=20260828" defer></script>
-</body>
+<script src="/assets/fy-inquiry-guard.js?v=20260902" defer></script></body>
 </html>

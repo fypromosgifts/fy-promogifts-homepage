@@ -98,7 +98,7 @@
 </div>
 </div>
 <div class="quote-modal" id="quoteModal" aria-hidden="true">
-<form class="quote-card" id="quoteForm" action="https://formspree.io/f/xgoqqrno" method="POST" enctype="multipart/form-data">
+<form class="quote-card" id="quoteForm" action="/api/inquiry" method="POST" enctype="multipart/form-data">
 <div class="quote-card__head">
 <div>
 <p class="kicker">Send kit idea</p>
@@ -185,5 +185,5 @@
 <script id="fy-form-guard-v1">(function(){var field=document.querySelector('[name="need_by_date"]');if(!field)return;var now=new Date();now.setMinutes(now.getMinutes()-now.getTimezoneOffset());field.min=now.toISOString().slice(0,10)})();</script>
 <script src="/assets/fy-attribution.js?v=20260828" defer>
 </script>
-</body>
+<script src="/assets/fy-inquiry-guard.js?v=20260902" defer></script></body>
 </html>

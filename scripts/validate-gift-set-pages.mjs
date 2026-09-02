@@ -32,7 +32,8 @@ for (const product of giftSets) {
     ['Product schema', /"@type"\s*:\s*"Product"/],
     ['Breadcrumb schema', /"@type"\s*:\s*"BreadcrumbList"/],
     ['visible FAQ', 'class="product-faq"'],
-    ['Formspree form', 'https://formspree.io/f/xgoqqrno'],
+    ['protected inquiry form', '/api/inquiry'],
+    ['inquiry guard', '/assets/fy-inquiry-guard.js'],
     ['versioned CSS', /catalog\.css\?v=\d{8}[a-z0-9-]*/]
   ];
   checks.forEach(([label, needle]) => {

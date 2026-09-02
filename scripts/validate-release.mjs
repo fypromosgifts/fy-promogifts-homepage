@@ -93,10 +93,10 @@ for (const file of pages) {
 
 const targeted = [
   ['catalog/gift-sets/index.html', ['id="real-samples"', '3–5 days', '5–7 days', '500+ pieces', 'real-sample-grid']],
-  ['catalog/gift-sets/smart-heated-ceramic-mug-gift-set/index.html', ['100 sets', '3–5 days', '5–7 days', '500 pieces', 'https://formspree.io/f/xgoqqrno']],
-  ['catalog/gift-sets/premium-ceramic-mug-towel-gift-box/index.html', ['40 sets', '3–5 days', '5–7 days', '500 pieces', 'https://formspree.io/f/xgoqqrno']],
-  ['catalog/gift-sets/ceramic-mug-towel-gift-set/index.html', ['60 sets', '3–5 days', '5–7 days', '500 pieces', 'https://formspree.io/f/xgoqqrno']],
-  ['kit-studio/index.html', ['studio-guide', 'employee-onboarding-kits', 'client-appreciation-gifts', 'trade-show-giveaway-kits', 'https://formspree.io/f/xgoqqrno']],
+  ['catalog/gift-sets/smart-heated-ceramic-mug-gift-set/index.html', ['100 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
+  ['catalog/gift-sets/premium-ceramic-mug-towel-gift-box/index.html', ['40 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
+  ['catalog/gift-sets/ceramic-mug-towel-gift-set/index.html', ['60 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
+  ['kit-studio/index.html', ['studio-guide', 'employee-onboarding-kits', 'client-appreciation-gifts', 'trade-show-giveaway-kits', '/api/inquiry']],
 ];
 for (const [relative, needles] of targeted) {
   const html = fs.readFileSync(path.join(root, relative), 'utf8');
