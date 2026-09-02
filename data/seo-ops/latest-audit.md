@@ -1,6 +1,6 @@
 # FY PromoGifts SEO Audit
 
-Generated: 2026-09-01T05:32:44.645Z
+Generated: 2026-09-02T03:42:52.842Z
 
 ## Scorecard
 
