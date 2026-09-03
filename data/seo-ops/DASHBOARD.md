@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-09-02T23:01:43.905Z
+最后刷新：2026-09-03T13:52:27.268Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -10,9 +10,9 @@
 | 可索引正式页面 | 123 | 持续增长但不造薄页 |
 | Sitemap 覆盖率 | 100% | 100% |
 | P0 / P1 / P2 | 0 / 0 / 0 | 0 / 0 / 持续评估 |
-| 可执行任务 | 2 | 同时不超过 5 项 |
+| 可执行任务 | 1 | 同时不超过 5 项 |
 | 等待人工数据/登录 | 1 | 每周至少清理 1 项 |
-| 已完成任务 | 9 | 留存证据，不删除历史 |
+| 已完成任务 | 10 | 留存证据，不删除历史 |
 
 ## 网站方向
 
@@ -43,7 +43,6 @@
 | 优先级 | 任务 | 负责人 | 下一动作 / 完成标准 |
 |---|---|---|---|
 | P1 | 核验 GSC/Bing 站点验证、Sitemap 与提交状态 | 用户 + AI | 2026-08-29 公开 sitemap.xml 已验证为 122 个 URL，本轮 6 个更新 URL 已被 IndexNow 接收（HTTP 200）。当前浏览器未登录 GSC/Bing；需用户登录后确认两个平台的 sitemap 最后读取日期，并在 GSC 对优先 URL 执行 URL Inspection。 |
-| P1 | 建立 7 个核心单品获客页的统一成交模板 | AI + 用户事实核验 | Mugs、Tumblers、Notebooks 已补齐页内 Formspree 询盘、来源归因和 4–5 个相关站内入口；下一步补齐独立 Heated Mug 与 Towel 的真实 SKU、规格、MOQ、工艺、样品/交期和包装证据，再决定是否建立独立可索引页。 |
 
 ## 等待输入
 
@@ -55,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-09-03 | conversion_cluster_upgrade | Mugs + Gift Sets + MU024/MU023/DR004 + Packaging | 按三天量完成核心单品成交集群：杯具页增加加热杯/毛巾套装真实SKU决策区，Gift Sets新增独立防刷询盘，包装页新增三条已验证产品路由和包装专用询盘，并闭合6个页面的上下文内链 | commit ae7ae38已推送main；151页发布校验通过、123个唯一可索引canonical、0缺失资源、0断链；102个/api/inquiry表单与102处防刷脚本覆盖、旧Formspree直连0；Inquiry Function测试与Worker编译通过；桌面/手机横向溢出0；6个目标线上URL均HTTP 200且新标记匹配；无来源POST被403拒绝；IndexNow 6 URL返回HTTP 200 |
 | 2026-09-03 | form_security | sitewide | 全站100个询盘表单迁移到Cloudflare Pages防刷入口，启用Turnstile、蜜罐和填写时长校验，并停用旧Formspree表单 | 函数单测通过；151页发布校验0错误；100/100表单覆盖；线上GET返回405且无验证码POST返回400；旧表单关闭后刷新仍为Disabled |
 | 2026-09-02 | incident_review | sitewide | 复核垃圾询盘与Formspree超额：确认100个HTML页面公开同一表单端点，现有_gotcha只能拦截简单机器人，旧端点一旦被记录可绕过网页直接POST | 代码扫描确认100个HTML文件含同一Formspree端点；仓库当前无Pages Functions、Turnstile服务端验证或独立限速层；无证据支持Formspree主动制造垃圾提交 |
 | 2026-09-02 | page_update | /popular-promotional-products/ | 重做热门促销产品页排版：桌面四列、手机两列，首屏改为三图组合；修复图片高度属性导致卡片被拉到1200px及询价区WhatsApp按钮文字不可见 | 本地浏览器1440x1000与390x844验收；桌面卡片618.8px高/图片286px，手机卡片308.7px高/图片168.5px；横向溢出为0；产品选择可预填并定位询价表单；SEO审计P0/P1/P2均为0 |
@@ -62,7 +62,6 @@
 | 2026-09-01 | product_visual_deployment | /popular-promotional-products/ + homepage + catalog | Published 10 original logo-free promotional product concept visuals and a dedicated inquiry landing page | Commit 454aba4 pushed to main; production page HTTP 200; 10 cards; hero image 1200px; Formspree endpoint correct; desktop and 390px mobile QA passed; SEO audit P0/P1/P2 all zero |
 | 2026-09-01 | product_image_research | data/seo-ops/promo-product-image-shortlist-2026-09-01.html | 完成 10 个非 IP 具体促销礼品款式的图片选款板 | 10 张图片全部通过可访问性检查；3 张使用 FY 本地素材，7 张外部参考图返回 HTTP 200；逐款标注筛选参数与图片使用边界 |
 | 2026-09-01 | market_research | data/seo-ops/google-promo-demand-top10-2026-09-01.md | 完成 Google 可检索权威来源的非 IP 促销礼品 Top 10 与 FY 上架优先级研究 | 交叉核对 ASI 2026 国际偏好、PPAI 2024-2026 销量/留存研究和 Custom Ink 300+ 员工套装调查；所有推荐排除授权 IP |
-| 2026-09-01 | deployment | main / Cloudflare Pages | 发布核心品类转化升级并完成线上逐页复核与 IndexNow 提交 | commit 3c91b19 已推送；8 个变更 URL 均 HTTP 200 且发布标记匹配；生产 sitemap 122；IndexNow 8 URL HTTP 200 |
 
 ## 固定入口
 

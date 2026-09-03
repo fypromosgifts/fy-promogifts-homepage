@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-02T23:01:43.841Z",
+    "generatedAt": "2026-09-03T13:52:27.058Z",
     "publicPages": 151,
     "indexablePages": 123,
     "sitemapUrls": 123,
@@ -645,7 +645,7 @@
       "h1": [
         "Custom Mugs Catalog"
       ],
-      "words": 668,
+      "words": 935,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/drinkware/mugs/index.html",
@@ -709,7 +709,7 @@
       "h1": [
         "Build a gift set people will actually use"
       ],
-      "words": 1599,
+      "words": 1684,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/index.html",
@@ -757,7 +757,7 @@
       "h1": [
         "Ceramic Mug and Towel Gift Set"
       ],
-      "words": 482,
+      "words": 509,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/ceramic-mug-towel-gift-set/index.html",
@@ -1141,7 +1141,7 @@
       "h1": [
         "Premium Ceramic Mug & Towel Gift Box"
       ],
-      "words": 483,
+      "words": 511,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/premium-ceramic-mug-towel-gift-box/index.html",
@@ -1253,7 +1253,7 @@
       "h1": [
         "Smart Heated Ceramic Mug Gift Set"
       ],
-      "words": 498,
+      "words": 526,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/gift-sets/smart-heated-ceramic-mug-gift-set/index.html",
@@ -1845,7 +1845,7 @@
       "h1": [
         "Custom gift boxes and packaging for branded kits"
       ],
-      "words": 1249,
+      "words": 1496,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "custom-gift-boxes-packaging/index.html",
