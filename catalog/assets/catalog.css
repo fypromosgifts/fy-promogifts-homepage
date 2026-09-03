@@ -1162,7 +1162,8 @@ h2 {
 .inquiry-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 20px; }
 .inquiry-form-grid label { display: grid; gap: 7px; color: var(--navy); font-size: 13px; font-weight: 800; }
 .inquiry-form-grid input,
-.inquiry-form-grid textarea { width: 100%; min-height: 46px; padding: 11px 13px; border: 1px solid var(--line-strong); border-radius: 10px; background: #fff; color: var(--text); font: inherit; }
+.inquiry-form-grid textarea,
+.inquiry-form-grid select { width: 100%; min-height: 46px; padding: 11px 13px; border: 1px solid var(--line-strong); border-radius: 10px; background: #fff; color: var(--text); font: inherit; }
 .inquiry-form-grid textarea { resize: vertical; }
 .form-span { grid-column: 1 / -1; }
 @media (max-width: 800px) { .product-detail-grid, .product-detail-copy { grid-template-columns: 1fr; } .product-detail-grid { gap: 30px; } }

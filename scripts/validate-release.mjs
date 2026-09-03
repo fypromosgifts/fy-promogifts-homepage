@@ -96,6 +96,12 @@ const targeted = [
   ['catalog/gift-sets/smart-heated-ceramic-mug-gift-set/index.html', ['100 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
   ['catalog/gift-sets/premium-ceramic-mug-towel-gift-box/index.html', ['40 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
   ['catalog/gift-sets/ceramic-mug-towel-gift-set/index.html', ['60 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
+  ['catalog/gift-sets/index.html', ['id="gift-set-inquiry"', 'action="/api/inquiry"', '/assets/fy-inquiry-guard.js']],
+  ['catalog/drinkware/mugs/index.html', ['id="specialty-mug-gift-sets"', 'MU024', 'MU023', 'DR004', '/custom-gift-boxes-packaging/']],
+  ['catalog/gift-sets/smart-heated-ceramic-mug-gift-set/index.html', ['/catalog/drinkware/mugs/', '/custom-gift-boxes-packaging/']],
+  ['catalog/gift-sets/premium-ceramic-mug-towel-gift-box/index.html', ['/catalog/drinkware/mugs/', '/custom-gift-boxes-packaging/']],
+  ['catalog/gift-sets/ceramic-mug-towel-gift-set/index.html', ['/catalog/drinkware/mugs/', '/custom-gift-boxes-packaging/']],
+  ['custom-gift-boxes-packaging/index.html', ['id="packaging-inquiry"', 'action="/api/inquiry"', '/assets/fy-inquiry-guard.js', '/catalog/gift-sets/smart-heated-ceramic-mug-gift-set/', '/catalog/gift-sets/premium-ceramic-mug-towel-gift-box/', '/catalog/gift-sets/ceramic-mug-towel-gift-set/']],
   ['kit-studio/index.html', ['studio-guide', 'employee-onboarding-kits', 'client-appreciation-gifts', 'trade-show-giveaway-kits', '/api/inquiry']],
 ];
 for (const [relative, needles] of targeted) {

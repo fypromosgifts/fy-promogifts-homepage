@@ -35,3 +35,11 @@ Every indexable core-product page must contain:
 - Verified product-level MOQ and production timing for the general tumbler and notebook range.
 
 Until these facts are available, pages must say that MOQ and timing are confirmed after product, artwork, quantity, packaging, destination and deadline review.
+
+## 2026-09-03 completion note
+
+- The mug canonical now routes buyers to the verified MU024, MU023 and DR004 configurations with their confirmed MOQ, decoration, sample, production and packaging boundaries.
+- The Gift Sets catalog now has its own protected project-brief form, so buyers can request one of the three verified routes without returning to the homepage.
+- The packaging pillar now links to those three verified configurations and includes a protected packaging-specific brief for stock, sleeve and fully custom route comparison.
+- Each verified product page links back to the mug sourcing and packaging decision guides, closing the commercial-intent cluster without creating unsupported standalone heated-mug or towel pages.
+- The remaining sourcing gaps above stay open as evidence requirements, not as permission to publish thin or speculative pages.

@@ -911,6 +911,30 @@
 </div>
 <div id="emptyState" class="empty-state" hidden>No products match these filters.</div>
 </section>
+<section id="gift-set-inquiry" class="product-inquiry" aria-labelledby="giftSetInquiryHeading">
+<div>
+<p class="eyebrow">Direct project brief</p>
+<h2 id="giftSetInquiryHeading">Request a custom gift set quotation</h2>
+<p>Share the recipient, quantity, destination and deadline. We will compare a verified starting configuration, branding route and packaging option before pricing.</p>
+</div>
+<form action="/api/inquiry" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="_subject" value="Custom Gift Set Inquiry - FY PromoGifts">
+<input type="hidden" name="products" value="Custom corporate gift sets">
+<div class="inquiry-form-grid">
+<label>Name <input name="name" autocomplete="name" required></label>
+<label>Work email <input type="email" name="email" autocomplete="email" required></label>
+<label>Company <input name="company" autocomplete="organization" required></label>
+<label>WhatsApp / phone <input name="whatsapp" autocomplete="tel"></label>
+<label>Starting point <select name="gift_set_direction" required><option value="">Choose a direction</option><option>MU024 heated mug set — MOQ 100</option><option>MU023 mug and towel box — MOQ 40</option><option>DR004 mug and towel set — MOQ 60</option><option>Need a recommendation</option></select></label>
+<label>Estimated quantity <input type="number" name="quantity" min="1" inputmode="numeric" required></label>
+<label>Need-by date <input type="date" name="need_by_date"></label>
+<label>Delivery country or city <input name="destination" autocomplete="country-name" required></label>
+<label class="form-span">Recipients, budget and packaging preferences <textarea name="message" rows="5" placeholder="Audience, target budget, colors, required items, branding and delivery model"></textarea></label>
+<label class="form-span">Logo or artwork <input type="file" name="logo" accept=".pdf,.ai,.eps,.svg,.png,.jpg,.jpeg"></label>
+</div>
+<button class="pill-button primary" type="submit">Send Gift Set Quote Request</button>
+</form>
+</section>
 </main>
 <button id="inquiryBagButton" class="inquiry-bag-button" type="button" aria-controls="inquiryDrawer">Inquiry List <span id="inquiryCount">0</span>
 </button>
@@ -935,6 +959,8 @@
 <script src="/catalog/assets/catalog.js?v=20260814-catalog7" defer>
 </script>
 <script src="/assets/fy-attribution.js?v=20260828" defer>
+</script>
+<script src="/assets/fy-inquiry-guard.js?v=20260902" defer>
 </script>
 </body>
 </html>
