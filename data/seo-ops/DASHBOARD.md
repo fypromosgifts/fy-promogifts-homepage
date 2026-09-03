@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-09-03T14:07:56.698Z
+最后刷新：2026-09-03T14:20:40.441Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -54,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-09-03 | homepage_conversion_consolidation | /#popular-products | 将原独立 Top 10 薄页整合进首页，发布 7 个无 Logo 概念款和 3 个已核实 SKU，并保留询盘预填与产品详情入口。 | commit a038386；发布校验 151 页、122 个唯一 canonical、0 缺图、0 断链、0 错误；浏览器桌面 5 栏/手机 2 栏、10/7/3 计数正确、询盘预填成功；线上首页及 10 图均 200，旧页 301 到首页锚点且已移出 sitemap；IndexNow 200。 |
 | 2026-09-03 | conversion_cluster_upgrade | Mugs + Gift Sets + MU024/MU023/DR004 + Packaging | 按三天量完成核心单品成交集群：杯具页增加加热杯/毛巾套装真实SKU决策区，Gift Sets新增独立防刷询盘，包装页新增三条已验证产品路由和包装专用询盘，并闭合6个页面的上下文内链 | commit ae7ae38已推送main；151页发布校验通过、123个唯一可索引canonical、0缺失资源、0断链；102个/api/inquiry表单与102处防刷脚本覆盖、旧Formspree直连0；Inquiry Function测试与Worker编译通过；桌面/手机横向溢出0；6个目标线上URL均HTTP 200且新标记匹配；无来源POST被403拒绝；IndexNow 6 URL返回HTTP 200 |
 | 2026-09-03 | form_security | sitewide | 全站100个询盘表单迁移到Cloudflare Pages防刷入口，启用Turnstile、蜜罐和填写时长校验，并停用旧Formspree表单 | 函数单测通过；151页发布校验0错误；100/100表单覆盖；线上GET返回405且无验证码POST返回400；旧表单关闭后刷新仍为Disabled |
 | 2026-09-02 | incident_review | sitewide | 复核垃圾询盘与Formspree超额：确认100个HTML页面公开同一表单端点，现有_gotcha只能拦截简单机器人，旧端点一旦被记录可绕过网页直接POST | 代码扫描确认100个HTML文件含同一Formspree端点；仓库当前无Pages Functions、Turnstile服务端验证或独立限速层；无证据支持Formspree主动制造垃圾提交 |
@@ -61,7 +62,6 @@
 | 2026-09-01 | post_deployment_qa_fix | /popular-promotional-products/ | Re-audited all 10 logo-free visuals and removed the mobile floating CTA overlap | All 10 source images visually inspected with no logo or watermark; all 10 live WebP URLs return HTTP 200; production at 390x844 has 10 cards, zero floating widgets, zero horizontal overflow, local quote link and correct Formspree action; SEO and release audits report zero errors |
 | 2026-09-01 | product_visual_deployment | /popular-promotional-products/ + homepage + catalog | Published 10 original logo-free promotional product concept visuals and a dedicated inquiry landing page | Commit 454aba4 pushed to main; production page HTTP 200; 10 cards; hero image 1200px; Formspree endpoint correct; desktop and 390px mobile QA passed; SEO audit P0/P1/P2 all zero |
 | 2026-09-01 | product_image_research | data/seo-ops/promo-product-image-shortlist-2026-09-01.html | 完成 10 个非 IP 具体促销礼品款式的图片选款板 | 10 张图片全部通过可访问性检查；3 张使用 FY 本地素材，7 张外部参考图返回 HTTP 200；逐款标注筛选参数与图片使用边界 |
-| 2026-09-01 | market_research | data/seo-ops/google-promo-demand-top10-2026-09-01.md | 完成 Google 可检索权威来源的非 IP 促销礼品 Top 10 与 FY 上架优先级研究 | 交叉核对 ASI 2026 国际偏好、PPAI 2024-2026 销量/留存研究和 Custom Ink 300+ 员工套装调查；所有推荐排除授权 IP |
 
 ## 固定入口
 
