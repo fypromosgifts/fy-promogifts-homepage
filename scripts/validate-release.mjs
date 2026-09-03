@@ -80,7 +80,8 @@ for (const file of pages) {
     if (href.startsWith('/') && !routeExists(href)) warnings.push(`${relative}: unresolved internal link ${href}`);
   }
 
-  const canonical = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i)?.[1];
+  const canonicalTag = html.match(/<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>/i)?.[0];
+  const canonical = canonicalTag?.match(/\bhref=["']([^"']+)["']/i)?.[1];
   if (!noindex && !redirected) {
     if (!canonical) errors.push(`${relative}: indexable page missing canonical`);
     else {
@@ -92,6 +93,7 @@ for (const file of pages) {
 }
 
 const targeted = [
+  ['index.html', ['id="popular-products"', '10 Popular Product &amp;', 'data-product-interest="40 oz Handle Tumbler"', 'showcase-badge verified', 'fy-product-prefill-v2', '/assets/trending-products/performance-polo-shirt.webp']],
   ['catalog/gift-sets/index.html', ['id="real-samples"', '3–5 days', '5–7 days', '500+ pieces', 'real-sample-grid']],
   ['catalog/gift-sets/smart-heated-ceramic-mug-gift-set/index.html', ['100 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
   ['catalog/gift-sets/premium-ceramic-mug-towel-gift-box/index.html', ['40 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],

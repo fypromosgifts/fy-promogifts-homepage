@@ -2,11 +2,11 @@
 
 ## Placement decision
 
-- Published as a dedicated buyer-inspiration page at `/popular-promotional-products/`.
-- Linked from the homepage Products section and the catalog buying guide.
-- Kept separate from the product catalog because these are selection concepts, not verified fixed SKUs.
-- Page disclosure states that exact model, material, dimensions, colors, MOQ, packaging and availability are confirmed before quotation.
-- The global floating contact widget is intentionally omitted on this page: its mobile buttons covered product/form content and its generic form link pointed back to the homepage. The page keeps the sticky quote CTA, per-product buttons, the local inquiry form and WhatsApp link.
+- Initially published as a dedicated buyer-inspiration page at `/popular-promotional-products/`.
+- On 2026-09-03, its strongest product directions were consolidated into the homepage `#popular-products` section to avoid a thin standalone page and reduce duplication with the existing homepage product blocks.
+- The homepage shortlist combines seven concept directions with three verified gift-set SKUs. Concept cards prefill the homepage inquiry; verified cards link to product-level facts.
+- `/popular-promotional-products/` now redirects permanently to `/#popular-products` and is excluded from the sitemap.
+- The homepage disclosure states that exact model, material, dimensions, colors, MOQ, packaging and availability are confirmed before quotation unless the card is marked as a verified SKU.
 
 ## Image generation method
 
