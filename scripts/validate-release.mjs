@@ -105,6 +105,10 @@ const targeted = [
   ['catalog/gift-sets/ceramic-mug-towel-gift-set/index.html', ['/catalog/drinkware/mugs/', '/custom-gift-boxes-packaging/']],
   ['custom-gift-boxes-packaging/index.html', ['id="packaging-inquiry"', 'action="/api/inquiry"', '/assets/fy-inquiry-guard.js', '/catalog/gift-sets/smart-heated-ceramic-mug-gift-set/', '/catalog/gift-sets/premium-ceramic-mug-towel-gift-box/', '/catalog/gift-sets/ceramic-mug-towel-gift-set/']],
   ['kit-studio/index.html', ['studio-guide', 'employee-onboarding-kits', 'client-appreciation-gifts', 'trade-show-giveaway-kits', '/api/inquiry']],
+  ['promotional-products-supplier-for-marketing-agencies/index.html', ['Promotional Products Procurement &amp; Sourcing for Agencies', 'id="procurement-title"', 'id="verified-start-title"', '"dateModified": "2026-09-04"']],
+  ['blog/index.html', ['Promotional Gifts Blog &amp; Practical Buyer Guides', 'id="guide-paths-title"', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-09-04"']],
+  ['client-appreciation-gifts/index.html', ['Thank You Gifts for Clients &amp; Custom Gift Sets', 'Thank-You Gifts for Clients They Will Actually Use', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-09-04"']],
+  ['employee-onboarding-kits/index.html', ['Employee Onboarding Kits for New Hires', 'office, hybrid or remote new hires', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified": "2026-09-04"']],
 ];
 for (const [relative, needles] of targeted) {
   const html = fs.readFileSync(path.join(root, relative), 'utf8');

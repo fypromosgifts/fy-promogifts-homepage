@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-03T14:20:40.437Z",
+    "generatedAt": "2026-09-04T13:37:07.787Z",
     "publicPages": 151,
     "indexablePages": 122,
     "sitemapUrls": 122,
@@ -45,16 +45,16 @@
     },
     {
       "path": "/blog/",
-      "title": "Promotional Gifts Blog & Buyer Guides | FY PromoGifts",
-      "description": "Promotional gifts blog with practical buyer guides for corporate gift kits, employee welcome kits, client appreciation gifts and trade show giveaways.",
+      "title": "Promotional Gifts Blog: Buyer Guides & Sourcing Advice | FY PromoGifts",
+      "description": "Promotional gifts blog for B2B buyers: compare gift ideas, sourcing questions, MOQ, branding, packaging and planning for clients, employees and events.",
       "robots": "",
       "canonical": "https://www.fypromogifts.com/blog/",
       "canonicalPath": "/blog/",
       "h1": [
-        "Better ideas for custom promotional gifts and branded kits."
+        "Promotional Gifts Blog & Practical Buyer Guides"
       ],
-      "words": 476,
-      "jsonLdCount": 0,
+      "words": 651,
+      "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "blog/index.html",
       "imageCount": 15
@@ -149,7 +149,7 @@
       "h1": [
         "Low MOQ Custom Promotional Products: What Buyers Should Confirm Before Ordering"
       ],
-      "words": 2460,
+      "words": 2477,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "blog/low-moq-custom-promotional-products/index.html",
@@ -245,7 +245,7 @@
       "h1": [
         "Promotional Gifts Catalog"
       ],
-      "words": 400,
+      "words": 415,
       "jsonLdCount": 0,
       "invalidJsonLd": 0,
       "file": "catalog/index.html",
@@ -1773,15 +1773,15 @@
     },
     {
       "path": "/client-appreciation-gifts/",
-      "title": "Custom Client Appreciation Gifts & Gift Sets | FY PromoGifts",
-      "description": "Create practical custom client appreciation gifts with bags, drinkware, umbrellas, organizers and flexible packaging. Request a free branded gift set mockup.",
+      "title": "Thank You Gifts for Clients & Custom Gift Sets | FY PromoGifts",
+      "description": "Plan practical thank you gifts for clients with useful products, custom branding, flexible packaging and verified MOQ guidance. Request a free gift set mockup.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/client-appreciation-gifts/",
       "canonicalPath": "/client-appreciation-gifts/",
       "h1": [
-        "Client Gifts They Will Actually Use"
+        "Thank-You Gifts for Clients They Will Actually Use"
       ],
-      "words": 1601,
+      "words": 1607,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "client-appreciation-gifts/index.html",
@@ -2157,15 +2157,15 @@
     },
     {
       "path": "/employee-onboarding-kits/",
-      "title": "Employee Onboarding Kits & Fulfillment | FY PromoGifts",
-      "description": "Plan custom employee onboarding kits with branded products, packaging and multi-address fulfillment options. Low MOQ options and a free digital mockup.",
+      "title": "Employee Onboarding Kits for New Hires | FY PromoGifts",
+      "description": "Plan employee onboarding kits for new hires with practical products, custom branding, flexible packaging and delivery guidance for office, hybrid or remote teams.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/employee-onboarding-kits/",
       "canonicalPath": "/employee-onboarding-kits/",
       "h1": [
         "Custom Employee Onboarding Kits for New Hires"
       ],
-      "words": 1394,
+      "words": 1405,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "employee-onboarding-kits/index.html",
@@ -2285,19 +2285,19 @@
     },
     {
       "path": "/promotional-products-supplier-for-marketing-agencies/",
-      "title": "Promotional Products Supplier for Marketing Agencies",
-      "description": "Promotional products sourcing for marketing agencies: custom products, gift kits, mockups, samples, branded packaging and delivery planning from one supplier.",
+      "title": "Promotional Products Procurement & Sourcing for Agencies | FY PromoGifts",
+      "description": "Promotional product procurement and sourcing for marketing agencies: compare products, logo methods, samples, branded packaging, kitting and delivery planning.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/promotional-products-supplier-for-marketing-agencies/",
       "canonicalPath": "/promotional-products-supplier-for-marketing-agencies/",
       "h1": [
-        "Promotional Products Supplier for Marketing Agencies"
+        "Promotional Products Procurement & Sourcing for Marketing Agencies"
       ],
-      "words": 469,
+      "words": 908,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products-supplier-for-marketing-agencies/index.html",
-      "imageCount": 1
+      "imageCount": 4
     },
     {
       "path": "/promotional-products/",
