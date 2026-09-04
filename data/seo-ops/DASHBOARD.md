@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-09-04T13:37:07.804Z
+最后刷新：2026-09-04T13:47:31.163Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -54,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-09-04 | ranking_sprint | sitewide | 围绕真实GSC查询强化4个重点页面：供应商采购页、博客中心、客户答谢礼页和员工入职套装页；补充采购表、真实产品入口、上下文内链及移动端导航修复。 | 发布校验151页/122个canonical/0错误；JSON-LD、内链、图片、礼品套装与询盘函数通过；1440px与390px四页浏览器自查无横向溢出/坏图；线上四页200且新标记、canonical、schema、图片和/api/inquiry通过；IndexNow 6 URLs返回200。 |
 | 2026-09-03 | homepage_conversion_consolidation | /#popular-products | 将原独立 Top 10 薄页整合进首页，发布 7 个无 Logo 概念款和 3 个已核实 SKU，并保留询盘预填与产品详情入口。 | commit a038386；发布校验 151 页、122 个唯一 canonical、0 缺图、0 断链、0 错误；浏览器桌面 5 栏/手机 2 栏、10/7/3 计数正确、询盘预填成功；线上首页及 10 图均 200，旧页 301 到首页锚点且已移出 sitemap；IndexNow 200。 |
 | 2026-09-03 | conversion_cluster_upgrade | Mugs + Gift Sets + MU024/MU023/DR004 + Packaging | 按三天量完成核心单品成交集群：杯具页增加加热杯/毛巾套装真实SKU决策区，Gift Sets新增独立防刷询盘，包装页新增三条已验证产品路由和包装专用询盘，并闭合6个页面的上下文内链 | commit ae7ae38已推送main；151页发布校验通过、123个唯一可索引canonical、0缺失资源、0断链；102个/api/inquiry表单与102处防刷脚本覆盖、旧Formspree直连0；Inquiry Function测试与Worker编译通过；桌面/手机横向溢出0；6个目标线上URL均HTTP 200且新标记匹配；无来源POST被403拒绝；IndexNow 6 URL返回HTTP 200 |
 | 2026-09-03 | form_security | sitewide | 全站100个询盘表单迁移到Cloudflare Pages防刷入口，启用Turnstile、蜜罐和填写时长校验，并停用旧Formspree表单 | 函数单测通过；151页发布校验0错误；100/100表单覆盖；线上GET返回405且无验证码POST返回400；旧表单关闭后刷新仍为Disabled |
@@ -61,7 +62,6 @@
 | 2026-09-02 | page_update | /popular-promotional-products/ | 重做热门促销产品页排版：桌面四列、手机两列，首屏改为三图组合；修复图片高度属性导致卡片被拉到1200px及询价区WhatsApp按钮文字不可见 | 本地浏览器1440x1000与390x844验收；桌面卡片618.8px高/图片286px，手机卡片308.7px高/图片168.5px；横向溢出为0；产品选择可预填并定位询价表单；SEO审计P0/P1/P2均为0 |
 | 2026-09-01 | post_deployment_qa_fix | /popular-promotional-products/ | Re-audited all 10 logo-free visuals and removed the mobile floating CTA overlap | All 10 source images visually inspected with no logo or watermark; all 10 live WebP URLs return HTTP 200; production at 390x844 has 10 cards, zero floating widgets, zero horizontal overflow, local quote link and correct Formspree action; SEO and release audits report zero errors |
 | 2026-09-01 | product_visual_deployment | /popular-promotional-products/ + homepage + catalog | Published 10 original logo-free promotional product concept visuals and a dedicated inquiry landing page | Commit 454aba4 pushed to main; production page HTTP 200; 10 cards; hero image 1200px; Formspree endpoint correct; desktop and 390px mobile QA passed; SEO audit P0/P1/P2 all zero |
-| 2026-09-01 | product_image_research | data/seo-ops/promo-product-image-shortlist-2026-09-01.html | 完成 10 个非 IP 具体促销礼品款式的图片选款板 | 10 张图片全部通过可访问性检查；3 张使用 FY 本地素材，7 张外部参考图返回 HTTP 200；逐款标注筛选参数与图片使用边界 |
 
 ## 固定入口
 
