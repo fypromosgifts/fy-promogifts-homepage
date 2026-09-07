@@ -62,6 +62,7 @@
 
     var mount = document.createElement("div");
     mount.className = "fy-turnstile-wrap";
+    mount.setAttribute("role", "group");
     mount.setAttribute("aria-label", "Security verification");
     var actions = form.querySelector(".actions");
     if (actions) actions.parentNode.insertBefore(mount, actions);
