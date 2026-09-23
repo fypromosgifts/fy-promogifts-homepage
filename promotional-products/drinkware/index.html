@@ -180,17 +180,25 @@
     .route p { max-width: 315px; margin: 0; color: #b9c4c9; font-size: 13px; line-height: 1.52; }
     .route-bottom { position: absolute; right: 25px; bottom: 19px; left: 25px; padding-top: 11px; border-top: 1px solid rgba(255,255,255,.24); color: #fff; font-size: 10px; font-weight: 800; letter-spacing: .085em; text-transform: uppercase; }
 
-    .categories { background: #fff; }
-    .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+    .categories { padding: 88px 0; background: #fff; }
+    .categories .section-intro { margin-bottom: 34px; }
+    .categories .section-intro h2 { font-size: clamp(34px, 3.8vw, 56px); }
+    .product-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
     .product-card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); background: var(--paper); transition: transform .2s ease, border-color .2s ease; }
     .product-card:hover { transform: translateY(-4px); border-color: var(--orange); }
-    .product-card img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #ece8e0; }
-    .product-card:first-child img { object-position: center 54%; transform: scale(1.12); }
-    .product-card-copy { display: flex; flex: 1; flex-direction: column; padding: 20px; }
+    .product-media { position: relative; display: block; width: 100%; aspect-ratio: 4 / 3; overflow: hidden; background: #ece8e0; }
+    .product-media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    #smart-heated-mug .product-media img { object-position: center 56%; transform: scale(1.42); }
+    #gradient-handle-tumbler .product-media img { object-position: center 56%; }
+    #vacuum-travel-tumbler .product-media img { object-position: center 55%; }
+    #matte-bottle-series .product-media img { object-position: center 55%; }
+    #lidded-handle-mug .product-media img { object-position: center 52%; }
+    #clear-sleeve-tumbler .product-media img { object-position: center 50%; }
+    .product-card-copy { display: flex; flex: 1; flex-direction: column; min-height: 220px; padding: 20px; }
     .product-card-no { display: block; color: var(--orange); font-size: 9px; font-weight: 900; letter-spacing: .11em; }
     .product-card strong { display: block; min-height: 2.05em; margin-top: 10px; font-size: 19px; font-weight: 850; letter-spacing: -.05em; line-height: 1.02; text-transform: uppercase; }
     .product-card small { display: block; min-height: 2.8em; margin-top: 9px; color: var(--muted); font-size: 12px; line-height: 1.4; }
-    .product-facts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 15px; }
+    .product-facts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px; }
     .product-facts span { padding: 7px 9px; border: 1px solid var(--line); background: #fff; color: var(--ink); font-size: 9px; font-weight: 850; letter-spacing: .05em; line-height: 1; text-transform: uppercase; }
     .product-cta { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; padding-top: 13px; border-top: 1px solid var(--line); color: var(--ink); font-size: 10px; font-weight: 900; letter-spacing: .09em; text-transform: uppercase; }
     .product-cta b { color: var(--orange); font-size: 17px; font-weight: 500; }
@@ -203,7 +211,7 @@
     .category-note { color: var(--muted); font-size: 12px; line-height: 1.4; }
     .category-arrow { color: var(--orange); font-size: 27px; font-weight: 350; text-align: right; }
 
-    .brief { background: var(--paper); }
+    .brief { padding: 84px 0; background: var(--paper); }
     .brief-grid { display: grid; grid-template-columns: 1fr 1.48fr; gap: 64px; align-items: start; }
     .brief h2 { margin: 11px 0 18px; font-size: clamp(32px, 3vw, 42px); font-weight: 880; letter-spacing: -.07em; line-height: .96; text-transform: uppercase; }
     .brief > .brief-grid > div > p { max-width: 405px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
@@ -212,7 +220,7 @@
     .brief-list b { display: block; color: var(--orange); font-size: 10px; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
     .brief-list span { display: block; margin-top: 16px; font-size: 15px; font-weight: 830; letter-spacing: -.043em; line-height: 1.06; }
 
-    .contact { background: #fff; }
+    .contact { padding: 84px 0; background: #fff; }
     .contact-grid { display: grid; grid-template-columns: .93fr 1.07fr; gap: 72px; }
     .contact-copy h2 { max-width: 570px; margin: 12px 0 18px; font-size: clamp(36px, 3.8vw, 52px); font-weight: 890; letter-spacing: -.075em; line-height: .94; text-transform: uppercase; }
     .contact-copy p { max-width: 440px; color: var(--muted); font-size: 14px; line-height: 1.54; }
@@ -276,6 +284,7 @@
       .section-intro p { margin-top: 19px; }
       .proof-bar .shell, .method-grid, .brief-list { grid-template-columns: 1fr; }
       .product-grid { grid-template-columns: 1fr; gap: 16px; }
+      .product-card-copy { min-height: 0; }
       .product-card strong { min-height: 0; font-size: 21px; }
       .product-card small { min-height: 0; }
       .contact-copy h2 { font-size: 34px; }
@@ -395,12 +404,12 @@
           <p>Choose a product and capacity first. Material, colour, logo position and packaging are then confirmed against the production brief.</p>
         </div>
         <div class="product-grid">
-          <a class="product-card" id="smart-heated-mug" href="#contact"><img src="/assets/drinkware-products/custom-heated-mug-380ml.webp" width="1024" height="1024" alt="Custom 380 ml smart heated mug in six colours with gift boxes" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">01 / HEATED MUG</span><strong>Smart Heated Mug</strong><small>Capacity: 380 ml · custom logo available</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
-          <a class="product-card" id="gradient-handle-tumbler" href="#contact"><img src="/assets/drinkware-products/custom-gradient-handle-tumbler-40oz.webp" width="800" height="800" alt="Custom 40 oz gradient handled tumbler with straw" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">02 / HANDLE TUMBLER</span><strong>Gradient Handle Tumbler</strong><small>Capacity: 40 oz · custom logo available</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
-          <a class="product-card" id="vacuum-travel-tumbler" href="#contact"><img src="/assets/drinkware-products/custom-vacuum-travel-tumbler-40oz.webp" width="1024" height="1024" alt="Custom 40 oz vacuum travel tumbler with handle and straw" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">03 / TRAVEL TUMBLER</span><strong>Vacuum Travel Tumbler</strong><small>Capacity: 40 oz · custom logo available</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
-          <a class="product-card" id="matte-bottle-series" href="#contact"><img src="/assets/drinkware-products/custom-matte-bottle-multi-size.webp" width="800" height="800" alt="Custom matte bottle range in multiple colours and sizes" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">04 / BOTTLE SERIES</span><strong>Matte Bottle Series</strong><small>Capacities: 350 ml / 500 ml / 750 ml</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
-          <a class="product-card" id="lidded-handle-mug" href="#contact"><img src="/assets/drinkware-products/custom-lidded-handle-mug-500ml.webp" width="521" height="460" alt="Custom black 500 ml lidded handle mug" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">05 / HANDLE MUG</span><strong>Lidded Handle Mug</strong><small>Capacity: 500 ml · custom logo available</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
-          <a class="product-card" id="clear-sleeve-tumbler" href="#contact"><img src="/assets/drinkware-products/custom-clear-sleeve-tumbler-multi-size.webp" width="800" height="800" alt="Custom clear tumbler with sleeve and straw in two sizes" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">06 / SLEEVE TUMBLER</span><strong>Clear Sleeve Tumbler</strong><small>Capacities: 350 ml / 450 ml</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
+          <a class="product-card" id="smart-heated-mug" href="#contact"><span class="product-media"><img src="/assets/drinkware-products/custom-heated-mug-380ml.webp" width="1024" height="1024" alt="Custom 380 ml smart heated mug in six colours with gift boxes" loading="lazy" decoding="async"></span><span class="product-card-copy"><span class="product-card-no">01 / HEATED MUG</span><strong>Smart Heated Mug</strong><small>Capacity: 380 ml · custom logo available</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
+          <a class="product-card" id="gradient-handle-tumbler" href="#contact"><span class="product-media"><img src="/assets/drinkware-products/custom-gradient-handle-tumbler-40oz.webp" width="800" height="800" alt="Custom 40 oz gradient handled tumbler with straw" loading="lazy" decoding="async"></span><span class="product-card-copy"><span class="product-card-no">02 / HANDLE TUMBLER</span><strong>Gradient Handle Tumbler</strong><small>Capacity: 40 oz · custom logo available</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
+          <a class="product-card" id="vacuum-travel-tumbler" href="#contact"><span class="product-media"><img src="/assets/drinkware-products/custom-vacuum-travel-tumbler-40oz.webp" width="1024" height="1024" alt="Custom 40 oz vacuum travel tumbler with handle and straw" loading="lazy" decoding="async"></span><span class="product-card-copy"><span class="product-card-no">03 / TRAVEL TUMBLER</span><strong>Vacuum Travel Tumbler</strong><small>Capacity: 40 oz · custom logo available</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
+          <a class="product-card" id="matte-bottle-series" href="#contact"><span class="product-media"><img src="/assets/drinkware-products/custom-matte-bottle-multi-size.webp" width="800" height="800" alt="Custom matte bottle range in multiple colours and sizes" loading="lazy" decoding="async"></span><span class="product-card-copy"><span class="product-card-no">04 / BOTTLE SERIES</span><strong>Matte Bottle Series</strong><small>Capacities: 350 ml / 500 ml / 750 ml</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
+          <a class="product-card" id="lidded-handle-mug" href="#contact"><span class="product-media"><img src="/assets/drinkware-products/custom-lidded-handle-mug-500ml.webp" width="521" height="460" alt="Custom black 500 ml lidded handle mug" loading="lazy" decoding="async"></span><span class="product-card-copy"><span class="product-card-no">05 / HANDLE MUG</span><strong>Lidded Handle Mug</strong><small>Capacity: 500 ml · custom logo available</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
+          <a class="product-card" id="clear-sleeve-tumbler" href="#contact"><span class="product-media"><img src="/assets/drinkware-products/custom-clear-sleeve-tumbler-multi-size.webp" width="800" height="800" alt="Custom clear tumbler with sleeve and straw in two sizes" loading="lazy" decoding="async"></span><span class="product-card-copy"><span class="product-card-no">06 / SLEEVE TUMBLER</span><strong>Clear Sleeve Tumbler</strong><small>Capacities: 350 ml / 450 ml</small><span class="product-facts"><span>MOQ 100 pcs</span><span>Production ≤ 1 week</span></span><span class="product-cta">Request this model <b aria-hidden="true">→</b></span></span></a>
         </div>
         <p class="product-note">Sample logos shown in product photography illustrate possible branding positions only. Your artwork replaces the sample mark. The one-week lead time applies to production after artwork approval and stock confirmation; international shipping time varies by destination.</p>
       </div>
