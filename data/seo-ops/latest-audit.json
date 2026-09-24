@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-04T13:47:31.153Z",
-    "publicPages": 151,
-    "indexablePages": 122,
-    "sitemapUrls": 122,
+    "generatedAt": "2026-09-24T13:47:17.721Z",
+    "publicPages": 158,
+    "indexablePages": 130,
+    "sitemapUrls": 130,
     "sitemapCoveragePercent": 100,
     "P0": 0,
     "P1": 0,
@@ -19,13 +19,13 @@
       "canonical": "https://www.fypromogifts.com/",
       "canonicalPath": "/",
       "h1": [
-        "Custom Gift Kits Made for Brands, Teams & Events"
+        "Custom Gifts Made for Brands, Teams & Events"
       ],
-      "words": 1677,
+      "words": 1495,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "index.html",
-      "imageCount": 49
+      "imageCount": 44
     },
     {
       "path": "/best-promotional-gift-ideas-small-business-marketing-campaigns/",
@@ -53,11 +53,27 @@
       "h1": [
         "Promotional Gifts Blog & Practical Buyer Guides"
       ],
-      "words": 651,
+      "words": 748,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "blog/index.html",
-      "imageCount": 15
+      "imageCount": 18
+    },
+    {
+      "path": "/blog/30-oz-vs-40-oz-custom-tumblers/",
+      "title": "30 oz vs 40 oz Custom Tumblers: Buyer Guide | FY PromoGifts",
+      "description": "Compare 30 oz and 40 oz custom tumblers by capacity, weight, cup-holder fit, lid, handle, branding area and campaign use before ordering.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/30-oz-vs-40-oz-custom-tumblers/",
+      "canonicalPath": "/blog/30-oz-vs-40-oz-custom-tumblers/",
+      "h1": [
+        "30 oz vs 40 oz Custom Tumblers: Which Size Fits the Campaign?"
+      ],
+      "words": 1274,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/30-oz-vs-40-oz-custom-tumblers/index.html",
+      "imageCount": 1
     },
     {
       "path": "/blog/best-employee-onboarding-kit-ideas/",
@@ -108,6 +124,22 @@
       "imageCount": 1
     },
     {
+      "path": "/blog/easy-to-clean-leak-resistant-promotional-drinkware/",
+      "title": "Easy-to-Clean Promotional Drinkware Buyer Guide | FY PromoGifts",
+      "description": "Choose easy-to-clean, leak-resistant promotional drinkware by comparing lids, gaskets, mouth opening, cup-holder fit, materials and care requirements.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/easy-to-clean-leak-resistant-promotional-drinkware/",
+      "canonicalPath": "/blog/easy-to-clean-leak-resistant-promotional-drinkware/",
+      "h1": [
+        "How to Choose Promotional Drinkware That Is Easy to Clean and Carry"
+      ],
+      "words": 1310,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/easy-to-clean-leak-resistant-promotional-drinkware/index.html",
+      "imageCount": 1
+    },
+    {
       "path": "/blog/employee-welcome-kit-ideas/",
       "title": "What to Put in an Employee Welcome Kit | FY PromoGifts",
       "description": "Learn what to put in an employee welcome kit, from drinkware and stationery to bags, welcome cards and packaging for new-hire programs.",
@@ -137,6 +169,22 @@
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "blog/how-to-build-custom-event-gift-kits/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/laser-engraving-vs-uv-printing-vs-screen-printing-drinkware/",
+      "title": "Laser vs UV vs Screen Printing on Drinkware | FY PromoGifts",
+      "description": "Compare laser engraving, UV printing, screen printing and high-temperature decals for custom drinkware by artwork, surface, durability and order needs.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/laser-engraving-vs-uv-printing-vs-screen-printing-drinkware/",
+      "canonicalPath": "/blog/laser-engraving-vs-uv-printing-vs-screen-printing-drinkware/",
+      "h1": [
+        "Laser Engraving vs UV Printing vs Screen Printing on Drinkware"
+      ],
+      "words": 1360,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/laser-engraving-vs-uv-printing-vs-screen-printing-drinkware/index.html",
       "imageCount": 1
     },
     {
@@ -661,7 +709,7 @@
       "h1": [
         "Custom Logo Tumblers & Travel Cups"
       ],
-      "words": 695,
+      "words": 711,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/drinkware/tumblers/index.html",
@@ -1868,22 +1916,6 @@
       "imageCount": 1
     },
     {
-      "path": "/custom-logo-drinkware/",
-      "title": "Custom Logo Drinkware Supplier | Tumblers, Mugs & Bottles | FY PromoGifts",
-      "description": "Custom logo drinkware supplier for branded tumblers, mugs, water bottles and gift kits. Logo printing, laser engraving, mockups and bulk quote support.",
-      "robots": "index,follow",
-      "canonical": "https://www.fypromogifts.com/custom-logo-drinkware/",
-      "canonicalPath": "/custom-logo-drinkware/",
-      "h1": [
-        "Custom logo drinkware for branded gifts and events"
-      ],
-      "words": 299,
-      "jsonLdCount": 1,
-      "invalidJsonLd": 0,
-      "file": "custom-logo-drinkware/index.html",
-      "imageCount": 1
-    },
-    {
       "path": "/custom-logo-pens/",
       "title": "Custom Logo Pens Supplier | Branded Pens for Events | FY PromoGifts",
       "description": "Custom logo pens for trade shows, offices, onboarding kits and brand campaigns. Source metal pens, plastic pens and pen gift sets with logo mockups.",
@@ -2261,7 +2293,7 @@
       "h1": [
         "Promotional Drinkware for Corporate Gifts: 4 Practical Options for Different Campaigns"
       ],
-      "words": 1424,
+      "words": 1472,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-drinkware-for-corporate-gifts/index.html",
@@ -2316,20 +2348,36 @@
       "imageCount": 10
     },
     {
+      "path": "/promotional-products/apparel/",
+      "title": "FY PromoGifts - Custom Apparel",
+      "description": "Custom T-shirts, polos and hoodies from 100 pieces, with screen printing, heat transfer, embroidery and custom labels.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/apparel/",
+      "canonicalPath": "/promotional-products/apparel/",
+      "h1": [
+        "Custom apparel. Made to be worn."
+      ],
+      "words": 697,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/apparel/index.html",
+      "imageCount": 3
+    },
+    {
       "path": "/promotional-products/bags/",
-      "title": "Custom Promotional Bags | FY PromoGifts",
-      "description": "Custom promotional bags for trade shows, employee kits, retail events, and branded campaigns, with packaging and logo support.",
-      "robots": "",
+      "title": "FY PromoGifts - Custom Bags",
+      "description": "Custom tote bags, backpacks and cooler bags from 100 pieces, with screen printing, heat transfer, embroidery and patch options.",
+      "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/bags/",
       "canonicalPath": "/promotional-products/bags/",
       "h1": [
-        "Custom Promotional Bags"
+        "Custom bags. Built to be carried."
       ],
-      "words": 528,
+      "words": 700,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/bags/index.html",
-      "imageCount": 10
+      "imageCount": 3
     },
     {
       "path": "/promotional-products/bags/custom-canvas-tote-bags/",
@@ -2348,20 +2396,36 @@
       "imageCount": 10
     },
     {
+      "path": "/promotional-products/caps/",
+      "title": "FY PromoGifts - Custom Headwear",
+      "description": "Custom promotional caps and hats from 100 pieces, with embroidery, screen printing, heat transfer, woven patches and 3D puff embroidery.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/caps/",
+      "canonicalPath": "/promotional-products/caps/",
+      "h1": [
+        "Custom headwear. Built around the mark."
+      ],
+      "words": 703,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/caps/index.html",
+      "imageCount": 3
+    },
+    {
       "path": "/promotional-products/drinkware/",
-      "title": "Custom Promotional Drinkware | FY PromoGifts",
-      "description": "Custom drinkware ideas for corporate gifts, trade shows, onboarding kits, and branded campaigns, including mugs and stainless steel cups.",
-      "robots": "",
+      "title": "Custom Promotional Drinkware Supplier | FY PromoGifts",
+      "description": "Custom promotional drinkware from 100 pcs. Compare branded mugs, bottles and tumblers, five logo methods and selected stock-ready production within one week.",
+      "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/",
       "canonicalPath": "/promotional-products/drinkware/",
       "h1": [
-        "Custom Promotional Drinkware"
+        "Custom promotional drinkware. Printed with control."
       ],
-      "words": 532,
-      "jsonLdCount": 1,
+      "words": 1256,
+      "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "promotional-products/drinkware/index.html",
-      "imageCount": 10
+      "imageCount": 11
     },
     {
       "path": "/promotional-products/drinkware/custom-stainless-steel-tumblers/",
@@ -2378,6 +2442,54 @@
       "invalidJsonLd": 0,
       "file": "promotional-products/drinkware/custom-stainless-steel-tumblers/index.html",
       "imageCount": 10
+    },
+    {
+      "path": "/promotional-products/packaging/",
+      "title": "FY PromoGifts - Custom Packaging",
+      "description": "Custom gift boxes, mailer boxes and paper bags from 100 pieces, with digital printing, foil, debossing, die cutting and fitted inserts.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/packaging/",
+      "canonicalPath": "/promotional-products/packaging/",
+      "h1": [
+        "Custom packaging. Made to present."
+      ],
+      "words": 714,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/packaging/index.html",
+      "imageCount": 3
+    },
+    {
+      "path": "/promotional-products/stationery/",
+      "title": "FY PromoGifts - Custom Stationery",
+      "description": "Custom notebooks, pens and stationery sets from 100 pieces, with factory-direct decoration, packing and delivery planning.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/stationery/",
+      "canonicalPath": "/promotional-products/stationery/",
+      "h1": [
+        "Custom stationery. Finished with intent."
+      ],
+      "words": 712,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/stationery/index.html",
+      "imageCount": 3
+    },
+    {
+      "path": "/promotional-products/umbrellas/",
+      "title": "FY PromoGifts - Custom Umbrellas",
+      "description": "Custom compact, travel and golf umbrellas from 100 pieces, with canopy printing, transfer decoration and delivery planning.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/umbrellas/",
+      "canonicalPath": "/promotional-products/umbrellas/",
+      "h1": [
+        "Custom umbrellas. Made to be seen."
+      ],
+      "words": 705,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/umbrellas/index.html",
+      "imageCount": 3
     },
     {
       "path": "/quality-first-corporate-gift-kits/",
