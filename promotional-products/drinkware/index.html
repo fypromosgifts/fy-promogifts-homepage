@@ -188,8 +188,8 @@
     .product-card:hover { transform: translateY(-4px); border-color: var(--orange); }
     .product-media { position: relative; display: block; width: 100%; aspect-ratio: 4 / 3; overflow: hidden; background: #ece8e0; }
     .product-media img { display: block; width: 100%; height: 100%; object-fit: cover; }
-    #smart-heated-mug .product-media img { object-position: center 56%; transform: scale(1.42); }
-    #gradient-handle-tumbler .product-media img { object-position: center 56%; }
+    #smart-heated-mug .product-media img { position: absolute; top: -33%; left: -5%; width: 110%; height: auto; object-fit: fill; transform: none; }
+    #gradient-handle-tumbler .product-media img { object-position: center bottom; }
     #vacuum-travel-tumbler .product-media img { object-position: center 55%; }
     #matte-bottle-series .product-media img { object-position: center 55%; }
     #lidded-handle-mug .product-media img { object-position: center 52%; }
@@ -203,12 +203,6 @@
     .product-cta { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; padding-top: 13px; border-top: 1px solid var(--line); color: var(--ink); font-size: 10px; font-weight: 900; letter-spacing: .09em; text-transform: uppercase; }
     .product-cta b { color: var(--orange); font-size: 17px; font-weight: 500; }
     .product-note { margin: 18px 0 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
-    @media (min-width: 921px) {
-      #lidded-handle-mug, #clear-sleeve-tumbler { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      #lidded-handle-mug { grid-column: 1 / span 2; }
-      #clear-sleeve-tumbler { grid-column: 3 / span 2; }
-      #lidded-handle-mug .product-media, #clear-sleeve-tumbler .product-media { height: 238px; aspect-ratio: auto; }
-    }
     .category-list { border-top: 1px solid var(--line); }
     .category-row { display: grid; grid-template-columns: 86px minmax(230px, 1.4fr) minmax(230px, 1fr) 25px; align-items: center; min-height: 92px; gap: 24px; border-bottom: 1px solid var(--line); transition: padding .2s ease, background .2s ease; }
     .category-row:hover { padding: 0 17px; background: var(--paper); }
