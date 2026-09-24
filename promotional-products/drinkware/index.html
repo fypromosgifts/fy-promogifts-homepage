@@ -194,7 +194,6 @@
     #matte-bottle-series .product-media img { object-position: center 55%; }
     #lidded-handle-mug .product-media img { object-position: center 52%; }
     #clear-sleeve-tumbler .product-media img { object-position: center 50%; }
-    #lidded-handle-mug { grid-column: 2; }
     .product-card-copy { display: flex; flex: 1; flex-direction: column; min-height: 220px; padding: 20px; }
     .product-card-no { display: block; color: var(--orange); font-size: 9px; font-weight: 900; letter-spacing: .11em; }
     .product-card strong { display: block; min-height: 2.05em; margin-top: 10px; font-size: 19px; font-weight: 850; letter-spacing: -.05em; line-height: 1.02; text-transform: uppercase; }
@@ -204,6 +203,12 @@
     .product-cta { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; padding-top: 13px; border-top: 1px solid var(--line); color: var(--ink); font-size: 10px; font-weight: 900; letter-spacing: .09em; text-transform: uppercase; }
     .product-cta b { color: var(--orange); font-size: 17px; font-weight: 500; }
     .product-note { margin: 18px 0 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+    @media (min-width: 921px) {
+      #lidded-handle-mug, #clear-sleeve-tumbler { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #lidded-handle-mug { grid-column: 1 / span 2; }
+      #clear-sleeve-tumbler { grid-column: 3 / span 2; }
+      #lidded-handle-mug .product-media, #clear-sleeve-tumbler .product-media { height: 238px; aspect-ratio: auto; }
+    }
     .category-list { border-top: 1px solid var(--line); }
     .category-row { display: grid; grid-template-columns: 86px minmax(230px, 1.4fr) minmax(230px, 1fr) 25px; align-items: center; min-height: 92px; gap: 24px; border-bottom: 1px solid var(--line); transition: padding .2s ease, background .2s ease; }
     .category-row:hover { padding: 0 17px; background: var(--paper); }
@@ -253,7 +258,6 @@
       .proof-item:nth-child(4) { border-top: 1px solid var(--line); }
       .method-grid { grid-template-columns: repeat(2, 1fr); }
       .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      #lidded-handle-mug { grid-column: auto; }
       .route-grid { grid-template-columns: 1fr; }
       .route { min-height: 255px; }
       .route h3 { margin-top: 28px; }
