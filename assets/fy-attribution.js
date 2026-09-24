@@ -260,7 +260,7 @@
         page_path: pagePath
       });
     }
-    if (href === "/contact/" || /#(contact|inquiry|quote|quote-form)(?:$|[?&])/i.test(href)) {
+    if (href === "/contact/" || href === "#contact" || /#(contact|inquiry|quote|quote-form)(?:$|[?&])/i.test(href)) {
       window.fyTrackEvent("contact_form_open", {
         page_path: pagePath,
         source_page: sourcePage(),
