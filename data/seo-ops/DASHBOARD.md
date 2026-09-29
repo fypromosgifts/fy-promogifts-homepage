@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-09-29T04:55:28.804Z
+最后刷新：2026-09-29T04:58:36.368Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -54,7 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
-| 2026-09-29 | ranking_support | /promotional-products/drinkware/ + cited drinkware guide | Added an early contextual product link from the Bing-AI-cited decoration guide, prepared two vertical Pinterest creatives, and wrote platform-specific UTM follow-up copy for Pinterest, LinkedIn and Facebook. | SEO audit: 130/130 sitemap coverage, P0/P1/P2 all 0; release validator: valid JSON-LD, 0 missing assets and 0 unresolved internal links, with 7 known legacy content assertions; both social images verified at 1024x1536. |
+| 2026-09-29 | ranking_support | /promotional-products/drinkware/ + cited drinkware guide | Added an early contextual product link from the Bing-AI-cited decoration guide, prepared two vertical Pinterest creatives, and wrote platform-specific UTM follow-up copy for Pinterest, LinkedIn and Facebook. | SEO audit: 130/130 sitemap coverage, P0/P1/P2 all 0; release validator: valid JSON-LD, 0 missing assets and 0 unresolved internal links, with 7 known legacy content assertions; both social images verified at 1024x1536; live article and both image URLs returned HTTP 200; IndexNow accepted the updated article with HTTP 200. |
 | 2026-09-26 | indexing_and_entity_update | / + /promotional-products/drinkware/ | Connected verified social profiles, deployed entity signals, recorded three organic posts, refreshed Bing sitemap, and requested Google recrawl for Drinkware. | Commit 89ef997 deployed; live homepage and Drinkware page expose verified social links and Facebook sameAs; Google confirmed URL indexed and accepted a priority crawl request; GSC sitemap success with 130 URLs; Bing sitemap resubmitted on 2026-09-26 and processing; IndexNow accepted 2 updated URLs with HTTP 200; UTM fields and 6 product prefill hooks verified live. |
 | 2026-09-24 | page_update | /promotional-products/drinkware/ | Added verified buyer summary, GTM attribution, and six product-level inquiry events; deployed commit d968b70 and submitted four Drinkware URLs to IndexNow. | Live HTML contains the versioned attribution script and six data-product-id attributes; IndexNow returned HTTP 200 for four URLs; full site audit reports 0 missing assets and 0 unresolved internal links. |
 | 2026-09-04 | ranking_sprint | sitewide | 围绕真实GSC查询强化4个重点页面：供应商采购页、博客中心、客户答谢礼页和员工入职套装页；补充采购表、真实产品入口、上下文内链及移动端导航修复。 | 发布校验151页/122个canonical/0错误；JSON-LD、内链、图片、礼品套装与询盘函数通过；1440px与390px四页浏览器自查无横向溢出/坏图；线上四页200且新标记、canonical、schema、图片和/api/inquiry通过；IndexNow 6 URLs返回200。 |
