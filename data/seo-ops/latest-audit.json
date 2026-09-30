@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-30T13:48:01.602Z",
-    "publicPages": 158,
-    "indexablePages": 130,
-    "sitemapUrls": 130,
+    "generatedAt": "2026-09-30T15:34:48.936Z",
+    "publicPages": 161,
+    "indexablePages": 133,
+    "sitemapUrls": 133,
     "sitemapCoveragePercent": 100,
     "P0": 0,
     "P1": 0,
@@ -53,11 +53,11 @@
       "h1": [
         "Promotional Gifts Blog & Practical Buyer Guides"
       ],
-      "words": 748,
+      "words": 846,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "blog/index.html",
-      "imageCount": 18
+      "imageCount": 21
     },
     {
       "path": "/blog/30-oz-vs-40-oz-custom-tumblers/",
@@ -69,10 +69,26 @@
       "h1": [
         "30 oz vs 40 oz Custom Tumblers: Which Size Fits the Campaign?"
       ],
-      "words": 1274,
+      "words": 1276,
       "jsonLdCount": 3,
       "invalidJsonLd": 0,
       "file": "blog/30-oz-vs-40-oz-custom-tumblers/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/are-custom-logo-mugs-dishwasher-safe/",
+      "title": "Are Custom Logo Mugs Dishwasher Safe? Buyer Guide",
+      "description": "Learn what dishwasher-safe means for a custom logo mug, how decoration methods differ, what to test on a sample, and what to put in a durable drinkware brief.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/are-custom-logo-mugs-dishwasher-safe/",
+      "canonicalPath": "/blog/are-custom-logo-mugs-dishwasher-safe/",
+      "h1": [
+        "Are Custom Logo Mugs Dishwasher Safe?"
+      ],
+      "words": 1007,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/are-custom-logo-mugs-dishwasher-safe/index.html",
       "imageCount": 1
     },
     {
@@ -133,7 +149,7 @@
       "h1": [
         "How to Choose Promotional Drinkware That Is Easy to Clean and Carry"
       ],
-      "words": 1310,
+      "words": 1313,
       "jsonLdCount": 3,
       "invalidJsonLd": 0,
       "file": "blog/easy-to-clean-leak-resistant-promotional-drinkware/index.html",
@@ -172,6 +188,22 @@
       "imageCount": 1
     },
     {
+      "path": "/blog/how-to-choose-branded-drinkware-people-keep/",
+      "title": "How to Choose Branded Drinkware People Actually Keep",
+      "description": "Choose branded drinkware people will keep by matching audience, use setting, quality signals, lid, capacity, logo scale, packaging and sample testing.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/how-to-choose-branded-drinkware-people-keep/",
+      "canonicalPath": "/blog/how-to-choose-branded-drinkware-people-keep/",
+      "h1": [
+        "How to Choose Branded Drinkware People Actually Keep"
+      ],
+      "words": 931,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/how-to-choose-branded-drinkware-people-keep/index.html",
+      "imageCount": 1
+    },
+    {
       "path": "/blog/laser-engraving-vs-uv-printing-vs-screen-printing-drinkware/",
       "title": "Laser vs UV vs Screen Printing on Drinkware | FY PromoGifts",
       "description": "Compare laser engraving, UV printing, screen printing and high-temperature decals for custom drinkware by artwork, surface, durability and order needs.",
@@ -181,10 +213,26 @@
       "h1": [
         "Laser Engraving vs UV Printing vs Screen Printing on Drinkware"
       ],
-      "words": 1383,
+      "words": 1385,
       "jsonLdCount": 3,
       "invalidJsonLd": 0,
       "file": "blog/laser-engraving-vs-uv-printing-vs-screen-printing-drinkware/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/low-moq-custom-drinkware-order-guide/",
+      "title": "Low MOQ Custom Drinkware: 50 to 1,000 Pieces",
+      "description": "Plan a low MOQ custom drinkware order at 50, 100, 500 or 1,000 pieces. Learn which choices affect MOQ, unit cost, samples, decoration and packaging.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/low-moq-custom-drinkware-order-guide/",
+      "canonicalPath": "/blog/low-moq-custom-drinkware-order-guide/",
+      "h1": [
+        "Low MOQ Custom Drinkware: What Changes From 50 to 1,000 Pieces?"
+      ],
+      "words": 959,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/low-moq-custom-drinkware-order-guide/index.html",
       "imageCount": 1
     },
     {
@@ -2421,7 +2469,7 @@
       "h1": [
         "Custom promotional drinkware. Printed with control."
       ],
-      "words": 1259,
+      "words": 1368,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "promotional-products/drinkware/index.html",
