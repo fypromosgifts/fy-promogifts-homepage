@@ -1,0 +1,11 @@
+{
+  "submittedAt": "2026-09-30T21:46:40.8882959+08:00",
+  "endpoint": "https://api.indexnow.org/IndexNow",
+  "host": "www.fypromogifts.com",
+  "httpStatus": 200,
+  "urlCount": 2,
+  "urls": [
+    "https://www.fypromogifts.com/",
+    "https://www.fypromogifts.com/promotional-products/"
+  ]
+}
