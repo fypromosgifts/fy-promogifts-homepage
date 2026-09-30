@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-09-29T04:58:36.368Z
+最后刷新：2026-09-30T13:41:45.005Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -54,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-09-30 | conversion_and_internal_linking | / + /promotional-products/ + GA4 | Marked whatsapp_click as a GA4 key event and strengthened two high-authority internal links to the existing Drinkware category page using descriptive product-category wording. | GA4 recent-events table shows whatsapp_click marked with a pressed star; SEO audit reports 130/130 sitemap coverage and P0/P1/P2 at 0; release validator reports valid JSON-LD, 0 missing assets and 0 unresolved internal links, plus 7 known legacy content assertions. |
 | 2026-09-29 | ranking_support | /promotional-products/drinkware/ + cited drinkware guide | Added an early contextual product link from the Bing-AI-cited decoration guide, prepared two vertical Pinterest creatives, and wrote platform-specific UTM follow-up copy for Pinterest, LinkedIn and Facebook. | SEO audit: 130/130 sitemap coverage, P0/P1/P2 all 0; release validator: valid JSON-LD, 0 missing assets and 0 unresolved internal links, with 7 known legacy content assertions; both social images verified at 1024x1536; live article and both image URLs returned HTTP 200; IndexNow accepted the updated article with HTTP 200. |
 | 2026-09-26 | indexing_and_entity_update | / + /promotional-products/drinkware/ | Connected verified social profiles, deployed entity signals, recorded three organic posts, refreshed Bing sitemap, and requested Google recrawl for Drinkware. | Commit 89ef997 deployed; live homepage and Drinkware page expose verified social links and Facebook sameAs; Google confirmed URL indexed and accepted a priority crawl request; GSC sitemap success with 130 URLs; Bing sitemap resubmitted on 2026-09-26 and processing; IndexNow accepted 2 updated URLs with HTTP 200; UTM fields and 6 product prefill hooks verified live. |
 | 2026-09-24 | page_update | /promotional-products/drinkware/ | Added verified buyer summary, GTM attribution, and six product-level inquiry events; deployed commit d968b70 and submitted four Drinkware URLs to IndexNow. | Live HTML contains the versioned attribution script and six data-product-id attributes; IndexNow returned HTTP 200 for four URLs; full site audit reports 0 missing assets and 0 unresolved internal links. |
@@ -61,7 +62,6 @@
 | 2026-09-03 | homepage_conversion_consolidation | /#popular-products | 将原独立 Top 10 薄页整合进首页，发布 7 个无 Logo 概念款和 3 个已核实 SKU，并保留询盘预填与产品详情入口。 | commit a038386；发布校验 151 页、122 个唯一 canonical、0 缺图、0 断链、0 错误；浏览器桌面 5 栏/手机 2 栏、10/7/3 计数正确、询盘预填成功；线上首页及 10 图均 200，旧页 301 到首页锚点且已移出 sitemap；IndexNow 200。 |
 | 2026-09-03 | conversion_cluster_upgrade | Mugs + Gift Sets + MU024/MU023/DR004 + Packaging | 按三天量完成核心单品成交集群：杯具页增加加热杯/毛巾套装真实SKU决策区，Gift Sets新增独立防刷询盘，包装页新增三条已验证产品路由和包装专用询盘，并闭合6个页面的上下文内链 | commit ae7ae38已推送main；151页发布校验通过、123个唯一可索引canonical、0缺失资源、0断链；102个/api/inquiry表单与102处防刷脚本覆盖、旧Formspree直连0；Inquiry Function测试与Worker编译通过；桌面/手机横向溢出0；6个目标线上URL均HTTP 200且新标记匹配；无来源POST被403拒绝；IndexNow 6 URL返回HTTP 200 |
 | 2026-09-03 | form_security | sitewide | 全站100个询盘表单迁移到Cloudflare Pages防刷入口，启用Turnstile、蜜罐和填写时长校验，并停用旧Formspree表单 | 函数单测通过；151页发布校验0错误；100/100表单覆盖；线上GET返回405且无验证码POST返回400；旧表单关闭后刷新仍为Disabled |
-| 2026-09-02 | incident_review | sitewide | 复核垃圾询盘与Formspree超额：确认100个HTML页面公开同一表单端点，现有_gotcha只能拦截简单机器人，旧端点一旦被记录可绕过网页直接POST | 代码扫描确认100个HTML文件含同一Formspree端点；仓库当前无Pages Functions、Turnstile服务端验证或独立限速层；无证据支持Formspree主动制造垃圾提交 |
 
 ## 固定入口
 
