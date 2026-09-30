@@ -5,12 +5,15 @@ const endpoint = "https://formspree.io/f/abcdefgh";
 const env = { TURNSTILE_SECRET: "test-secret", FORMSPREE_ENDPOINT: endpoint };
 const originalFetch = globalThis.fetch;
 
-function request(fields, { origin = "https://www.fypromogifts.com" } = {}) {
+function request(fields, {
+  origin = "https://www.fypromogifts.com",
+  referer = "https://www.fypromogifts.com/promotional-products/drinkware/",
+} = {}) {
   const body = new FormData();
   for (const [key, value] of Object.entries(fields)) body.set(key, value);
   return new Request("https://www.fypromogifts.com/api/inquiry", {
     method: "POST",
-    headers: { origin },
+    headers: { origin, referer },
     body,
   });
 }
@@ -51,11 +54,40 @@ result = await bodyOf(await onRequestPost({
 }));
 assert.equal(result.status, 400);
 
+result = await bodyOf(await onRequestPost({
+  request: request({
+    name: "Test Buyer",
+    email: "buyer@mailinator.com",
+    form_started_at: String(Date.now() - 5000),
+    "cf-turnstile-response": "unused-token",
+  }),
+  env,
+}));
+assert.equal(result.status, 400);
+assert.equal(externalCalls, 0);
+
+result = await bodyOf(await onRequestPost({
+  request: request({
+    name: "Test Buyer",
+    email: "buyer@example.com",
+    form_started_at: String(Date.now() - 5000),
+    "cf-turnstile-response": "x".repeat(2049),
+  }),
+  env,
+}));
+assert.equal(result.status, 400);
+assert.equal(externalCalls, 0);
+
 let forwardedForm;
 globalThis.fetch = async (url, options) => {
   externalCalls += 1;
   if (String(url).includes("siteverify")) {
-    return Response.json({ success: true, hostname: "www.fypromogifts.com", action: "inquiry" });
+    return Response.json({
+      success: true,
+      hostname: "www.fypromogifts.com",
+      action: "inquiry",
+      challenge_ts: new Date().toISOString(),
+    });
   }
   assert.equal(url, endpoint);
   forwardedForm = options.body;
@@ -67,6 +99,7 @@ result = await bodyOf(await onRequestPost({
     email: "buyer@example.com",
     form_started_at: String(Date.now() - 5000),
     "cf-turnstile-response": "valid-test-token",
+    _next: "https://attacker.example/redirect",
   }),
   env,
 }));
@@ -74,11 +107,15 @@ assert.equal(result.status, 200);
 assert.equal(forwardedForm.get("name"), "Test Buyer");
 assert.equal(forwardedForm.has("cf-turnstile-response"), false);
 assert.equal(forwardedForm.has("form_started_at"), false);
+assert.equal(forwardedForm.has("_next"), false);
+assert.equal(forwardedForm.get("source_page"), "/promotional-products/drinkware/");
+assert.equal(forwardedForm.get("_subject"), "Custom Promotional Drinkware Inquiry - FY PromoGifts");
 
 globalThis.fetch = async () => Response.json({
   success: true,
   hostname: "attacker.example",
   action: "inquiry",
+  challenge_ts: new Date().toISOString(),
 });
 result = await bodyOf(await onRequestPost({
   request: request({
@@ -86,6 +123,22 @@ result = await bodyOf(await onRequestPost({
     email: "buyer@example.com",
     form_started_at: String(Date.now() - 5000),
     "cf-turnstile-response": "wrong-host-token",
+  }),
+  env,
+}));
+assert.equal(result.status, 403);
+
+globalThis.fetch = async () => Response.json({
+  success: true,
+  hostname: "www.fypromogifts.com",
+  challenge_ts: new Date().toISOString(),
+});
+result = await bodyOf(await onRequestPost({
+  request: request({
+    name: "Test Buyer",
+    email: "buyer@example.com",
+    form_started_at: String(Date.now() - 5000),
+    "cf-turnstile-response": "missing-action-token",
   }),
   env,
 }));

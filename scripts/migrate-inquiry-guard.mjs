@@ -5,7 +5,9 @@ import { fileURLToPath } from "node:url";
 const root = fileURLToPath(new URL("../", import.meta.url));
 const oldEndpoint = "https://formspree.io/f/xgoqqrno";
 const newEndpoint = "/api/inquiry";
-const guardTag = '<script src="/assets/fy-inquiry-guard.js?v=20260902" defer></script>';
+const guardTag = '<script src="/assets/fy-inquiry-guard.js?v=20260930-security" defer></script>';
+const oldGuardVersion = "/assets/fy-inquiry-guard.js?v=20260902";
+const newGuardVersion = "/assets/fy-inquiry-guard.js?v=20260930-security";
 
 async function htmlFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -20,7 +22,9 @@ async function htmlFiles(directory) {
 }
 
 let migrated = 0;
-for (const path of await htmlFiles(root)) {
+let cacheBusted = 0;
+const pages = await htmlFiles(root);
+for (const path of pages) {
   const original = await readFile(path, "utf8");
   if (!original.includes(oldEndpoint)) continue;
   let next = original.replaceAll(oldEndpoint, newEndpoint);
@@ -34,6 +38,15 @@ for (const path of await htmlFiles(root)) {
   migrated += 1;
 }
 
+for (const path of pages) {
+  const original = await readFile(path, "utf8");
+  const next = original.replaceAll(oldGuardVersion, newGuardVersion);
+  if (next !== original) {
+    await writeFile(path, next, "utf8");
+    cacheBusted += 1;
+  }
+}
+
 const toolingFiles = [
   "scripts/validate-release.mjs",
   "scripts/generate-gift-set-pages.mjs",
@@ -45,10 +58,10 @@ for (const relative of toolingFiles) {
   if (relative.endsWith("generate-gift-set-pages.mjs")) {
     next = next.replace(
       '<script src="/assets/fy-attribution.js?v=20260828" defer></script></body></html>`;',
-      '<script src="/assets/fy-attribution.js?v=20260828" defer></script><script src="/assets/fy-inquiry-guard.js?v=20260902" defer></script></body></html>`;'
+      '<script src="/assets/fy-attribution.js?v=20260828" defer></script><script src="/assets/fy-inquiry-guard.js?v=20260930-security" defer></script></body></html>`;'
     );
   }
   if (next !== original) await writeFile(path, next, "utf8");
 }
 
-console.log(`Migrated ${migrated} HTML files.`);
+console.log(`Migrated ${migrated} HTML files; refreshed guard URL in ${cacheBusted} files.`);

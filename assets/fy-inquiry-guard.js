@@ -38,6 +38,8 @@
   }
 
   function prepareForm(form) {
+    if (form.dataset.fyGuardReady === "true") return;
+    form.dataset.fyGuardReady = "true";
     form.action = "/api/inquiry";
 
     var started = form.querySelector('input[name="form_started_at"]');
@@ -58,6 +60,17 @@
       trap.setAttribute("aria-hidden", "true");
       trap.style.cssText = "position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden";
       form.appendChild(trap);
+    }
+
+    if (!form.querySelector('input[name="company_website_confirm"]')) {
+      var secondTrap = document.createElement("input");
+      secondTrap.type = "text";
+      secondTrap.name = "company_website_confirm";
+      secondTrap.tabIndex = -1;
+      secondTrap.autocomplete = "off";
+      secondTrap.setAttribute("aria-hidden", "true");
+      secondTrap.style.cssText = "position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden";
+      form.appendChild(secondTrap);
     }
 
     var mount = document.createElement("div");

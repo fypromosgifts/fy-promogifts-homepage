@@ -40,7 +40,7 @@ Goal: capture B2B inquiries (name, email, WhatsApp, company, quantity, products)
 
 3. **Everything is in `index.html`.** All CSS is in `<style>`, all JS is in `<script>` at the bottom. Do not create separate `.css` or `.js` files unless explicitly asked.
 
-4. **Form backend.** The inquiry form submits to Formspree at `https://formspree.io/f/xgoqqrno`. Keep the form as a static HTML form with vanilla JS enhancement unless explicitly asked to change providers.
+4. **Form backend.** Every public inquiry form must submit to the same-origin `/api/inquiry` Pages Function and load `/assets/fy-inquiry-guard.js`. Never expose a Formspree form ID in public HTML or client-side JavaScript. The Function reads the private upstream URL from `FORMSPREE_ENDPOINT` and the Turnstile secret from `TURNSTILE_SECRET`.
 
 5. **Do not change contact info** without explicit instruction:
    - Email: `info@fypromogifts.com`
@@ -95,7 +95,7 @@ Bottom CTA blocks must not use a narrow text column beside buttons. Keep CTA cop
 
 ## Inquiry Form
 
-Form submission posts to Formspree endpoint `https://formspree.io/f/xgoqqrno` with `multipart/form-data`. The key input IDs are `inqName`, `inqEmail`, `inqWhatsapp`, `inqCompany`, `inqUseCase`, `inqQuantity`, `inqDate`, `inqProducts`, `inqMessage`, and `logoUpload`.
+Form submission posts to `/api/inquiry` with `multipart/form-data`. The key input IDs are `inqName`, `inqEmail`, `inqWhatsapp`, `inqCompany`, `inqUseCase`, `inqQuantity`, `inqDate`, `inqProducts`, `inqMessage`, and `logoUpload`. Server-side Turnstile validation is mandatory before the Function forwards a validated request to the private form service endpoint.
 
 ---
 
@@ -103,4 +103,4 @@ Form submission posts to Formspree endpoint `https://formspree.io/f/xgoqqrno` wi
 
 - The homepage layout was restored from commit `00c9a75`.
 - The `assets/` folder was repopulated by pointing to the existing image blobs.
-- Cloudflare Pages currently runs a build-time patch that upgrades the inquiry form to Formspree and updates the contact email.
+- Cloudflare Pages deploys the Pages Function in `functions/api/inquiry.js`; production secrets are configured in the Pages environment and must not be committed.
