@@ -40,7 +40,7 @@ Goal: capture B2B inquiries (name, email, WhatsApp, company, quantity, products)
 
 3. **Everything is in `index.html`.** All CSS is in `<style>`, all JS is in `<script>` at the bottom. Do not create separate `.css` or `.js` files unless explicitly asked.
 
-4. **Form backend.** Every public inquiry form must submit to the same-origin `/api/inquiry` Pages Function and load `/assets/fy-inquiry-guard.js`. Never expose a Formspree form ID in public HTML or client-side JavaScript. The Function reads the private upstream URL from `FORMSPREE_ENDPOINT` and the Turnstile secret from `TURNSTILE_SECRET`.
+4. **Form backend.** Every public inquiry form must submit to the same-origin `/api/inquiry` Pages Function and load `/assets/fy-inquiry-guard.js`. Never expose a form-service endpoint in public HTML or client-side JavaScript. The Function reads the private FormSubmit URL from `FORMSUBMIT_ENDPOINT` (with temporary Formspree fallback during migration) and the Turnstile secret from `TURNSTILE_SECRET`.
 
 5. **Do not change contact info** without explicit instruction:
    - Email: `info@fypromogifts.com`
@@ -95,7 +95,7 @@ Bottom CTA blocks must not use a narrow text column beside buttons. Keep CTA cop
 
 ## Inquiry Form
 
-Form submission posts to `/api/inquiry` with `multipart/form-data`. The key input IDs are `inqName`, `inqEmail`, `inqWhatsapp`, `inqCompany`, `inqUseCase`, `inqQuantity`, `inqDate`, `inqProducts`, `inqMessage`, and `logoUpload`. Server-side Turnstile validation is mandatory before the Function forwards a validated request to the private form service endpoint.
+Form submission posts to `/api/inquiry` with `multipart/form-data`. The key input IDs are `inqName`, `inqEmail`, `inqWhatsapp`, `inqCompany`, `inqUseCase`, `inqQuantity`, `inqDate`, `inqProducts`, `inqMessage`, and `logoUpload`. Server-side Turnstile validation is mandatory before the Function forwards a validated request to the private form service endpoint. Use `FORMSUBMIT_ENDPOINT` for the activated, opaque `https://formsubmit.co/<token>` production endpoint; until it is configured, the Function safely falls back to the existing `FORMSPREE_ENDPOINT`. FormSubmit attachments are limited to 10 MB total.
 
 ---
 

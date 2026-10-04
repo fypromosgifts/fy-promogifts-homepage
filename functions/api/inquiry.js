@@ -1,5 +1,7 @@
-const MAX_BODY_BYTES = 22 * 1024 * 1024;
-const MAX_FILE_BYTES = 20 * 1024 * 1024;
+// FormSubmit accepts a maximum of 10 MB across all attachments. Keep a small
+// envelope allowance for multipart boundaries and the inquiry text fields.
+const MAX_BODY_BYTES = 11 * 1024 * 1024;
+const MAX_TOTAL_FILE_BYTES = 10 * 1024 * 1024;
 const MAX_FIELD_COUNT = 60;
 const MAX_TEXT_BYTES = 40 * 1024;
 const MAX_TURNSTILE_TOKEN_LENGTH = 2048;
@@ -7,6 +9,7 @@ const MIN_FILL_TIME_MS = 3000;
 const MAX_FILL_TIME_MS = 24 * 60 * 60 * 1000;
 const DUPLICATE_WINDOW_SECONDS = 5 * 60;
 const ALLOWED_HOSTS = new Set(["fypromogifts.com", "www.fypromogifts.com"]);
+const CANONICAL_ORIGIN = "https://www.fypromogifts.com";
 const ALLOWED_FILE_EXTENSIONS = /\.(?:ai|eps|jpe?g|pdf|png|svg)$/i;
 const SAFE_FIELD_NAME = /^[a-z][a-z0-9_]{0,63}$/i;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -78,7 +81,7 @@ const hasAllowedFetchMetadata = (request) => {
   return !site || site === "same-origin";
 };
 
-const isValidEndpoint = (value) => {
+const isValidFormspreeEndpoint = (value) => {
   try {
     const url = new URL(value);
     return (
@@ -89,6 +92,35 @@ const isValidEndpoint = (value) => {
   } catch {
     return false;
   }
+};
+
+const isValidFormSubmitEndpoint = (value) => {
+  try {
+    const url = new URL(value);
+    return (
+      url.protocol === "https:" &&
+      url.hostname === "formsubmit.co" &&
+      /^\/[a-z0-9_-]{1,128}\/?$/i.test(url.pathname) &&
+      !url.search &&
+      !url.hash
+    );
+  } catch {
+    return false;
+  }
+};
+
+const configuredFormService = (env) => {
+  const formSubmitEndpoint = env.FORMSUBMIT_ENDPOINT || "";
+  if (formSubmitEndpoint) {
+    if (!isValidFormSubmitEndpoint(formSubmitEndpoint)) return null;
+    return { provider: "formsubmit", endpoint: formSubmitEndpoint };
+  }
+
+  // Keep the currently configured service available until the FormSubmit
+  // endpoint has been activated and added to the Pages Production environment.
+  const formspreeEndpoint = env.FORMSPREE_ENDPOINT || "";
+  if (!isValidFormspreeEndpoint(formspreeEndpoint)) return null;
+  return { provider: "formspree", endpoint: formspreeEndpoint };
 };
 
 const sourcePath = (request) => {
@@ -118,6 +150,7 @@ const validateFields = (request, form) => {
 
   let textBytes = 0;
   let linkCount = 0;
+  let totalFileBytes = 0;
   for (const [key, value] of entries) {
     if (typeof value === "string") {
       textBytes += new TextEncoder().encode(value).byteLength;
@@ -131,8 +164,9 @@ const validateFields = (request, form) => {
         return reject(request, "invalid_control_character", "The form contains invalid text.");
       }
     } else {
-      if (value.size > MAX_FILE_BYTES) {
-        return reject(request, "file_too_large", "The uploaded file is too large.", 413);
+      totalFileBytes += value.size;
+      if (totalFileBytes > MAX_TOTAL_FILE_BYTES) {
+        return reject(request, "files_too_large", "The total uploaded file size must be 10 MB or less.", 413);
       }
       if (value.name && !ALLOWED_FILE_EXTENSIONS.test(value.name)) {
         return reject(request, "file_type_not_allowed", "Please upload a JPG, PNG, PDF, AI, EPS or SVG file.", 415);
@@ -193,7 +227,7 @@ const duplicateRequest = async (request, form, email, path) => {
   return new Request(`https://inquiry-dedup.fypromogifts.invalid/${key}`);
 };
 
-const forwardForm = (form, path) => {
+const forwardForm = (form, path, provider) => {
   const outgoing = new FormData();
   for (const [key, value] of form.entries()) {
     if (
@@ -211,13 +245,23 @@ const forwardForm = (form, path) => {
   }
   outgoing.set("source_page", path);
   outgoing.set("_subject", inquirySubject(path));
+  if (provider === "formsubmit") {
+    // Cloudflare Turnstile, origin checks, honeypots and rate-limiting are
+    // verified before forwarding. Disable the upstream browser CAPTCHA so a
+    // server-side multipart request can reliably carry the attachment.
+    outgoing.set("_captcha", "false");
+    outgoing.set("_template", "table");
+    outgoing.set("_replyto", textValue(form, "email"));
+    outgoing.set("_url", new URL(path, CANONICAL_ORIGIN).toString());
+  }
   return outgoing;
 };
 
 export async function onRequestPost(context) {
   const { request, env } = context;
+  const service = configuredFormService(env);
 
-  if (!env.TURNSTILE_SECRET || !isValidEndpoint(env.FORMSPREE_ENDPOINT || "")) {
+  if (!env.TURNSTILE_SECRET || !service) {
     return reject(request, "service_not_configured", "Form service is not configured.", 503);
   }
 
@@ -311,10 +355,14 @@ export async function onRequestPost(context) {
 
   let upstream;
   try {
-    upstream = await fetch(env.FORMSPREE_ENDPOINT, {
+    upstream = await fetch(service.endpoint, {
       method: "POST",
-      headers: { Accept: "application/json" },
-      body: forwardForm(form, path),
+      headers: {
+        Accept: service.provider === "formsubmit"
+          ? "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          : "application/json",
+      },
+      body: forwardForm(form, path, service.provider),
     });
   } catch (error) {
     console.error(JSON.stringify({
@@ -325,7 +373,11 @@ export async function onRequestPost(context) {
   }
 
   if (!upstream.ok) {
-    console.error(JSON.stringify({ event: "form_service_rejected", status: upstream.status }));
+    console.error(JSON.stringify({
+      event: "form_service_rejected",
+      provider: service.provider,
+      status: upstream.status,
+    }));
     return json({ ok: false, error: "The inquiry could not be sent. Please try again." }, 502);
   }
 
@@ -342,7 +394,11 @@ export async function onRequestPost(context) {
     }
   }
 
-  console.info(JSON.stringify({ event: "inquiry_forwarded", source_path: path }));
+  console.info(JSON.stringify({
+    event: "inquiry_forwarded",
+    provider: service.provider,
+    source_path: path,
+  }));
   return json({ ok: true });
 }
 

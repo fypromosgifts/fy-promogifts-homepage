@@ -733,7 +733,7 @@
 <h2>Let&rsquo;s Build Your <span>Custom Gift Kit</span>
 </h2>
 <p class="lead">Tell us your project, quantity, deadline and branding needs &mdash; we&rsquo;ll help you create the right solution.</p>
-<form class="form-grid" id="quoteForm" action="/api/inquiry" method="POST" enctype="multipart/form-data" data-form-status="formspree-live">
+<form class="form-grid" id="quoteForm" action="/api/inquiry" method="POST" enctype="multipart/form-data" data-form-status="form-service-live">
 <input type="hidden" name="_subject" value="New Custom Gift Kit Inquiry - FY PromoGifts">
 <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
 <label>Leave this field empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
@@ -789,7 +789,7 @@
 <label>Upload Logo / Artwork</label>
 <label class="file-upload" for="logoUpload">
 <input class="native-file" id="logoUpload" name="logo_artwork" type="file" accept=".jpg,.jpeg,.png,.pdf,.ai">
-<span class="file-text">JPG, PNG, PDF, AI (Max 20MB)</span>
+<span class="file-text">JPG, PNG, PDF or AI (Max 10MB)</span>
 <span class="file-button">Choose File</span>
 </label>
 </div>
@@ -908,5 +908,6 @@
 </script>
 <script src="/assets/floating-cta.js?v=20260709-cta10" defer>
 </script>
+<script>document.addEventListener('DOMContentLoaded',()=>{const input=document.getElementById('logoUpload');if(!input)return;input.addEventListener('change',()=>{const wrap=input.closest('.file-upload');const text=wrap?wrap.querySelector('.file-text'):null;const file=input.files&&input.files[0];input.setCustomValidity(file&&file.size>10*1024*1024?'Please choose a file no larger than 10 MB.':'');if(text&&!file){text.textContent='JPG, PNG, PDF or AI (Max 10MB)';wrap.classList.remove('has-file');}});});</script>
 <script src="/assets/fy-inquiry-guard.js?v=20260930-security" defer></script></body>
 </html>
