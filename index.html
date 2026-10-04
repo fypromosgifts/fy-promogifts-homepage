@@ -773,8 +773,8 @@
 <input id="inqQuantity" name="quantity" placeholder="Enter quantity" required>
 </div>
 <div class="field">
-<label for="inqDate">Need-by Date *</label>
-<input id="inqDate" name="need_by_date" type="date" required>
+<label for="inqDate">Need-by Date (YYYY-MM-DD) *</label>
+<input id="inqDate" name="need_by_date" type="text" inputmode="numeric" autocomplete="off" placeholder="YYYY-MM-DD" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" title="Enter the date as YYYY-MM-DD, for example 2026-10-15." required>
 </div>
 <div class="field wide">
 <label for="inqProducts">Products Interested In</label>
@@ -904,7 +904,6 @@
 <script id="fy-product-prefill-v1">document.querySelectorAll('.product-pill').forEach((link)=>{link.addEventListener('click',()=>{const field=document.getElementById('inqProducts');if(!field)return;const product=link.textContent.replace(/\s+/g,' ').trim();field.value=product;field.dispatchEvent(new Event('input',{bubbles:true}));});});</script>
 <script>(function(){function clean(value){return String(value||"").replace(/\s+/g," ").trim().slice(0,120)}function track(name,params){var payload=Object.assign({event:name,page_path:location.pathname,page_title:document.title},params||{});window.dataLayer=window.dataLayer||[];window.dataLayer.push(payload);if(typeof window.gtag==="function"){window.gtag("event",name,payload)}if(typeof window.clarity==="function"){window.clarity("event",name)}if(window.zaraz&&typeof window.zaraz.track==="function"){window.zaraz.track(name,payload)}window.dispatchEvent(new CustomEvent("fy:track",{detail:{name:name,params:payload}}))}window.fyTrack=track;track("page_view");document.addEventListener("click",function(event){var target=event.target.closest("a,button");if(!target)return;var href=target.getAttribute("href")||"";var text=clean(target.textContent||target.getAttribute("aria-label")||target.id);if(href.indexOf("wa.me/")>-1){track("whatsapp_click",{link_text:text,link_url:href})}if(href.indexOf("/catalog/")>-1){track("catalog_click",{link_text:text,link_url:href})}if(href==="#contact"||href.indexOf("#contact")>-1){track("contact_cta_click",{link_text:text,link_url:href})}if(target.id==="submitInquiry"){track("form_submit_click",{form_id:"quoteForm"})}},true);var form=document.getElementById("quoteForm");if(form){var formStarted=false;form.addEventListener("input",function(){if(formStarted)return;formStarted=true;track("form_start",{form_id:"quoteForm"})},true);form.addEventListener("submit",function(){track("form_submit_attempt",{form_id:"quoteForm"})},true)}var status=document.getElementById("formStatus");if(status&&window.MutationObserver){var sent=false;new MutationObserver(function(){if(sent)return;var text=status.textContent||"";if(text.indexOf("Thanks")>-1||text.indexOf("sent")>-1){sent=true;track("form_submit_success",{form_id:"quoteForm"})}}).observe(status,{childList:true,subtree:true,characterData:true})}})();</script>
 <script id="fy-use-case-prefill-v1">document.querySelectorAll("[data-prefill-use-case]").forEach((link)=>{link.addEventListener("click",()=>{const field=document.getElementById("inqUseCase");if(!field)return;field.value=link.dataset.prefillUseCase;field.dispatchEvent(new Event("change",{bubbles:true}));});});</script>
-<script id="fy-form-guard-v1">(function(){var field=document.querySelector('[name="need_by_date"]');if(!field)return;var now=new Date();now.setMinutes(now.getMinutes()-now.getTimezoneOffset());field.min=now.toISOString().slice(0,10)})();</script>
 <script src="/assets/fy-attribution.js?v=20260804" defer>
 </script>
 <script src="/assets/floating-cta.js?v=20260709-cta10" defer>

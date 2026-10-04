@@ -37,10 +37,52 @@
     return scriptPromise;
   }
 
+  function prepareNeedByDate(form) {
+    var field = form.querySelector('input[name="need_by_date"]');
+    if (!field || field.dataset.fyDateReady === "true") return;
+    field.dataset.fyDateReady = "true";
+
+    // Native date controls follow the visitor's operating-system language and can make
+    // the date difficult to type on some desktop browsers. Use one explicit, editable
+    // international format across every inquiry form instead.
+    field.type = "text";
+    field.removeAttribute("min");
+    field.setAttribute("inputmode", "numeric");
+    field.setAttribute("autocomplete", "off");
+    field.setAttribute("placeholder", "YYYY-MM-DD");
+    field.setAttribute("pattern", "[0-9]{4}-[0-9]{2}-[0-9]{2}");
+    field.setAttribute("title", "Enter the date as YYYY-MM-DD, for example 2026-10-15.");
+
+    function validateDate() {
+      var value = field.value.trim();
+      if (!value) {
+        field.setCustomValidity("");
+        return;
+      }
+
+      var match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
+      if (!match) {
+        field.setCustomValidity("Use YYYY-MM-DD, for example 2026-10-15.");
+        return;
+      }
+
+      var year = Number(match[1]);
+      var month = Number(match[2]);
+      var day = Number(match[3]);
+      var parsed = new Date(Date.UTC(year, month - 1, day));
+      var valid = parsed.getUTCFullYear() === year && parsed.getUTCMonth() === month - 1 && parsed.getUTCDate() === day;
+      field.setCustomValidity(valid ? "" : "Enter a valid date in YYYY-MM-DD format.");
+    }
+
+    field.addEventListener("input", validateDate);
+    field.addEventListener("blur", validateDate);
+  }
+
   function prepareForm(form) {
     if (form.dataset.fyGuardReady === "true") return;
     form.dataset.fyGuardReady = "true";
     form.action = "/api/inquiry";
+    prepareNeedByDate(form);
 
     var started = form.querySelector('input[name="form_started_at"]');
     if (!started) {
