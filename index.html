@@ -111,6 +111,14 @@
   @media(max-width:1050px){.category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.category-card{min-height:0}.category-card img{height:min(400px,calc((100vw - 44px)/2))}}
   @media(max-width:720px){.popular-categories{padding:18px 0 48px}.popular-categories .category-head{grid-template-columns:1fr;gap:12px;margin-bottom:20px}.category-grid{gap:12px}.category-card{min-height:0;border-radius:16px}.category-card img{height:160px}.category-card-body{padding:10px 15px 12px}.category-card h3{font-size:23px}.category-card p{display:none}}
 </style>
+<style id="fy-footer-social-icons">
+  .footer-socials{display:flex;align-items:center;gap:10px;margin-top:3px}
+  .footer-socials .footer-social-link{display:inline-flex!important;align-items:center;justify-content:center;width:38px;height:38px;padding:0!important;border:1px solid rgba(11,32,52,.16);border-radius:50%;background:rgba(255,253,248,.82);color:#0b263d!important;transition:transform .2s ease,background .2s ease,border-color .2s ease,color .2s ease}
+  .footer-socials .footer-social-link:hover,.footer-socials .footer-social-link:focus-visible{border-color:#0b263d;background:#0b263d;color:#f0bf68!important;transform:translateY(-1px);outline:none}
+  .footer-socials .footer-social-link:focus-visible{box-shadow:0 0 0 3px rgba(217,155,56,.3)}
+  .footer-socials svg{width:18px;height:18px;fill:currentColor}
+  @media(max-width:720px){.footer-socials{margin-top:5px}}
+</style>
 </head>
 <body>
 <main class="page">
@@ -842,9 +850,11 @@
 <a class="footer-whatsapp-text" href="https://wa.me/8615869117529" target="_blank" rel="noopener">WhatsApp: +86 158 6911 7529</a>
 <span>Fast response via email or WhatsApp</span>
 <div class="footer-col-title">Follow</div>
-<a href="https://www.facebook.com/profile.php?id=61590681706393" target="_blank" rel="me noopener noreferrer">Facebook: FY PromoGifts</a>
-<a href="https://www.linkedin.com/in/yao-zheng-155816311/" target="_blank" rel="me noopener noreferrer">LinkedIn: Yao Zheng</a>
-<a href="https://www.pinterest.com/sirazheng/" target="_blank" rel="me noopener noreferrer">Pinterest: Sirazheng</a>
+<div class="footer-socials" role="group" aria-label="Social links">
+<a class="footer-social-link" href="https://www.facebook.com/profile.php?id=61590681706393" target="_blank" rel="me noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.2V10H7.7v3h2.7v8h3.1Z"/></svg></a>
+<a class="footer-social-link" href="https://www.linkedin.com/in/yao-zheng-155816311/" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.3 3.7A1.8 1.8 0 1 1 5.3 7.3a1.8 1.8 0 0 1 0-3.6ZM3.8 8.7h3v11.5h-3V8.7Zm4.9 0h2.9v1.6h.1c.4-.8 1.4-1.9 3.3-1.9 3.5 0 4.2 2.3 4.2 5.3v6.5h-3v-5.8c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1v5.9h-3V8.7Z"/></svg></a>
+<a class="footer-social-link" href="https://www.pinterest.com/sirazheng/" target="_blank" rel="me noopener noreferrer" aria-label="Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.2a8.8 8.8 0 0 0-3.2 17l1.1-3.9c-.2-.5-.2-1.3 0-1.9l.7-3c.1-.6.6-1 1.2-1 .6 0 .9.4.9 1 0 .6-.4 1.5-.6 2.3-.2.7.3 1.4 1 1.4 1.2 0 2.1-1.3 2.1-3.1 0-1.6-1.2-2.7-2.8-2.7-1.9 0-3 1.4-3 2.9 0 .6.2 1.2.5 1.5.1.1.1.2.1.4l-.2.9c0 .3-.2.4-.5.2-1-.5-1.6-1.9-1.6-3.1 0-2.5 1.8-4.8 5.3-4.8 2.8 0 4.9 2 4.9 4.6 0 2.7-1.7 4.9-4.1 4.9-.8 0-1.5-.4-1.8-.9l-.5 1.8-.8 2.8a8.8 8.8 0 1 0 .7-17.5Z"/></svg></a>
+</div>
 </div>
 </div>
 <nav class="footer-seo-links" aria-label="Explore FY PromoGifts">
