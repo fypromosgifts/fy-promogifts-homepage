@@ -2,7 +2,7 @@
 
 日期：2026-10-05  
 今日主题：机会词日  
-本地 HTML 看板：`D:\\Documents\\FY独立站增长总看板.html`
+本地 HTML 看板：`D:\Documents\FY独立站增长总看板.html`
 
 ## 今日最重要的一件事
 
