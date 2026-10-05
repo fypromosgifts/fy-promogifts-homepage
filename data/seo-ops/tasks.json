@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T13:52:27.266Z",
+  "updatedAt": "2026-10-05T12:53:28.8712930Z",
   "statusDefinitions": {
     "next": "AI or owner can execute now",
     "in_progress": "currently being worked",
@@ -46,11 +46,11 @@
       "status": "in_progress",
       "target": "Google Search Console / Bing Webmaster Tools",
       "successCriteria": "两个平台均成功读取 sitemap.xml",
-      "nextAction": "2026-08-29 公开 sitemap.xml 已验证为 122 个 URL，本轮 6 个更新 URL 已被 IndexNow 接收（HTTP 200）。当前浏览器未登录 GSC/Bing；需用户登录后确认两个平台的 sitemap 最后读取日期，并在 GSC 对优先 URL 执行 URL Inspection。",
+      "nextAction": "2026-10-05 已验证线上 sitemap.xml 为 137 个 URL，5 个已更新页面均返回 HTTP 200 且自指 canonical；IndexNow 已接收 5 个 URL（HTTP 200）。GSC/Bing 当前 sitemap 最后读取日期仍需在平台界面确认；Chrome 只读页面响应超时，未将其误记为成功。",
       "evidenceNeeded": "GSC 与 Bing 的 sitemap 状态截图和最后读取日期",
       "createdAt": "2026-08-22T00:00:00.000Z",
-      "updatedAt": "2026-08-29T12:59:04.908Z",
-      "changeId": "chg-1788008344902"
+      "updatedAt": "2026-10-05T12:53:28.8712930Z",
+      "changeId": "chg-20261005-indexnow-5pages"
     },
     {
       "id": "SEO-004",
