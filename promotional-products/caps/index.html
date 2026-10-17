@@ -369,6 +369,26 @@
   .methods .method-title { margin: 18px 0 8px; font-size: 24px; }
   .method-image { aspect-ratio: 1.48 / 1; }
 
+  /* Compact format cards: show each complete cap before the product copy. */
+  .categories .product-grid { gap: 16px; }
+  .categories .product-card {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+  }
+  .categories .product-card img {
+    width: 100%;
+    height: clamp(220px, 18vw, 275px);
+    aspect-ratio: auto;
+    padding: 16px 24px 0;
+    background: #f8f4ed;
+    object-fit: contain;
+    object-position: center;
+  }
+  .categories .product-card-copy { padding: 18px 20px 21px; }
+  .categories .product-card strong { margin-top: 10px; font-size: 21px; line-height: 1.01; }
+  .categories .product-card small { min-height: 0; margin-top: 9px; font-size: 12px; }
+
   @media (max-width: 1240px) {
     .hero, .hero .shell { min-height: auto; }
     .hero .shell { display: block; padding: 62px 0 0; }
