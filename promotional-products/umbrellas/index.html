@@ -337,6 +337,37 @@
     .hero-proof strong{font-size:12px;letter-spacing:-.02em}
     .hero-proof span{font-size:10px}
     .method-image{display:block;width:100%;aspect-ratio:1.58/1;background-color:#dfe3e1;background-repeat:no-repeat;background-size:300% auto}
+
+    .quick-answer{background:#fff}
+    .quick-answer-grid{display:grid;grid-template-columns:minmax(0,.78fr) minmax(420px,1.22fr);gap:44px;align-items:start}
+    .answer-copy h2{max-width:520px;margin:9px 0 16px;font-size:clamp(30px,3.6vw,48px);font-weight:870;letter-spacing:-.073em;line-height:.95;text-transform:uppercase}
+    .answer-copy p{max-width:550px;margin:0;color:#425565;font-size:15px;line-height:1.64}
+    .answer-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+    .answer-link{position:relative;min-height:112px;padding:18px 48px 18px 18px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .2s ease,color .2s ease}
+    .answer-link:hover{background:var(--ink);color:#fff}
+    .answer-link small{display:block;color:var(--orange);font-size:9px;font-weight:900;letter-spacing:.11em;text-transform:uppercase}
+    .answer-link strong{display:block;margin-top:8px;font-size:15px;letter-spacing:-.035em;line-height:1.15}
+    .answer-link span{position:absolute;right:17px;bottom:16px;color:var(--orange);font-size:19px}
+    .guides{background:var(--paper)}
+    .guide-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+    .guide-card{display:flex;min-height:238px;flex-direction:column;padding:21px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#f8f6f1;transition:background .2s ease,color .2s ease}
+    .guide-card:hover{background:var(--ink);color:#fff}
+    .guide-card small{color:var(--orange);font-size:9px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+    .guide-card h3{margin:17px 0 11px;font-size:22px;font-weight:860;letter-spacing:-.06em;line-height:1.02;text-transform:uppercase}
+    .guide-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.52}
+    .guide-card:hover p{color:#bec9ce}
+    .guide-card span{display:block;margin-top:auto;padding-top:18px;color:var(--orange);font-size:11px;font-weight:900;letter-spacing:.05em;text-transform:uppercase}
+    .faq{background:#fff}
+    .faq-grid{display:grid;grid-template-columns:minmax(0,.72fr) minmax(440px,1.28fr);gap:54px}
+    .faq-intro h2{max-width:510px;margin:9px 0 16px;font-size:clamp(32px,4vw,56px);font-weight:870;letter-spacing:-.076em;line-height:.94;text-transform:uppercase}
+    .faq-intro p{max-width:420px;margin:0;color:var(--muted);font-size:14px;line-height:1.6}
+    .faq-list{border-top:1px solid var(--line)}
+    .faq-list details{border-bottom:1px solid var(--line)}
+    .faq-list summary{position:relative;padding:19px 38px 19px 0;cursor:pointer;font-size:15px;font-weight:850;letter-spacing:-.025em;list-style:none}
+    .faq-list summary::-webkit-details-marker{display:none}
+    .faq-list summary:after{content:"+";position:absolute;right:4px;top:14px;color:var(--orange);font-size:25px;font-weight:400}
+    .faq-list details[open] summary:after{content:"−"}
+    .faq-list p{margin:0 0 19px;max-width:690px;color:var(--muted);font-size:13px;line-height:1.58}
     .categories .section-intro{margin-bottom:34px}
     .categories .product-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
     .categories .product-card{display:flex;flex-direction:column}
@@ -362,6 +393,16 @@
       .hero-proof div{min-height:73px;padding:12px}
       .categories .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
       .product-media{padding:12px}
+    }
+    @media (max-width:920px){
+      .quick-answer-grid,.faq-grid{grid-template-columns:1fr;gap:35px}
+      .guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media (max-width:620px){
+      .answer-links,.guide-grid{grid-template-columns:1fr}
+      .answer-link{min-height:102px;padding:17px 45px 17px 17px}
+      .guide-card{min-height:205px;padding:19px}
+      .faq-list summary{padding:17px 34px 17px 0}
     }
   </style>
 </head>
