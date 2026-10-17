@@ -378,14 +378,14 @@
   }
   .categories .product-card img {
     width: 100%;
-    height: clamp(220px, 18vw, 275px);
+    height: clamp(220px, 19vw, 275px);
     aspect-ratio: auto;
-    padding: 16px 24px 0;
-    background: #f8f4ed;
+    padding: 14px 18px 0;
+    background: #f6f2eb;
     object-fit: contain;
     object-position: center;
   }
-  .categories .product-card-copy { padding: 18px 20px 21px; }
+  .categories .product-card-copy { min-height: 116px; padding: 15px 18px 17px; }
   .categories .product-card strong { margin-top: 10px; font-size: 21px; line-height: 1.01; }
   .categories .product-card small { min-height: 0; margin-top: 9px; font-size: 12px; }
 
@@ -408,6 +408,11 @@
     .hero-proof { grid-template-columns: 1fr; margin-top: 27px; }
     .methods .method { min-height: 0; }
     .methods .method-copy { padding: 19px 20px 23px; }
+    .categories .product-grid { grid-template-columns: 1fr; gap: 12px; }
+    .categories .product-card { display: grid; grid-template-columns: 42% 1fr; align-items: stretch; }
+    .categories .product-card img { height: 146px; padding: 10px 12px; }
+    .categories .product-card-copy { display: flex; min-height: 146px; flex-direction: column; justify-content: center; padding: 15px 16px; }
+    .categories .product-card strong { font-size: 19px; }
   }
 </style></head>
 <body>
@@ -515,9 +520,9 @@
           <p>Selected starting formats are shown below. Final material, colour, branding area and packaging are confirmed against the production brief.</p>
         </div>
         <div class="product-grid">
-    <a class="product-card" href="/custom-promotional-caps/custom-baseball-caps/"><img src="/assets/custom-headwear/products/gf071.webp" alt="Soft-top dad cap ready for logo customization" width="720" height="900" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">01 / HEADWEAR</span><strong>Soft-Top Dad Cap</strong><small>Washed cotton · embroidery-ready front panel</small></span></a>
-    <a class="product-card" href="/custom-promotional-caps/custom-trucker-hats/"><img src="/assets/custom-headwear/products/gf083.webp" alt="Mesh trucker cap ready for logo customization" width="720" height="900" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">02 / HEADWEAR</span><strong>Mesh Trucker Cap</strong><small>Mesh back · patch-ready front</small></span></a>
-    <a class="product-card" href="/custom-promotional-caps/custom-bucket-hats/"><img src="/assets/custom-headwear/products/gf088.webp" alt="Outdoor bucket hat ready for logo customization" width="720" height="900" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">03 / HEADWEAR</span><strong>Outdoor Bucket Hat</strong><small>Quick-dry fabric · wide-area decoration</small></span></a></div>
+    <a class="product-card" href="/custom-promotional-caps/custom-baseball-caps/"><img src="/assets/custom-headwear/products/gf071.webp" alt="Baseball cap ready for logo customization" width="720" height="900" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">01 / BASEBALL CAP</span><strong>Baseball Cap</strong><small>Washed cotton · embroidery-ready front panel</small></span></a>
+    <a class="product-card" href="/custom-promotional-caps/custom-trucker-hats/"><img src="/assets/custom-headwear/products/gf083.webp" alt="Trucker cap ready for logo customization" width="720" height="900" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">02 / TRUCKER CAP</span><strong>Trucker Cap</strong><small>Mesh back · patch-ready front</small></span></a>
+    <a class="product-card" href="/custom-promotional-caps/custom-bucket-hats/"><img src="/assets/custom-headwear/products/gf088.webp" alt="Bucket hat ready for logo customization" width="720" height="900" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">03 / BUCKET HAT</span><strong>Bucket Hat</strong><small>Quick-dry fabric · wide-area decoration</small></span></a></div>
         <nav class="related-programs" aria-label="Related project directions">
           <span>Build beyond the cap</span>
           <a href="/custom-promotional-caps/styles/">Compare all 48 cap and hat styles</a>
