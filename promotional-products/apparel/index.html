@@ -302,6 +302,21 @@
       .footer .shell { display: block; }
       .footer-links { margin-top: 22px; flex-wrap: wrap; }
     }
+
+    .planning-links { padding: 72px 0 78px; background: var(--paper); border-top: 1px solid var(--line); }
+    .planning-links-head { display: flex; align-items: end; justify-content: space-between; gap: 36px; margin-bottom: 29px; }
+    .planning-links-head h2 { max-width: 710px; margin: 10px 0 0; font-size: clamp(31px, 3.8vw, 49px); font-weight: 870; letter-spacing: -.074em; line-height: .94; text-transform: uppercase; }
+    .planning-links-head p { max-width: 355px; margin: 0 0 2px; color: var(--muted); font-size: 13px; line-height: 1.52; }
+    .planning-link-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; border: 1px solid var(--line); background: var(--line); }
+    .planning-link { display: flex; flex-direction: column; min-height: 194px; padding: 20px; background: #fff; transition: background .2s ease, color .2s ease; }
+    .planning-link:hover { background: var(--ink); color: #fff; }
+    .planning-link span { color: var(--orange); font-size: 9px; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
+    .planning-link strong { display: block; margin-top: 25px; font-size: 20px; font-weight: 850; letter-spacing: -.062em; line-height: .98; text-transform: uppercase; }
+    .planning-link small { display: block; margin-top: 11px; color: var(--muted); font-size: 11px; line-height: 1.42; }
+    .planning-link:hover small { color: #bec9ce; }
+    @media (max-width: 920px) { .planning-link-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 620px) { .planning-links { padding: 58px 0 62px; } .planning-links-head { display: block; margin-bottom: 25px; } .planning-links-head p { margin-top: 17px; } .planning-link-grid { grid-template-columns: 1fr; } .planning-link { min-height: 154px; } .planning-link strong { margin-top: 19px; } }
+
   </style>
 <style>.method-image{display:block;width:100%;aspect-ratio:1.58/1;background-color:#dfe3e1;background-repeat:no-repeat;background-size:300% auto;}</style></head>
 <body>
@@ -420,6 +435,21 @@
     <a class="product-card" href="#contact"><img src="/assets/category-pages-v1/apparel-tshirt-v1.png" alt="Crew T-Shirt product preview"><span class="product-card-copy"><span class="product-card-no">01 / APPAREL</span><strong>Crew T-Shirt</strong><small>Heavyweight cotton · broad print panel</small></span></a>
     <a class="product-card" href="#contact"><img src="/assets/category-pages-v1/apparel-polo-v1.png" alt="Pique Polo product preview"><span class="product-card-copy"><span class="product-card-no">02 / APPAREL</span><strong>Pique Polo</strong><small>Navy pique · left-chest finish zone</small></span></a>
     <a class="product-card" href="#contact"><img src="/assets/category-pages-v1/apparel-hoodie-v1.png" alt="Hoodie product preview"><span class="product-card-copy"><span class="product-card-no">03 / APPAREL</span><strong>Hoodie</strong><small>Heavyweight fleece · front print panel</small></span></a></div>
+      </div>
+    </section>
+
+    <section class="planning-links" aria-labelledby="apparel-planning-title">
+      <div class="shell">
+        <div class="planning-links-head">
+          <div><div class="eyebrow">Build beyond the garment</div><h2 id="apparel-planning-title">Plan apparel around the people who will wear it.</h2></div>
+          <p>Use these related routes to connect garment choice, branding method and the campaign moment.</p>
+        </div>
+        <nav class="planning-link-grid" aria-label="Related custom apparel planning pages">
+          <a class="planning-link" href="/promotional-products/caps/"><span>01 / Team range</span><strong>Pair custom apparel with caps for teams and events</strong><small>Coordinate wearable formats across a shared colour and logo direction.</small></a>
+          <a class="planning-link" href="/employee-onboarding-kits/"><span>02 / Onboarding</span><strong>Add branded apparel to an employee welcome kit</strong><small>Build a useful first-day mix around the role and working environment.</small></a>
+          <a class="planning-link" href="/trade-show-giveaway-kits/"><span>03 / Event team</span><strong>Build a staff or trade show uniform kit</strong><small>Use garments as part of a practical, event-ready brand system.</small></a>
+          <a class="planning-link" href="/blog/custom-logo-decoration-methods-for-promotional-products/"><span>04 / Logo method</span><strong>Compare logo decoration methods for apparel</strong><small>Review the finish before setting the fabric, artwork and quantity route.</small></a>
+        </nav>
       </div>
     </section>
 

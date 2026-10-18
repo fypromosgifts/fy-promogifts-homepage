@@ -11,7 +11,7 @@
   <meta property="og:title" content="Custom Promotional Bags | FY PromoGifts">
   <meta property="og:description" content="Custom tote bags, backpacks and cooler bags from 100 pieces, with screen printing, heat transfer, embroidery and patch options.">
   <meta property="og:url" content="https://www.fypromogifts.com/promotional-products/bags/">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Custom Promotional Bags","description":"Custom tote bags, backpacks and cooler bags from 100 pieces, with screen printing, heat transfer, embroidery and patch options.","url":"https://www.fypromogifts.com/promotional-products/bags/","isPartOf":{"@type":"WebSite","name":"FY PromoGifts","url":"https://www.fypromogifts.com/"},"provider":{"@type":"Organization","name":"FY PromoGifts","email":"info@fypromogifts.com","url":"https://www.fypromogifts.com/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","name":"Custom Promotional Bags","description":"Custom tote bags, backpacks and cooler bags from 100 pieces, with screen printing, heat transfer, embroidery and patch options.","url":"https://www.fypromogifts.com/promotional-products/bags/","isPartOf":{"@type":"WebSite","name":"FY PromoGifts","url":"https://www.fypromogifts.com/"},"provider":{"@type":"Organization","name":"FY PromoGifts","email":"info@fypromogifts.com","url":"https://www.fypromogifts.com/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the minimum order for custom bags?","acceptedAnswer":{"@type":"Answer","text":"Most bag projects start from 100 pieces. The final minimum depends on the selected format, fabric, decoration route and packaging requirements."}},{"@type":"Question","name":"Which logo method works best for a custom bag?","acceptedAnswer":{"@type":"Answer","text":"Screen printing, heat transfer, embroidery and woven patches are reviewed against the bag fabric, logo detail, placement and order quantity before the finish is confirmed."}},{"@type":"Question","name":"Can custom bags be part of a gift kit?","acceptedAnswer":{"@type":"Answer","text":"Yes. A bag can be coordinated with selected drinkware, stationery, apparel or presentation packaging. The final product mix, pack-out and delivery plan are confirmed against the project brief."}},{"@type":"Question","name":"What should I send for a custom bag quote?","acceptedAnswer":{"@type":"Answer","text":"Send the bag style, target quantity, logo or artwork, preferred fabric or colour, destination and required date. These details let us check a workable production route."}}]}]}</script>
   <style>
     :root {
       --ink: #071724;
@@ -258,6 +258,32 @@
       .footer .shell { display: block; }
       .footer-links { margin-top: 22px; flex-wrap: wrap; }
     }
+
+    .planning-links { padding: 72px 0 78px; background: var(--paper); border-top: 1px solid var(--line); }
+    .planning-links-head { display: flex; align-items: end; justify-content: space-between; gap: 36px; margin-bottom: 29px; }
+    .planning-links-head h2 { max-width: 710px; margin: 10px 0 0; font-size: clamp(31px, 3.8vw, 49px); font-weight: 870; letter-spacing: -.074em; line-height: .94; text-transform: uppercase; }
+    .planning-links-head p { max-width: 355px; margin: 0 0 2px; color: var(--muted); font-size: 13px; line-height: 1.52; }
+    .planning-link-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; border: 1px solid var(--line); background: var(--line); }
+    .planning-link { display: flex; flex-direction: column; min-height: 194px; padding: 20px; background: #fff; transition: background .2s ease, color .2s ease; }
+    .planning-link:hover { background: var(--ink); color: #fff; }
+    .planning-link span { color: var(--orange); font-size: 9px; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
+    .planning-link strong { display: block; margin-top: 25px; font-size: 20px; font-weight: 850; letter-spacing: -.062em; line-height: .98; text-transform: uppercase; }
+    .planning-link small { display: block; margin-top: 11px; color: var(--muted); font-size: 11px; line-height: 1.42; }
+    .planning-link:hover small { color: #bec9ce; }
+    .page-faq { padding: 78px 0; background: #fff; }
+    .page-faq-grid { display: grid; grid-template-columns: minmax(280px, .73fr) minmax(0, 1.27fr); gap: 72px; align-items: start; }
+    .page-faq h2 { max-width: 500px; margin: 10px 0 0; font-size: clamp(34px, 3.9vw, 52px); font-weight: 880; letter-spacing: -.077em; line-height: .92; text-transform: uppercase; }
+    .page-faq-intro { max-width: 340px; margin: 18px 0 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
+    .faq-list { border-top: 1px solid var(--line); }
+    .faq-list details { border-bottom: 1px solid var(--line); }
+    .faq-list summary { position: relative; padding: 20px 42px 20px 0; cursor: pointer; list-style: none; font-size: 16px; font-weight: 830; letter-spacing: -.035em; line-height: 1.15; }
+    .faq-list summary::-webkit-details-marker { display: none; }
+    .faq-list summary::after { content: "+"; position: absolute; top: 16px; right: 0; color: var(--orange); font-size: 25px; font-weight: 400; line-height: 1; }
+    .faq-list details[open] summary::after { content: "–"; }
+    .faq-list p { max-width: 620px; margin: -2px 0 21px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+    @media (max-width: 920px) { .planning-link-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .page-faq-grid { grid-template-columns: 1fr; gap: 35px; } }
+    @media (max-width: 620px) { .planning-links { padding: 58px 0 62px; } .planning-links-head { display: block; margin-bottom: 25px; } .planning-links-head p { margin-top: 17px; } .planning-link-grid { grid-template-columns: 1fr; } .planning-link { min-height: 154px; } .planning-link strong { margin-top: 19px; } .page-faq { padding: 61px 0; } }
+
   </style>
 <style>@media(max-width:520px){.nav .logo{display:block;max-width:145px;white-space:normal;line-height:1.08;font-size:24px}.nav .logo b{display:block;font-size:28px;line-height:1}}.method-image{display:block;width:100%;aspect-ratio:1;background-color:#dfe3e1;background-repeat:no-repeat;background-size:300% 200%;}</style></head>
 <body>
@@ -373,6 +399,33 @@
     <a class="product-card" href="#contact"><img src="/assets/employee-onboarding-products/bags-jute-totes.webp" alt="Jute and canvas tote bags for logo branding" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">01 / BAGS</span><strong>Jute &amp; canvas totes</strong><small>Useful carry bags with broad logo-ready panels.</small></span></a>
     <a class="product-card" href="#contact"><img src="/assets/employee-onboarding-products/bags-laptop-backpack.webp" alt="Laptop backpack for company branding" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">02 / BAGS</span><strong>Laptop backpacks</strong><small>Everyday work bags with a considered front panel.</small></span></a>
     <a class="product-card" href="#contact"><img src="/assets/employee-onboarding-products/bags-lightweight-backpack.webp" alt="Lightweight backpack for promotional branding" loading="lazy" decoding="async"><span class="product-card-copy"><span class="product-card-no">03 / BAGS</span><strong>Lightweight backpacks</strong><small>Compact carry options for events and team programs.</small></span></a></div>
+      </div>
+    </section>
+
+    <section class="planning-links" aria-labelledby="bag-planning-title">
+      <div class="shell">
+        <div class="planning-links-head">
+          <div><div class="eyebrow">Keep planning</div><h2 id="bag-planning-title">Build the bag around the program.</h2></div>
+          <p>Once the bag direction is clear, use these pages to align the product, audience and presentation route.</p>
+        </div>
+        <nav class="planning-link-grid" aria-label="Related custom bag planning pages">
+          <a class="planning-link" href="/promotional-products/bags/custom-canvas-tote-bags/"><span>01 / Tote details</span><strong>Compare custom canvas tote bag options</strong><small>Review a practical tote route before selecting fabric, logo placement and quantity.</small></a>
+          <a class="planning-link" href="/trade-show-giveaway-kits/"><span>02 / Event route</span><strong>Build a bag-led trade show kit</strong><small>Coordinate a useful carry item with an event-ready giveaway program.</small></a>
+          <a class="planning-link" href="/employee-onboarding-kits/"><span>03 / Team route</span><strong>Add carry bags to an employee welcome kit</strong><small>Plan bags with drinkware, stationery and onboarding moments.</small></a>
+          <a class="planning-link" href="/promotional-products/packaging/"><span>04 / Pack-out</span><strong>Pair your bag with presentation packaging</strong><small>Match the carry format, inserts and delivery experience to the brief.</small></a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="page-faq" aria-labelledby="bag-faq-title">
+      <div class="shell page-faq-grid">
+        <div><div class="eyebrow">Custom bags FAQ</div><h2 id="bag-faq-title">Questions to settle before the quote.</h2><p class="page-faq-intro">These answers help turn an initial bag idea into a production-ready brief.</p></div>
+        <div class="faq-list">
+          <details><summary>What is the minimum order for custom bags?</summary><p>Most bag projects start from 100 pieces. The final minimum depends on the selected format, fabric, decoration route and packaging requirements.</p></details>
+          <details><summary>Which logo method works best for a custom bag?</summary><p>Screen printing, heat transfer, embroidery and woven patches are reviewed against the bag fabric, logo detail, placement and order quantity before the finish is confirmed.</p></details>
+          <details><summary>Can custom bags be part of a gift kit?</summary><p>Yes. A bag can be coordinated with selected drinkware, stationery, apparel or presentation packaging. The final product mix, pack-out and delivery plan are confirmed against the project brief.</p></details>
+          <details><summary>What should I send for a custom bag quote?</summary><p>Send the bag style, target quantity, logo or artwork, preferred fabric or colour, destination and required date. These details let us check a workable production route.</p></details>
+        </div>
       </div>
     </section>
 
