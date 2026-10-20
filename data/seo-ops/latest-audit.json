@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-10-20T14:18:54.352Z",
+    "generatedAt": "2026-10-20T14:31:56.200Z",
     "publicPages": 166,
     "indexablePages": 139,
     "sitemapUrls": 139,
@@ -2461,7 +2461,7 @@
     },
     {
       "path": "/promotional-products/apparel/",
-      "title": "FY PromoGifts - Custom Apparel",
+      "title": "Custom Promotional Apparel for Teams & Events | FY PromoGifts",
       "description": "Custom T-shirts, polos and hoodies from 100 pieces, with screen printing, heat transfer, embroidery and custom labels.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/apparel/",
@@ -2469,7 +2469,7 @@
       "h1": [
         "Custom apparel. Made to be worn."
       ],
-      "words": 808,
+      "words": 812,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/apparel/index.html",

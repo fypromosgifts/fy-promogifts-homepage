@@ -1,0 +1,12 @@
+{
+  "submittedAt": "2026-10-20T22:31:50+08:00",
+  "endpoint": "https://api.indexnow.org/IndexNow",
+  "host": "www.fypromogifts.com",
+  "keyLocation": "https://www.fypromogifts.com/0e2615d442040dfff3d396b295cd3df9.txt",
+  "httpStatus": 200,
+  "urlCount": 1,
+  "urls": [
+    "https://www.fypromogifts.com/promotional-products/apparel/"
+  ],
+  "meaning": "IndexNow received the updated URL. This is a crawl notification, not a Google indexing confirmation."
+}
