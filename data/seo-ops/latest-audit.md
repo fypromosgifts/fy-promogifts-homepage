@@ -1,14 +1,14 @@
 # FY PromoGifts SEO Audit
 
-Generated: 2026-09-30T15:34:48.936Z
+Generated: 2026-10-20T12:51:25.792Z
 
 ## Scorecard
 
 | Metric | Value |
 |---|---:|
-| Public HTML pages | 161 |
-| Indexable canonical pages | 133 |
-| Sitemap URLs | 133 |
+| Public HTML pages | 166 |
+| Indexable canonical pages | 139 |
+| Sitemap URLs | 139 |
 | Sitemap coverage | 100% |
 | P0 issues | 0 |
 | P1 issues | 0 |

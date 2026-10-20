@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-30T15:34:48.936Z",
-    "publicPages": 161,
-    "indexablePages": 133,
-    "sitemapUrls": 133,
+    "generatedAt": "2026-10-20T12:51:25.792Z",
+    "publicPages": 166,
+    "indexablePages": 139,
+    "sitemapUrls": 139,
     "sitemapCoveragePercent": 100,
     "P0": 0,
     "P1": 0,
@@ -13,15 +13,15 @@
   "pages": [
     {
       "path": "/",
-      "title": "Custom Promotional Gifts & Gift Kits | FY PromoGifts",
-      "description": "Custom promotional gifts and branded gift kits for employee onboarding, events and client appreciation. Low MOQ options and free mockup within 2 hours.",
+      "title": "FY PromoGifts | Custom Promotional Gifts & Gift Kits",
+      "description": "FY PromoGifts supplies custom promotional gifts and branded gift kits for employee onboarding, events and client appreciation. Low MOQ options and a free mockup within 2 hours.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/",
       "canonicalPath": "/",
       "h1": [
         "Custom Gifts Made for Brands, Teams & Events"
       ],
-      "words": 1506,
+      "words": 1501,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "index.html",
@@ -37,7 +37,7 @@
       "h1": [
         "Best Promotional Gift Ideas for Small Business Marketing Campaigns"
       ],
-      "words": 1281,
+      "words": 1296,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "best-promotional-gift-ideas-small-business-marketing-campaigns/index.html",
@@ -53,11 +53,11 @@
       "h1": [
         "Promotional Gifts Blog & Practical Buyer Guides"
       ],
-      "words": 846,
+      "words": 916,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "blog/index.html",
-      "imageCount": 21
+      "imageCount": 23
     },
     {
       "path": "/blog/30-oz-vs-40-oz-custom-tumblers/",
@@ -117,7 +117,7 @@
       "h1": [
         "Client Appreciation Gift Box and Packaging Ideas"
       ],
-      "words": 509,
+      "words": 683,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "blog/client-appreciation-gift-box-ideas/index.html",
@@ -137,6 +137,22 @@
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "blog/custom-client-appreciation-gift-ideas/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/custom-logo-decoration-methods-for-promotional-products/",
+      "title": "Custom Logo Decoration Methods for Promotional Products | FY PromoGifts",
+      "description": "Compare screen printing, UV printing, laser engraving, embroidery and heat transfer when selecting logo decoration for custom promotional products.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/blog/custom-logo-decoration-methods-for-promotional-products/",
+      "canonicalPath": "/blog/custom-logo-decoration-methods-for-promotional-products/",
+      "h1": [
+        "How to Choose a Custom Logo Decoration Method"
+      ],
+      "words": 1277,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "blog/custom-logo-decoration-methods-for-promotional-products/index.html",
       "imageCount": 1
     },
     {
@@ -181,7 +197,7 @@
       "h1": [
         "How to Build a Custom Gift Kit for an Event Campaign"
       ],
-      "words": 807,
+      "words": 829,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "blog/how-to-build-custom-event-gift-kits/index.html",
@@ -245,10 +261,26 @@
       "h1": [
         "Low MOQ Custom Promotional Products: What Buyers Should Confirm Before Ordering"
       ],
-      "words": 2477,
+      "words": 2609,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "blog/low-moq-custom-promotional-products/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/promotional-product-sampling-and-approval-guide/",
+      "title": "Promotional Product Sampling & Approval Guide | FY PromoGifts",
+      "description": "A B2B guide to digital mockups, blank samples, decorated samples and pre-production approval for custom promotional products and gift kits.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/blog/promotional-product-sampling-and-approval-guide/",
+      "canonicalPath": "/blog/promotional-product-sampling-and-approval-guide/",
+      "h1": [
+        "Promotional Product Sampling & Approval Guide"
+      ],
+      "words": 1321,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "blog/promotional-product-sampling-and-approval-guide/index.html",
       "imageCount": 1
     },
     {
@@ -277,7 +309,7 @@
       "h1": [
         "Trade Show Giveaway Ideas by Quantity and Audience"
       ],
-      "words": 577,
+      "words": 578,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "blog/trade-show-giveaway-ideas/index.html",
@@ -293,7 +325,7 @@
       "h1": [
         "Trade Show Giveaways by Budget: Ideas Under $2, $5, $10 and $20"
       ],
-      "words": 1318,
+      "words": 1319,
       "jsonLdCount": 3,
       "invalidJsonLd": 0,
       "file": "blog/trade-show-giveaways-by-budget/index.html",
@@ -317,15 +349,15 @@
     },
     {
       "path": "/brand-campaign-giveaways/",
-      "title": "Brand Activation Merch & Campaign Giveaways | FY PromoGifts",
-      "description": "Build coordinated brand activation merchandise and custom campaign giveaways for product launches, agency programs and events. Flexible products, packaging and free mockups.",
+      "title": "Custom Giveaways for Brand Campaigns & Events | FY PromoGifts",
+      "description": "Plan custom giveaways for product launches, brand activations and events. Coordinate promotional products, logo decoration, packaging and a project quote.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/brand-campaign-giveaways/",
       "canonicalPath": "/brand-campaign-giveaways/",
       "h1": [
-        "Brand Campaign Giveaways, Built as One Collection"
+        "Custom Giveaways for Brand Campaigns and Events"
       ],
-      "words": 1424,
+      "words": 1465,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "brand-campaign-giveaways/index.html",
@@ -341,11 +373,11 @@
       "h1": [
         "Promotional Gifts Catalog"
       ],
-      "words": 415,
-      "jsonLdCount": 0,
+      "words": 766,
+      "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/index.html",
-      "imageCount": 0
+      "imageCount": 16
     },
     {
       "path": "/catalog/apparel-wearables/",
@@ -357,11 +389,11 @@
       "h1": [
         "Apparel & Wearables Catalog"
       ],
-      "words": 51,
+      "words": 247,
       "jsonLdCount": 0,
       "invalidJsonLd": 0,
       "file": "catalog/apparel-wearables/index.html",
-      "imageCount": 0
+      "imageCount": 6
     },
     {
       "path": "/catalog/apparel-wearables/adjustable-embroidered-baseball-cap/",
@@ -1605,11 +1637,11 @@
       "h1": [
         "Keychains & Accessories Catalog"
       ],
-      "words": 51,
+      "words": 222,
       "jsonLdCount": 0,
       "invalidJsonLd": 0,
       "file": "catalog/keychains-accessories/index.html",
-      "imageCount": 0
+      "imageCount": 6
     },
     {
       "path": "/catalog/keychains-accessories/3d-alpaca-keychain-and-phone-stand/",
@@ -1829,7 +1861,7 @@
       "h1": [
         "Custom Notebooks & Office Gifts"
       ],
-      "words": 661,
+      "words": 681,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/stationery-office/index.html",
@@ -1869,15 +1901,15 @@
     },
     {
       "path": "/client-appreciation-gifts/",
-      "title": "Thank You Gifts for Clients & Custom Gift Sets | FY PromoGifts",
-      "description": "Plan practical thank you gifts for clients with useful products, custom branding, flexible packaging and verified MOQ guidance. Request a free gift set mockup.",
+      "title": "Client Appreciation Gifts & Thank-You Gift Sets | FY PromoGifts",
+      "description": "Custom client appreciation gifts and thank-you gifts for clients, partners and VIP programs. Explore practical product ideas, branding and packaging.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/client-appreciation-gifts/",
       "canonicalPath": "/client-appreciation-gifts/",
       "h1": [
-        "Thank-You Gifts for Clients They Will Actually Use"
+        "Client Appreciation Gifts & Custom Thank-You Gift Sets"
       ],
-      "words": 1607,
+      "words": 1625,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "client-appreciation-gifts/index.html",
@@ -1893,11 +1925,11 @@
       "h1": [
         "Corporate Gift Kits"
       ],
-      "words": 928,
+      "words": 668,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "corporate-gift-kits/index.html",
-      "imageCount": 10
+      "imageCount": 0
     },
     {
       "path": "/corporate-gift-kits/client-appreciation-gifts/",
@@ -1909,11 +1941,11 @@
       "h1": [
         "Client Appreciation Gifts"
       ],
-      "words": 527,
+      "words": 351,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "corporate-gift-kits/client-appreciation-gifts/index.html",
-      "imageCount": 10
+      "imageCount": 0
     },
     {
       "path": "/corporate-gift-kits/employee-welcome-kits/",
@@ -1925,11 +1957,11 @@
       "h1": [
         "Employee Welcome Kits"
       ],
-      "words": 536,
+      "words": 369,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "corporate-gift-kits/employee-welcome-kits/index.html",
-      "imageCount": 10
+      "imageCount": 0
     },
     {
       "path": "/custom-gift-boxes-packaging/",
@@ -1941,7 +1973,7 @@
       "h1": [
         "Custom gift boxes and packaging for branded kits"
       ],
-      "words": 1496,
+      "words": 1515,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "custom-gift-boxes-packaging/index.html",
@@ -1957,7 +1989,7 @@
       "h1": [
         "Custom lanyards for events, conferences and trade shows"
       ],
-      "words": 223,
+      "words": 436,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "custom-lanyards-for-events/index.html",
@@ -2005,7 +2037,7 @@
       "h1": [
         "Custom Notebooks with Logo for Corporate Gifts"
       ],
-      "words": 1111,
+      "words": 1114,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "custom-notebooks-with-logo/index.html",
@@ -2021,11 +2053,11 @@
       "h1": [
         "Custom Packaging for Promotional Gifts"
       ],
-      "words": 527,
+      "words": 368,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "custom-packaging/index.html",
-      "imageCount": 10
+      "imageCount": 0
     },
     {
       "path": "/custom-products/",
@@ -2252,6 +2284,22 @@
       "imageCount": 21
     },
     {
+      "path": "/employee-recognition-gifts/",
+      "title": "Employee Recognition Gifts & Ideas | FY PromoGifts",
+      "description": "Plan custom employee recognition gifts for work anniversaries, team milestones and appreciation programs. Compare useful product, packaging and logo options.",
+      "robots": "index,follow",
+      "canonical": "https://www.fypromogifts.com/employee-recognition-gifts/",
+      "canonicalPath": "/employee-recognition-gifts/",
+      "h1": [
+        "Employee Recognition Gifts for Teams and Milestones"
+      ],
+      "words": 1158,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "employee-recognition-gifts/index.html",
+      "imageCount": 4
+    },
+    {
       "path": "/employee-welcome-kit-office-gift-set/",
       "title": "Employee Welcome Kit with Notebook & Tech | FY PromoGifts",
       "description": "Explore an employee welcome kit with a notebook, matching pen and wireless charging mouse pad for onboarding and corporate gift programs.",
@@ -2269,16 +2317,16 @@
     },
     {
       "path": "/kit-studio/",
-      "title": "Kit Studio | Build Branded Gift Kits | FY PromoGifts",
-      "description": "Use FY PromoGifts Kit Studio to choose a branded gift kit by occasion, color direction, budget and quantity, then request a custom quote.",
+      "title": "Custom Branded Gift Kit Builder & Quote Request | FY PromoGifts",
+      "description": "Build a custom branded gift kit by occasion, budget and quantity. Compare practical concepts, then send one B2B project brief for a tailored quote.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/kit-studio/",
       "canonicalPath": "/kit-studio/",
       "h1": [
-        "Recommended kit concepts"
+        "Custom Branded Gift Kit Builder"
       ],
-      "words": 284,
-      "jsonLdCount": 0,
+      "words": 455,
+      "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "kit-studio/index.html",
       "imageCount": 3
@@ -2293,7 +2341,7 @@
       "h1": [
         "Low MOQ promotional products for custom logo orders"
       ],
-      "words": 316,
+      "words": 476,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "low-moq-promotional-products/index.html",
@@ -2357,23 +2405,39 @@
       "h1": [
         "Promotional Gift Ideas & Buyer Questions"
       ],
-      "words": 2351,
+      "words": 2380,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-gifts-buyer-questions/index.html",
       "imageCount": 0
     },
     {
+      "path": "/promotional-product-rfq-template/",
+      "title": "Promotional Product RFQ Template for Agencies | Copy-and-Paste Brief",
+      "description": "Copy this promotional product RFQ template to request comparable quotes. Include product, quantity, artwork, packing, destination, deadline and sample requirements in one brief.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/promotional-product-rfq-template/",
+      "canonicalPath": "/promotional-product-rfq-template/",
+      "h1": [
+        "Promotional Product RFQ Template: Send Suppliers a Complete Brief"
+      ],
+      "words": 888,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-product-rfq-template/index.html",
+      "imageCount": 0
+    },
+    {
       "path": "/promotional-products-supplier-for-marketing-agencies/",
-      "title": "Promotional Products Procurement & Sourcing for Agencies | FY PromoGifts",
-      "description": "Promotional product procurement and sourcing for marketing agencies: compare products, logo methods, samples, branded packaging, kitting and delivery planning.",
+      "title": "Promotional Product Sourcing & Procurement for Agencies | FY PromoGifts",
+      "description": "A promotional product supplier for marketing agencies: source custom gifts, compare logo methods, approve samples, manage packaging, kitting and delivery.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/promotional-products-supplier-for-marketing-agencies/",
       "canonicalPath": "/promotional-products-supplier-for-marketing-agencies/",
       "h1": [
-        "Promotional Products Procurement & Sourcing for Marketing Agencies"
+        "Promotional Product Sourcing & Procurement for Marketing Agencies"
       ],
-      "words": 908,
+      "words": 971,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products-supplier-for-marketing-agencies/index.html",
@@ -2389,11 +2453,11 @@
       "h1": [
         "Custom Promotional Products for Agencies and Events"
       ],
-      "words": 549,
+      "words": 388,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/index.html",
-      "imageCount": 10
+      "imageCount": 0
     },
     {
       "path": "/promotional-products/apparel/",
@@ -2405,7 +2469,7 @@
       "h1": [
         "Custom apparel. Made to be worn."
       ],
-      "words": 697,
+      "words": 808,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/apparel/index.html",
@@ -2421,7 +2485,7 @@
       "h1": [
         "Custom bags. Built to be carried."
       ],
-      "words": 700,
+      "words": 956,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/bags/index.html",
@@ -2429,35 +2493,35 @@
     },
     {
       "path": "/promotional-products/bags/custom-canvas-tote-bags/",
-      "title": "Custom Canvas Tote Bags | FY PromoGifts",
-      "description": "Custom canvas tote bags for events, welcome kits, retail campaigns, and branded gift packaging.",
+      "title": "Custom Canvas Tote Bags for Events & Gift Kits | FY PromoGifts",
+      "description": "Plan custom canvas tote bags for trade shows, event kits and branded packaging. Compare carrying needs, logo placement and pack-out before requesting a quote.",
       "robots": "",
       "canonical": "https://www.fypromogifts.com/promotional-products/bags/custom-canvas-tote-bags/",
       "canonicalPath": "/promotional-products/bags/custom-canvas-tote-bags/",
       "h1": [
         "Custom Canvas Tote Bags"
       ],
-      "words": 536,
+      "words": 497,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/bags/custom-canvas-tote-bags/index.html",
-      "imageCount": 10
+      "imageCount": 0
     },
     {
       "path": "/promotional-products/caps/",
-      "title": "FY PromoGifts - Custom Headwear",
-      "description": "Custom promotional caps and hats from 100 pieces, with embroidery, screen printing, heat transfer, woven patches and 3D puff embroidery.",
+      "title": "Custom Caps & Hats with Logo | Full Style Catalogue | FY PromoGifts",
+      "description": "Custom caps and hats with logo for campaigns, teams and events. Browse six cap families, then compare the complete headwear catalogue.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/caps/",
       "canonicalPath": "/promotional-products/caps/",
       "h1": [
-        "Custom headwear. Built around the mark."
+        "Custom caps. Built for repeat wear."
       ],
-      "words": 703,
+      "words": 764,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/caps/index.html",
-      "imageCount": 3
+      "imageCount": 9
     },
     {
       "path": "/promotional-products/drinkware/",
@@ -2469,7 +2533,7 @@
       "h1": [
         "Custom promotional drinkware. Printed with control."
       ],
-      "words": 1368,
+      "words": 1373,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "promotional-products/drinkware/index.html",
@@ -2485,11 +2549,27 @@
       "h1": [
         "Custom Stainless Steel Tumblers"
       ],
-      "words": 530,
+      "words": 356,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/drinkware/custom-stainless-steel-tumblers/index.html",
-      "imageCount": 10
+      "imageCount": 0
+    },
+    {
+      "path": "/promotional-products/drinkware/custom-water-bottles/",
+      "title": "Custom Water Bottles with Logo | FY PromoGifts",
+      "description": "Custom water bottles with logo for employee programs, events and corporate gifts. Compare capacity, lid, decoration, packaging and approval requirements.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/custom-water-bottles/",
+      "canonicalPath": "/promotional-products/drinkware/custom-water-bottles/",
+      "h1": [
+        "Custom water bottles with your logo."
+      ],
+      "words": 946,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/custom-water-bottles/index.html",
+      "imageCount": 2
     },
     {
       "path": "/promotional-products/packaging/",
@@ -2509,15 +2589,15 @@
     },
     {
       "path": "/promotional-products/stationery/",
-      "title": "FY PromoGifts - Custom Stationery",
-      "description": "Custom notebooks, pens and stationery sets from 100 pieces, with factory-direct decoration, packing and delivery planning.",
+      "title": "Custom Promotional Stationery | FY PromoGifts",
+      "description": "Plan custom notebooks, pens and presentation sets for company programs, events and gift kits. Compare materials, logo methods, packaging and project details.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/stationery/",
       "canonicalPath": "/promotional-products/stationery/",
       "h1": [
-        "Custom stationery. Finished with intent."
+        "Custom stationery. Planned for the program."
       ],
-      "words": 712,
+      "words": 1146,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/stationery/index.html",
@@ -2525,19 +2605,19 @@
     },
     {
       "path": "/promotional-products/umbrellas/",
-      "title": "FY PromoGifts - Custom Umbrellas",
-      "description": "Custom compact, travel and golf umbrellas from 100 pieces, with canopy printing, transfer decoration and delivery planning.",
+      "title": "Custom Promotional Umbrellas with Logo | FY PromoGifts",
+      "description": "Plan custom promotional umbrellas with logo for events, employee programs and client gifts. Compare compact, automatic and golf umbrella formats, canopy branding and delivery details.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/umbrellas/",
       "canonicalPath": "/promotional-products/umbrellas/",
       "h1": [
-        "Custom umbrellas. Made to be seen."
+        "Custom umbrellas with logo. Made for the forecast."
       ],
-      "words": 705,
+      "words": 1207,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/umbrellas/index.html",
-      "imageCount": 3
+      "imageCount": 4
     },
     {
       "path": "/quality-first-corporate-gift-kits/",
@@ -2557,15 +2637,15 @@
     },
     {
       "path": "/trade-show-giveaway-kits/",
-      "title": "Custom Trade Show Giveaway Kits & Event Swag | FY PromoGifts",
-      "description": "Create custom trade show giveaway kits for booth lead capture, exhibitor staff and attendees. Explore branded lanyards, bags, drinkware, tech accessories and event apparel.",
+      "title": "Trade Show Giveaways & Custom Event Swag Kits | FY PromoGifts",
+      "description": "Plan trade show giveaways and custom event swag kits for booth lead capture, staff and attendees. Compare branded products, packaging and a practical quote route.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/trade-show-giveaway-kits/",
       "canonicalPath": "/trade-show-giveaway-kits/",
       "h1": [
         "Trade Show Giveaways Built for the Booth"
       ],
-      "words": 1681,
+      "words": 1726,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "trade-show-giveaway-kits/index.html",
@@ -2581,11 +2661,11 @@
       "h1": [
         "Trade Show Giveaways"
       ],
-      "words": 526,
+      "words": 355,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "trade-show-giveaways/index.html",
-      "imageCount": 10
+      "imageCount": 0
     }
   ]
 }
