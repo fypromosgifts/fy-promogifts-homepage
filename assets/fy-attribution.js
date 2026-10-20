@@ -244,6 +244,17 @@
         button_text: text
       });
     }
+    var resource = target.closest("[data-fy-resource],.catalog-static-product");
+    if (resource) {
+      window.fyTrackEvent("seo_resource_click", {
+        page_path: pagePath,
+        source_page: sourcePage(),
+        article_slug: slug(),
+        resource_type: clean(resource.getAttribute("data-fy-resource") || "featured_catalog_product"),
+        resource_name: clean(resource.querySelector("h2,h3,strong") && resource.querySelector("h2,h3,strong").textContent),
+        destination_url: href || "not_available"
+      });
+    }
     if (target.closest(".cta") || target.classList.contains("read")) {
       window.fyTrackEvent("blog_cta_click", {
         page_path: pagePath,

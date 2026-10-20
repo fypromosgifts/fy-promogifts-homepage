@@ -108,7 +108,7 @@ const targeted = [
   ['promotional-products-supplier-for-marketing-agencies/index.html', ['Promotional Product Sourcing &amp; Procurement for Agencies', 'id="procurement-title"', 'id="verified-start-title"', '"dateModified": "2026-10-04"']],
   ['blog/index.html', ['Promotional Gifts Blog &amp; Practical Buyer Guides', 'id="guide-paths-title"', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-09-30"', '/blog/are-custom-logo-mugs-dishwasher-safe/', '/blog/low-moq-custom-drinkware-order-guide/', '/blog/how-to-choose-branded-drinkware-people-keep/']],
   ['promotional-products/drinkware/index.html', ['"dateModified":"2026-09-30"', '/blog/are-custom-logo-mugs-dishwasher-safe/', '/blog/low-moq-custom-drinkware-order-guide/', '/blog/how-to-choose-branded-drinkware-people-keep/', 'action="/api/inquiry"', 'fy-inquiry-guard.js?v=20260930-security']],
-  ['client-appreciation-gifts/index.html', ['Thank You Gifts for Clients &amp; Custom Gift Sets', 'Thank-You Gifts for Clients They Will Actually Use', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-09-04"']],
+  ['client-appreciation-gifts/index.html', ['Client Appreciation Gifts &amp; Thank-You Gift Sets', 'Client Appreciation Gifts &amp; Custom Thank-You Gift Sets', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-10-08"']],
   ['employee-onboarding-kits/index.html', ['Employee Onboarding Kits for New Hires', 'office, hybrid or remote new hires', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified": "2026-09-04"']],
 ];
 for (const [relative, needles] of targeted) {
