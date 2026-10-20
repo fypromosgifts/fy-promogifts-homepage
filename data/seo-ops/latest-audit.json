@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-10-20T13:48:11.741Z",
+    "generatedAt": "2026-10-20T14:18:54.352Z",
     "publicPages": 166,
     "indexablePages": 139,
     "sitemapUrls": 139,
@@ -2477,7 +2477,7 @@
     },
     {
       "path": "/promotional-products/bags/",
-      "title": "FY PromoGifts - Custom Bags",
+      "title": "Custom Promotional Bags for Events & Gift Kits | FY PromoGifts",
       "description": "Custom tote bags, backpacks and cooler bags from 100 pieces, with screen printing, heat transfer, embroidery and patch options.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/bags/",
@@ -2485,7 +2485,7 @@
       "h1": [
         "Custom bags. Built to be carried."
       ],
-      "words": 956,
+      "words": 961,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/bags/index.html",
