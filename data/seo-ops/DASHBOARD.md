@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-10-20T13:01:59.232Z
+最后刷新：2026-10-20T13:25:43.130Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -54,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated promotional products hub after the October 20 metadata and buyer-answer release. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated custom packaging page after the October 20 SEO and answer-content release. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated homepage and catalog URLs after the October 20 internal-link release. | not_recorded |
 | 2026-10-05 | indexing_submission | / + /kit-studio/ + /trade-show-giveaway-kits/ + /brand-campaign-giveaways/ + /promotional-products-supplier-for-marketing-agencies/ | Verified the five Search Console opportunity-page updates live, then submitted only those five changed canonical URLs to IndexNow. | Local release validation passed with 164 pages, 137 canonical URLs, 0 missing assets and 0 unresolved internal links. Each target returned HTTP 200 with its self-canonical URL; public sitemap.xml returned HTTP 200 with 137 URLs; IndexNow returned HTTP 200 at 2026-10-05T12:53:28.8712930Z. |
@@ -61,7 +62,6 @@
 | 2026-09-30 | conversion_and_internal_linking | / + /promotional-products/ + GA4 | Marked whatsapp_click as a GA4 key event and strengthened two high-authority internal links to the existing Drinkware category page using descriptive product-category wording. | GA4 recent-events table shows whatsapp_click marked with a pressed star; SEO audit reports 130/130 sitemap coverage and P0/P1/P2 at 0; release validator reports valid JSON-LD, 0 missing assets and 0 unresolved internal links, plus 7 known legacy content assertions; live homepage and Promotional Products hub returned HTTP 200 with the new Drinkware link wording; IndexNow accepted both changed URLs with HTTP 200. |
 | 2026-09-29 | ranking_support | /promotional-products/drinkware/ + cited drinkware guide | Added an early contextual product link from the Bing-AI-cited decoration guide, prepared two vertical Pinterest creatives, and wrote platform-specific UTM follow-up copy for Pinterest, LinkedIn and Facebook. | SEO audit: 130/130 sitemap coverage, P0/P1/P2 all 0; release validator: valid JSON-LD, 0 missing assets and 0 unresolved internal links, with 7 known legacy content assertions; both social images verified at 1024x1536; live article and both image URLs returned HTTP 200; IndexNow accepted the updated article with HTTP 200. |
 | 2026-09-26 | indexing_and_entity_update | / + /promotional-products/drinkware/ | Connected verified social profiles, deployed entity signals, recorded three organic posts, refreshed Bing sitemap, and requested Google recrawl for Drinkware. | Commit 89ef997 deployed; live homepage and Drinkware page expose verified social links and Facebook sameAs; Google confirmed URL indexed and accepted a priority crawl request; GSC sitemap success with 130 URLs; Bing sitemap resubmitted on 2026-09-26 and processing; IndexNow accepted 2 updated URLs with HTTP 200; UTM fields and 6 product prefill hooks verified live. |
-| 2026-09-24 | page_update | /promotional-products/drinkware/ | Added verified buyer summary, GTM attribution, and six product-level inquiry events; deployed commit d968b70 and submitted four Drinkware URLs to IndexNow. | Live HTML contains the versioned attribution script and six data-product-id attributes; IndexNow returned HTTP 200 for four URLs; full site audit reports 0 missing assets and 0 unresolved internal links. |
 
 ## 固定入口
 

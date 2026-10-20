@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-10-20T13:01:59.222Z",
+    "generatedAt": "2026-10-20T13:25:43.115Z",
     "publicPages": 166,
     "indexablePages": 139,
     "sitemapUrls": 139,
@@ -2445,15 +2445,15 @@
     },
     {
       "path": "/promotional-products/",
-      "title": "Custom Promotional Products for Agencies | FY PromoGifts",
-      "description": "Source custom promotional products for campaigns, events, employee gifts, and client appreciation projects with low-MOQ branding support.",
-      "robots": "",
+      "title": "Custom Promotional Products for Agencies & Events | FY PromoGifts",
+      "description": "Custom promotional products for agencies, events and branded gift kits. Browse low-MOQ drinkware, bags, stationery, headwear and packaging options.",
+      "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/",
       "canonicalPath": "/promotional-products/",
       "h1": [
         "Custom Promotional Products for Agencies and Events"
       ],
-      "words": 388,
+      "words": 442,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-products/index.html",
