@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-10-20T12:51:25.792Z",
+    "generatedAt": "2026-10-20T13:01:59.222Z",
     "publicPages": 166,
     "indexablePages": 139,
     "sitemapUrls": 139,
@@ -2573,16 +2573,16 @@
     },
     {
       "path": "/promotional-products/packaging/",
-      "title": "FY PromoGifts - Custom Packaging",
-      "description": "Custom gift boxes, mailer boxes and paper bags from 100 pieces, with digital printing, foil, debossing, die cutting and fitted inserts.",
+      "title": "Custom Packaging & Gift Boxes from 100 pcs | FY PromoGifts",
+      "description": "Custom gift boxes, mailer boxes and paper bags from 100 pcs for branded kits and events. Digital print, foil, debossing, die cutting and inserts.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/packaging/",
       "canonicalPath": "/promotional-products/packaging/",
       "h1": [
         "Custom packaging. Made to present."
       ],
-      "words": 714,
-      "jsonLdCount": 1,
+      "words": 962,
+      "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "promotional-products/packaging/index.html",
       "imageCount": 3
