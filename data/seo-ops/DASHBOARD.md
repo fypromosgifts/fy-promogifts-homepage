@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-10-20T14:31:56.212Z
+最后刷新：2026-10-22T07:50:01.735Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -54,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-10-22 | indexing_submission | sitewide | IndexNow accepted the published homepage ceramic mug gift-set positioning update (HTTP 200); crawl notification only, not Google indexing confirmation. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow accepted the published custom apparel category URL (HTTP 200); crawl notification only, not Google indexing confirmation. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated custom promotional bags page after the October 20 title and copy refinement. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated homepage after the October 20 search-summary refinement. | not_recorded |
@@ -61,7 +62,6 @@
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated custom packaging page after the October 20 SEO and answer-content release. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated homepage and catalog URLs after the October 20 internal-link release. | not_recorded |
 | 2026-10-05 | indexing_submission | / + /kit-studio/ + /trade-show-giveaway-kits/ + /brand-campaign-giveaways/ + /promotional-products-supplier-for-marketing-agencies/ | Verified the five Search Console opportunity-page updates live, then submitted only those five changed canonical URLs to IndexNow. | Local release validation passed with 164 pages, 137 canonical URLs, 0 missing assets and 0 unresolved internal links. Each target returned HTTP 200 with its self-canonical URL; public sitemap.xml returned HTTP 200 with 137 URLs; IndexNow returned HTTP 200 at 2026-10-05T12:53:28.8712930Z. |
-| 2026-09-30 | security_and_content | /api/inquiry + /promotional-products/drinkware/ | Secured all inquiry forms and published a three-article Reddit-informed Drinkware content cluster. | 109/109 forms use the protected endpoint; 161-page audit has P0/P1/P2=0; four priority URLs return 200 with valid canonical and JSON-LD; IndexNow accepted eight URLs; Google confirms the Drinkware page is indexed. |
 
 ## 固定入口
 
