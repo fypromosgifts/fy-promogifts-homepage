@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mugs.fypromogifts.com/sitemap.xml
