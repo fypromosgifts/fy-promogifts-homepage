@@ -37,6 +37,53 @@
     return scriptPromise;
   }
 
+  function renderTurnstile(form, mount) {
+    if (!mount || mount.dataset.fyTurnstileMounted === "true") return;
+    mount.dataset.fyTurnstileMounted = "true";
+
+    loadTurnstile().then(function (turnstile) {
+      var id = turnstile.render(mount, {
+        sitekey: SITE_KEY,
+        action: "inquiry",
+        theme: "light",
+        size: "flexible",
+        callback: function () { setStatus(form, "", false); },
+        "error-callback": function () {
+          setStatus(form, "Security check could not load. Please refresh and try again.", true);
+        },
+        "expired-callback": function () {
+          setStatus(form, "Security check expired. Please verify again.", true);
+        }
+      });
+      widgetIds.set(form, id);
+    }).catch(function () {
+      mount.dataset.fyTurnstileMounted = "";
+      setStatus(form, "Security check could not load. Please refresh and try again.", true);
+    });
+  }
+
+  function scheduleTurnstile(form, mount) {
+    var started = false;
+    function start() {
+      if (started) return;
+      started = true;
+      renderTurnstile(form, mount);
+    }
+
+    form.addEventListener("focusin", start, { once: true });
+    if (!("IntersectionObserver" in window)) {
+      start();
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      if (!entries.some(function (entry) { return entry.isIntersecting; })) return;
+      observer.disconnect();
+      start();
+    }, { rootMargin: "320px 0px" });
+    observer.observe(form);
+  }
+
   function prepareNeedByDate(form) {
     var field = form.querySelector('input[name="need_by_date"]');
     if (!field || field.dataset.fyDateReady === "true") return;
@@ -115,38 +162,23 @@
       form.appendChild(secondTrap);
     }
 
-    var mount = document.createElement("div");
+    var mount = form.querySelector("[data-turnstile-slot], .fy-turnstile-wrap");
+    if (!mount) mount = document.createElement("div");
     mount.className = "fy-turnstile-wrap";
     mount.setAttribute("role", "group");
     mount.setAttribute("aria-label", "Security verification");
-    var actions = form.querySelector(".actions");
-    if (actions) actions.parentNode.insertBefore(mount, actions);
-    else {
-      var submitButton = form.querySelector('[type="submit"]');
-      if (submitButton) submitButton.parentNode.insertBefore(mount, submitButton);
-      else form.appendChild(mount);
+    if (!mount.parentNode) {
+      var actions = form.querySelector(".actions");
+      if (actions) actions.parentNode.insertBefore(mount, actions);
+      else {
+        var submitButton = form.querySelector('[type="submit"]');
+        if (submitButton) submitButton.parentNode.insertBefore(mount, submitButton);
+        else form.appendChild(mount);
+      }
     }
 
     getStatus(form);
-
-    loadTurnstile().then(function (turnstile) {
-      var id = turnstile.render(mount, {
-        sitekey: SITE_KEY,
-        action: "inquiry",
-        theme: "light",
-        size: "flexible",
-        callback: function () { setStatus(form, "", false); },
-        "error-callback": function () {
-          setStatus(form, "Security check could not load. Please refresh and try again.", true);
-        },
-        "expired-callback": function () {
-          setStatus(form, "Security check expired. Please verify again.", true);
-        }
-      });
-      widgetIds.set(form, id);
-    }).catch(function () {
-      setStatus(form, "Security check could not load. Please refresh and try again.", true);
-    });
+    scheduleTurnstile(form, mount);
 
     form.addEventListener("reset", function () {
       setTimeout(function () {
@@ -213,9 +245,11 @@
       submitForm(form);
     }, true);
 
-    var style = document.createElement("style");
-    style.textContent = ".fy-turnstile-wrap{grid-column:1/-1;min-height:65px;max-width:100%;margin:4px 0 12px}.fy-turnstile-wrap iframe{max-width:100%}.fy-form-status{margin-top:10px}.fy-form-status.is-error{color:#a4262c}";
-    document.head.appendChild(style);
+    if (!document.getElementById("fy-layout-stability")) {
+      var style = document.createElement("style");
+      style.textContent = ".fy-turnstile-wrap{grid-column:1/-1;min-height:65px;max-width:100%;margin:4px 0 12px}.fy-turnstile-wrap iframe{display:block;max-width:100%}.fy-form-status{margin-top:10px}.fy-form-status.is-error{color:#a4262c}";
+      document.head.appendChild(style);
+    }
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init, { once: true });

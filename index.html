@@ -119,6 +119,18 @@
   .footer-socials svg{width:18px;height:18px;fill:currentColor}
   @media(max-width:720px){.footer-socials{margin-top:5px}}
 </style>
+<style id="fy-layout-stability">
+  /* Reserve dynamic form space before JavaScript runs so the page cannot jump. */
+  .fy-turnstile-wrap{grid-column:1/-1;min-height:65px;max-width:100%;margin:4px 0 12px}
+  .fy-turnstile-wrap iframe{display:block;max-width:100%}
+  .fy-form-status{margin-top:10px}
+  .fy-form-status.is-error{color:#a4262c}
+  /* Keep the mobile hero media box stable while the responsive image is decoding. */
+  .hero .hero-visual{aspect-ratio:1200/897}
+  .hero .hero-visual picture,.hero .hero-visual img{display:block;width:100%;height:100%}
+  .hero .hero-visual img{object-fit:contain}
+  @media(max-width:520px){.hero .hero-visual{height:255px;aspect-ratio:auto}.hero .hero-visual img{height:255px}}
+</style>
 </head>
 <body>
 <main class="page">
@@ -801,6 +813,7 @@
 <span class="file-button">Choose File</span>
 </label>
 </div>
+<div class="fy-turnstile-wrap" data-turnstile-slot role="group" aria-label="Security verification"></div>
 <div class="actions">
 <button class="btn btn-gold" id="submitInquiry" type="submit">Submit Inquiry</button>
 <a class="btn btn-outline" href="https://wa.me/8615869117529" rel="noopener" style="color:#178246;border-color:rgba(23,130,70,.35);background:#fff" target="_blank">Chat on WhatsApp</a>
