@@ -601,9 +601,24 @@ function buildSitemap() {
     .map((page) => {
       const mtime = statSync(page.file).mtime.toISOString().slice(0, 10);
       const lastmod = [existing.get(page.path)?.lastmod || "", mtime].sort().at(-1) || mtime;
-      return `  <url><loc>${escapeXml(`${SITE}${page.path}`)}</loc><lastmod>${lastmod}</lastmod></url>`;
+      const images = [...new Map(page.images
+        .map((image) => {
+          const source = String(image.src || "").trim();
+          if (!source || /^(data:|javascript:)/i.test(source)) return null;
+          try {
+            const url = new URL(source, `${SITE}${page.path}`).href;
+            if (!/^https?:/i.test(url)) return null;
+            return { url, title: decodeHtml(String(image.alt || "").trim()) };
+          } catch {
+            return null;
+          }
+        })
+        .filter(Boolean)
+        .map((image) => [image.url, image])).values()].slice(0, 20);
+      const imageXml = images.map((image) => `\n    <image:image><image:loc>${escapeXml(image.url)}</image:loc>${image.title ? `<image:title>${escapeXml(image.title)}</image:title>` : ""}</image:image>`).join("");
+      return `  <url><loc>${escapeXml(`${SITE}${page.path}`)}</loc><lastmod>${lastmod}</lastmod>${imageXml}\n  </url>`;
     });
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join("\n")}\n</urlset>\n`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.join("\n")}\n</urlset>\n`;
   write(join(ROOT, "sitemap.xml"), xml);
   return entries.length;
 }

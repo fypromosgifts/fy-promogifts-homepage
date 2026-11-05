@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-10-22T07:50:01.553Z",
-    "publicPages": 166,
-    "indexablePages": 139,
-    "sitemapUrls": 139,
+    "generatedAt": "2026-11-05T08:08:04.520Z",
+    "publicPages": 168,
+    "indexablePages": 141,
+    "sitemapUrls": 141,
     "sitemapCoveragePercent": 100,
     "P0": 0,
     "P1": 0,
@@ -13,15 +13,15 @@
   "pages": [
     {
       "path": "/",
-      "title": "Custom Ceramic Mug Gift Sets & Branded Drinkware | FY PromoGifts",
-      "description": "Custom ceramic mug gift sets for client appreciation, employee welcome and events. Selected options start at 40 sets with logo printing and gift boxes.",
+      "title": "FY PromoGifts | Custom Promotional Gifts & Gift Kits",
+      "description": "Custom promotional gifts and branded gift kits for employee onboarding, events and client appreciation. Low MOQ options and free digital mockups within 2 hours.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/",
       "canonicalPath": "/",
       "h1": [
-        "Custom Ceramic Mug Gift Sets for Brands, Teams & Events"
+        "Custom Gifts Made for Brands, Teams & Events"
       ],
-      "words": 1544,
+      "words": 1501,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "index.html",
@@ -53,11 +53,11 @@
       "h1": [
         "Promotional Gifts Blog & Practical Buyer Guides"
       ],
-      "words": 916,
+      "words": 985,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "blog/index.html",
-      "imageCount": 23
+      "imageCount": 25
     },
     {
       "path": "/blog/30-oz-vs-40-oz-custom-tumblers/",
@@ -122,6 +122,22 @@
       "invalidJsonLd": 0,
       "file": "blog/client-appreciation-gift-box-ideas/index.html",
       "imageCount": 0
+    },
+    {
+      "path": "/blog/corporate-gifts-employees-actually-want/",
+      "title": "Corporate Gifts Employees Actually Want | FY PromoGifts",
+      "description": "A practical corporate-gifting guide for choosing useful employee gifts, using restrained branding and offering the right level of choice.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/corporate-gifts-employees-actually-want/",
+      "canonicalPath": "/blog/corporate-gifts-employees-actually-want/",
+      "h1": [
+        "Corporate Gifts Employees Actually Want"
+      ],
+      "words": 1077,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/corporate-gifts-employees-actually-want/index.html",
+      "imageCount": 1
     },
     {
       "path": "/blog/custom-client-appreciation-gift-ideas/",
@@ -329,6 +345,22 @@
       "jsonLdCount": 3,
       "invalidJsonLd": 0,
       "file": "blog/trade-show-giveaways-by-budget/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/trade-show-giveaways-that-start-conversations/",
+      "title": "Trade Show Giveaways That Start Conversations | FY PromoGifts",
+      "description": "Plan trade show giveaways around attendee value, booth conversations and lead capture instead of handing out products to every passer-by.",
+      "robots": "",
+      "canonical": "https://www.fypromogifts.com/blog/trade-show-giveaways-that-start-conversations/",
+      "canonicalPath": "/blog/trade-show-giveaways-that-start-conversations/",
+      "h1": [
+        "Trade Show Giveaways That Start Conversations"
+      ],
+      "words": 1087,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/trade-show-giveaways-that-start-conversations/index.html",
       "imageCount": 1
     },
     {
@@ -2645,7 +2677,7 @@
       "h1": [
         "Trade Show Giveaways Built for the Booth"
       ],
-      "words": 1726,
+      "words": 1841,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "trade-show-giveaway-kits/index.html",

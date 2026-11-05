@@ -1,18 +1,18 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-10-22T07:50:01.735Z
+最后刷新：2026-11-05T08:08:04.523Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
 
 | 指标 | 当前值 | 目标 |
 |---|---:|---:|
-| 可索引正式页面 | 139 | 持续增长但不造薄页 |
+| 可索引正式页面 | 141 | 持续增长但不造薄页 |
 | Sitemap 覆盖率 | 100% | 100% |
 | P0 / P1 / P2 | 0 / 0 / 0 | 0 / 0 / 持续评估 |
 | 可执行任务 | 1 | 同时不超过 5 项 |
 | 等待人工数据/登录 | 1 | 每周至少清理 1 项 |
-| 已完成任务 | 10 | 留存证据，不删除历史 |
+| 已完成任务 | 11 | 留存证据，不删除历史 |
 
 ## 网站方向
 
@@ -54,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-11-05 | site_update | /trade-show-giveaway-kits/; sitemap.xml | Added a buyer-controlled tier planner to the trade-show giveaway page. It creates a project brief from traffic, lead, staff and VIP quantities, can copy the brief, and can prefill the existing protected inquiry form. Extended sitemap generation with up to 20 discoverable page images and descriptive image titles per indexable URL. | Local HTTP returned 200; 139 canonical sitemap URLs and 362 image entries parsed as XML; inline planner scripts parsed; release validation found valid JSON-LD, no missing assets and no unresolved internal links. |
 | 2026-10-22 | indexing_submission | sitewide | IndexNow accepted the published homepage ceramic mug gift-set positioning update (HTTP 200); crawl notification only, not Google indexing confirmation. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow accepted the published custom apparel category URL (HTTP 200); crawl notification only, not Google indexing confirmation. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated custom promotional bags page after the October 20 title and copy refinement. | not_recorded |
@@ -61,7 +62,6 @@
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated promotional products hub after the October 20 metadata and buyer-answer release. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated custom packaging page after the October 20 SEO and answer-content release. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated homepage and catalog URLs after the October 20 internal-link release. | not_recorded |
-| 2026-10-05 | indexing_submission | / + /kit-studio/ + /trade-show-giveaway-kits/ + /brand-campaign-giveaways/ + /promotional-products-supplier-for-marketing-agencies/ | Verified the five Search Console opportunity-page updates live, then submitted only those five changed canonical URLs to IndexNow. | Local release validation passed with 164 pages, 137 canonical URLs, 0 missing assets and 0 unresolved internal links. Each target returned HTTP 200 with its self-canonical URL; public sitemap.xml returned HTTP 200 with 137 URLs; IndexNow returned HTTP 200 at 2026-10-05T12:53:28.8712930Z. |
 
 ## 固定入口
 
