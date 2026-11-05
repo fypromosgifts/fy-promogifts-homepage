@@ -36,7 +36,7 @@
                     "url": "https://www.fypromogifts.com/promotional-products-supplier-for-marketing-agencies/",
                     "name": "Promotional Product Sourcing and Procurement for Marketing Agencies",
                     "description": "A promotional product supplier and sourcing service for agencies buying custom gifts, product branding, packaging and kitting.",
-                    "dateModified": "2026-10-04",
+                    "dateModified": "2026-11-05",
                     "about": {
                         "@id": "https://www.fypromogifts.com/promotional-products-supplier-for-marketing-agencies/#service"
                     }
@@ -122,6 +122,14 @@
                             "acceptedAnswer": {
                                 "@type": "Answer",
                                 "text": "Sample and approval options depend on the selected product, decoration method and schedule. The available route and any related cost are confirmed before the order is placed."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What should an agency include in a promotional product client brief?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Start with the campaign objective, audience, quantity, destination, required delivery date, budget direction and any brand assets. If a product is not selected, describe the intended outcome and preferred product direction instead."
                             }
                         }
                     ]
@@ -587,6 +595,119 @@
             color: rgba(255, 255, 255, .75)
         }
 
+        .brief-section {
+            background: linear-gradient(135deg, #f8f0e5, #f0e2cf)
+        }
+
+        .brief-layout {
+            display: grid;
+            grid-template-columns: minmax(0, .78fr) minmax(420px, 1.22fr);
+            gap: 26px;
+            align-items: start
+        }
+
+        .brief-copy {
+            padding: 10px 4px
+        }
+
+        .brief-copy p {
+            color: var(--text)
+        }
+
+        .brief-copy .check {
+            margin-top: 24px
+        }
+
+        .brief-copy .check li {
+            font-size: 14px
+        }
+
+        .brief-form-card {
+            border: 1px solid rgba(11, 32, 52, .16);
+            border-radius: 22px;
+            padding: 26px;
+            background: var(--paper);
+            box-shadow: var(--shadow)
+        }
+
+        .brief-form-card h3 {
+            margin: 0;
+            font-family: var(--serif);
+            font-size: 29px;
+            line-height: 1.08
+        }
+
+        .brief-form-card > p {
+            margin: 9px 0 0;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .brief-form {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 15px;
+            margin-top: 23px
+        }
+
+        .brief-field label {
+            display: block;
+            margin-bottom: 7px;
+            color: var(--ink);
+            font-size: 13px;
+            font-weight: 850
+        }
+
+        .brief-field input,
+        .brief-field select,
+        .brief-field textarea {
+            width: 100%;
+            min-height: 46px;
+            border: 1px solid rgba(11, 32, 52, .18);
+            border-radius: 10px;
+            padding: 0 12px;
+            color: var(--ink);
+            background: #fff;
+            font: inherit
+        }
+
+        .brief-field textarea {
+            min-height: 108px;
+            padding: 12px;
+            resize: vertical
+        }
+
+        .brief-field.full,
+        .brief-actions,
+        .brief-form .fy-turnstile-wrap,
+        .brief-form .form-status {
+            grid-column: 1 / -1
+        }
+
+        .brief-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 11px;
+            margin-top: 2px
+        }
+
+        .brief-contact-link {
+            color: var(--ink);
+            border: 1px solid rgba(11, 32, 52, .2);
+            background: #fff
+        }
+
+        .brief-form .form-status {
+            min-height: 22px;
+            color: #1c704c;
+            font-size: 14px;
+            font-weight: 750
+        }
+
+        .brief-form .form-status.is-error {
+            color: #a4262c
+        }
+
         details {
             border-bottom: 1px solid var(--line);
             padding: 17px 0
@@ -631,7 +752,8 @@
             .hero-grid,
             .head,
             .split,
-            .cta-inner {
+            .cta-inner,
+            .brief-layout {
                 grid-template-columns: 1fr
             }
 
@@ -691,7 +813,8 @@
 
             .grid,
             .evidence-grid,
-            .process {
+            .process,
+            .brief-form {
                 grid-template-columns: 1fr
             }
 
@@ -707,6 +830,10 @@
                 width: 100%
             }
 
+            .brief-actions .btn {
+                width: 100%
+            }
+
             .section {
                 padding: 52px 0
             }
@@ -718,7 +845,7 @@
     <a class="skip" href="#main">Skip to content</a>
     <header class="nav">
         <div class="container nav-inner"><a class="brand" href="/"><b>FY</b> PromoGifts</a>
-            <nav class="links" aria-label="Primary"><a href="#services">Services</a><a href="#process">Process</a><a href="#faq">FAQ</a><a class="btn btn-gold" href="/#contact">Request a Brief Review</a></nav>
+            <nav class="links" aria-label="Primary"><a href="#services">Services</a><a href="#process">Process</a><a href="#brief">Brief</a><a href="#faq">FAQ</a><a class="btn btn-gold" href="#brief">Request a Brief Review</a></nav>
         </div>
     </header>
     <main id="main">
@@ -728,7 +855,7 @@
                     <div class="eyebrow">Promotional Product Procurement for Agencies</div>
                     <h1>Promotional Product Sourcing &amp; Procurement for Marketing Agencies</h1>
                     <p>Turn a client brief into a documented promotional product sourcing plan without managing separate product, decoration, packaging and kitting vendors. Share the audience, quantity, destination, deadline and brand assets—we will identify suitable product directions and confirm the details that affect quotation, sampling and delivery.</p>
-                    <div class="actions"><a class="btn btn-gold" href="/#contact">Send Your Client Brief</a><a class="btn btn-outline" href="https://wa.me/8615869117529" target="_blank" rel="noopener">Discuss on WhatsApp</a></div>
+                    <div class="actions"><a class="btn btn-gold" href="#brief">Send Your Client Brief</a><a class="btn btn-outline" href="https://wa.me/8615869117529" target="_blank" rel="noopener">Discuss on WhatsApp</a></div>
                     <div class="facts"><span>Free digital mockup within 2 hours</span><span>Low MOQ options on selected products</span><span>Mixed-product kits supported</span></div>
                 </div>
                 <figure class="hero-media"><img src="/assets/brand-campaign/campaign-pro-v3.webp" width="1200" height="800" alt="Coordinated promotional merchandise kit for a marketing campaign" fetchpriority="high"></figure>
@@ -864,6 +991,40 @@
                 </article>
             </div>
         </section>
+        <section class="section brief-section" id="brief" aria-labelledby="brief-title">
+            <div class="container brief-layout">
+                <div class="brief-copy">
+                    <div class="eyebrow">Agency client brief</div>
+                    <h2 id="brief-title">Get a product sourcing direction without leaving this page.</h2>
+                    <p>Share the campaign basics below. If the exact product is still open, tell us the intended outcome and preferred style instead. We will use the confirmed details to recommend practical products, branding and packaging routes.</p>
+                    <ul class="check">
+                        <li>One concise handoff for client campaigns and events</li>
+                        <li>Product directions, decoration and packaging considered together</li>
+                        <li>Unknown project details can be marked “to confirm”</li>
+                    </ul>
+                    <p>For a fully copyable procurement brief, use the <a href="/promotional-product-rfq-template/">promotional product RFQ template</a>.</p>
+                </div>
+                <div class="brief-form-card">
+                    <h3>Send a client brief</h3>
+                    <p>Start with what you know. We will confirm any remaining specification, sample and delivery details before quotation.</p>
+                    <form class="brief-form" id="agencyBriefForm" action="/api/inquiry" method="POST" enctype="multipart/form-data" data-form-status="form-service-live">
+                        <input type="hidden" name="_subject" value="Marketing Agency Client Brief - FY PromoGifts">
+                        <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden"><label>Leave this field empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+                        <div class="brief-field"><label for="agencyName">Name *</label><input id="agencyName" name="name" autocomplete="name" placeholder="Your name" required></div>
+                        <div class="brief-field"><label for="agencyEmail">Work email *</label><input id="agencyEmail" name="email" type="email" autocomplete="email" placeholder="name@agency.com" required></div>
+                        <div class="brief-field"><label for="agencyCompany">Agency / company</label><input id="agencyCompany" name="company" autocomplete="organization" placeholder="Company name"></div>
+                        <div class="brief-field"><label for="agencyUseCase">Campaign type</label><select id="agencyUseCase" name="use_case"><option value="">Select if known</option><option>Brand campaign giveaway</option><option>Trade show or event</option><option>Client appreciation gift</option><option>Employee onboarding kit</option><option>Product launch or PR mailer</option><option>Not sure yet / need suggestions</option></select></div>
+                        <div class="brief-field"><label for="agencyQuantity">Estimated quantity</label><input id="agencyQuantity" name="quantity" inputmode="numeric" placeholder="e.g., 250"></div>
+                        <div class="brief-field"><label for="agencyDate">Target delivery date</label><input id="agencyDate" name="need_by_date" type="text" inputmode="numeric" autocomplete="off" placeholder="YYYY-MM-DD (leave blank if open)"></div>
+                        <div class="brief-field full"><label for="agencyProducts">Product direction or references</label><input id="agencyProducts" name="products" placeholder="e.g., drinkware, tote bags, or a product link"></div>
+                        <div class="brief-field full"><label for="agencyMessage">Audience, objective, destination and brand requirements</label><textarea id="agencyMessage" name="message" placeholder="Tell us who the campaign is for, what you want it to achieve, the destination and any logo, packaging or budget direction."></textarea></div>
+                        <div class="fy-turnstile-wrap" data-turnstile-slot role="group" aria-label="Security verification"></div>
+                        <div class="brief-actions"><button class="btn btn-gold" type="submit">Request Brief Review</button><a class="btn brief-contact-link" href="https://wa.me/8615869117529" target="_blank" rel="noopener">Discuss on WhatsApp</a></div>
+                        <div class="form-status" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
         <section class="section" id="faq">
             <div class="container">
                 <div class="head">
@@ -901,6 +1062,10 @@
                     <summary>Can agencies request samples or pre-production approval?</summary>
                     <p>Sample and approval options depend on the selected product, decoration method and schedule. We confirm the available route and any related cost before the order is placed.</p>
                 </details>
+                <details>
+                    <summary>What should an agency include in a promotional product client brief?</summary>
+                    <p>Start with the campaign objective, audience, quantity, destination, delivery date, budget direction and brand assets. If products are not selected yet, describe the intended outcome and preferred style instead.</p>
+                </details>
             </div>
         </section>
         <section class="cta">
@@ -909,7 +1074,7 @@
                     <h2>Have a Client Campaign to Source?</h2>
                     <p>Send the brief and receive a product, branding and packaging direction.</p>
                 </div>
-                <div class="actions"><a class="btn btn-gold" href="/#contact">Request a Quote</a><a class="btn btn-outline" href="mailto:info@fypromogifts.com">Email the Brief</a></div>
+                <div class="actions"><a class="btn btn-gold" href="#brief">Request a Quote</a><a class="btn btn-outline" href="mailto:info@fypromogifts.com">Email the Brief</a></div>
             </div>
         </section>
     </main>
@@ -926,6 +1091,7 @@
             audience: "marketing_agencies"
         });
     </script>
+    <script src="/assets/fy-inquiry-guard.js?v=20260930-security" defer></script>
     <script src="/assets/fy-attribution.js?v=20260828" defer></script>
     <script src="/assets/floating-cta.js?v=20260709-cta10" defer></script>
 </body>

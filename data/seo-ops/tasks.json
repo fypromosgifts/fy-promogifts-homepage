@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T08:03:47.060Z",
+  "updatedAt": "2026-11-05T12:57:22.637Z",
   "statusDefinitions": {
     "next": "AI or owner can execute now",
     "in_progress": "currently being worked",
@@ -208,6 +208,22 @@
       "updatedAt": "2026-08-28T13:50:24.530Z",
       "completedAt": "2026-08-28T13:50:24.530Z",
       "changeId": "chg-1787925024524"
+    },
+    {
+      "id": "SEO-015",
+      "priority": "P1",
+      "category": "conversion-and-search-intent",
+      "title": "Keep the agency campaign brief and protected inquiry path on the agency landing page",
+      "owner": "AI",
+      "status": "done",
+      "target": "/promotional-products-supplier-for-marketing-agencies/",
+      "successCriteria": "The agency landing page has a contextual client-brief form that posts through the protected same-origin inquiry endpoint, describes the information needed for a sourcing brief, and remains valid in the sitemap, HTML audit and release checks.",
+      "nextAction": "Complete local validation, regenerate the sitemap and monitor form_submit_success plus the landing page query/URL data after deployment.",
+      "evidenceNeeded": "Release validation, GA4/Clarity form events, and future GSC query-to-URL data.",
+      "createdAt": "2026-11-05T08:18:00.000Z",
+      "updatedAt": "2026-11-05T12:57:22.637Z",
+      "completedAt": "2026-11-05T12:57:22.637Z",
+      "changeId": "chg-1793883442631"
     },
     {
       "id": "SEO-014",
