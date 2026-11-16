@@ -93,7 +93,7 @@ for (const file of pages) {
 }
 
 const targeted = [
-  ['index.html', ['id="popular-categories"', 'id="popular-categories-title"', 'What We Do', 'action="/api/inquiry"', 'fy-inquiry-guard.js?v=20260930-security']],
+  ['index.html', ['Custom Drinkware for Corporate Gifts | FY PromoGifts', 'id="hero-title"', 'action="/api/inquiry"', '/assets/fy-inquiry-guard.js']],
   ['catalog/gift-sets/index.html', ['id="real-samples"', '3–5 days', '5–7 days', '500+ pieces', 'real-sample-grid']],
   ['catalog/gift-sets/smart-heated-ceramic-mug-gift-set/index.html', ['100 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
   ['catalog/gift-sets/premium-ceramic-mug-towel-gift-box/index.html', ['40 sets', '3–5 days', '5–7 days', '500 pieces', '/api/inquiry']],
@@ -107,7 +107,9 @@ const targeted = [
   ['kit-studio/index.html', ['studio-guide', 'employee-onboarding-kits', 'client-appreciation-gifts', 'trade-show-giveaway-kits', '/api/inquiry']],
   ['promotional-products-supplier-for-marketing-agencies/index.html', ['Promotional Product Sourcing &amp; Procurement for Agencies', 'id="procurement-title"', 'id="verified-start-title"', 'id="agencyBriefForm"', 'action="/api/inquiry"', '/assets/fy-inquiry-guard.js', '"dateModified": "2026-11-05"']],
   ['blog/index.html', ['Promotional Gifts Blog &amp; Practical Buyer Guides', 'id="guide-paths-title"', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-09-30"', '/blog/are-custom-logo-mugs-dishwasher-safe/', '/blog/low-moq-custom-drinkware-order-guide/', '/blog/how-to-choose-branded-drinkware-people-keep/']],
-  ['promotional-products/drinkware/index.html', ['"dateModified":"2026-09-30"', '/blog/are-custom-logo-mugs-dishwasher-safe/', '/blog/low-moq-custom-drinkware-order-guide/', '/blog/how-to-choose-branded-drinkware-people-keep/', 'action="/api/inquiry"', 'fy-inquiry-guard.js?v=20260930-security']],
+  ['promotional-products/drinkware/index.html', ['Custom Promotional Drinkware with Logo', 'id="guides-title"', '/blog/are-custom-logo-mugs-dishwasher-safe/', '/blog/low-moq-custom-drinkware-order-guide/', '/blog/how-to-choose-branded-drinkware-people-keep/', '/blog/custom-drinkware-rfq-checklist/', '/custom-ceramic-mug-gift-sets/', 'action="/api/inquiry"', 'fy-inquiry-guard.js?v=20260930-security']],
+  ['custom-ceramic-mug-gift-sets/index.html', ['Custom ceramic mug gift sets, planned around the whole presentation.', 'application/ld+json', '/catalog/gift-sets/ceramic-mug-towel-gift-set/', '/promotional-products/drinkware/#contact']],
+  ['blog/custom-drinkware-rfq-checklist/index.html', ['Custom drinkware RFQ checklist: the details that make a quote usable.', 'application/ld+json', '/custom-ceramic-mug-gift-sets/', '/promotional-products/drinkware/#contact']],
   ['client-appreciation-gifts/index.html', ['Client Appreciation Gifts &amp; Thank-You Gift Sets', 'Client Appreciation Gifts &amp; Custom Thank-You Gift Sets', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-10-08"']],
   ['employee-onboarding-kits/index.html', ['Employee Onboarding Kits for New Hires', 'office, hybrid or remote new hires', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified": "2026-09-04"']],
 ];
