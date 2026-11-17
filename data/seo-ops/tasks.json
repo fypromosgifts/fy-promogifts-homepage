@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T12:57:22.637Z",
+  "updatedAt": "2026-11-17T04:41:30.532Z",
   "statusDefinitions": {
     "next": "AI or owner can execute now",
     "in_progress": "currently being worked",
@@ -96,7 +96,8 @@
       "nextAction": "登录分析与 Formspree 账号后逐项测试",
       "evidenceNeeded": "DebugView/实时事件及测试询盘送达记录",
       "createdAt": "2026-08-22T00:00:00.000Z",
-      "updatedAt": "2026-08-22T00:00:00.000Z"
+      "updatedAt": "2026-11-17T04:41:30.532Z",
+      "changeId": "chg-1794890490527"
     },
     {
       "id": "SEO-007",

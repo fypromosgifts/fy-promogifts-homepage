@@ -80,6 +80,11 @@ for (const file of pages) {
     if (href.startsWith('/') && !routeExists(href)) warnings.push(`${relative}: unresolved internal link ${href}`);
   }
 
+  if (/<form\b[^>]*\baction=["']\/api\/inquiry["']/i.test(html)) {
+    if (!html.includes('/assets/fy-inquiry-guard.js')) errors.push(`${relative}: inquiry form missing the inquiry guard`);
+    if (!html.includes('/assets/fy-attribution.js')) errors.push(`${relative}: inquiry form missing GTM attribution tracking`);
+  }
+
   const canonicalTag = html.match(/<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>/i)?.[0];
   const canonical = canonicalTag?.match(/\bhref=["']([^"']+)["']/i)?.[1];
   if (!noindex && !redirected) {

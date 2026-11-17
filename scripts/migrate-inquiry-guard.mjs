@@ -6,6 +6,7 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 const oldEndpoint = "https://formspree.io/f/xgoqqrno";
 const newEndpoint = "/api/inquiry";
 const guardTag = '<script src="/assets/fy-inquiry-guard.js?v=20260930-security" defer></script>';
+const attributionTag = '<script src="/assets/fy-attribution.js?v=20260828" defer></script>';
 const oldGuardVersion = "/assets/fy-inquiry-guard.js?v=20260902";
 const newGuardVersion = "/assets/fy-inquiry-guard.js?v=20260930-security";
 
@@ -23,6 +24,7 @@ async function htmlFiles(directory) {
 
 let migrated = 0;
 let cacheBusted = 0;
+let attributionAdded = 0;
 const pages = await htmlFiles(root);
 for (const path of pages) {
   const original = await readFile(path, "utf8");
@@ -36,6 +38,15 @@ for (const path of pages) {
   }
   await writeFile(path, next, "utf8");
   migrated += 1;
+}
+
+for (const path of pages) {
+  const original = await readFile(path, "utf8");
+  if (!/<form\b/i.test(original) || original.includes("/assets/fy-attribution.js")) continue;
+  const next = original.replace(/<\/body>/i, `${attributionTag}</body>`);
+  if (next === original) throw new Error(`Could not add attribution tracking to ${path}`);
+  await writeFile(path, next, "utf8");
+  attributionAdded += 1;
 }
 
 for (const path of pages) {
@@ -64,4 +75,4 @@ for (const relative of toolingFiles) {
   if (next !== original) await writeFile(path, next, "utf8");
 }
 
-console.log(`Migrated ${migrated} HTML files; refreshed guard URL in ${cacheBusted} files.`);
+console.log(`Migrated ${migrated} HTML files; refreshed guard URL in ${cacheBusted} files; added attribution tracking to ${attributionAdded} form pages.`);

@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-11-17T03:41:27.054Z
+最后刷新：2026-11-17T04:41:30.868Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -54,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-11-17 | conversion_tracking | sitewide inquiry forms | Added GTM attribution coverage to all 121 inquiry-form pages, including the homepage and priority drinkware pages. | Static audit found 121 form pages and 0 missing attribution scripts; release validation and inquiry function tests passed. |
 | 2026-11-05 | page_update | /promotional-products-supplier-for-marketing-agencies/ | Added an on-page protected client-brief inquiry form and agency-specific FAQ. | validate-release passed; SEO audit P0/P1/P2=0; responsive desktop and 390px checks found no horizontal overflow. |
 | 2026-11-05 | site_update | /trade-show-giveaway-kits/; sitemap.xml | Added a buyer-controlled tier planner to the trade-show giveaway page. It creates a project brief from traffic, lead, staff and VIP quantities, can copy the brief, and can prefill the existing protected inquiry form. Extended sitemap generation with up to 20 discoverable page images and descriptive image titles per indexable URL. | Local HTTP returned 200; 139 canonical sitemap URLs and 362 image entries parsed as XML; inline planner scripts parsed; release validation found valid JSON-LD, no missing assets and no unresolved internal links. |
 | 2026-10-22 | indexing_submission | sitewide | IndexNow accepted the published homepage ceramic mug gift-set positioning update (HTTP 200); crawl notification only, not Google indexing confirmation. | not_recorded |
@@ -61,7 +62,6 @@
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated custom promotional bags page after the October 20 title and copy refinement. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated homepage after the October 20 search-summary refinement. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated promotional products hub after the October 20 metadata and buyer-answer release. | not_recorded |
-| 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated custom packaging page after the October 20 SEO and answer-content release. | not_recorded |
 
 ## 固定入口
 
