@@ -116,7 +116,7 @@ const targeted = [
   ['custom-ceramic-mug-gift-sets/index.html', ['Custom ceramic mug gift sets, planned around the whole presentation.', 'application/ld+json', '/catalog/gift-sets/ceramic-mug-towel-gift-set/', '/promotional-products/drinkware/#contact']],
   ['blog/custom-drinkware-rfq-checklist/index.html', ['Custom drinkware RFQ checklist: the details that make a quote usable.', 'application/ld+json', '/custom-ceramic-mug-gift-sets/', '/promotional-products/drinkware/#contact']],
   ['client-appreciation-gifts/index.html', ['Custom Thank-You Gifts for Repeat Clients', 'branded travel mug or practical drinkware set', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-11-17"']],
-  ['employee-onboarding-kits/index.html', ['Employee Onboarding Kits for New Hires', 'office, hybrid or remote new hires', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified": "2026-09-04"']],
+  ['employee-onboarding-kits/index.html', ['Employee Onboarding Kits with Logo for New Hires', 'branded drinkware', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified": "2026-11-17"']],
 ];
 for (const [relative, needles] of targeted) {
   const html = fs.readFileSync(path.join(root, relative), 'utf8');
