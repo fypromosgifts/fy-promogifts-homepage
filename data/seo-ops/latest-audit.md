@@ -1,21 +1,21 @@
 # FY PromoGifts SEO Audit
 
-Generated: 2026-11-05T12:57:22.628Z
+Generated: 2026-11-17T03:39:52.225Z
 
 ## Scorecard
 
 | Metric | Value |
 |---|---:|
-| Public HTML pages | 168 |
-| Indexable canonical pages | 141 |
-| Sitemap URLs | 141 |
+| Public HTML pages | 180 |
+| Indexable canonical pages | 153 |
+| Sitemap URLs | 153 |
 | Sitemap coverage | 100% |
 | P0 issues | 0 |
 | P1 issues | 0 |
-| P2 issues | 0 |
+| P2 issues | 1 |
 
 ## Findings
 
 | Priority | Code | URL | Detail |
 |---|---|---|---|
-| - | clean | - | No local SEO issues found. |
+| P2 | missing_image_alt | `/` | 1 image(s) have no alt text. |

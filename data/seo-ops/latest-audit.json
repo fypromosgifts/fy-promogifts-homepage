@@ -1,31 +1,38 @@
 {
   "summary": {
-    "generatedAt": "2026-11-05T12:57:22.628Z",
-    "publicPages": 168,
-    "indexablePages": 141,
-    "sitemapUrls": 141,
+    "generatedAt": "2026-11-17T03:39:52.225Z",
+    "publicPages": 180,
+    "indexablePages": 153,
+    "sitemapUrls": 153,
     "sitemapCoveragePercent": 100,
     "P0": 0,
     "P1": 0,
-    "P2": 0
+    "P2": 1
   },
-  "issues": [],
+  "issues": [
+    {
+      "severity": "P2",
+      "code": "missing_image_alt",
+      "path": "/",
+      "detail": "1 image(s) have no alt text."
+    }
+  ],
   "pages": [
     {
       "path": "/",
-      "title": "FY PromoGifts | Custom Promotional Gifts & Gift Kits",
-      "description": "Custom promotional gifts and branded gift kits for employee onboarding, events and client appreciation. Low MOQ options and free digital mockups within 2 hours.",
-      "robots": "index,follow",
+      "title": "Custom Drinkware for Corporate Gifts | FY PromoGifts",
+      "description": "Source custom tumblers, bottles, mugs and drinkware-led gift sets for corporate gifting, events and brand programs. Compare product directions, decoration methods and packaging before requesting a tailored B2B quote.",
+      "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/",
       "canonicalPath": "/",
       "h1": [
-        "Custom Gifts Made for Brands, Teams & Events"
+        "Custom drinkware that gets used."
       ],
-      "words": 1501,
+      "words": 2022,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "index.html",
-      "imageCount": 44
+      "imageCount": 18
     },
     {
       "path": "/best-promotional-gift-ideas-small-business-marketing-campaigns/",
@@ -53,11 +60,11 @@
       "h1": [
         "Promotional Gifts Blog & Practical Buyer Guides"
       ],
-      "words": 985,
+      "words": 1052,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "blog/index.html",
-      "imageCount": 25
+      "imageCount": 27
     },
     {
       "path": "/blog/30-oz-vs-40-oz-custom-tumblers/",
@@ -153,6 +160,22 @@
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "blog/custom-client-appreciation-gift-ideas/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/blog/custom-drinkware-rfq-checklist/",
+      "title": "Custom Drinkware RFQ Checklist for B2B Buyers | FY PromoGifts",
+      "description": "Use this custom drinkware RFQ checklist to request a clearer B2B quote for tumblers, bottles or mugs. Include the product, logo, quantity, packaging, destination and deadline.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/blog/custom-drinkware-rfq-checklist/",
+      "canonicalPath": "/blog/custom-drinkware-rfq-checklist/",
+      "h1": [
+        "Custom drinkware RFQ checklist: the details that make a quote usable."
+      ],
+      "words": 1120,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "blog/custom-drinkware-rfq-checklist/index.html",
       "imageCount": 1
     },
     {
@@ -805,7 +828,7 @@
       "h1": [
         "Custom Mugs Catalog"
       ],
-      "words": 935,
+      "words": 953,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/drinkware/mugs/index.html",
@@ -1996,6 +2019,22 @@
       "imageCount": 0
     },
     {
+      "path": "/custom-ceramic-mug-gift-sets/",
+      "title": "Custom Ceramic Mug Gift Sets for Corporate Gifting | FY PromoGifts",
+      "description": "Plan a custom ceramic mug gift set for employee, client or event gifting. Compare mug, logo, card, box and delivery requirements before requesting a B2B quote.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/custom-ceramic-mug-gift-sets/",
+      "canonicalPath": "/custom-ceramic-mug-gift-sets/",
+      "h1": [
+        "Custom ceramic mug gift sets, planned around the whole presentation."
+      ],
+      "words": 1002,
+      "jsonLdCount": 3,
+      "invalidJsonLd": 0,
+      "file": "custom-ceramic-mug-gift-sets/index.html",
+      "imageCount": 1
+    },
+    {
       "path": "/custom-gift-boxes-packaging/",
       "title": "Custom Gift Boxes & Packaging | Branded Gift Kit Boxes | FY PromoGifts",
       "description": "Compare rigid, magnetic, drawer, mailer, folding-carton and tube packaging for branded gift kits. Plan inserts, print finishes, samples, shipping protection and quote requirements.",
@@ -2557,19 +2596,83 @@
     },
     {
       "path": "/promotional-products/drinkware/",
-      "title": "Custom Promotional Drinkware Supplier | FY PromoGifts",
-      "description": "Custom promotional drinkware from 100 pcs. Compare branded mugs, bottles and tumblers, five logo methods and selected stock-ready production within one week.",
+      "title": "Custom Promotional Drinkware with Logo | FY PromoGifts",
+      "description": "Custom promotional drinkware for brands, teams and events. Explore ten branded bottles and tumblers with dedicated product pages, logo options and quote support.",
       "robots": "index,follow,max-image-preview:large",
       "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/",
       "canonicalPath": "/promotional-products/drinkware/",
       "h1": [
         "Custom promotional drinkware. Printed with control."
       ],
-      "words": 1373,
-      "jsonLdCount": 2,
+      "words": 1786,
+      "jsonLdCount": 3,
       "invalidJsonLd": 0,
       "file": "promotional-products/drinkware/index.html",
-      "imageCount": 11
+      "imageCount": 21
+    },
+    {
+      "path": "/promotional-products/drinkware/40oz-handled-straw-tumbler/",
+      "title": "Custom 40 oz Handled Straw Tumblers with Logo | FY PromoGifts",
+      "description": "Custom 40 oz handled straw tumblers with logo for employee gifts, campaigns and corporate merchandise. Review handle, lid, colour, decoration and bulk packaging.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/40oz-handled-straw-tumbler/",
+      "canonicalPath": "/promotional-products/drinkware/40oz-handled-straw-tumbler/",
+      "h1": [
+        "Custom 40 oz handled straw tumblers with logo."
+      ],
+      "words": 429,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/40oz-handled-straw-tumbler/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/drinkware/arc-handle-hydration-tumbler/",
+      "title": "Custom Arc-Handle Hydration Tumblers with Logo | FY PromoGifts",
+      "description": "Custom arc-handle hydration tumblers with logo for wellness, campus, employee and active-lifestyle programs. Review lid, handle, colour and bulk packaging options.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/arc-handle-hydration-tumbler/",
+      "canonicalPath": "/promotional-products/drinkware/arc-handle-hydration-tumbler/",
+      "h1": [
+        "Custom arc-handle hydration tumblers with logo."
+      ],
+      "words": 422,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/arc-handle-hydration-tumbler/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/drinkware/carry-lanyard-water-bottle/",
+      "title": "Custom Carry Lanyard Water Bottles with Logo | FY PromoGifts",
+      "description": "Custom carry lanyard water bottles with logo in 350 ml, 500 ml and 750 ml directions for events, teams and corporate gifts. Confirm colours, capacity and decoration.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/carry-lanyard-water-bottle/",
+      "canonicalPath": "/promotional-products/drinkware/carry-lanyard-water-bottle/",
+      "h1": [
+        "Custom carry lanyard water bottles with logo."
+      ],
+      "words": 414,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/carry-lanyard-water-bottle/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/drinkware/classic-stainless-steel-tumbler/",
+      "title": "Custom Stainless Steel Tumblers with Logo | FY PromoGifts",
+      "description": "Custom stainless steel tumblers with logo for corporate gifts, events and branded merchandise. Review the straight tumbler format, colours, logo methods and packaging.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/classic-stainless-steel-tumbler/",
+      "canonicalPath": "/promotional-products/drinkware/classic-stainless-steel-tumbler/",
+      "h1": [
+        "Custom stainless steel tumblers with logo."
+      ],
+      "words": 430,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/classic-stainless-steel-tumbler/index.html",
+      "imageCount": 1
     },
     {
       "path": "/promotional-products/drinkware/custom-stainless-steel-tumblers/",
@@ -2602,6 +2705,102 @@
       "invalidJsonLd": 0,
       "file": "promotional-products/drinkware/custom-water-bottles/index.html",
       "imageCount": 2
+    },
+    {
+      "path": "/promotional-products/drinkware/flip-handle-hydration-tumbler/",
+      "title": "Custom Flip-Handle Hydration Tumblers with Logo | FY PromoGifts",
+      "description": "Custom flip-handle hydration tumblers with logo for active teams, employee wellness and outdoor programs. Review handle, straw, colour, logo treatment and packing.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/flip-handle-hydration-tumbler/",
+      "canonicalPath": "/promotional-products/drinkware/flip-handle-hydration-tumbler/",
+      "h1": [
+        "Custom flip-handle hydration tumblers with logo."
+      ],
+      "words": 402,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/flip-handle-hydration-tumbler/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/drinkware/folding-strap-water-bottle/",
+      "title": "Custom Folding Strap Water Bottles with Logo | FY PromoGifts",
+      "description": "Custom folding strap water bottles with logo for commuting, outdoor events and active lifestyle campaigns. Review strap, lid, colour, decoration and bulk packaging.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/folding-strap-water-bottle/",
+      "canonicalPath": "/promotional-products/drinkware/folding-strap-water-bottle/",
+      "h1": [
+        "Custom folding strap water bottles with logo."
+      ],
+      "words": 431,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/folding-strap-water-bottle/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/drinkware/lanyard-straw-tumbler/",
+      "title": "Custom Lanyard Straw Tumblers with Logo | FY PromoGifts",
+      "description": "Custom lanyard straw tumblers with logo for events, student programs and fitness giveaways. Review carry cord, straw lid, colour, decoration and bulk packaging.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/lanyard-straw-tumbler/",
+      "canonicalPath": "/promotional-products/drinkware/lanyard-straw-tumbler/",
+      "h1": [
+        "Custom lanyard straw tumblers with logo."
+      ],
+      "words": 417,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/lanyard-straw-tumbler/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/drinkware/loop-cap-insulated-bottle/",
+      "title": "Custom Loop Cap Insulated Water Bottles with Logo | FY PromoGifts",
+      "description": "Custom loop cap insulated water bottles with logo for employee gifts, wellness programs and events. Review colours, capacity, decoration and packaging for bulk orders.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/loop-cap-insulated-bottle/",
+      "canonicalPath": "/promotional-products/drinkware/loop-cap-insulated-bottle/",
+      "h1": [
+        "Custom loop cap insulated water bottles with logo."
+      ],
+      "words": 424,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/loop-cap-insulated-bottle/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/drinkware/soft-touch-travel-tumbler/",
+      "title": "Custom Soft-Touch Travel Tumblers with Logo | FY PromoGifts",
+      "description": "Custom soft-touch travel tumblers with logo for office gifts, commuter programs and event merchandise. Review colour, lid, logo method and branded packaging.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/soft-touch-travel-tumbler/",
+      "canonicalPath": "/promotional-products/drinkware/soft-touch-travel-tumbler/",
+      "h1": [
+        "Custom soft-touch travel tumblers with logo."
+      ],
+      "words": 427,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/soft-touch-travel-tumbler/index.html",
+      "imageCount": 1
+    },
+    {
+      "path": "/promotional-products/drinkware/stemless-wine-tumbler/",
+      "title": "Custom Stemless Wine Tumblers with Logo | FY PromoGifts",
+      "description": "Custom stemless wine tumblers with logo for hospitality gifts, weddings, client appreciation and premium events. Review colours, lid or stem options, decoration and packaging.",
+      "robots": "index,follow,max-image-preview:large",
+      "canonical": "https://www.fypromogifts.com/promotional-products/drinkware/stemless-wine-tumbler/",
+      "canonicalPath": "/promotional-products/drinkware/stemless-wine-tumbler/",
+      "h1": [
+        "Custom stemless wine tumblers with logo."
+      ],
+      "words": 434,
+      "jsonLdCount": 1,
+      "invalidJsonLd": 0,
+      "file": "promotional-products/drinkware/stemless-wine-tumbler/index.html",
+      "imageCount": 1
     },
     {
       "path": "/promotional-products/packaging/",

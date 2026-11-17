@@ -1,36 +1,35 @@
 # FY PromoGifts 今日 SEO 增长任务
 
-日期：2026-10-05  
-今日主题：机会词日  
+日期：2026-11-17  
+今日主题：交易页日  
 本地 HTML 看板：`D:\Documents\FY独立站增长总看板.html`
 
 ## 今日最重要的一件事
 
-已完成 `SEO-003` 的可自动执行部分：昨日优化的 5 个机会页均在线返回 200 且自指 canonical；`sitemap.xml` 在线可读取 137 个 URL；这 5 个 URL 已被 IndexNow 接收（HTTP 200）。Google 与 Bing 控制台的“最后读取日期”尚未得到可读取的界面证据，因此任务保持进行中。
+执行任务 `SEO-003`：核验 GSC/Bing 站点验证、Sitemap 与提交状态。2026-10-05 已验证线上 sitemap.xml 为 137 个 URL，5 个已更新页面均返回 HTTP 200 且自指 canonical；IndexNow 已接收 5 个 URL（HTTP 200）。GSC/Bing 当前 sitemap 最后读取日期仍需在平台界面确认；Chrome 只读页面响应超时，未将其误记为成功。
 
 ## AI 今天执行
 
-1. 本地发布校验：164 页、137 个可索引 canonical、0 缺失资源、0 断链。
-2. 线上抽查 5 个重点 URL 的 200 与 self-canonical；`sitemap.xml` 返回 137 个 URL。
-3. 向 IndexNow 提交这 5 个实际更新 URL，HTTP 200；不将接收状态误报为 Google 收录。
+1. 处理 `/catalog/apparel-wearables/adjustable-embroidered-baseball-cap/` 的 missing_from_sitemap：Indexable self-canonical page is absent from sitemap.xml.
+2. 执行任务 `SEO-003`：核验 GSC/Bing 站点验证、Sitemap 与提交状态。2026-10-05 已验证线上 sitemap.xml 为 137 个 URL，5 个已更新页面均返回 HTTP 200 且自指 canonical；IndexNow 已接收 5 个 URL（HTTP 200）。GSC/Bing 当前 sitemap 最后读取日期仍需在平台界面确认；Chrome 只读页面响应超时，未将其误记为成功。
 
-技术底线：保持 P0/P1 为 0；任何新的页面改动先过发布校验，再只提交真实更新 URL。
+技术底线：处理 `/catalog/apparel-wearables/adjustable-embroidered-baseball-cap/` 的 missing_from_sitemap：Indexable self-canonical page is absent from sitemap.xml.
 
 ## 今天需要用户配合（最多 2 项）
 
-1. 有空时请在 GSC 与 Bing Webmaster 的 sitemap 页面确认“最后读取/processed”日期；这是 SEO-003 关闭所需的唯一平台证据。Chrome 只读读取在本次检查中超时，未做猜测。
+1. 今天没有必须的人工输入。
 
 ## 今日完成标准
 
-没有新增 P0/P1；5 个机会页线上状态通过；IndexNow 确认接收；GSC/Bing 界面状态只在取得真实证据后更新。
+没有新增 P0/P1，并完成一个有真实买家价值的页面或数据动作。
 
 ## 当前基线
 
 | 指标 | 当前值 | 目标 |
 |---|---:|---:|
 | P0 技术问题 | 0 | 0 |
-| P1 技术问题 | 0 | 0 |
-| Sitemap 覆盖率 | 100% | 100% |
-| 可索引正式页面 | 137 | 质量优先 |
+| P1 技术问题 | 91 | 0 |
+| Sitemap 覆盖率 | 40.5% | 100% |
+| 可索引正式页面 | 153 | 质量优先 |
 
 实际完成后使用 `record` 命令写入追加式日志；没有数据写 unknown，不得编造排名、流量或询盘。
