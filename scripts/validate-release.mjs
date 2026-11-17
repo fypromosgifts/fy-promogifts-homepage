@@ -115,7 +115,7 @@ const targeted = [
   ['promotional-products/drinkware/index.html', ['Custom Promotional Drinkware with Logo', 'id="guides-title"', '/blog/are-custom-logo-mugs-dishwasher-safe/', '/blog/low-moq-custom-drinkware-order-guide/', '/blog/how-to-choose-branded-drinkware-people-keep/', '/blog/custom-drinkware-rfq-checklist/', '/custom-ceramic-mug-gift-sets/', 'action="/api/inquiry"', 'fy-inquiry-guard.js?v=20260930-security']],
   ['custom-ceramic-mug-gift-sets/index.html', ['Custom ceramic mug gift sets, planned around the whole presentation.', 'application/ld+json', '/catalog/gift-sets/ceramic-mug-towel-gift-set/', '/promotional-products/drinkware/#contact']],
   ['blog/custom-drinkware-rfq-checklist/index.html', ['Custom drinkware RFQ checklist: the details that make a quote usable.', 'application/ld+json', '/custom-ceramic-mug-gift-sets/', '/promotional-products/drinkware/#contact']],
-  ['client-appreciation-gifts/index.html', ['Client Appreciation Gifts &amp; Thank-You Gift Sets', 'Client Appreciation Gifts &amp; Custom Thank-You Gift Sets', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-10-08"']],
+  ['client-appreciation-gifts/index.html', ['Custom Thank-You Gifts for Repeat Clients', 'branded travel mug or practical drinkware set', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified":"2026-11-17"']],
   ['employee-onboarding-kits/index.html', ['Employee Onboarding Kits for New Hires', 'office, hybrid or remote new hires', '/promotional-products-supplier-for-marketing-agencies/', '"dateModified": "2026-09-04"']],
 ];
 for (const [relative, needles] of targeted) {
