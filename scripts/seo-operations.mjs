@@ -657,7 +657,7 @@ function dailyPlan(result) {
     ? sprintDay.userTasks.map((item, index) => `${index + 1}. **${item.title}**：${item.detail}\n   - 交付：${item.deliverable}`).join("\n")
     : "1. 今天没有必须的人工输入。";
   const doneCriteria = sprintDay?.doneCriteria || "没有新增 P0/P1，并完成一个有真实买家价值的页面或数据动作。";
-  const markdown = `# FY PromoGifts 今日 SEO 增长任务\n\n日期：${date}  \n今日主题：${dailyFocus}  \n本地 HTML 看板：\`D:\\Documents\\FY独立站增长总看板.html\`\n\n## 今日最重要的一件事\n\n${plannedTask}\n\n## AI 今天执行\n\n${aiRows}\n\n技术底线：${technicalTask}\n\n## 今天需要用户配合（最多 2 项）\n\n${userRows}\n\n## 今日完成标准\n\n${doneCriteria}\n\n## 当前基线\n\n| 指标 | 当前值 | 目标 |\n|---|---:|---:|\n| P0 技术问题 | ${result.summary.P0} | 0 |\n| P1 技术问题 | ${result.summary.P1} | 0 |\n| Sitemap 覆盖率 | ${result.summary.sitemapCoveragePercent}% | 100% |\n| 可索引正式页面 | ${result.summary.indexablePages} | 质量优先 |\n\n实际完成后使用 \`record\` 命令写入追加式日志；没有数据写 unknown，不得编造排名、流量或询盘。\n`;
+  const markdown = `# FY PromoGifts 今日 SEO 增长任务\n\n日期：${date}\n今日主题：${dailyFocus}\n本地 HTML 看板：\`D:\\Documents\\FY独立站增长总看板.html\`\n\n## 今日最重要的一件事\n\n${plannedTask}\n\n## AI 今天执行\n\n${aiRows}\n\n技术底线：${technicalTask}\n\n## 今天需要用户配合（最多 2 项）\n\n${userRows}\n\n## 今日完成标准\n\n${doneCriteria}\n\n## 当前基线\n\n| 指标 | 当前值 | 目标 |\n|---|---:|---:|\n| P0 技术问题 | ${result.summary.P0} | 0 |\n| P1 技术问题 | ${result.summary.P1} | 0 |\n| Sitemap 覆盖率 | ${result.summary.sitemapCoveragePercent}% | 100% |\n| 可索引正式页面 | ${result.summary.indexablePages} | 质量优先 |\n\n实际完成后使用 \`record\` 命令写入追加式日志；没有数据写 unknown，不得编造排名、流量或询盘。\n`;
   const dated = join(OPS_DIR, "daily", `${date}.md`);
   write(dated, markdown);
   write(join(OPS_DIR, "TODAY.md"), markdown);
