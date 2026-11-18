@@ -34,6 +34,44 @@
     return location.pathname || "/";
   }
 
+  function pageUrl(path) {
+    return location.origin + (path || "/");
+  }
+
+  function whatsappSourceNote() {
+    var current = location.pathname || "/";
+    var landing = optional(attribution && attribution.landing_page);
+    var lines = ["Source page: " + pageUrl(current)];
+    if (landing && landing !== "not_available" && landing !== current) {
+      lines.push("Landing page: " + pageUrl(landing));
+    }
+    var campaign = optional(attribution && attribution.utm_campaign);
+    if (campaign && campaign !== "not_available") {
+      lines.push("Campaign: " + campaign.slice(0, 120));
+    }
+    return lines.join("\n");
+  }
+
+  function addWhatsAppSource(link) {
+    if (!link || !link.getAttribute) return;
+    var rawHref = link.getAttribute("href") || "";
+    if (rawHref.indexOf("wa.me/") === -1) return;
+    try {
+      var url = new URL(rawHref, location.origin);
+      if (url.hostname.toLowerCase() !== "wa.me" || url.pathname.replace(/^\//, "") !== "8615869117529") return;
+      var message = optional(url.searchParams.get("text"));
+      if (message.indexOf("Source page:") !== -1) return;
+      var intro = message ? message + "\n\n" : "Hello, I would like to discuss a project.\n\n";
+      url.searchParams.set("text", intro + whatsappSourceNote());
+      link.setAttribute("href", url.toString());
+    } catch (error) {}
+  }
+
+  function prepareWhatsAppClick(event) {
+    var target = event.target && event.target.closest && event.target.closest("a[href]");
+    addWhatsAppSource(target);
+  }
+
   function requestedProductType(scope) {
     scope = scope || document;
     var queryRoot = scope.querySelector ? scope : document;
@@ -429,6 +467,7 @@
     attribution.current_page = location.pathname;
     applyForms();
     bindForms();
+    document.querySelectorAll('a[href*="wa.me/"]').forEach(addWhatsAppSource);
   }
 
   if (document.readyState === "loading") {
@@ -436,6 +475,7 @@
   } else {
     init();
   }
+  document.addEventListener("click", prepareWhatsAppClick, true);
   document.addEventListener("click", trackClick, true);
   window.addEventListener("pageshow", init);
 })();

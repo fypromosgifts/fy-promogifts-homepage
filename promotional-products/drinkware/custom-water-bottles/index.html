@@ -33,7 +33,7 @@
   </main>
   <footer class="footer"><div class="wrap">FY PromoGifts 路 Custom promotional products and branded gift kits. Email: <a href="mailto:info@fypromogifts.com">info@fypromogifts.com</a> 路 WhatsApp: <a href="https://wa.me/8615869117529">+86 158 6911 7529</a></div></footer>
   <script>const form=document.getElementById('waterBottleQuoteForm'),status=document.getElementById('formStatus');if(form){form.addEventListener('submit',async event=>{event.preventDefault();if(!form.reportValidity())return;const button=form.querySelector('button[type="submit"]'),label=button.textContent;button.disabled=true;button.textContent='Sending...';status.textContent='';try{const response=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});if(!response.ok)throw new Error('submission failed');form.reset();status.textContent='Thanks, your bottle inquiry has been sent. We will reply as soon as possible.'}catch(error){status.textContent='The form could not be sent. Please email info@fypromogifts.com or contact us on WhatsApp.'}finally{button.disabled=false;button.textContent=label}})}</script>
-  <script src="/assets/fy-attribution.js?v=20260828" defer></script>
+  <script src="/assets/fy-attribution.js?v=20261118-whatsapp-source" defer></script>
   <script src="/assets/fy-inquiry-guard.js?v=20260930-security" defer></script>
 </body>
 </html>
