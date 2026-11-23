@@ -1,22 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-11-17T04:41:30.861Z",
+    "generatedAt": "2026-11-23T13:59:13.965Z",
     "publicPages": 180,
     "indexablePages": 153,
     "sitemapUrls": 153,
     "sitemapCoveragePercent": 100,
     "P0": 0,
     "P1": 0,
-    "P2": 1
+    "P2": 0
   },
-  "issues": [
-    {
-      "severity": "P2",
-      "code": "missing_image_alt",
-      "path": "/",
-      "detail": "1 image(s) have no alt text."
-    }
-  ],
+  "issues": [],
   "pages": [
     {
       "path": "/",
@@ -32,7 +25,7 @@
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "index.html",
-      "imageCount": 18
+      "imageCount": 17
     },
     {
       "path": "/best-promotional-gift-ideas-small-business-marketing-campaigns/",
@@ -68,15 +61,15 @@
     },
     {
       "path": "/blog/30-oz-vs-40-oz-custom-tumblers/",
-      "title": "30 oz vs 40 oz Custom Tumblers: Buyer Guide | FY PromoGifts",
-      "description": "Compare 30 oz and 40 oz custom tumblers by capacity, weight, cup-holder fit, lid, handle, branding area and campaign use before ordering.",
+      "title": "30 oz vs 40 oz Tumbler: Size, Capacity & Custom Branding",
+      "description": "Compare 30 oz vs 40 oz tumblers by capacity (887 ml vs 1.18 L), carry weight, cup-holder fit, lid, branding and campaign use.",
       "robots": "",
       "canonical": "https://www.fypromogifts.com/blog/30-oz-vs-40-oz-custom-tumblers/",
       "canonicalPath": "/blog/30-oz-vs-40-oz-custom-tumblers/",
       "h1": [
-        "30 oz vs 40 oz Custom Tumblers: Which Size Fits the Campaign?"
+        "30 oz vs 40 oz Tumbler: Which Size Fits Your Custom Program?"
       ],
-      "words": 1276,
+      "words": 1286,
       "jsonLdCount": 3,
       "invalidJsonLd": 0,
       "file": "blog/30-oz-vs-40-oz-custom-tumblers/index.html",
@@ -404,15 +397,15 @@
     },
     {
       "path": "/brand-campaign-giveaways/",
-      "title": "Custom Giveaways for Brand Campaigns & Events | FY PromoGifts",
-      "description": "Plan custom giveaways for product launches, brand activations and events. Coordinate promotional products, logo decoration, packaging and a project quote.",
+      "title": "Branded Giveaways for Events & Brand Campaigns | FY PromoGifts",
+      "description": "Plan branded giveaways for events, product launches and activations. Coordinate practical promotional products, logo decoration, packaging and delivery.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/brand-campaign-giveaways/",
       "canonicalPath": "/brand-campaign-giveaways/",
       "h1": [
-        "Custom Giveaways for Brand Campaigns and Events"
+        "Branded Giveaways for Events & Brand Campaigns"
       ],
-      "words": 1465,
+      "words": 1477,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "brand-campaign-giveaways/index.html",
@@ -420,15 +413,15 @@
     },
     {
       "path": "/catalog/",
-      "title": "Custom Promotional Gifts Catalog | FY PromoGifts",
-      "description": "Browse customizable promotional gifts, drinkware, bags, stationery, event giveaways, gift sets and packaging. Add products and request a quote.",
+      "title": "Promotional Products Catalog | Custom Gifts, Drinkware & More",
+      "description": "Browse a promotional products catalog with custom gifts, drinkware, bags, stationery, event giveaways, gift sets and packaging. Add products and request a quote.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/catalog/",
       "canonicalPath": "/catalog/",
       "h1": [
-        "Promotional Gifts Catalog"
+        "Promotional Products Catalog"
       ],
-      "words": 766,
+      "words": 791,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "catalog/index.html",
@@ -1956,15 +1949,15 @@
     },
     {
       "path": "/client-appreciation-gifts/",
-      "title": "Client Appreciation Gifts & Thank-You Gift Sets | FY PromoGifts",
-      "description": "Custom client appreciation gifts and thank-you gifts for clients, partners and VIP programs. Explore practical product ideas, branding and packaging.",
+      "title": "Custom Thank-You Gifts for Repeat Clients | FY PromoGifts",
+      "description": "Custom thank-you gifts for repeat clients, including practical branded gift sets, travel mugs and packaging for client appreciation programs.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/client-appreciation-gifts/",
       "canonicalPath": "/client-appreciation-gifts/",
       "h1": [
-        "Client Appreciation Gifts & Custom Thank-You Gift Sets"
+        "Custom Thank-You Gifts for Repeat Clients"
       ],
-      "words": 1625,
+      "words": 1647,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "client-appreciation-gifts/index.html",
@@ -2340,15 +2333,15 @@
     },
     {
       "path": "/employee-onboarding-kits/",
-      "title": "Employee Onboarding Kits for New Hires | FY PromoGifts",
-      "description": "Plan employee onboarding kits for new hires with practical products, custom branding, flexible packaging and delivery guidance for office, hybrid or remote teams.",
+      "title": "Employee Onboarding Kits with Logo | New Hire Welcome Kits",
+      "description": "Employee onboarding kits with logo for new hires, including branded drinkware, notebooks, bags, welcome cards and packaging for office, hybrid or remote teams.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/employee-onboarding-kits/",
       "canonicalPath": "/employee-onboarding-kits/",
       "h1": [
-        "Custom Employee Onboarding Kits for New Hires"
+        "Employee Onboarding Kits with Logo for New Hires"
       ],
-      "words": 1405,
+      "words": 1424,
       "jsonLdCount": 2,
       "invalidJsonLd": 0,
       "file": "employee-onboarding-kits/index.html",
@@ -2452,15 +2445,15 @@
     },
     {
       "path": "/promotional-drinkware-for-corporate-gifts/",
-      "title": "Promotional Drinkware for Corporate Gifts | Buyer Guide",
-      "description": "Compare practical promotional drinkware for corporate gifts, employee kits and events, with the key details buyers should confirm before ordering.",
+      "title": "Promotional Drinkware for Corporate Gifts: Travel Mugs & Tumblers",
+      "description": "Compare promotional drinkware for corporate gifts: branded travel mugs, tumblers, bottles and gift sets for client appreciation, employee kits and events.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/promotional-drinkware-for-corporate-gifts/",
       "canonicalPath": "/promotional-drinkware-for-corporate-gifts/",
       "h1": [
-        "Promotional Drinkware for Corporate Gifts: 4 Practical Options for Different Campaigns"
+        "Promotional Drinkware for Corporate Gifts: Travel Mugs, Tumblers & Gift Sets"
       ],
-      "words": 1472,
+      "words": 1491,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-drinkware-for-corporate-gifts/index.html",
@@ -2468,15 +2461,15 @@
     },
     {
       "path": "/promotional-gifts-buyer-questions/",
-      "title": "Promotional Gift Ideas & Buyer Questions | FY PromoGifts",
-      "description": "Answers to B2B buyer questions about promotional gift MOQ, samples, mockups, production, shipping, logo methods and custom gift kits.",
+      "title": "Promotional Products Procurement: Buyer Questions & RFQ Guide",
+      "description": "Promotional products procurement guide covering MOQ, samples, mockups, logo methods, packaging, lead times and RFQ details for B2B buyers.",
       "robots": "index,follow",
       "canonical": "https://www.fypromogifts.com/promotional-gifts-buyer-questions/",
       "canonicalPath": "/promotional-gifts-buyer-questions/",
       "h1": [
-        "Promotional Gift Ideas & Buyer Questions"
+        "Promotional Products Procurement: Buyer Questions & RFQ Guide"
       ],
-      "words": 2380,
+      "words": 2442,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "promotional-gifts-buyer-questions/index.html",
@@ -2874,9 +2867,9 @@
       "canonical": "https://www.fypromogifts.com/trade-show-giveaway-kits/",
       "canonicalPath": "/trade-show-giveaway-kits/",
       "h1": [
-        "Trade Show Giveaways Built for the Booth"
+        "Trade Show Giveaways: Kits, Quantities & Booth Planning"
       ],
-      "words": 1841,
+      "words": 1849,
       "jsonLdCount": 1,
       "invalidJsonLd": 0,
       "file": "trade-show-giveaway-kits/index.html",

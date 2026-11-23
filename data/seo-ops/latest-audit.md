@@ -1,6 +1,6 @@
 # FY PromoGifts SEO Audit
 
-Generated: 2026-11-17T04:41:30.861Z
+Generated: 2026-11-23T13:59:13.965Z
 
 ## Scorecard
 
@@ -12,10 +12,10 @@ Generated: 2026-11-17T04:41:30.861Z
 | Sitemap coverage | 100% |
 | P0 issues | 0 |
 | P1 issues | 0 |
-| P2 issues | 1 |
+| P2 issues | 0 |
 
 ## Findings
 
 | Priority | Code | URL | Detail |
 |---|---|---|---|
-| P2 | missing_image_alt | `/` | 1 image(s) have no alt text. |
+| - | clean | - | No local SEO issues found. |

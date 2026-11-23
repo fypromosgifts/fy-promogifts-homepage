@@ -116,6 +116,10 @@ function allTags(html, tagName) {
   return html.match(new RegExp(`<${tagName}\\b[^>]*>`, "gi")) || [];
 }
 
+function withoutAriaHiddenContent(html) {
+  return html.replace(/<([a-z][\w:-]*)\b(?=[^>]*\baria-hidden\s*=\s*(?:"true"|'true'|true))[^>]*>[\s\S]*?<\/\1\s*>/gi, " ");
+}
+
 function pagePath(file) {
   const rel = relative(ROOT, file).split(sep).join("/");
   if (rel === "index.html") return "/";
@@ -155,7 +159,7 @@ function parsePage(file) {
     const data = attrs(tag);
     if ((data.rel || "").toLowerCase().split(/\s+/).includes("canonical")) canonical = data.href || "";
   }
-  const images = allTags(markup, "img").map(attrs);
+  const images = allTags(withoutAriaHiddenContent(markup), "img").map(attrs);
   const links = allTags(markup, "a").map(attrs).map((item) => item.href).filter((item) => item !== undefined);
   const jsonLd = [...html.matchAll(/<script\b[^>]*type\s*=\s*["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)].map((match) => match[1]);
   let invalidJsonLd = 0;

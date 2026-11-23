@@ -1,6 +1,6 @@
 # FY PromoGifts 独立站增长总看板
 
-最后刷新：2026-11-17T04:41:30.868Z
+最后刷新：2026-11-23T13:59:13.975Z
 使用方式：每天只先看本页；AI 完成任何站点优化后必须写入改动日志。
 
 ## 当前健康度
@@ -9,7 +9,7 @@
 |---|---:|---:|
 | 可索引正式页面 | 153 | 持续增长但不造薄页 |
 | Sitemap 覆盖率 | 100% | 100% |
-| P0 / P1 / P2 | 0 / 0 / 1 | 0 / 0 / 持续评估 |
+| P0 / P1 / P2 | 0 / 0 / 0 | 0 / 0 / 持续评估 |
 | 可执行任务 | 1 | 同时不超过 5 项 |
 | 等待人工数据/登录 | 1 | 每周至少清理 1 项 |
 | 已完成任务 | 12 | 留存证据，不删除历史 |
@@ -54,6 +54,7 @@
 
 | 日期 | 类型 | 页面/对象 | 做了什么 | 验证 |
 |---|---|---|---|---|
+| 2026-11-23 | seo_audit_maintenance | scripts/seo-operations.mjs | Exclude aria-hidden decorative images from missing-alt findings | 2026-11-23 audit: 153 indexable canonical pages, sitemap coverage 100%, P0/P1/P2 0; release and inquiry checks passed |
 | 2026-11-17 | conversion_tracking | sitewide inquiry forms | Added GTM attribution coverage to all 121 inquiry-form pages, including the homepage and priority drinkware pages. | Static audit found 121 form pages and 0 missing attribution scripts; release validation and inquiry function tests passed. |
 | 2026-11-05 | page_update | /promotional-products-supplier-for-marketing-agencies/ | Added an on-page protected client-brief inquiry form and agency-specific FAQ. | validate-release passed; SEO audit P0/P1/P2=0; responsive desktop and 390px checks found no horizontal overflow. |
 | 2026-11-05 | site_update | /trade-show-giveaway-kits/; sitemap.xml | Added a buyer-controlled tier planner to the trade-show giveaway page. It creates a project brief from traffic, lead, staff and VIP quantities, can copy the brief, and can prefill the existing protected inquiry form. Extended sitemap generation with up to 20 discoverable page images and descriptive image titles per indexable URL. | Local HTTP returned 200; 139 canonical sitemap URLs and 362 image entries parsed as XML; inline planner scripts parsed; release validation found valid JSON-LD, no missing assets and no unresolved internal links. |
@@ -61,7 +62,6 @@
 | 2026-10-20 | indexing_submission | sitewide | IndexNow accepted the published custom apparel category URL (HTTP 200); crawl notification only, not Google indexing confirmation. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated custom promotional bags page after the October 20 title and copy refinement. | not_recorded |
 | 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated homepage after the October 20 search-summary refinement. | not_recorded |
-| 2026-10-20 | indexing_submission | sitewide | IndexNow received the updated promotional products hub after the October 20 metadata and buyer-answer release. | not_recorded |
 
 ## 固定入口
 
